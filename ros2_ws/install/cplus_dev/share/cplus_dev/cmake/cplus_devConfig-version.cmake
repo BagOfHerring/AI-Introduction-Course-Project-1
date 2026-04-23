@@ -1,0 +1,1 @@
+/home/herring/rzddzy/ros2_ws/build/cplus_dev/ament_cmake_core/cplus_devConfig-version.cmake

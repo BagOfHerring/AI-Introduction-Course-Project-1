@@ -1,0 +1,1 @@
+/home/herring/rzddzy/ros2_ws/src/panda_motion_generators/include/panda_motion_generators/motion_generators/panda_dq_c1_cartesian_motion_generator.h

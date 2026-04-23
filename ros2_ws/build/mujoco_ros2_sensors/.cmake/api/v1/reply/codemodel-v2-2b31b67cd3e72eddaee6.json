@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-235b8862affa4e3b1790.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mujoco_ros2_sensors",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "mujoco_ros2_sensors_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mujoco_ros2_sensors_plugin-dad471b736336b57f6f1.json",
+					"name" : "mujoco_ros2_sensors_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mujoco_ros2_sensors_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mujoco_ros2_sensors_uninstall-a4c11e6ee94b7ae89667.json",
+					"name" : "mujoco_ros2_sensors_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-501fd996b8d05d50e428.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/herring/rzddzy/ros2_ws/build/mujoco_ros2_sensors",
+		"source" : "/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_sensors"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

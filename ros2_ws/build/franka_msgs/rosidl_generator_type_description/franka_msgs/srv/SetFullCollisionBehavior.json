@@ -1,0 +1,282 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "franka_msgs/srv/SetFullCollisionBehavior",
+      "fields": [
+        {
+          "name": "request_message",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "franka_msgs/srv/SetFullCollisionBehavior_Request"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "response_message",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "franka_msgs/srv/SetFullCollisionBehavior_Response"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "event_message",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "franka_msgs/srv/SetFullCollisionBehavior_Event"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "builtin_interfaces/msg/Time",
+        "fields": [
+          {
+            "name": "sec",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "nanosec",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "franka_msgs/srv/SetFullCollisionBehavior_Event",
+        "fields": [
+          {
+            "name": "info",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "request",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "franka_msgs/srv/SetFullCollisionBehavior_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "franka_msgs/srv/SetFullCollisionBehavior_Response"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "franka_msgs/srv/SetFullCollisionBehavior_Request",
+        "fields": [
+          {
+            "name": "lower_torque_thresholds_acceleration",
+            "type": {
+              "type_id": 59,
+              "capacity": 7,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "upper_torque_thresholds_acceleration",
+            "type": {
+              "type_id": 59,
+              "capacity": 7,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "lower_torque_thresholds_nominal",
+            "type": {
+              "type_id": 59,
+              "capacity": 7,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "upper_torque_thresholds_nominal",
+            "type": {
+              "type_id": 59,
+              "capacity": 7,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "lower_force_thresholds_acceleration",
+            "type": {
+              "type_id": 59,
+              "capacity": 6,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "upper_force_thresholds_acceleration",
+            "type": {
+              "type_id": 59,
+              "capacity": 6,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "lower_force_thresholds_nominal",
+            "type": {
+              "type_id": 59,
+              "capacity": 6,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "upper_force_thresholds_nominal",
+            "type": {
+              "type_id": 59,
+              "capacity": 6,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "franka_msgs/srv/SetFullCollisionBehavior_Response",
+        "fields": [
+          {
+            "name": "success",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "error",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "service_msgs/msg/ServiceEventInfo",
+        "fields": [
+          {
+            "name": "event_type",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "client_gid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "sequence_number",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "franka_msgs/srv/SetFullCollisionBehavior",
+      "hash_string": "RIHS01_43a5dafbb96eb1bd70872cdd6db23d4bf81bfb7a03e563349974f37e89cded15"
+    },
+    {
+      "type_name": "builtin_interfaces/msg/Time",
+      "hash_string": "RIHS01_b106235e25a4c5ed35098aa0a61a3ee9c9b18d197f398b0e4206cea9acf9c197"
+    },
+    {
+      "type_name": "franka_msgs/srv/SetFullCollisionBehavior_Event",
+      "hash_string": "RIHS01_69980f18688e468281bbfb64e47a776eea8fd06178b8ec43fdc92f32f745e3e9"
+    },
+    {
+      "type_name": "franka_msgs/srv/SetFullCollisionBehavior_Request",
+      "hash_string": "RIHS01_a2d516d986d35f9c21625659f95c99e76f86a15a909bfe1ce46ffbbd2d9e54d5"
+    },
+    {
+      "type_name": "franka_msgs/srv/SetFullCollisionBehavior_Response",
+      "hash_string": "RIHS01_44c69b6330cd839a5d91b276c3679a272650d591df9664315ef7f50e9f116caf"
+    },
+    {
+      "type_name": "service_msgs/msg/ServiceEventInfo",
+      "hash_string": "RIHS01_41bcbbe07a75c9b52bc96bfd5c24d7f0fc0a08c0cb7921b3373c5732345a6f45"
+    }
+  ]
+}

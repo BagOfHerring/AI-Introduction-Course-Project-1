@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "multi_mode_control_msgs/srv/SetWorldState_Request",
+      "fields": [
+        {
+          "name": "items",
+          "type": {
+            "type_id": 150,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "values",
+          "type": {
+            "type_id": 159,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "multi_mode_control_msgs/srv/SetWorldState_Request",
+      "hash_string": "RIHS01_a0c824f69045407f2b293e83a317b97059290a39f7bcbb2ca3456acd9d2e2738"
+    }
+  ]
+}

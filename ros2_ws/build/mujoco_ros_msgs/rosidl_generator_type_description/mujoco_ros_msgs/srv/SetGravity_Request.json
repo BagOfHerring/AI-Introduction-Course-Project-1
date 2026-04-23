@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "mujoco_ros_msgs/srv/SetGravity_Request",
+      "fields": [
+        {
+          "name": "admin_hash",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "gravity",
+          "type": {
+            "type_id": 59,
+            "capacity": 3,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "mujoco_ros_msgs/srv/SetGravity_Request",
+      "hash_string": "RIHS01_4e2a51cce5f432a85e7b5afe61c90dae3e760b25a4600a3baccdabbf495c7a11"
+    }
+  ]
+}

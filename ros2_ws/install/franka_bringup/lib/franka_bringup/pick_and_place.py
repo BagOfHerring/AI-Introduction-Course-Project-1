@@ -1,0 +1,1 @@
+/home/herring/rzddzy/ros2_ws/src/franka_bringup/scripts/pick_and_place.py

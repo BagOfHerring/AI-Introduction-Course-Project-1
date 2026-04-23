@@ -1,0 +1,50 @@
+-- CMAKE_BUILD_TYPE not set. Defaulting to 'Release'.
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 28.1.16 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found pluginlib: 5.4.4 (/opt/ros/jazzy/share/pluginlib/cmake)
+-- Found tf2: 0.36.19 (/opt/ros/jazzy/share/tf2/cmake)
+-- Found tf2_ros: 0.36.19 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Found image_transport: 5.1.7 (/opt/ros/jazzy/share/image_transport/cmake)
+-- Found camera_info_manager: 5.1.7 (/opt/ros/jazzy/share/camera_info_manager/cmake)
+-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+-- Found tf2_geometry_msgs: 0.36.19 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found mujoco_ros_msgs: 0.9.0 (/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake)
+[0mCMake Deprecation Warning at /opt/ros/jazzy/share/actionlib_msgs/cmake/actionlib_msgsConfig.cmake:31 (message):
+  Package 'actionlib_msgs' is deprecated (This package will be removed in a
+  future ROS distro, once the ROS 1 bridge supports actions.)
+Call Stack (most recent call first):
+  /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/mujoco_ros_msgsConfig.cmake:41 (include)
+  CMakeLists.txt:62 (find_package)
+
+[0m
+-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Can't identify catkin workspace root directory, neither did user provide one, using default config
+[33mCMake Warning at cmake/CompilerCache.cmake:33 (message):
+  ccache is enabled but was not found.  Not using it
+Call Stack (most recent call first):
+  cmake/CompilerCache.cmake:44 (_configure_ccache)
+  cmake/CompilerCache.cmake:44 (cmake_language)
+  cmake/ProjectOption.cmake:61 (configure_compiler_cache)
+  CMakeLists.txt:70 (configure_project_option)
+
+[0m
+-- Looking for MuJoCo tar install ...
+[31mCMake Error at cmake/Findmujoco.cmake:50 (message):
+  Failed to find mujoco (MUJOCO_DIR=)
+Call Stack (most recent call first):
+  CMakeLists.txt:90 (find_package)
+
+[0m
+-- Configuring incomplete, errors occurred!

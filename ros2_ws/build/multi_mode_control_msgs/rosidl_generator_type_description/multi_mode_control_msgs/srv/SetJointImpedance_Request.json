@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "multi_mode_control_msgs/srv/SetJointImpedance_Request",
+      "fields": [
+        {
+          "name": "stiffness_scale",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "multi_mode_control_msgs/srv/SetJointImpedance_Request",
+      "hash_string": "RIHS01_0175a088f59adfc8c4f779a79643c69e43a33790707bcb88ce8f190e83a96096"
+    }
+  ]
+}

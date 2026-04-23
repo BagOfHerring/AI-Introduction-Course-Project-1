@@ -1,0 +1,56 @@
+[0mCMake Deprecation Warning at /opt/ros/jazzy/share/actionlib_msgs/cmake/actionlib_msgsConfig.cmake:31 (message):
+  Package 'actionlib_msgs' is deprecated (This package will be removed in a
+  future ROS distro, once the ROS 1 bridge supports actions.)
+Call Stack (most recent call first):
+  /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/mujoco_ros_msgsConfig.cmake:41 (include)
+  /home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/mujoco_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/mujoco_ros/cmake/mujoco_rosConfig.cmake:41 (include)
+  /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/cmake/mujoco_ros2_controlConfig.cmake:41 (include)
+  /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/cmake/franka_hardwareConfig.cmake:41 (include)
+  CMakeLists.txt:20 (find_package)
+
+[0m
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    MUJOCO_DIR
+
+[0m
+[01m[K/home/herring/rzddzy/ros2_ws/src/franka_semantic_components/src/franka_robot_model.cpp:[m[K In member function ‘[01m[Kbool franka_semantic_components::FrankaRobotModel::[01;32m[Kupdate_state_and_model[m[K()[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/franka_semantic_components/src/franka_robot_model.cpp:66:98:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   66 |     robot_model = bit_cast<franka_hardware::ModelBase*>([01;35m[K(*franka_model_interface).get().get_value()[m[K);
+      |                                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/controller_interface/semantic_components/semantic_component_interface.hpp:22[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_semantic_components/include/franka_semantic_components/franka_robot_model.hpp:13[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_semantic_components/src/franka_robot_model.cpp:15[m[K:
+[01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/franka_semantic_components/src/franka_robot_model.cpp:67:90:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   67 |     robot_state = bit_cast<franka::RobotState*>([01;35m[K(*franka_state_interface).get().get_value()[m[K);
+      |                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/franka_semantic_components/src/franka_robot_state.cpp:[m[K In member function ‘[01m[Kfranka::RobotState* franka_semantic_components::FrankaRobotState::[01;32m[Kget_robot_state_ptr[m[K()[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/franka_semantic_components/src/franka_robot_state.cpp:167:94:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  167 | ka::RobotState*>([01;35m[K(*franka_state_interface).get().get_value()[m[K);
+      |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+
+In file included from [01m[K/opt/ros/jazzy/include/controller_interface/semantic_components/semantic_component_interface.hpp:22[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_semantic_components/include/franka_semantic_components/franka_robot_state.hpp:25[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_semantic_components/src/franka_robot_state.cpp:15[m[K:
+[01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/franka_semantic_components/src/franka_robot_state.cpp:[m[K In member function ‘[01m[Kbool franka_semantic_components::FrankaRobotState::[01;32m[Kget_values_as_message[m[K(franka_msgs::msg::FrankaState&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/franka_semantic_components/src/franka_robot_state.cpp:187:94:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  187 | ka::RobotState*>([01;35m[K(*franka_state_interface).get().get_value()[m[K);
+      |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+
+[01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K

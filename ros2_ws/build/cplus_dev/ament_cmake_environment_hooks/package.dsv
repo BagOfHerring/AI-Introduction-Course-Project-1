@@ -1,0 +1,4 @@
+source;share/cplus_dev/local_setup.bash
+source;share/cplus_dev/local_setup.dsv
+source;share/cplus_dev/local_setup.sh
+source;share/cplus_dev/local_setup.zsh

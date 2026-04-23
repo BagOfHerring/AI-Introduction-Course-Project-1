@@ -1,0 +1,65 @@
+// generated from rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em
+// with input from mujoco_ros_msgs:msg/PluginStats.idl
+// generated code does not contain a copyright notice
+#ifndef MUJOCO_ROS_MSGS__MSG__DETAIL__PLUGIN_STATS__ROSIDL_TYPESUPPORT_FASTRTPS_C_H_
+#define MUJOCO_ROS_MSGS__MSG__DETAIL__PLUGIN_STATS__ROSIDL_TYPESUPPORT_FASTRTPS_C_H_
+
+
+#include <stddef.h>
+#include "rosidl_runtime_c/message_type_support_struct.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "mujoco_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h"
+#include "mujoco_ros_msgs/msg/detail/plugin_stats__struct.h"
+#include "fastcdr/Cdr.h"
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_mujoco_ros_msgs
+bool cdr_serialize_mujoco_ros_msgs__msg__PluginStats(
+  const mujoco_ros_msgs__msg__PluginStats * ros_message,
+  eprosima::fastcdr::Cdr & cdr);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_mujoco_ros_msgs
+bool cdr_deserialize_mujoco_ros_msgs__msg__PluginStats(
+  eprosima::fastcdr::Cdr &,
+  mujoco_ros_msgs__msg__PluginStats * ros_message);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_mujoco_ros_msgs
+size_t get_serialized_size_mujoco_ros_msgs__msg__PluginStats(
+  const void * untyped_ros_message,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_mujoco_ros_msgs
+size_t max_serialized_size_mujoco_ros_msgs__msg__PluginStats(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_mujoco_ros_msgs
+bool cdr_serialize_key_mujoco_ros_msgs__msg__PluginStats(
+  const mujoco_ros_msgs__msg__PluginStats * ros_message,
+  eprosima::fastcdr::Cdr & cdr);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_mujoco_ros_msgs
+size_t get_serialized_size_key_mujoco_ros_msgs__msg__PluginStats(
+  const void * untyped_ros_message,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_mujoco_ros_msgs
+size_t max_serialized_size_key_mujoco_ros_msgs__msg__PluginStats(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_mujoco_ros_msgs
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, mujoco_ros_msgs, msg, PluginStats)();
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // MUJOCO_ROS_MSGS__MSG__DETAIL__PLUGIN_STATS__ROSIDL_TYPESUPPORT_FASTRTPS_C_H_

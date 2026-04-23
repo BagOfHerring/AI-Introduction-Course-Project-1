@@ -1,0 +1,101 @@
+[0mCMake Deprecation Warning at /opt/ros/jazzy/share/actionlib_msgs/cmake/actionlib_msgsConfig.cmake:31 (message):
+  Package 'actionlib_msgs' is deprecated (This package will be removed in a
+  future ROS distro, once the ROS 1 bridge supports actions.)
+Call Stack (most recent call first):
+  /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/mujoco_ros_msgsConfig.cmake:41 (include)
+  /home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/mujoco_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/mujoco_ros/cmake/mujoco_rosConfig.cmake:41 (include)
+  /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/cmake/mujoco_ros2_controlConfig.cmake:41 (include)
+  CMakeLists.txt:33 (find_package)
+
+[0m
+[0mMuJoCo tar install found, but version can not be detected. If experiencing errors check that version 3.2.0 or a newer, compatible version is installed[0m
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/robot.hpp:33[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/src/real/robot.cpp:15[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/model_franka.hpp:[m[K In member function ‘[01m[Kvirtual std::array<double, 7> franka_hardware::ModelFranka::[01;32m[KcoriolisImpl[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/model_franka.hpp:142:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::array<double, 7> franka::Model::[01;32m[Kcoriolis[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’ is deprecated: Use coriolis(q, dq, i_total, m_total, f_x_ctotal, g_earth) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  142 |     return [01;35m[Kmodel_->coriolis(q, dq, I_total, m_total, F_x_Ctotal)[m[K;
+      |            [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/robot.hpp:28[m[K:
+[01m[K/usr/local/include/franka/model.h:248:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  248 |   [01;36m[Kcoriolis[m[K(const std::array<double, 7>& q,        // NOLINT(readability-identifier-length)
+      |   [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/robot.hpp:33[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/franka_error_recovery_service_server.hpp:4[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/src/real/franka_error_recovery_service_server.cpp:1[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/model_franka.hpp:[m[K In member function ‘[01m[Kvirtual std::array<double, 7> franka_hardware::ModelFranka::[01;32m[KcoriolisImpl[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/model_franka.hpp:142:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::array<double, 7> franka::Model::[01;32m[Kcoriolis[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’ is deprecated: Use coriolis(q, dq, i_total, m_total, f_x_ctotal, g_earth) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  142 |     return [01;35m[Kmodel_->coriolis(q, dq, I_total, m_total, F_x_Ctotal)[m[K;
+      |            [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/robot.hpp:28[m[K:
+[01m[K/usr/local/include/franka/model.h:248:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  248 |   [01;36m[Kcoriolis[m[K(const std::array<double, 7>& q,        // NOLINT(readability-identifier-length)
+      |   [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/robot.hpp:33[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/franka_param_service_server.hpp:20[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/src/real/franka_param_service_server.cpp:2[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/model_franka.hpp:[m[K In member function ‘[01m[Kvirtual std::array<double, 7> franka_hardware::ModelFranka::[01;32m[KcoriolisImpl[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/model_franka.hpp:142:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::array<double, 7> franka::Model::[01;32m[Kcoriolis[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’ is deprecated: Use coriolis(q, dq, i_total, m_total, f_x_ctotal, g_earth) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  142 |     return [01;35m[Kmodel_->coriolis(q, dq, I_total, m_total, F_x_Ctotal)[m[K;
+      |            [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/robot.hpp:28[m[K:
+[01m[K/usr/local/include/franka/model.h:248:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  248 |   [01;36m[Kcoriolis[m[K(const std::array<double, 7>& q,        // NOLINT(readability-identifier-length)
+      |   [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/robot.hpp:33[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/franka_multi_hardware_interface.hpp:32[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/src/real/franka_multi_hardware_interface.cpp:1[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/model_franka.hpp:[m[K In member function ‘[01m[Kvirtual std::array<double, 7> franka_hardware::ModelFranka::[01;32m[KcoriolisImpl[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/model_franka.hpp:142:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::array<double, 7> franka::Model::[01;32m[Kcoriolis[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’ is deprecated: Use coriolis(q, dq, i_total, m_total, f_x_ctotal, g_earth) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  142 |     return [01;35m[Kmodel_->coriolis(q, dq, I_total, m_total, F_x_Ctotal)[m[K;
+      |            [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/robot.hpp:28[m[K:
+[01m[K/usr/local/include/franka/model.h:248:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  248 |   [01;36m[Kcoriolis[m[K(const std::array<double, 7>& q,        // NOLINT(readability-identifier-length)
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/src/real/franka_multi_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual CallbackReturn franka_hardware::FrankaMultiHardwareInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/src/real/franka_multi_hardware_interface.cpp:22:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’ is deprecated: Use on_init(const HardwareComponentInterfaceParams & params) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   22 |   if ([01;35m[Khardware_interface::SystemInterface::on_init(info)[m[K != CallbackReturn::SUCCESS) {
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/system_interface.hpp:18[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/franka_multi_hardware_interface.hpp:22[m[K:
+[01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/hardware_component_interface.hpp:140:26:[m[K [01;36m[Knote: [m[Kdeclared here
+  140 |   virtual CallbackReturn [01;36m[Kon_init[m[K(const HardwareInfo & hardware_info);
+      |                          [01;36m[K^~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/src/sim/franka_mj_hardware_system.cpp:[m[K In member function ‘[01m[Kvirtual CallbackReturn franka_hardware::FrankaMjHardwareSystem::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/src/sim/franka_mj_hardware_system.cpp:162:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’ is deprecated: Use on_init(const HardwareComponentInterfaceParams & params) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  162 |   if ([01;35m[Khardware_interface::SystemInterface::on_init(info)[m[K != CallbackReturn::SUCCESS) {
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/system_interface.hpp:18[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/sim/franka_mj_hardware_system.hpp:22[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/src/sim/franka_mj_hardware_system.cpp:15[m[K:
+[01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/hardware_component_interface.hpp:140:26:[m[K [01;36m[Knote: [m[Kdeclared here
+  140 |   virtual CallbackReturn [01;36m[Kon_init[m[K(const HardwareInfo & hardware_info);
+      |                          [01;36m[K^~~~~~~[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/sim/robot_sim.hpp:8[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/sim/franka_mj_hardware_system.hpp:37[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/sim/model_sim.hpp:[m[K In member function ‘[01m[Kvirtual std::array<double, 49> franka_hardware::ModelSim::[01;32m[KmassImpl[m[K(const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/sim/model_sim.hpp:518:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid[01;32m[K operator delete[m[K(void*, std::size_t)[m[K’ called on pointer returned from a mismatched allocation function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmismatched-new-delete-Wmismatched-new-delete]8;;[m[K]
+  518 |     delete [01;35m[KM[m[K;
+      |            [01;35m[K^[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/sim/model_sim.hpp:509:51:[m[K [01;36m[Knote: [m[Kreturned from ‘[01m[Kvoid*[01;32m[K operator new [][m[K(std::size_t)[m[K’
+  509 |     double *M = new double[model_->nv * model_->nv[01;36m[K][m[K;
+      |                                                   [01;36m[K^[m[K
+In member function ‘[01m[Kvirtual std::array<double, 49> franka_hardware::ModelSim::[01;32m[KmassImpl[m[K(const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’,
+    inlined from ‘[01m[Kstd::array<double, 49> franka_hardware::ModelBase::[01;32m[Kmass[m[K(const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’ at [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/common/model_base.hpp:118:20[m[K,
+    inlined from ‘[01m[Kvirtual std::array<double, 49> franka_hardware::ModelBase::[01;32m[Kmass[m[K(const franka::RobotState&) const[m[K’ at [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/common/model_base.hpp:220:16[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/sim/model_sim.hpp:518:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid[01;32m[K operator delete[m[K(void*, std::size_t)[m[K’ called on pointer returned from a mismatched allocation function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmismatched-new-delete-Wmismatched-new-delete]8;;[m[K]
+  518 |     delete [01;35m[KM[m[K;
+      |            [01;35m[K^[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/sim/model_sim.hpp:509:51:[m[K [01;36m[Knote: [m[Kreturned from ‘[01m[Kvoid*[01;32m[K operator new [][m[K(std::size_t)[m[K’
+  509 |     double *M = new double[model_->nv * model_->nv[01;36m[K][m[K;
+      |                                                   [01;36m[K^[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/sim/model_sim.hpp:[m[K In member function ‘[01m[Kvirtual std::array<double, 49> franka_hardware::ModelSim::[01;32m[K_ZTv0_n112_NK15franka_hardware8ModelSim8massImplERKSt5arrayIdLm7EERKS1_IdLm9EEdRKS1_IdLm3EE[m[K(const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/sim/model_sim.hpp:518:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid[01;32m[K operator delete[m[K(void*, std::size_t)[m[K’ called on pointer returned from a mismatched allocation function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmismatched-new-delete-Wmismatched-new-delete]8;;[m[K]
+  518 |     delete [01;35m[KM[m[K;
+      |            [01;35m[K^[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/sim/model_sim.hpp:509:51:[m[K [01;36m[Knote: [m[Kreturned from ‘[01m[Kvoid*[01;32m[K operator new [][m[K(std::size_t)[m[K’
+  509 |     double *M = new double[model_->nv * model_->nv[01;36m[K][m[K;
+      |                                                   [01;36m[K^[m[K

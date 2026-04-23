@@ -1,0 +1,22 @@
+{
+  "package_name": "franka_msgs",
+  "non_idl_tuples": [
+    "/home/herring/rzddzy/ros2_ws/src/franka_msgs:msg/GraspEpsilon.msg",
+    "/home/herring/rzddzy/ros2_ws/src/franka_msgs:msg/FrankaState.msg",
+    "/home/herring/rzddzy/ros2_ws/src/franka_msgs:msg/FrankaModel.msg",
+    "/home/herring/rzddzy/ros2_ws/src/franka_msgs:msg/Errors.msg",
+    "/home/herring/rzddzy/ros2_ws/src/franka_msgs:msg/PoseStampedArray.msg",
+    "/home/herring/rzddzy/ros2_ws/src/franka_msgs:action/Grasp.action",
+    "/home/herring/rzddzy/ros2_ws/src/franka_msgs:action/Homing.action",
+    "/home/herring/rzddzy/ros2_ws/src/franka_msgs:action/Move.action",
+    "/home/herring/rzddzy/ros2_ws/src/franka_msgs:srv/ErrorRecovery.srv",
+    "/home/herring/rzddzy/ros2_ws/src/franka_msgs:srv/SetCartesianStiffness.srv",
+    "/home/herring/rzddzy/ros2_ws/src/franka_msgs:srv/SetTCPFrame.srv",
+    "/home/herring/rzddzy/ros2_ws/src/franka_msgs:srv/SetForceTorqueCollisionBehavior.srv",
+    "/home/herring/rzddzy/ros2_ws/src/franka_msgs:srv/SetFullCollisionBehavior.srv",
+    "/home/herring/rzddzy/ros2_ws/src/franka_msgs:srv/SetJointStiffness.srv",
+    "/home/herring/rzddzy/ros2_ws/src/franka_msgs:srv/SetStiffnessFrame.srv",
+    "/home/herring/rzddzy/ros2_ws/src/franka_msgs:srv/SetLoad.srv",
+    "/home/herring/rzddzy/ros2_ws/src/franka_msgs:srv/SetMujocoPoses.srv"
+  ]
+}

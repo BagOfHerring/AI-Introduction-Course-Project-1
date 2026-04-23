@@ -1,0 +1,94 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found controller_interface: 4.42.2 (/opt/ros/jazzy/share/controller_interface/cmake)
+-- Found franka_semantic_components: 0.0.0 (/home/herring/rzddzy/ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake)
+-- Found Threads: TRUE  
+-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found multi_mode_control_msgs: 0.0.0 (/home/herring/rzddzy/ros2_ws/install/multi_mode_control_msgs/share/multi_mode_control_msgs/cmake)
+-- Configuring done (1.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/herring/rzddzy/ros2_ws/build/franka_example_controllers
+[  6%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/comless/cartesian_impedance_example_controller.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/comless/model_example_controller.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/comless/motion_generator.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/comless/cartesian_velocity_example_controller.cpp.o[0m
+[ 31%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/herring/rzddzy/ros2_ws/build/franka_example_controllers/include/franka_example_controllers/franka_example_controllers_parameters.hpp /home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/model_example_controller_parameters.yaml `[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/comless/gravity_compensation_example_controller.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/comless/multi_joint_impedance_example_controller.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/comless/joint_impedance_example_controller.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/comless/move_to_start_example_controller.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/comless/joint_position_example_controller.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/comless/joint_velocity_example_controller.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/subscriber/joint_impedance_controller.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/comless/dual_joint_velocity_example_controller.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/subscriber/cartesian_impedance_controller.cpp.o[0m
+[ 93%] [34m[1mCreating deprecated header file /home/herring/rzddzy/ros2_ws/build/franka_example_controllers/include/franka_example_controllers_parameters.hpp[0m
+[ 93%] Built target franka_example_controllers_parameters
+[100%] [32m[1mLinking CXX shared library libfranka_example_controllers.so[0m
+[100%] Built target franka_example_controllers
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/include/franka_example_controllers/franka_example_controllers_parameters.hpp
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/share/franka_example_controllers//franka_example_controllers.xml
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/lib/libfranka_example_controllers.so
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/include/franka_example_controllers/comless/cartesian_impedance_example_controller.hpp
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/include/franka_example_controllers/comless/cartesian_velocity_example_controller.hpp
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/include/franka_example_controllers/comless/dual_joint_velocity_example_controller.hpp
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/include/franka_example_controllers/comless/gravity_compensation_example_controller.hpp
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/include/franka_example_controllers/comless/joint_impedance_example_controller.hpp
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/include/franka_example_controllers/comless/joint_position_example_controller.hpp
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/include/franka_example_controllers/comless/joint_velocity_example_controller.hpp
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/include/franka_example_controllers/comless/model_example_controller.hpp
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/include/franka_example_controllers/comless/motion_generator.hpp
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/include/franka_example_controllers/comless/move_to_start_example_controller.hpp
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/include/franka_example_controllers/comless/multi_joint_impedance_example_controller.hpp
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/include/franka_example_controllers/subscriber/cartesian_impedance_controller.hpp
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/include/franka_example_controllers/subscriber/custom_controller_template.hpp
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/include/franka_example_controllers/subscriber/joint_impedance_controller.hpp
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/library_path.sh
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/library_path.dsv
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/share/ament_index/resource_index/package_run_dependencies/franka_example_controllers
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/share/ament_index/resource_index/parent_prefix_path/franka_example_controllers
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/ament_prefix_path.sh
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/ament_prefix_path.dsv
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/path.sh
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/path.dsv
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.bash
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.sh
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.zsh
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.dsv
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/share/franka_example_controllers/package.dsv
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/share/ament_index/resource_index/packages/franka_example_controllers
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/franka_example_controllers
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/franka_example_controllersConfig.cmake
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/franka_example_controllersConfig-version.cmake
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_example_controllers/share/franka_example_controllers/package.xml

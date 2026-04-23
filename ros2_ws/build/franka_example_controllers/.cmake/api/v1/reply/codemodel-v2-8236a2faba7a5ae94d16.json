@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a6785ff087175a62ebc6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "franka_example_controllers",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_example_controllers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_example_controllers-c945b255d5dad1cb0cc6.json",
+					"name" : "franka_example_controllers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_example_controllers_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_example_controllers_parameters-465534a21bee249ce409.json",
+					"name" : "franka_example_controllers_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_example_controllers_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_example_controllers_uninstall-e74e84faf202d92a80cb.json",
+					"name" : "franka_example_controllers_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d17ab985e88fceb12a89.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/herring/rzddzy/ros2_ws/build/franka_example_controllers",
+		"source" : "/home/herring/rzddzy/ros2_ws/src/franka_example_controllers"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

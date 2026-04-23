@@ -1,0 +1,13 @@
+<launch>
+    <!-- We will use rosparam to load robot configuration if needed. Right now we just pass a simple default. -->
+    <param name="/robots/panda01/base_xyz" type="yaml" value="[0.0, 0.0, 0.0]" />
+    <param name="/robots/panda01/base_rpy" type="yaml" value="[0.0, 0.0, 0.0]" />
+
+    <node name="gbp_mpc_controller" pkg="controller" type="gbp_mpc_controller" output="screen">
+        <param name="robot_name" value="panda01" />
+        <!-- Load YAML parameters -->
+        <rosparam file="$(find controller)/config/gbp_mpc_params.yaml" command="load" />
+    </node>
+
+    <node name="mock_test_node" pkg="controller" type="mock_test_node.py" output="screen" />
+</launch>

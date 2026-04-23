@@ -1,0 +1,1 @@
+/home/herring/rzddzy/ros2_ws/build/multi_mode_controller/ament_cmake_core/multi_mode_controllerConfig.cmake

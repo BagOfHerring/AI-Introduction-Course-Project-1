@@ -1,0 +1,1 @@
+/home/herring/rzddzy/ros2_ws/build/mujoco_ros2_dummy_plugin/ament_cmake_environment_hooks/local_setup.zsh

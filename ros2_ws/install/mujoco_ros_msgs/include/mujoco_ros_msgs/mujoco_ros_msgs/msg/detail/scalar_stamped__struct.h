@@ -1,0 +1,1 @@
+/home/herring/rzddzy/ros2_ws/build/mujoco_ros_msgs/rosidl_generator_c/mujoco_ros_msgs/msg/detail/scalar_stamped__struct.h

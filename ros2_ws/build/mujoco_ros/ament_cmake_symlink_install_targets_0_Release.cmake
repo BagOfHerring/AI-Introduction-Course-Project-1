@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/herring/rzddzy/ros2_ws/build/mujoco_ros/src/mujoco_node" "TARGETS" "mujoco_node" "LIBRARY_DESTINATION" "lib/mujoco_ros" "RUNTIME_DESTINATION" "lib/mujoco_ros" "ARCHIVE_DESTINATION" "lib/mujoco_ros")

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/herring/rzddzy/ros2_ws/build/franka_msgs/rosidl_generator_py/franka_msgs/franka_msgs_s__rosidl_typesupport_c.so" "TARGETS" "franka_msgs_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/franka_msgs")

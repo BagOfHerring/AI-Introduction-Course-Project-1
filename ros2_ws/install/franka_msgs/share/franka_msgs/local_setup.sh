@@ -1,0 +1,1 @@
+/home/herring/rzddzy/ros2_ws/build/franka_msgs/ament_cmake_environment_hooks/local_setup.sh

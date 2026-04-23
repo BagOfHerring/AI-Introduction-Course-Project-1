@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-11b3db81cc34b129a3e1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "multi_mode_controller",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_mode_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_mode_controller-Release-da6451506d1ddff6c6f9.json",
+					"name" : "multi_mode_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_mode_controller_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_mode_controller_uninstall-Release-ee5a27f0f5cb3b440f4d.json",
+					"name" : "multi_mode_controller_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openGJK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openGJK-Release-2bffc26fa5bb116bf7bb.json",
+					"name" : "openGJK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "synchronous_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-synchronous_client-Release-357c379b0ca76f9a04f7.json",
+					"name" : "synchronous_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-55246d1fbfe235e7a6be.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/herring/rzddzy/ros2_ws/build/multi_mode_controller",
+		"source" : "/home/herring/rzddzy/ros2_ws/src/multi_mode_controller"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

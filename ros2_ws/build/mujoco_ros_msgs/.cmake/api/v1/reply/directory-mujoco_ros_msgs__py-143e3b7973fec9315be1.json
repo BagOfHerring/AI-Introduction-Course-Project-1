@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "mujoco_ros_msgs__py",
+		"source" : "/home/herring/rzddzy/ros2_ws/build/mujoco_ros_msgs/mujoco_ros_msgs__py"
+	}
+}

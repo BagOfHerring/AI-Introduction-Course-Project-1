@@ -1,0 +1,261 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "mujoco_ros_msgs/srv/RegisterSensorNoiseModels",
+      "fields": [
+        {
+          "name": "request_message",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "mujoco_ros_msgs/srv/RegisterSensorNoiseModels_Request"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "response_message",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "mujoco_ros_msgs/srv/RegisterSensorNoiseModels_Response"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "event_message",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "mujoco_ros_msgs/srv/RegisterSensorNoiseModels_Event"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "builtin_interfaces/msg/Time",
+        "fields": [
+          {
+            "name": "sec",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "nanosec",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "mujoco_ros_msgs/msg/SensorNoiseModel",
+        "fields": [
+          {
+            "name": "sensor_name",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "mean",
+            "type": {
+              "type_id": 155,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "std",
+            "type": {
+              "type_id": 155,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "set_flag",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "mujoco_ros_msgs/srv/RegisterSensorNoiseModels_Event",
+        "fields": [
+          {
+            "name": "info",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "request",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "mujoco_ros_msgs/srv/RegisterSensorNoiseModels_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "mujoco_ros_msgs/srv/RegisterSensorNoiseModels_Response"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "mujoco_ros_msgs/srv/RegisterSensorNoiseModels_Request",
+        "fields": [
+          {
+            "name": "noise_models",
+            "type": {
+              "type_id": 145,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "mujoco_ros_msgs/msg/SensorNoiseModel"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "admin_hash",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "mujoco_ros_msgs/srv/RegisterSensorNoiseModels_Response",
+        "fields": [
+          {
+            "name": "success",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "service_msgs/msg/ServiceEventInfo",
+        "fields": [
+          {
+            "name": "event_type",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "client_gid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "sequence_number",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "mujoco_ros_msgs/srv/RegisterSensorNoiseModels",
+      "hash_string": "RIHS01_1d59d19ed4e2e6fa2d38a3b2e5acdd6d502299ee735d73bf4a8560a8ab713f5b"
+    },
+    {
+      "type_name": "builtin_interfaces/msg/Time",
+      "hash_string": "RIHS01_b106235e25a4c5ed35098aa0a61a3ee9c9b18d197f398b0e4206cea9acf9c197"
+    },
+    {
+      "type_name": "mujoco_ros_msgs/msg/SensorNoiseModel",
+      "hash_string": "RIHS01_a6c3c3ec332fae8754c30e2b6b32e75174d701d42b8294be879bf4089715d216"
+    },
+    {
+      "type_name": "mujoco_ros_msgs/srv/RegisterSensorNoiseModels_Event",
+      "hash_string": "RIHS01_b7bb9284acae3fe4d696f5e9e978cb6a1890c585b5bb10e03dbe3d59e6a6918e"
+    },
+    {
+      "type_name": "mujoco_ros_msgs/srv/RegisterSensorNoiseModels_Request",
+      "hash_string": "RIHS01_4f42fcaec1cbcdf7d03d62ff1b2ded4a34c9a449572d22ebf9a262f547c3d747"
+    },
+    {
+      "type_name": "mujoco_ros_msgs/srv/RegisterSensorNoiseModels_Response",
+      "hash_string": "RIHS01_d645be738eb4952a12608d40d6a60b3b4ab2a03004e86cce8c5362983ddfcbc7"
+    },
+    {
+      "type_name": "service_msgs/msg/ServiceEventInfo",
+      "hash_string": "RIHS01_41bcbbe07a75c9b52bc96bfd5c24d7f0fc0a08c0cb7921b3373c5732345a6f45"
+    }
+  ]
+}

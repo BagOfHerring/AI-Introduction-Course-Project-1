@@ -1,0 +1,54 @@
+[0.006s] Invoking command in '/home/herring/rzddzy/ros2_ws/build/controller': AMENT_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/cplus_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/cplus_dev:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/ros2_ws/install/cplus_dev/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/herring/rzddzy/ros2_ws/src/controller -DMUJOCO_DIR=/home/herring/.mujoco/mujoco-3.2.0 -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/herring/rzddzy/ros2_ws/install/controller
+[0.016s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.164s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.167s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.183s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.188s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.196s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.203s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.242s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.243s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.300s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.340s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.349s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.358s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.374s] -- Found trajectory_msgs: 5.3.6 (/opt/ros/jazzy/share/trajectory_msgs/cmake)
+[0.387s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[0.409s] -- Found cplus_dev: 0.0.0 (/home/herring/rzddzy/ros2_ws/install/cplus_dev/share/cplus_dev/cmake)
+[0.560s] -- Configuring done (0.5s)
+[0.600s] -- Generating done (0.0s)
+[0.605s] -- Build files have been written to: /home/herring/rzddzy/ros2_ws/build/controller
+[0.613s] Invoked command in '/home/herring/rzddzy/ros2_ws/build/controller' returned '0': AMENT_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/cplus_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/cplus_dev:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/ros2_ws/install/cplus_dev/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/herring/rzddzy/ros2_ws/src/controller -DMUJOCO_DIR=/home/herring/.mujoco/mujoco-3.2.0 -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/herring/rzddzy/ros2_ws/install/controller
+[0.614s] Invoking command in '/home/herring/rzddzy/ros2_ws/build/controller': AMENT_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/cplus_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/cplus_dev:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/ros2_ws/install/cplus_dev/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/herring/rzddzy/ros2_ws/build/controller -- -j28 -l28
+[0.678s] [ 75%] Built target buffer_controller
+[0.678s] [ 75%] Built target ssa_controller
+[0.680s] [100%] Built target gbp_mpc_controller
+[0.692s] Invoked command in '/home/herring/rzddzy/ros2_ws/build/controller' returned '0': AMENT_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/cplus_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/cplus_dev:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/ros2_ws/install/cplus_dev/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/herring/rzddzy/ros2_ws/build/controller -- -j28 -l28
+[0.693s] Invoking command in '/home/herring/rzddzy/ros2_ws/build/controller': AMENT_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/cplus_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/cplus_dev:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/ros2_ws/install/cplus_dev/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/herring/rzddzy/ros2_ws/build/controller
+[0.702s] -- Install configuration: "Release"
+[0.702s] -- Execute custom install script
+[0.702s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/controller/lib/controller/buffer_controller
+[0.702s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/controller/lib/controller/ssa_controller
+[0.703s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/controller/lib/controller/gbp_mpc_controller
+[0.703s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/controller/share/controller/config/MRGBP.yaml
+[0.703s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/controller/share/controller/config/franka_sphere.yaml
+[0.703s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/controller/share/controller/config/gbp_mpc_params.yaml
+[0.704s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/controller/share/ament_index/resource_index/package_run_dependencies/controller
+[0.704s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/controller/share/ament_index/resource_index/parent_prefix_path/controller
+[0.704s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/controller/share/controller/environment/ament_prefix_path.sh
+[0.704s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/controller/share/controller/environment/ament_prefix_path.dsv
+[0.704s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/controller/share/controller/environment/path.sh
+[0.705s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/controller/share/controller/environment/path.dsv
+[0.705s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/controller/share/controller/local_setup.bash
+[0.705s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/controller/share/controller/local_setup.sh
+[0.705s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/controller/share/controller/local_setup.zsh
+[0.705s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/controller/share/controller/local_setup.dsv
+[0.705s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/controller/share/controller/package.dsv
+[0.715s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/controller/share/ament_index/resource_index/packages/controller
+[0.715s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/controller/share/controller/cmake/controllerConfig.cmake
+[0.715s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/controller/share/controller/cmake/controllerConfig-version.cmake
+[0.715s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/controller/share/controller/package.xml
+[0.715s] -- Up-to-date: /home/herring/rzddzy/ros2_ws/install/controller/include/controller
+[0.715s] -- Up-to-date: /home/herring/rzddzy/ros2_ws/install/controller/include/controller/controller
+[0.716s] -- Up-to-date: /home/herring/rzddzy/ros2_ws/install/controller/include/controller/controller/buffer_controller.h
+[0.716s] Invoked command in '/home/herring/rzddzy/ros2_ws/build/controller' returned '0': AMENT_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/cplus_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/cplus_dev:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/ros2_ws/install/cplus_dev/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/herring/rzddzy/ros2_ws/build/controller

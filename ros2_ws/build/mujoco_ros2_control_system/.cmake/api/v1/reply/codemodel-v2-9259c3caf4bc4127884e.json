@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-38674214d110856c9fd1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mujoco_ros2_control_system",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "mujoco_ros2_control_system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mujoco_ros2_control_system-6e0464796918be772651.json",
+					"name" : "mujoco_ros2_control_system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mujoco_ros2_control_system_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mujoco_ros2_control_system_uninstall-11dc95fbbdcff5360e7e.json",
+					"name" : "mujoco_ros2_control_system_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1ec7dc89f7795cf10b0e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/herring/rzddzy/ros2_ws/build/mujoco_ros2_control_system",
+		"source" : "/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_control_system"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

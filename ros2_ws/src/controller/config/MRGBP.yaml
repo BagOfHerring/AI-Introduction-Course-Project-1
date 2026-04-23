@@ -1,0 +1,75 @@
+Agent:
+  start_position_precision: 600
+  start_velocity_precision: 600
+  target_position_precision: 600
+  target_velocity_precision: 600 # 起始和终点参数
+  dynamic_postion_precision: 300
+  dynamic_velocity_precision: 300 # 不考虑动力学的精度
+  obstacle_precision: 500 # 障碍物精度
+  distance_precision: 10000 # 机器人之间的精度
+  dt: 0.8 # 采样时间间隔.这太小或z_prec太大会使得超state的限制，速度会振动
+  z_prec: 10 # 动态性能中的Qc,白噪声方差的倒数
+  state_safety: 0.001
+  state_prec: 1000 # BoxFactor中的参数
+  task_prec: 100
+  task_safety: 0.001
+  num_interp: 10
+
+  # 新增：估算步数时的最大速度系数（相对关节速度上限的比例系数）
+  # 用于 estimate_required_steps 中的 vmax = vmax_coeff * dthetamax
+  vmax_coeff: 0.1
+
+Plan:
+  iter: 10 # 求解最大迭代次数
+  steps: 6 # 轨迹离散化步数
+  Min_steps: 2 # 轨迹最小离散化步数
+  Max_steps: 10 # 轨迹最大离散化步数
+  is_interp: 0 # 是否插值
+  is_interarm_interp: 0 # 是否双臂插值
+  is_task: 0 # 是否使用任务约束
+  is_box: 1 # 是否使用box约束
+  margin: 0.1 # 碰撞体的safety_margin,双机器人max(x,x)
+  converge_thre: 0.01 # 收敛阈值,加上起点/终点,缩减比率
+  active_thre: 1e-18 # 激活阈值,mean的变化小于该值,则认为不活跃
+  lowest_converge_iter: 4 # 最低能量值连续次数不变，也算收敛
+  converge_count: 1 # 收敛次数
+  min_iter_relin: 1 # 重线性化后的最小迭代次数, 1为每次update都重线性化
+  relin_thre: 0.1 # 重线性化的阈值
+  near_target_thre: 0.025 # 近目标的阈值,1范数
+
+  # 最小能量备份阈值（双阈值策略）
+  # 显著改进：满足这两个条件之一（相对或绝对）则更新best并重置“无改进”计数
+  best_improve_rel: 0.0 # 相对改进达到该比例（例如5%）视为显著改进
+  best_improve_abs: 0 # 或绝对能量下降达到该值视为显著改进
+  # 近最佳：在该窗口内仅更新best但不重置计数；否则计数+1
+  best_near_rel: 0.0 # 相对接近最佳（例如1%）
+  best_near_abs: 0 # 或绝对接近最佳
+
+  # 目测damp_value能使得收敛更快,但damp_factor会使得收敛更慢?
+  damp_factor: 0.0 # 阻尼因子,为0时不阻尼,为1时factor不更新
+  iter_undamp: 0 # 不阻尼的迭代次数, 0为一直使用阻尼,有时干涉会导致一直重线性化
+  damp_value: 0.02 # vnode 的阻尼值
+
+  drop_out: 0 # 随机丢弃的比例, 0为不丢弃, 1为全部丢弃
+  range: 0.5 # 机器人之间的距离范围/m
+  max_num_connect: -1 # 通讯的最大数量, -1 为不限制, 0为不通讯, n为通讯n个机器人
+
+  # 新增：retarget 默认初始化方式（1=线性插值，0=热启动重采样）
+  retarget_linear_init: 1
+  # 新增：是否并行执行每个 Agent 的 spin_action_fsm（可能引入线程竞争，谨慎启用，有问题）
+  parallel_spin_action: 0
+
+Scene:
+  njoint: 7
+  obs_num: 6
+  obs_radius: 0.1
+  use_hand: 0
+  num_robots: 2
+  end_effector_name: "panda_link8"
+
+Ros:
+  gbp_rate: 30
+
+Save:
+  cmd_buffer: 1 # 保存的命令缓冲区大小
+  state_buffer: 1 # 保存的状态缓冲区大小

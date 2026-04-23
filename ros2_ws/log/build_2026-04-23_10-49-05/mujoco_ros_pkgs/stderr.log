@@ -1,0 +1,7 @@
+WARNING: Metapackage "mujoco_ros_pkgs" should not have other dependencies besides a buildtool_depend on catkin and exec_depends.
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    MUJOCO_DIR
+
+[0m

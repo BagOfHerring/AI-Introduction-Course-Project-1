@@ -1,0 +1,279 @@
+// generated from rosidl_generator_c/resource/idl__struct.h.em
+// with input from franka_msgs:action/Homing.idl
+// generated code does not contain a copyright notice
+
+// IWYU pragma: private, include "franka_msgs/action/homing.h"
+
+
+#ifndef FRANKA_MSGS__ACTION__DETAIL__HOMING__STRUCT_H_
+#define FRANKA_MSGS__ACTION__DETAIL__HOMING__STRUCT_H_
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+
+
+// Constants defined in the message
+
+/// Struct defined in action/Homing in the package franka_msgs.
+typedef struct franka_msgs__action__Homing_Goal
+{
+  uint8_t structure_needs_at_least_one_member;
+} franka_msgs__action__Homing_Goal;
+
+// Struct for a sequence of franka_msgs__action__Homing_Goal.
+typedef struct franka_msgs__action__Homing_Goal__Sequence
+{
+  franka_msgs__action__Homing_Goal * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} franka_msgs__action__Homing_Goal__Sequence;
+
+// Constants defined in the message
+
+// Include directives for member types
+// Member 'error'
+#include "rosidl_runtime_c/string.h"
+
+/// Struct defined in action/Homing in the package franka_msgs.
+typedef struct franka_msgs__action__Homing_Result
+{
+  bool success;
+  rosidl_runtime_c__String error;
+} franka_msgs__action__Homing_Result;
+
+// Struct for a sequence of franka_msgs__action__Homing_Result.
+typedef struct franka_msgs__action__Homing_Result__Sequence
+{
+  franka_msgs__action__Homing_Result * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} franka_msgs__action__Homing_Result__Sequence;
+
+// Constants defined in the message
+
+/// Struct defined in action/Homing in the package franka_msgs.
+typedef struct franka_msgs__action__Homing_Feedback
+{
+  double current_width;
+} franka_msgs__action__Homing_Feedback;
+
+// Struct for a sequence of franka_msgs__action__Homing_Feedback.
+typedef struct franka_msgs__action__Homing_Feedback__Sequence
+{
+  franka_msgs__action__Homing_Feedback * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} franka_msgs__action__Homing_Feedback__Sequence;
+
+// Constants defined in the message
+
+// Include directives for member types
+// Member 'goal_id'
+#include "unique_identifier_msgs/msg/detail/uuid__struct.h"
+// Member 'goal'
+#include "franka_msgs/action/detail/homing__struct.h"
+
+/// Struct defined in action/Homing in the package franka_msgs.
+typedef struct franka_msgs__action__Homing_SendGoal_Request
+{
+  unique_identifier_msgs__msg__UUID goal_id;
+  franka_msgs__action__Homing_Goal goal;
+} franka_msgs__action__Homing_SendGoal_Request;
+
+// Struct for a sequence of franka_msgs__action__Homing_SendGoal_Request.
+typedef struct franka_msgs__action__Homing_SendGoal_Request__Sequence
+{
+  franka_msgs__action__Homing_SendGoal_Request * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} franka_msgs__action__Homing_SendGoal_Request__Sequence;
+
+// Constants defined in the message
+
+// Include directives for member types
+// Member 'stamp'
+#include "builtin_interfaces/msg/detail/time__struct.h"
+
+/// Struct defined in action/Homing in the package franka_msgs.
+typedef struct franka_msgs__action__Homing_SendGoal_Response
+{
+  bool accepted;
+  builtin_interfaces__msg__Time stamp;
+} franka_msgs__action__Homing_SendGoal_Response;
+
+// Struct for a sequence of franka_msgs__action__Homing_SendGoal_Response.
+typedef struct franka_msgs__action__Homing_SendGoal_Response__Sequence
+{
+  franka_msgs__action__Homing_SendGoal_Response * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} franka_msgs__action__Homing_SendGoal_Response__Sequence;
+
+// Constants defined in the message
+
+// Include directives for member types
+// Member 'info'
+#include "service_msgs/msg/detail/service_event_info__struct.h"
+
+// constants for array fields with an upper bound
+// request
+enum
+{
+  franka_msgs__action__Homing_SendGoal_Event__request__MAX_SIZE = 1
+};
+// response
+enum
+{
+  franka_msgs__action__Homing_SendGoal_Event__response__MAX_SIZE = 1
+};
+
+/// Struct defined in action/Homing in the package franka_msgs.
+typedef struct franka_msgs__action__Homing_SendGoal_Event
+{
+  service_msgs__msg__ServiceEventInfo info;
+  franka_msgs__action__Homing_SendGoal_Request__Sequence request;
+  franka_msgs__action__Homing_SendGoal_Response__Sequence response;
+} franka_msgs__action__Homing_SendGoal_Event;
+
+// Struct for a sequence of franka_msgs__action__Homing_SendGoal_Event.
+typedef struct franka_msgs__action__Homing_SendGoal_Event__Sequence
+{
+  franka_msgs__action__Homing_SendGoal_Event * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} franka_msgs__action__Homing_SendGoal_Event__Sequence;
+
+// Constants defined in the message
+
+// Include directives for member types
+// Member 'goal_id'
+// already included above
+// #include "unique_identifier_msgs/msg/detail/uuid__struct.h"
+
+/// Struct defined in action/Homing in the package franka_msgs.
+typedef struct franka_msgs__action__Homing_GetResult_Request
+{
+  unique_identifier_msgs__msg__UUID goal_id;
+} franka_msgs__action__Homing_GetResult_Request;
+
+// Struct for a sequence of franka_msgs__action__Homing_GetResult_Request.
+typedef struct franka_msgs__action__Homing_GetResult_Request__Sequence
+{
+  franka_msgs__action__Homing_GetResult_Request * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} franka_msgs__action__Homing_GetResult_Request__Sequence;
+
+// Constants defined in the message
+
+// Include directives for member types
+// Member 'result'
+// already included above
+// #include "franka_msgs/action/detail/homing__struct.h"
+
+/// Struct defined in action/Homing in the package franka_msgs.
+typedef struct franka_msgs__action__Homing_GetResult_Response
+{
+  int8_t status;
+  franka_msgs__action__Homing_Result result;
+} franka_msgs__action__Homing_GetResult_Response;
+
+// Struct for a sequence of franka_msgs__action__Homing_GetResult_Response.
+typedef struct franka_msgs__action__Homing_GetResult_Response__Sequence
+{
+  franka_msgs__action__Homing_GetResult_Response * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} franka_msgs__action__Homing_GetResult_Response__Sequence;
+
+// Constants defined in the message
+
+// Include directives for member types
+// Member 'info'
+// already included above
+// #include "service_msgs/msg/detail/service_event_info__struct.h"
+
+// constants for array fields with an upper bound
+// request
+enum
+{
+  franka_msgs__action__Homing_GetResult_Event__request__MAX_SIZE = 1
+};
+// response
+enum
+{
+  franka_msgs__action__Homing_GetResult_Event__response__MAX_SIZE = 1
+};
+
+/// Struct defined in action/Homing in the package franka_msgs.
+typedef struct franka_msgs__action__Homing_GetResult_Event
+{
+  service_msgs__msg__ServiceEventInfo info;
+  franka_msgs__action__Homing_GetResult_Request__Sequence request;
+  franka_msgs__action__Homing_GetResult_Response__Sequence response;
+} franka_msgs__action__Homing_GetResult_Event;
+
+// Struct for a sequence of franka_msgs__action__Homing_GetResult_Event.
+typedef struct franka_msgs__action__Homing_GetResult_Event__Sequence
+{
+  franka_msgs__action__Homing_GetResult_Event * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} franka_msgs__action__Homing_GetResult_Event__Sequence;
+
+// Constants defined in the message
+
+// Include directives for member types
+// Member 'goal_id'
+// already included above
+// #include "unique_identifier_msgs/msg/detail/uuid__struct.h"
+// Member 'feedback'
+// already included above
+// #include "franka_msgs/action/detail/homing__struct.h"
+
+/// Struct defined in action/Homing in the package franka_msgs.
+typedef struct franka_msgs__action__Homing_FeedbackMessage
+{
+  unique_identifier_msgs__msg__UUID goal_id;
+  franka_msgs__action__Homing_Feedback feedback;
+} franka_msgs__action__Homing_FeedbackMessage;
+
+// Struct for a sequence of franka_msgs__action__Homing_FeedbackMessage.
+typedef struct franka_msgs__action__Homing_FeedbackMessage__Sequence
+{
+  franka_msgs__action__Homing_FeedbackMessage * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} franka_msgs__action__Homing_FeedbackMessage__Sequence;
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // FRANKA_MSGS__ACTION__DETAIL__HOMING__STRUCT_H_

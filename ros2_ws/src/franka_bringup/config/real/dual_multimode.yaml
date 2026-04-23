@@ -1,0 +1,64 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 1000  # Hz
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    panda01_state_broadcaster:
+      type: franka_robot_state_broadcaster/FrankaRobotStateBroadcaster
+    
+    panda01_model_broadcaster:
+      type: franka_robot_state_broadcaster/FrankaRobotModelBroadcaster
+    
+    panda02_state_broadcaster:
+      type: franka_robot_state_broadcaster/FrankaRobotStateBroadcaster
+    
+    panda02_model_broadcaster:
+      type: franka_robot_state_broadcaster/FrankaRobotModelBroadcaster
+
+    real_multi_mode_controller:
+      type: multi_mode_controller/MultiModeController
+
+panda01_state_broadcaster:
+  ros__parameters:
+    arm_id: panda01
+    frequency: 100
+
+panda01_model_broadcaster:
+  ros__parameters:
+    arm_id: panda01
+    frequency: 100
+
+panda02_state_broadcaster:
+  ros__parameters:
+    arm_id: panda02
+    frequency: 100
+
+panda02_model_broadcaster:
+  ros__parameters:
+    arm_id: panda02
+    frequency: 100
+    
+real_multi_mode_controller:
+  ros__parameters:
+    arm_count: 2
+    arm_1:
+      arm_id: panda01
+    arm_2:
+      arm_id: panda02
+    controllers: ["panda_joint_impedance_controller", 
+                  "panda_joint_velocity_controller",
+                  "comless_coupled_dual_cartesian_impedance_controller", 
+                  "dual_cartesian_impedance_controller",
+                  "des_coupled_dual_cartesian_impedance_controller"]
+    resources:
+        comless_coupled_dual_cartesian_impedance_controller: ["panda01&panda02"]
+        dual_cartesian_impedance_controller: ["panda01&panda02"]
+        des_coupled_dual_cartesian_impedance_controller: ["panda01&panda02"]
+        panda_joint_impedance_controller: ["panda01","panda02"]
+        panda_joint_velocity_controller: ["panda01","panda02"]
+    start_controllers:
+        names: ["dual_cartesian_impedance_controller"]
+        resources:
+            dual_cartesian_impedance_controller: ["panda01&panda02"]

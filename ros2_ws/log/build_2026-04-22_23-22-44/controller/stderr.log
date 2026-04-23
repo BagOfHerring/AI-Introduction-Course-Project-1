@@ -1,0 +1,44 @@
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    MUJOCO_DIR
+
+[0m
+[01m[K/home/herring/rzddzy/ros2_ws/src/controller/src/buffer_controller.cpp:[m[K In member function ‘[01m[Kvoid BufferController::[01;32m[KsetTrajectory[m[K(const trajectory_msgs::msg::JointTrajectory&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/controller/src/buffer_controller.cpp:41:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt_cut_rel_new[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   41 |     double [01;35m[Kt_cut_rel_new[m[K = (cutoff_abs - now).seconds(); // 相对于新轨迹
+      |            [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/controller/src/buffer_controller.cpp:[m[K In member function ‘[01m[Kvoid BufferController::[01;32m[Kupdate[m[K(double)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/controller/src/buffer_controller.cpp:170:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  170 |     for (int i = 0; [01;35m[Ki < traj_buffer_.size()[m[K; ++i)
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/controller/src/buffer_controller.cpp:179:13:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  179 |     if ([01;35m[Kidx >= traj_buffer_.size() - 1[m[K || idx < 0)
+      |         [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/controller/src/gbp_mpc_controller.cpp:31[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/install/cplus_dev/include/GBP_classes/factor_node/FNode.h:[m[K In member function ‘[01m[Kvirtual void FNode::[01;32m[Krelin_factor[m[K(const Eigen::VectorXd&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/install/cplus_dev/include/GBP_classes/factor_node/FNode.h:41:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   41 |       virtual void relin_factor([01;35m[Kconst Eigen::VectorXd &v[m[K) {}
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/controller/src/buffer_controller.cpp:[m[K In member function ‘[01m[Kvoid BufferController::[01;32m[KsetTrajectory[m[K(const trajectory_msgs::msg::JointTrajectory&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/controller/src/buffer_controller.cpp:41:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt_cut_rel_new[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   41 |     double [01;35m[Kt_cut_rel_new[m[K = (cutoff_abs - now).seconds(); // 相对于新轨迹
+      |            [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/controller/src/buffer_controller.cpp:[m[K In member function ‘[01m[Kvoid BufferController::[01;32m[Kupdate[m[K(double)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/controller/src/buffer_controller.cpp:170:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  170 |     for (int i = 0; [01;35m[Ki < traj_buffer_.size()[m[K; ++i)
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/controller/src/buffer_controller.cpp:179:13:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  179 |     if ([01;35m[Kidx >= traj_buffer_.size() - 1[m[K || idx < 0)
+      |         [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/controller/src/ssa_controller.cpp:[m[K In member function ‘[01m[KEigen::VectorXd ReactiveSSAController::[01;32m[KcalcObstacleGrad[m[K(double&) const[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/controller/src/ssa_controller.cpp:478:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  478 |             const auto &[01;35m[Kname[m[K = kv.first;
+      |                         [01;35m[K^~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/controller/src/ssa_controller.cpp:529:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KD_soft_adj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  529 |             double [01;35m[KD_soft_adj[m[K = -(1.0 / smooth_alpha_) * (max_w + std::log(std::max(1e-12, Z)));
+      |                    [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/controller/src/ssa_controller.cpp:[m[K At global scope:
+[01m[K/home/herring/rzddzy/ros2_ws/src/controller/src/ssa_controller.cpp:38:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbuiltin_interfaces::msg::Duration[01;32m[K make_duration[m[K(double)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+   38 | static builtin_interfaces::msg::Duration [01;35m[Kmake_duration[m[K(double seconds) {
+      |                                          [01;35m[K^~~~~~~~~~~~~[m[K

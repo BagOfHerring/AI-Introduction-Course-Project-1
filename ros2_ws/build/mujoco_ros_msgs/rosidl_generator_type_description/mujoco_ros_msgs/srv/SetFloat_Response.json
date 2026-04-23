@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "mujoco_ros_msgs/srv/SetFloat_Response",
+      "fields": [
+        {
+          "name": "success",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "mujoco_ros_msgs/srv/SetFloat_Response",
+      "hash_string": "RIHS01_42b6eea1fe24efba412c9fd1de2690c41cc0b875b9f5074f5cfe3aab0a44200b"
+    }
+  ]
+}

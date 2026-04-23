@@ -1,0 +1,288 @@
+[0.000000] (-) TimerEvent: {}
+[0.000210] (-) JobUnselected: {'identifier': 'controller'}
+[0.000267] (-) JobUnselected: {'identifier': 'cplus_dev'}
+[0.000336] (-) JobUnselected: {'identifier': 'franka_bringup'}
+[0.000450] (-) JobUnselected: {'identifier': 'franka_description'}
+[0.000524] (-) JobUnselected: {'identifier': 'franka_example_controllers'}
+[0.000583] (-) JobUnselected: {'identifier': 'franka_hardware'}
+[0.000632] (-) JobUnselected: {'identifier': 'franka_msgs'}
+[0.000650] (-) JobUnselected: {'identifier': 'franka_robot_state_broadcaster'}
+[0.000666] (-) JobUnselected: {'identifier': 'franka_semantic_components'}
+[0.000680] (-) JobUnselected: {'identifier': 'mujoco_ros2_control'}
+[0.000805] (-) JobUnselected: {'identifier': 'mujoco_ros2_control_system'}
+[0.000822] (-) JobUnselected: {'identifier': 'mujoco_ros2_dummy_plugin'}
+[0.000837] (-) JobUnselected: {'identifier': 'mujoco_ros2_sensors'}
+[0.000852] (-) JobUnselected: {'identifier': 'mujoco_ros_msgs'}
+[0.000936] (-) JobUnselected: {'identifier': 'mujoco_ros_pkgs'}
+[0.000952] (-) JobUnselected: {'identifier': 'multi_mode_control_msgs'}
+[0.000967] (-) JobUnselected: {'identifier': 'multi_mode_controller'}
+[0.001110] (-) JobUnselected: {'identifier': 'multi_mode_controller_impl'}
+[0.001146] (-) JobUnselected: {'identifier': 'panda_motion_generator_msgs'}
+[0.001172] (-) JobUnselected: {'identifier': 'panda_motion_generators'}
+[0.001216] (mujoco_ros) JobQueued: {'identifier': 'mujoco_ros', 'dependencies': OrderedDict({'mujoco_ros_msgs': '/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs'})}
+[0.001240] (mujoco_ros) JobStarted: {'identifier': 'mujoco_ros'}
+[0.009138] (mujoco_ros) JobProgress: {'identifier': 'mujoco_ros', 'progress': 'cmake'}
+[0.009413] (mujoco_ros) JobProgress: {'identifier': 'mujoco_ros', 'progress': 'build'}
+[0.009749] (mujoco_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/herring/rzddzy/ros2_ws/build/mujoco_ros', '--', '-j28', '-l28'], 'cwd': '/home/herring/rzddzy/ros2_ws/build/mujoco_ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en', 'USER': 'herring', 'LC_TIME': 'en_US.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/antigravity/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib:/home/herring/rzddzy/ros2_ws/install/panda_motion_generators/lib:/home/herring/rzddzy/ros2_ws/install/panda_motion_generator_msgs/lib:/home/herring/rzddzy/ros2_ws/install/multi_mode_controller_impl/lib:/home/herring/rzddzy/ros2_ws/install/multi_mode_controller/lib:/home/herring/rzddzy/ros2_ws/install/franka_example_controllers/lib:/home/herring/rzddzy/ros2_ws/install/multi_mode_control_msgs/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_sensors/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_dummy_plugin/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control_system/lib:/home/herring/rzddzy/ros2_ws/install/franka_robot_state_broadcaster/lib:/home/herring/rzddzy/ros2_ws/install/franka_semantic_components/lib:/home/herring/rzddzy/ros2_ws/install/franka_hardware/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros/lib:/home/herring/rzddzy/ros2_ws/install/franka_msgs/lib:/home/herring/rzddzy/ros2_ws/install/cplus_dev/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'ANTIGRAVITY_CLI_ALIAS': 'agy', 'HOME': '/home/herring', 'CHROME_DESKTOP': 'antigravity.desktop', 'OLDPWD': '/home/herring/rzddzy', 'TERM_PROGRAM_VERSION': '1.107.0', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/herring/.nvm/versions/node/v20.20.1/bin', 'NVM_INC': '/home/herring/.nvm/versions/node/v20.20.1/include/node', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/antigravity.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'PAGER': 'cat', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/antigravity/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/antigravity/antigravity', 'MANAGERPID': '3283', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3503', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=3ac6b4a3aea7228a0bc8869669e8d52f', 'COLORTERM': 'truecolor', 'ANTIGRAVITY_AGENT': '1', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '33473', 'NVM_DIR': '/home/herring/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/herring/rzddzy/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'herring', 'JOURNAL_STREAM': '8:36915', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'herring', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/herring/.nvm/versions/node/v20.20.1/bin:/home/herring/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/herring-Legion-Y7000P-IRX9:@/tmp/.ICE-unix/3503,unix/herring-Legion-Y7000P-IRX9:/tmp/.ICE-unix/3503', 'INVOCATION_ID': '8f1c619cfb9e4af8b5d35883a85ec75e', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.K5LGO3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-7aa077df61.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/herring/rzddzy/ros2_ws/install/panda_motion_generators:/home/herring/rzddzy/ros2_ws/install/panda_motion_generator_msgs:/home/herring/rzddzy/ros2_ws/install/franka_bringup:/home/herring/rzddzy/ros2_ws/install/multi_mode_controller_impl:/home/herring/rzddzy/ros2_ws/install/multi_mode_controller:/home/herring/rzddzy/ros2_ws/install/franka_example_controllers:/home/herring/rzddzy/ros2_ws/install/multi_mode_control_msgs:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_pkgs:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_sensors:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_dummy_plugin:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control_system:/home/herring/rzddzy/ros2_ws/install/franka_robot_state_broadcaster:/home/herring/rzddzy/ros2_ws/install/franka_semantic_components:/home/herring/rzddzy/ros2_ws/install/franka_hardware:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control:/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:/home/herring/rzddzy/ros2_ws/install/franka_msgs:/home/herring/rzddzy/ros2_ws/install/franka_description:/home/herring/rzddzy/ros2_ws/install/controller:/home/herring/rzddzy/ros2_ws/install/cplus_dev:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/herring/rzddzy/ros2_ws/build/mujoco_ros', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'xim', 'NVM_CD_FLAGS': '', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=3ac6b4a3aea7228a0bc8869669e8d52f', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/ros2_ws/install/panda_motion_generator_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/ros2_ws/install/multi_mode_control_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/ros2_ws/install/franka_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:/home/herring/rzddzy/ros2_ws/install/panda_motion_generators:/home/herring/rzddzy/ros2_ws/install/panda_motion_generator_msgs:/home/herring/rzddzy/ros2_ws/install/franka_bringup:/home/herring/rzddzy/ros2_ws/install/multi_mode_controller_impl:/home/herring/rzddzy/ros2_ws/install/multi_mode_controller:/home/herring/rzddzy/ros2_ws/install/franka_example_controllers:/home/herring/rzddzy/ros2_ws/install/multi_mode_control_msgs:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_pkgs:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_sensors:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_dummy_plugin:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control_system:/home/herring/rzddzy/ros2_ws/install/franka_robot_state_broadcaster:/home/herring/rzddzy/ros2_ws/install/franka_semantic_components:/home/herring/rzddzy/ros2_ws/install/franka_hardware:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control:/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/franka_msgs:/home/herring/rzddzy/ros2_ws/install/franka_description:/home/herring/rzddzy/ros2_ws/install/controller:/home/herring/rzddzy/ros2_ws/install/cplus_dev:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.051934] (mujoco_ros) StdoutLine: {'line': b'[  5%] Built target lodepng\n'}
+[0.052988] (mujoco_ros) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating include/mujoco_ros/render_backend.hpp, always_rebuild_backend\x1b[0m\n'}
+[0.053440] (mujoco_ros) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating include/mujoco_ros/ros_version.hpp, always_rebuild_ros\x1b[0m\n'}
+[0.071047] (mujoco_ros) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating ROS version header\x1b[0m\n'}
+[0.074111] (mujoco_ros) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating render backend header\x1b[0m\n'}
+[0.079366] (mujoco_ros) StdoutLine: {'line': b'[ 25%] Built target ros_version_h\n'}
+[0.080218] (mujoco_ros) StdoutLine: {'line': b'[ 25%] Built target render_backend_h\n'}
+[0.100035] (-) TimerEvent: {}
+[0.138261] (mujoco_ros) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/main.cpp.o\x1b[0m\n'}
+[0.143019] (mujoco_ros) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/ros_two/parameter_interface.cpp.o\x1b[0m\n'}
+[0.143212] (mujoco_ros) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/ros_two/ros_api.cpp.o\x1b[0m\n'}
+[0.143303] (mujoco_ros) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/mujoco_env.cpp.o\x1b[0m\n'}
+[0.143405] (mujoco_ros) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/interface.cpp.o\x1b[0m\n'}
+[0.143787] (mujoco_ros) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/ros_two/plugin_utils.cpp.o\x1b[0m\n'}
+[0.145051] (mujoco_ros) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/physics.cpp.o\x1b[0m\n'}
+[0.145873] (mujoco_ros) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/threading.cpp.o\x1b[0m\n'}
+[0.146848] (mujoco_ros) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/loading.cpp.o\x1b[0m\n'}
+[0.147831] (mujoco_ros) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/offscreen_rendering.cpp.o\x1b[0m\n'}
+[0.149957] (mujoco_ros) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/offscreen_camera.cpp.o\x1b[0m\n'}
+[0.151565] (mujoco_ros) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/viewer.cpp.o\x1b[0m\n'}
+[0.200228] (-) TimerEvent: {}
+[0.300478] (-) TimerEvent: {}
+[0.400732] (-) TimerEvent: {}
+[0.500987] (-) TimerEvent: {}
+[0.601241] (-) TimerEvent: {}
+[0.701485] (-) TimerEvent: {}
+[0.801780] (-) TimerEvent: {}
+[0.902074] (-) TimerEvent: {}
+[1.002369] (-) TimerEvent: {}
+[1.102793] (-) TimerEvent: {}
+[1.203221] (-) TimerEvent: {}
+[1.303642] (-) TimerEvent: {}
+[1.403992] (-) TimerEvent: {}
+[1.504348] (-) TimerEvent: {}
+[1.604716] (-) TimerEvent: {}
+[1.705090] (-) TimerEvent: {}
+[1.805504] (-) TimerEvent: {}
+[1.905882] (-) TimerEvent: {}
+[2.006217] (-) TimerEvent: {}
+[2.106630] (-) TimerEvent: {}
+[2.207027] (-) TimerEvent: {}
+[2.308955] (-) TimerEvent: {}
+[2.409409] (-) TimerEvent: {}
+[2.509785] (-) TimerEvent: {}
+[2.610159] (-) TimerEvent: {}
+[2.710610] (-) TimerEvent: {}
+[2.810974] (-) TimerEvent: {}
+[2.911333] (-) TimerEvent: {}
+[3.011727] (-) TimerEvent: {}
+[3.112109] (-) TimerEvent: {}
+[3.212469] (-) TimerEvent: {}
+[3.312823] (-) TimerEvent: {}
+[3.413319] (-) TimerEvent: {}
+[3.513660] (-) TimerEvent: {}
+[3.614021] (-) TimerEvent: {}
+[3.714391] (-) TimerEvent: {}
+[3.814762] (-) TimerEvent: {}
+[3.915138] (-) TimerEvent: {}
+[4.015645] (-) TimerEvent: {}
+[4.116007] (-) TimerEvent: {}
+[4.216429] (-) TimerEvent: {}
+[4.316807] (-) TimerEvent: {}
+[4.417155] (-) TimerEvent: {}
+[4.517509] (-) TimerEvent: {}
+[4.617889] (-) TimerEvent: {}
+[4.718386] (-) TimerEvent: {}
+[4.818780] (-) TimerEvent: {}
+[4.919174] (-) TimerEvent: {}
+[5.019591] (-) TimerEvent: {}
+[5.119992] (-) TimerEvent: {}
+[5.220404] (-) TimerEvent: {}
+[5.320784] (-) TimerEvent: {}
+[5.421188] (-) TimerEvent: {}
+[5.521614] (-) TimerEvent: {}
+[5.621972] (-) TimerEvent: {}
+[5.722348] (-) TimerEvent: {}
+[5.822683] (-) TimerEvent: {}
+[5.922986] (-) TimerEvent: {}
+[6.023372] (-) TimerEvent: {}
+[6.123753] (-) TimerEvent: {}
+[6.224140] (-) TimerEvent: {}
+[6.324611] (-) TimerEvent: {}
+[6.424992] (-) TimerEvent: {}
+[6.525309] (-) TimerEvent: {}
+[6.625641] (-) TimerEvent: {}
+[6.726025] (-) TimerEvent: {}
+[6.826397] (-) TimerEvent: {}
+[6.926743] (-) TimerEvent: {}
+[7.027066] (-) TimerEvent: {}
+[7.127385] (-) TimerEvent: {}
+[7.227700] (-) TimerEvent: {}
+[7.328053] (-) TimerEvent: {}
+[7.428434] (-) TimerEvent: {}
+[7.528780] (-) TimerEvent: {}
+[7.629130] (-) TimerEvent: {}
+[7.729488] (-) TimerEvent: {}
+[7.829843] (-) TimerEvent: {}
+[7.930161] (-) TimerEvent: {}
+[8.030509] (-) TimerEvent: {}
+[8.130882] (-) TimerEvent: {}
+[8.231276] (-) TimerEvent: {}
+[8.331677] (-) TimerEvent: {}
+[8.432043] (-) TimerEvent: {}
+[8.532406] (-) TimerEvent: {}
+[8.632819] (-) TimerEvent: {}
+[8.733158] (-) TimerEvent: {}
+[8.833474] (-) TimerEvent: {}
+[8.933765] (-) TimerEvent: {}
+[9.034137] (-) TimerEvent: {}
+[9.134633] (-) TimerEvent: {}
+[9.234949] (-) TimerEvent: {}
+[9.335376] (-) TimerEvent: {}
+[9.435851] (-) TimerEvent: {}
+[9.536156] (-) TimerEvent: {}
+[9.636497] (-) TimerEvent: {}
+[9.736804] (-) TimerEvent: {}
+[9.837076] (-) TimerEvent: {}
+[9.937426] (-) TimerEvent: {}
+[10.037877] (-) TimerEvent: {}
+[10.138303] (-) TimerEvent: {}
+[10.238643] (-) TimerEvent: {}
+[10.339037] (-) TimerEvent: {}
+[10.439443] (-) TimerEvent: {}
+[10.539751] (-) TimerEvent: {}
+[10.640012] (-) TimerEvent: {}
+[10.740369] (-) TimerEvent: {}
+[10.840723] (-) TimerEvent: {}
+[10.941054] (-) TimerEvent: {}
+[11.041304] (-) TimerEvent: {}
+[11.141677] (-) TimerEvent: {}
+[11.242089] (-) TimerEvent: {}
+[11.342493] (-) TimerEvent: {}
+[11.442889] (-) TimerEvent: {}
+[11.543300] (-) TimerEvent: {}
+[11.643709] (-) TimerEvent: {}
+[11.744143] (-) TimerEvent: {}
+[11.844510] (-) TimerEvent: {}
+[11.944802] (-) TimerEvent: {}
+[12.045194] (-) TimerEvent: {}
+[12.145627] (-) TimerEvent: {}
+[12.246004] (-) TimerEvent: {}
+[12.346410] (-) TimerEvent: {}
+[12.446900] (-) TimerEvent: {}
+[12.547305] (-) TimerEvent: {}
+[12.647769] (-) TimerEvent: {}
+[12.748094] (-) TimerEvent: {}
+[12.848497] (-) TimerEvent: {}
+[12.948902] (-) TimerEvent: {}
+[13.049207] (-) TimerEvent: {}
+[13.149519] (-) TimerEvent: {}
+[13.249797] (-) TimerEvent: {}
+[13.350111] (-) TimerEvent: {}
+[13.450563] (-) TimerEvent: {}
+[13.550848] (-) TimerEvent: {}
+[13.651116] (-) TimerEvent: {}
+[13.751492] (-) TimerEvent: {}
+[13.851877] (-) TimerEvent: {}
+[13.952250] (-) TimerEvent: {}
+[14.052654] (-) TimerEvent: {}
+[14.152976] (-) TimerEvent: {}
+[14.253258] (-) TimerEvent: {}
+[14.353605] (-) TimerEvent: {}
+[14.453900] (-) TimerEvent: {}
+[14.554268] (-) TimerEvent: {}
+[14.654592] (-) TimerEvent: {}
+[14.754863] (-) TimerEvent: {}
+[14.855248] (-) TimerEvent: {}
+[14.955677] (-) TimerEvent: {}
+[15.055971] (-) TimerEvent: {}
+[15.156399] (-) TimerEvent: {}
+[15.256753] (-) TimerEvent: {}
+[15.357084] (-) TimerEvent: {}
+[15.457488] (-) TimerEvent: {}
+[15.557766] (-) TimerEvent: {}
+[15.658136] (-) TimerEvent: {}
+[15.758635] (-) TimerEvent: {}
+[15.857551] (mujoco_ros) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX shared library libmujoco_ros.so\x1b[0m\n'}
+[15.858705] (-) TimerEvent: {}
+[15.942880] (mujoco_ros) StdoutLine: {'line': b'[ 90%] Built target mujoco_ros\n'}
+[15.958835] (-) TimerEvent: {}
+[15.977950] (mujoco_ros) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object src/CMakeFiles/mujoco_node.dir/main.cpp.o\x1b[0m\n'}
+[16.059092] (-) TimerEvent: {}
+[16.159469] (-) TimerEvent: {}
+[16.259788] (-) TimerEvent: {}
+[16.360110] (-) TimerEvent: {}
+[16.460547] (-) TimerEvent: {}
+[16.560827] (-) TimerEvent: {}
+[16.661138] (-) TimerEvent: {}
+[16.761427] (-) TimerEvent: {}
+[16.861687] (-) TimerEvent: {}
+[16.962064] (-) TimerEvent: {}
+[17.062344] (-) TimerEvent: {}
+[17.162641] (-) TimerEvent: {}
+[17.262890] (-) TimerEvent: {}
+[17.363205] (-) TimerEvent: {}
+[17.463512] (-) TimerEvent: {}
+[17.563837] (-) TimerEvent: {}
+[17.664088] (-) TimerEvent: {}
+[17.764350] (-) TimerEvent: {}
+[17.864650] (-) TimerEvent: {}
+[17.964992] (-) TimerEvent: {}
+[18.065234] (-) TimerEvent: {}
+[18.165625] (-) TimerEvent: {}
+[18.265922] (-) TimerEvent: {}
+[18.366169] (-) TimerEvent: {}
+[18.466517] (-) TimerEvent: {}
+[18.566774] (-) TimerEvent: {}
+[18.667063] (-) TimerEvent: {}
+[18.767725] (-) TimerEvent: {}
+[18.867945] (-) TimerEvent: {}
+[18.896994] (mujoco_ros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable mujoco_node\x1b[0m\n'}
+[18.948707] (mujoco_ros) StdoutLine: {'line': b'[100%] Built target mujoco_node\n'}
+[18.956245] (mujoco_ros) CommandEnded: {'returncode': 0}
+[18.956809] (mujoco_ros) JobProgress: {'identifier': 'mujoco_ros', 'progress': 'install'}
+[18.962657] (mujoco_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/herring/rzddzy/ros2_ws/build/mujoco_ros'], 'cwd': '/home/herring/rzddzy/ros2_ws/build/mujoco_ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en', 'USER': 'herring', 'LC_TIME': 'en_US.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/antigravity/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib:/home/herring/rzddzy/ros2_ws/install/panda_motion_generators/lib:/home/herring/rzddzy/ros2_ws/install/panda_motion_generator_msgs/lib:/home/herring/rzddzy/ros2_ws/install/multi_mode_controller_impl/lib:/home/herring/rzddzy/ros2_ws/install/multi_mode_controller/lib:/home/herring/rzddzy/ros2_ws/install/franka_example_controllers/lib:/home/herring/rzddzy/ros2_ws/install/multi_mode_control_msgs/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_sensors/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_dummy_plugin/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control_system/lib:/home/herring/rzddzy/ros2_ws/install/franka_robot_state_broadcaster/lib:/home/herring/rzddzy/ros2_ws/install/franka_semantic_components/lib:/home/herring/rzddzy/ros2_ws/install/franka_hardware/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros/lib:/home/herring/rzddzy/ros2_ws/install/franka_msgs/lib:/home/herring/rzddzy/ros2_ws/install/cplus_dev/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'ANTIGRAVITY_CLI_ALIAS': 'agy', 'HOME': '/home/herring', 'CHROME_DESKTOP': 'antigravity.desktop', 'OLDPWD': '/home/herring/rzddzy', 'TERM_PROGRAM_VERSION': '1.107.0', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/herring/.nvm/versions/node/v20.20.1/bin', 'NVM_INC': '/home/herring/.nvm/versions/node/v20.20.1/include/node', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/antigravity.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'PAGER': 'cat', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/antigravity/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/antigravity/antigravity', 'MANAGERPID': '3283', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3503', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=3ac6b4a3aea7228a0bc8869669e8d52f', 'COLORTERM': 'truecolor', 'ANTIGRAVITY_AGENT': '1', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '33473', 'NVM_DIR': '/home/herring/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/herring/rzddzy/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'herring', 'JOURNAL_STREAM': '8:36915', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'herring', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/herring/.nvm/versions/node/v20.20.1/bin:/home/herring/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/herring-Legion-Y7000P-IRX9:@/tmp/.ICE-unix/3503,unix/herring-Legion-Y7000P-IRX9:/tmp/.ICE-unix/3503', 'INVOCATION_ID': '8f1c619cfb9e4af8b5d35883a85ec75e', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.K5LGO3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-7aa077df61.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/herring/rzddzy/ros2_ws/install/panda_motion_generators:/home/herring/rzddzy/ros2_ws/install/panda_motion_generator_msgs:/home/herring/rzddzy/ros2_ws/install/franka_bringup:/home/herring/rzddzy/ros2_ws/install/multi_mode_controller_impl:/home/herring/rzddzy/ros2_ws/install/multi_mode_controller:/home/herring/rzddzy/ros2_ws/install/franka_example_controllers:/home/herring/rzddzy/ros2_ws/install/multi_mode_control_msgs:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_pkgs:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_sensors:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_dummy_plugin:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control_system:/home/herring/rzddzy/ros2_ws/install/franka_robot_state_broadcaster:/home/herring/rzddzy/ros2_ws/install/franka_semantic_components:/home/herring/rzddzy/ros2_ws/install/franka_hardware:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control:/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:/home/herring/rzddzy/ros2_ws/install/franka_msgs:/home/herring/rzddzy/ros2_ws/install/franka_description:/home/herring/rzddzy/ros2_ws/install/controller:/home/herring/rzddzy/ros2_ws/install/cplus_dev:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/herring/rzddzy/ros2_ws/build/mujoco_ros', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'xim', 'NVM_CD_FLAGS': '', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=3ac6b4a3aea7228a0bc8869669e8d52f', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/ros2_ws/install/panda_motion_generator_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/ros2_ws/install/multi_mode_control_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/ros2_ws/install/franka_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:/home/herring/rzddzy/ros2_ws/install/panda_motion_generators:/home/herring/rzddzy/ros2_ws/install/panda_motion_generator_msgs:/home/herring/rzddzy/ros2_ws/install/franka_bringup:/home/herring/rzddzy/ros2_ws/install/multi_mode_controller_impl:/home/herring/rzddzy/ros2_ws/install/multi_mode_controller:/home/herring/rzddzy/ros2_ws/install/franka_example_controllers:/home/herring/rzddzy/ros2_ws/install/multi_mode_control_msgs:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_pkgs:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_sensors:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_dummy_plugin:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control_system:/home/herring/rzddzy/ros2_ws/install/franka_robot_state_broadcaster:/home/herring/rzddzy/ros2_ws/install/franka_semantic_components:/home/herring/rzddzy/ros2_ws/install/franka_hardware:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control:/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/franka_msgs:/home/herring/rzddzy/ros2_ws/install/franka_description:/home/herring/rzddzy/ros2_ws/install/controller:/home/herring/rzddzy/ros2_ws/install/cplus_dev:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[18.968097] (-) TimerEvent: {}
+[18.968275] (mujoco_ros) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[18.968394] (mujoco_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[18.968585] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/include/mujoco_ros/render_backend.hpp\n'}
+[18.968665] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/include/mujoco_ros/ros_version.hpp\n'}
+[18.968865] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/include//mujoco_ros/array_safety.h\n'}
+[18.968953] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/include//mujoco_ros/common_types.hpp\n'}
+[18.969034] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/include//mujoco_ros/glfw_adapter.h\n'}
+[18.969123] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/include//mujoco_ros/glfw_dispatch.h\n'}
+[18.969210] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/include//mujoco_ros/lodepng.h\n'}
+[18.969291] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/include//mujoco_ros/logging.hpp\n'}
+[18.969378] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/include//mujoco_ros/mujoco_env.hpp\n'}
+[18.969462] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/include//mujoco_ros/offscreen_camera.hpp\n'}
+[18.969534] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/include//mujoco_ros/platform_ui_adapter.h\n'}
+[18.969620] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/include//mujoco_ros/ros_one/plugin_utils.hpp\n'}
+[18.969698] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/include//mujoco_ros/ros_one/ros_api.hpp\n'}
+[18.969775] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/include//mujoco_ros/ros_two/plugin_utils.hpp\n'}
+[18.969855] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/include//mujoco_ros/ros_two/ros_api.hpp\n'}
+[18.969933] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/include//mujoco_ros/util.hpp\n'}
+[18.970011] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/include//mujoco_ros/viewer.hpp\n'}
+[18.970087] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/mujoco_ros/launch/launch_server.launch\n'}
+[18.970165] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/mujoco_ros/config/initial_joint_states.yaml\n'}
+[18.970240] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/mujoco_ros/config/rosconsole.config\n'}
+[18.970316] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/mujoco_ros/assets/pendulum_world.xml\n'}
+[18.970393] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/lib/mujoco_ros/mujoco_node\n'}
+[18.970495] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/ament_index/resource_index/package_run_dependencies/mujoco_ros\n'}
+[18.970564] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/ament_index/resource_index/parent_prefix_path/mujoco_ros\n'}
+[18.970628] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/mujoco_ros/environment/ament_prefix_path.sh\n'}
+[18.970704] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/mujoco_ros/environment/ament_prefix_path.dsv\n'}
+[18.970792] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/mujoco_ros/environment/path.sh\n'}
+[18.970868] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/mujoco_ros/environment/path.dsv\n'}
+[18.970930] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/mujoco_ros/local_setup.bash\n'}
+[18.970992] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/mujoco_ros/local_setup.sh\n'}
+[18.971054] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/mujoco_ros/local_setup.zsh\n'}
+[18.971121] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/mujoco_ros/local_setup.dsv\n'}
+[18.971183] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/mujoco_ros/package.dsv\n'}
+[18.977187] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/ament_index/resource_index/packages/mujoco_ros\n'}
+[18.977304] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/mujoco_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[18.977388] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/mujoco_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[18.977459] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/mujoco_ros/cmake/mujoco_rosConfig.cmake\n'}
+[18.977542] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/mujoco_ros/cmake/mujoco_rosConfig-version.cmake\n'}
+[18.977606] (mujoco_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/mujoco_ros/package.xml\n'}
+[18.977669] (mujoco_ros) StdoutLine: {'line': b'-- Installing: /home/herring/rzddzy/ros2_ws/install/mujoco_ros/lib/libmujoco_ros.so\n'}
+[18.979620] (mujoco_ros) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/herring/rzddzy/ros2_ws/install/mujoco_ros/lib/libmujoco_ros.so" to ""\n'}
+[18.980691] (mujoco_ros) CommandEnded: {'returncode': 0}
+[18.989502] (mujoco_ros) JobEnded: {'identifier': 'mujoco_ros', 'rc': 0}
+[18.990019] (-) EventReactorShutdown: {}

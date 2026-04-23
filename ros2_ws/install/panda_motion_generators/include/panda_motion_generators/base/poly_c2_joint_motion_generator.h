@@ -1,0 +1,1 @@
+/home/herring/rzddzy/ros2_ws/src/panda_motion_generators/include/panda_motion_generators/base/poly_c2_joint_motion_generator.h

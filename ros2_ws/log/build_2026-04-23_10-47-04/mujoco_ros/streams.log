@@ -1,0 +1,78 @@
+[0.009s] Invoking command in '/home/herring/rzddzy/ros2_ws/build/mujoco_ros': CMAKE_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:/home/herring/rzddzy/ros2_ws/install/panda_motion_generators:/home/herring/rzddzy/ros2_ws/install/panda_motion_generator_msgs:/home/herring/rzddzy/ros2_ws/install/franka_bringup:/home/herring/rzddzy/ros2_ws/install/multi_mode_controller_impl:/home/herring/rzddzy/ros2_ws/install/multi_mode_controller:/home/herring/rzddzy/ros2_ws/install/franka_example_controllers:/home/herring/rzddzy/ros2_ws/install/multi_mode_control_msgs:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_pkgs:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_sensors:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_dummy_plugin:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control_system:/home/herring/rzddzy/ros2_ws/install/franka_robot_state_broadcaster:/home/herring/rzddzy/ros2_ws/install/franka_semantic_components:/home/herring/rzddzy/ros2_ws/install/franka_hardware:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control:/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/franka_msgs:/home/herring/rzddzy/ros2_ws/install/franka_description:/home/herring/rzddzy/ros2_ws/install/controller:/home/herring/rzddzy/ros2_ws/install/cplus_dev:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib:/home/herring/rzddzy/ros2_ws/install/panda_motion_generators/lib:/home/herring/rzddzy/ros2_ws/install/panda_motion_generator_msgs/lib:/home/herring/rzddzy/ros2_ws/install/multi_mode_controller_impl/lib:/home/herring/rzddzy/ros2_ws/install/multi_mode_controller/lib:/home/herring/rzddzy/ros2_ws/install/franka_example_controllers/lib:/home/herring/rzddzy/ros2_ws/install/multi_mode_control_msgs/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_sensors/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_dummy_plugin/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control_system/lib:/home/herring/rzddzy/ros2_ws/install/franka_robot_state_broadcaster/lib:/home/herring/rzddzy/ros2_ws/install/franka_semantic_components/lib:/home/herring/rzddzy/ros2_ws/install/franka_hardware/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros/lib:/home/herring/rzddzy/ros2_ws/install/franka_msgs/lib:/home/herring/rzddzy/ros2_ws/install/cplus_dev/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/ros2_ws/install/panda_motion_generator_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/ros2_ws/install/multi_mode_control_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/ros2_ws/install/franka_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/herring/rzddzy/ros2_ws/install/mujoco_ros
+[0.055s] -- The C compiler identification is GNU 13.3.0
+[0.100s] -- The CXX compiler identification is GNU 13.3.0
+[0.117s] -- Detecting C compiler ABI info
+[0.198s] -- Detecting C compiler ABI info - done
+[0.204s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.205s] -- Detecting C compile features
+[0.205s] -- Detecting C compile features - done
+[0.214s] -- Detecting CXX compiler ABI info
+[0.302s] -- Detecting CXX compiler ABI info - done
+[0.311s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.311s] -- Detecting CXX compile features
+[0.312s] -- Detecting CXX compile features - done
+[0.312s] -- CMAKE_BUILD_TYPE not set. Defaulting to 'Release'.
+[0.318s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.435s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.484s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.518s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.552s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.562s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.575s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.588s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.645s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.648s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.738s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.756s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.777s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.853s] -- Found rclcpp_lifecycle: 28.1.16 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[0.884s] -- Found pluginlib: 5.4.4 (/opt/ros/jazzy/share/pluginlib/cmake)
+[0.907s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: program_options 
+[0.911s] -- Found tf2: 0.36.19 (/opt/ros/jazzy/share/tf2/cmake)
+[0.942s] -- Found tf2_ros: 0.36.19 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.036s] -- Found image_transport: 5.1.7 (/opt/ros/jazzy/share/image_transport/cmake)
+[1.059s] -- Found camera_info_manager: 5.1.7 (/opt/ros/jazzy/share/camera_info_manager/cmake)
+[1.065s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[1.071s] -- Found tf2_geometry_msgs: 0.36.19 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[1.085s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.086s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.086s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.087s] -- Found mujoco_ros_msgs: 0.9.0 (/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake)
+[1.091s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/actionlib_msgs/cmake/actionlib_msgsConfig.cmake:31 (message):
+[1.091s]   Package 'actionlib_msgs' is deprecated (This package will be removed in a
+[1.091s]   future ROS distro, once the ROS 1 bridge supports actions.)
+[1.091s] Call Stack (most recent call first):
+[1.091s]   /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.091s]   /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/mujoco_ros_msgsConfig.cmake:41 (include)
+[1.091s]   CMakeLists.txt:62 (find_package)
+[1.091s] 
+[1.091s] [0m
+[1.135s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[1.153s] -- Can't identify catkin workspace root directory, neither did user provide one, using default config
+[1.154s] [33mCMake Warning at cmake/CompilerCache.cmake:33 (message):
+[1.154s]   ccache is enabled but was not found.  Not using it
+[1.154s] Call Stack (most recent call first):
+[1.154s]   cmake/CompilerCache.cmake:44 (_configure_ccache)
+[1.154s]   cmake/CompilerCache.cmake:44 (cmake_language)
+[1.154s]   cmake/ProjectOption.cmake:61 (configure_compiler_cache)
+[1.154s]   CMakeLists.txt:70 (configure_project_option)
+[1.154s] 
+[1.154s] [0m
+[1.154s] -- Performing Test CAN_BUILD_AVX
+[1.418s] -- Performing Test CAN_BUILD_AVX - Success
+[1.418s] -- Performing Test SUPPORTS_LLD
+[1.492s] -- Performing Test SUPPORTS_LLD - Failed
+[1.492s] -- Performing Test SUPPORTS_GOLD
+[1.583s] -- Performing Test SUPPORTS_GOLD - Success
+[1.584s] -- Performing Test SUPPORTS_GC_SECTIONS
+[1.672s] -- Performing Test SUPPORTS_GC_SECTIONS - Success
+[1.680s] -- Looking for MuJoCo tar install ...
+[1.690s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.691s] -- Configuring incomplete, errors occurred!
+[1.691s] [31mCMake Error at cmake/Findmujoco.cmake:50 (message):
+[1.691s]   Failed to find mujoco (MUJOCO_DIR=)
+[1.691s] Call Stack (most recent call first):
+[1.691s]   CMakeLists.txt:90 (find_package)
+[1.691s] 
+[1.691s] [0m
+[1.698s] Invoked command in '/home/herring/rzddzy/ros2_ws/build/mujoco_ros' returned '1': CMAKE_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:/home/herring/rzddzy/ros2_ws/install/panda_motion_generators:/home/herring/rzddzy/ros2_ws/install/panda_motion_generator_msgs:/home/herring/rzddzy/ros2_ws/install/franka_bringup:/home/herring/rzddzy/ros2_ws/install/multi_mode_controller_impl:/home/herring/rzddzy/ros2_ws/install/multi_mode_controller:/home/herring/rzddzy/ros2_ws/install/franka_example_controllers:/home/herring/rzddzy/ros2_ws/install/multi_mode_control_msgs:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_pkgs:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_sensors:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_dummy_plugin:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control_system:/home/herring/rzddzy/ros2_ws/install/franka_robot_state_broadcaster:/home/herring/rzddzy/ros2_ws/install/franka_semantic_components:/home/herring/rzddzy/ros2_ws/install/franka_hardware:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control:/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/franka_msgs:/home/herring/rzddzy/ros2_ws/install/franka_description:/home/herring/rzddzy/ros2_ws/install/controller:/home/herring/rzddzy/ros2_ws/install/cplus_dev:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib:/home/herring/rzddzy/ros2_ws/install/panda_motion_generators/lib:/home/herring/rzddzy/ros2_ws/install/panda_motion_generator_msgs/lib:/home/herring/rzddzy/ros2_ws/install/multi_mode_controller_impl/lib:/home/herring/rzddzy/ros2_ws/install/multi_mode_controller/lib:/home/herring/rzddzy/ros2_ws/install/franka_example_controllers/lib:/home/herring/rzddzy/ros2_ws/install/multi_mode_control_msgs/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_sensors/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_dummy_plugin/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control_system/lib:/home/herring/rzddzy/ros2_ws/install/franka_robot_state_broadcaster/lib:/home/herring/rzddzy/ros2_ws/install/franka_semantic_components/lib:/home/herring/rzddzy/ros2_ws/install/franka_hardware/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros/lib:/home/herring/rzddzy/ros2_ws/install/franka_msgs/lib:/home/herring/rzddzy/ros2_ws/install/cplus_dev/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/ros2_ws/install/panda_motion_generator_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/ros2_ws/install/multi_mode_control_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/ros2_ws/install/franka_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/herring/rzddzy/ros2_ws/install/mujoco_ros

@@ -1,0 +1,46 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "franka_msgs/srv/SetLoad_Request",
+      "fields": [
+        {
+          "name": "mass",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "center_of_mass",
+          "type": {
+            "type_id": 59,
+            "capacity": 3,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "load_inertia",
+          "type": {
+            "type_id": 59,
+            "capacity": 9,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "franka_msgs/srv/SetLoad_Request",
+      "hash_string": "RIHS01_6cfce02533677dd1fc9d8d242d0777a57d4785ff8f50123e5021aee675f732f5"
+    }
+  ]
+}

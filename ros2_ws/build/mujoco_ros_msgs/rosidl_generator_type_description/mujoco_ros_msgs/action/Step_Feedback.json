@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "mujoco_ros_msgs/action/Step_Feedback",
+      "fields": [
+        {
+          "name": "steps_left",
+          "type": {
+            "type_id": 5,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "mujoco_ros_msgs/action/Step_Feedback",
+      "hash_string": "RIHS01_ffab88e2d85295dccc3e13741d03c9b79386b6cfebc30c184c62f1b989c65cd8"
+    }
+  ]
+}

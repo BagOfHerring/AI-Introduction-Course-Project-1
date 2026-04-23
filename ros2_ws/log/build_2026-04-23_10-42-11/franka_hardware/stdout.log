@@ -1,0 +1,67 @@
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 28.1.16 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+-- Found rclcpp_components: 28.1.16 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+-- Found rclcpp_lifecycle: 28.1.16 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found mujoco_ros2_control: 0.9.0 (/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/cmake)
+-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found franka_msgs: 0.0.0 (/home/herring/rzddzy/ros2_ws/install/franka_msgs/share/franka_msgs/cmake)
+-- Looking for MuJoCo tar install ...
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/herring/rzddzy/ros2_ws/build/franka_hardware
+[ 53%] Built target franka_hardware
+[ 60%] [32m[1mLinking CXX shared library libfranka_mj_hardware.so[0m
+[100%] Built target franka_mj_hardware
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware//franka_hardware.xml
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware//franka_mj_hardware.xml
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware//franka_mj_hardware_hw_interface.xml
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/lib/libfranka_hardware.so
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/lib/libfranka_mj_hardware.so
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/include/franka_hardware/common/control_mode.h
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/include/franka_hardware/common/franka_executor.hpp
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/include/franka_hardware/common/helper_functions.hpp
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/include/franka_hardware/common/model_base.hpp
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/include/franka_hardware/real/franka_error_recovery_service_server.hpp
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/include/franka_hardware/real/franka_multi_hardware_interface.hpp
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/include/franka_hardware/real/franka_param_service_server.hpp
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/include/franka_hardware/real/model_franka.hpp
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/include/franka_hardware/real/robot.hpp
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/include/franka_hardware/sim/franka_mj_hardware_system.hpp
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/include/franka_hardware/sim/gripper_sim_action_server.hpp
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/include/franka_hardware/sim/model_sim.hpp
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/include/franka_hardware/sim/robot_sim.hpp
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/environment/library_path.sh
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/environment/library_path.dsv
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/ament_index/resource_index/package_run_dependencies/franka_hardware
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/ament_index/resource_index/parent_prefix_path/franka_hardware
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/environment/path.sh
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/environment/path.dsv
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/local_setup.bash
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/local_setup.sh
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/local_setup.zsh
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/local_setup.dsv
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/package.dsv
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/ament_index/resource_index/packages/franka_hardware
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/franka_hardware
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/ament_index/resource_index/mujoco_ros2_control__pluginlib__plugin/franka_hardware
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/cmake/franka_hardwareConfig.cmake
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/cmake/franka_hardwareConfig-version.cmake
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/package.xml

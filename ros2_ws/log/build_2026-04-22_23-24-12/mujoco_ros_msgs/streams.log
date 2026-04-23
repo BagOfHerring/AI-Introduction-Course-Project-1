@@ -1,0 +1,676 @@
+[0.011s] Invoking command in '/home/herring/rzddzy/ros2_ws/build/mujoco_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros_msgs -DMUJOCO_DIR=/home/herring/.mujoco/mujoco-3.2.0 -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs
+[0.021s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.046s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.110s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.114s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.115s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.136s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.152s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.153s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.169s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.179s] -- Found actionlib_msgs: 5.3.6 (/opt/ros/jazzy/share/actionlib_msgs/cmake)
+[0.179s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/actionlib_msgs/cmake/actionlib_msgsConfig.cmake:31 (message):
+[0.179s]   Package 'actionlib_msgs' is deprecated (This package will be removed in a
+[0.179s]   future ROS distro, once the ROS 1 bridge supports actions.)
+[0.179s] Call Stack (most recent call first):
+[0.179s]   cmake/Ros2.cmake:5 (find_package)
+[0.179s]   CMakeLists.txt:15 (include)
+[0.179s] 
+[0.179s] [0m
+[0.541s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.656s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.832s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.833s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.030s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.082s] -- Configuring done (1.1s)
+[1.153s] -- Generating done (0.1s)
+[1.166s] -- Build files have been written to: /home/herring/rzddzy/ros2_ws/build/mujoco_ros_msgs
+[1.174s] Invoked command in '/home/herring/rzddzy/ros2_ws/build/mujoco_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros_msgs -DMUJOCO_DIR=/home/herring/.mujoco/mujoco-3.2.0 -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs
+[1.175s] Invoking command in '/home/herring/rzddzy/ros2_ws/build/mujoco_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/herring/rzddzy/ros2_ws/build/mujoco_ros_msgs -- -j28 -l28
+[1.244s] [  0%] Built target mujoco_ros_msgs__rosidl_generator_type_description
+[1.254s] [  0%] Built target ament_cmake_python_symlink_mujoco_ros_msgs
+[1.267s] [  0%] Built target mujoco_ros_msgs__cpp
+[1.303s] [ 29%] Built target mujoco_ros_msgs__rosidl_generator_c
+[1.339s] [ 39%] Built target mujoco_ros_msgs__rosidl_typesupport_c
+[1.342s] [ 49%] Built target mujoco_ros_msgs__rosidl_typesupport_introspection_c
+[1.374s] [ 59%] Built target mujoco_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[1.375s] [ 69%] Built target mujoco_ros_msgs__rosidl_typesupport_introspection_cpp
+[1.391s] [ 79%] Built target mujoco_ros_msgs__rosidl_typesupport_cpp
+[1.399s] [ 89%] Built target mujoco_ros_msgs__rosidl_typesupport_fastrtps_c
+[1.409s] running egg_info
+[1.421s] [ 89%] Built target mujoco_ros_msgs
+[1.421s] writing mujoco_ros_msgs.egg-info/PKG-INFO
+[1.421s] writing dependency_links to mujoco_ros_msgs.egg-info/dependency_links.txt
+[1.421s] writing top-level names to mujoco_ros_msgs.egg-info/top_level.txt
+[1.440s] [ 89%] Built target mujoco_ros_msgs__py
+[1.452s] reading manifest file 'mujoco_ros_msgs.egg-info/SOURCES.txt'
+[1.453s] writing manifest file 'mujoco_ros_msgs.egg-info/SOURCES.txt'
+[1.474s] [ 89%] Built target ament_cmake_python_build_mujoco_ros_msgs_egg
+[1.488s] [ 98%] Built target mujoco_ros_msgs__rosidl_generator_py
+[1.507s] [ 98%] Built target mujoco_ros_msgs_s__rosidl_typesupport_c
+[1.508s] [ 99%] Built target mujoco_ros_msgs_s__rosidl_typesupport_introspection_c
+[1.510s] [100%] Built target mujoco_ros_msgs_s__rosidl_typesupport_fastrtps_c
+[1.522s] Invoked command in '/home/herring/rzddzy/ros2_ws/build/mujoco_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/herring/rzddzy/ros2_ws/build/mujoco_ros_msgs -- -j28 -l28
+[1.523s] Invoking command in '/home/herring/rzddzy/ros2_ws/build/mujoco_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/herring/rzddzy/ros2_ws/build/mujoco_ros_msgs
+[1.531s] -- Install configuration: ""
+[1.532s] -- Execute custom install script
+[1.533s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/mujoco_ros_msgs
+[1.533s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/StateUint.json
+[1.533s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/ScalarStamped.json
+[1.533s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/BodyState.json
+[1.533s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/GeomProperties.json
+[1.534s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/GeomType.json
+[1.534s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/SensorNoiseModel.json
+[1.534s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/SolverParameters.json
+[1.534s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/MocapState.json
+[1.534s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/EqualityConstraintType.json
+[1.534s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/EqualityConstraintParameters.json
+[1.534s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/SimInfo.json
+[1.534s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/PluginStats.json
+[1.535s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetStateUint.json
+[1.535s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetFloat.json
+[1.535s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetPause.json
+[1.536s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetBodyState.json
+[1.536s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetBodyState.json
+[1.536s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetGeomProperties.json
+[1.536s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetGeomProperties.json
+[1.536s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetEqualityConstraintParameters.json
+[1.536s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetEqualityConstraintParameters.json
+[1.536s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/ResetBodyQPos.json
+[1.536s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/RegisterSensorNoiseModels.json
+[1.536s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetGravity.json
+[1.536s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetGravity.json
+[1.537s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/Reload.json
+[1.537s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetMocapState.json
+[1.537s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetSimInfo.json
+[1.538s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetPluginStats.json
+[1.538s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/action/Step.json
+[1.539s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/action/detail/step__functions.h
+[1.539s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/action/detail/step__struct.h
+[1.539s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/action/detail/step__type_support.h
+[1.539s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/action/step.h
+[1.539s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/body_state.h
+[1.540s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/body_state__functions.h
+[1.540s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/body_state__struct.h
+[1.540s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/body_state__type_support.h
+[1.540s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_parameters__functions.h
+[1.540s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_parameters__struct.h
+[1.540s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_parameters__type_support.h
+[1.540s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_type__functions.h
+[1.540s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_type__struct.h
+[1.541s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_type__type_support.h
+[1.541s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_properties__functions.h
+[1.541s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_properties__struct.h
+[1.541s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_properties__type_support.h
+[1.541s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_type__functions.h
+[1.541s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_type__struct.h
+[1.541s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_type__type_support.h
+[1.541s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/mocap_state__functions.h
+[1.541s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/mocap_state__struct.h
+[1.541s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/mocap_state__type_support.h
+[1.542s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/plugin_stats__functions.h
+[1.542s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/plugin_stats__struct.h
+[1.542s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/plugin_stats__type_support.h
+[1.542s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/scalar_stamped__functions.h
+[1.542s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/scalar_stamped__struct.h
+[1.542s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/scalar_stamped__type_support.h
+[1.542s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sensor_noise_model__functions.h
+[1.542s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sensor_noise_model__struct.h
+[1.542s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sensor_noise_model__type_support.h
+[1.542s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sim_info__functions.h
+[1.543s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sim_info__struct.h
+[1.543s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sim_info__type_support.h
+[1.543s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/solver_parameters__functions.h
+[1.543s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/solver_parameters__struct.h
+[1.543s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/solver_parameters__type_support.h
+[1.543s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/state_uint__functions.h
+[1.543s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/state_uint__struct.h
+[1.543s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/state_uint__type_support.h
+[1.543s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/equality_constraint_parameters.h
+[1.543s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/equality_constraint_type.h
+[1.543s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/geom_properties.h
+[1.543s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/geom_type.h
+[1.543s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/mocap_state.h
+[1.543s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/plugin_stats.h
+[1.543s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.543s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/scalar_stamped.h
+[1.543s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/sensor_noise_model.h
+[1.544s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/sim_info.h
+[1.544s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/solver_parameters.h
+[1.544s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/state_uint.h
+[1.544s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_body_state__functions.h
+[1.544s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_body_state__struct.h
+[1.544s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_body_state__type_support.h
+[1.544s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_equality_constraint_parameters__functions.h
+[1.544s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_equality_constraint_parameters__struct.h
+[1.544s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_equality_constraint_parameters__type_support.h
+[1.544s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_geom_properties__functions.h
+[1.544s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_geom_properties__struct.h
+[1.544s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_geom_properties__type_support.h
+[1.544s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_gravity__functions.h
+[1.544s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_gravity__struct.h
+[1.544s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_gravity__type_support.h
+[1.544s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_plugin_stats__functions.h
+[1.544s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_plugin_stats__struct.h
+[1.544s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_plugin_stats__type_support.h
+[1.545s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_sim_info__functions.h
+[1.545s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_sim_info__struct.h
+[1.545s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_sim_info__type_support.h
+[1.545s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_state_uint__functions.h
+[1.545s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_state_uint__struct.h
+[1.545s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_state_uint__type_support.h
+[1.545s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/register_sensor_noise_models__functions.h
+[1.545s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/register_sensor_noise_models__struct.h
+[1.545s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/register_sensor_noise_models__type_support.h
+[1.545s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reload__functions.h
+[1.545s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reload__struct.h
+[1.545s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reload__type_support.h
+[1.545s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reset_body_q_pos__functions.h
+[1.545s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reset_body_q_pos__struct.h
+[1.545s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reset_body_q_pos__type_support.h
+[1.545s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_body_state__functions.h
+[1.545s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_body_state__struct.h
+[1.545s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_body_state__type_support.h
+[1.545s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_equality_constraint_parameters__functions.h
+[1.546s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_equality_constraint_parameters__struct.h
+[1.546s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_equality_constraint_parameters__type_support.h
+[1.546s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_float__functions.h
+[1.546s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_float__struct.h
+[1.546s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_float__type_support.h
+[1.546s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_geom_properties__functions.h
+[1.546s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_geom_properties__struct.h
+[1.547s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_geom_properties__type_support.h
+[1.547s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_gravity__functions.h
+[1.547s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_gravity__struct.h
+[1.547s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_gravity__type_support.h
+[1.547s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_mocap_state__functions.h
+[1.547s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_mocap_state__struct.h
+[1.547s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_mocap_state__type_support.h
+[1.547s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_pause__functions.h
+[1.547s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_pause__struct.h
+[1.547s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_pause__type_support.h
+[1.548s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/get_body_state.h
+[1.548s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/get_equality_constraint_parameters.h
+[1.548s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/get_geom_properties.h
+[1.548s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/get_gravity.h
+[1.548s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/get_plugin_stats.h
+[1.548s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/get_sim_info.h
+[1.548s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/get_state_uint.h
+[1.548s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/register_sensor_noise_models.h
+[1.548s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/reload.h
+[1.548s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/reset_body_q_pos.h
+[1.548s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/set_body_state.h
+[1.548s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/set_equality_constraint_parameters.h
+[1.548s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/set_float.h
+[1.548s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/set_geom_properties.h
+[1.548s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/set_gravity.h
+[1.548s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/set_mocap_state.h
+[1.548s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/set_pause.h
+[1.548s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/environment/library_path.sh
+[1.548s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/environment/library_path.dsv
+[1.549s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/action/detail/step__rosidl_typesupport_fastrtps_c.h
+[1.549s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/body_state__rosidl_typesupport_fastrtps_c.h
+[1.549s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_parameters__rosidl_typesupport_fastrtps_c.h
+[1.549s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_type__rosidl_typesupport_fastrtps_c.h
+[1.549s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_properties__rosidl_typesupport_fastrtps_c.h
+[1.549s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_type__rosidl_typesupport_fastrtps_c.h
+[1.549s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/mocap_state__rosidl_typesupport_fastrtps_c.h
+[1.549s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/plugin_stats__rosidl_typesupport_fastrtps_c.h
+[1.549s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/scalar_stamped__rosidl_typesupport_fastrtps_c.h
+[1.549s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sensor_noise_model__rosidl_typesupport_fastrtps_c.h
+[1.549s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sim_info__rosidl_typesupport_fastrtps_c.h
+[1.549s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/solver_parameters__rosidl_typesupport_fastrtps_c.h
+[1.549s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/state_uint__rosidl_typesupport_fastrtps_c.h
+[1.550s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.550s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_body_state__rosidl_typesupport_fastrtps_c.h
+[1.550s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_equality_constraint_parameters__rosidl_typesupport_fastrtps_c.h
+[1.550s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_geom_properties__rosidl_typesupport_fastrtps_c.h
+[1.550s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_gravity__rosidl_typesupport_fastrtps_c.h
+[1.550s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_plugin_stats__rosidl_typesupport_fastrtps_c.h
+[1.550s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_sim_info__rosidl_typesupport_fastrtps_c.h
+[1.550s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_state_uint__rosidl_typesupport_fastrtps_c.h
+[1.550s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/register_sensor_noise_models__rosidl_typesupport_fastrtps_c.h
+[1.550s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reload__rosidl_typesupport_fastrtps_c.h
+[1.550s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reset_body_q_pos__rosidl_typesupport_fastrtps_c.h
+[1.550s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_body_state__rosidl_typesupport_fastrtps_c.h
+[1.550s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_equality_constraint_parameters__rosidl_typesupport_fastrtps_c.h
+[1.550s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_float__rosidl_typesupport_fastrtps_c.h
+[1.550s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_geom_properties__rosidl_typesupport_fastrtps_c.h
+[1.550s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_gravity__rosidl_typesupport_fastrtps_c.h
+[1.550s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_mocap_state__rosidl_typesupport_fastrtps_c.h
+[1.550s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_pause__rosidl_typesupport_fastrtps_c.h
+[1.550s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/action/detail/step__rosidl_typesupport_introspection_c.h
+[1.551s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/body_state__rosidl_typesupport_introspection_c.h
+[1.551s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_parameters__rosidl_typesupport_introspection_c.h
+[1.551s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_type__rosidl_typesupport_introspection_c.h
+[1.551s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_properties__rosidl_typesupport_introspection_c.h
+[1.551s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_type__rosidl_typesupport_introspection_c.h
+[1.551s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/mocap_state__rosidl_typesupport_introspection_c.h
+[1.551s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/plugin_stats__rosidl_typesupport_introspection_c.h
+[1.551s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/scalar_stamped__rosidl_typesupport_introspection_c.h
+[1.551s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sensor_noise_model__rosidl_typesupport_introspection_c.h
+[1.551s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sim_info__rosidl_typesupport_introspection_c.h
+[1.551s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/solver_parameters__rosidl_typesupport_introspection_c.h
+[1.551s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/state_uint__rosidl_typesupport_introspection_c.h
+[1.551s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.552s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_body_state__rosidl_typesupport_introspection_c.h
+[1.552s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_equality_constraint_parameters__rosidl_typesupport_introspection_c.h
+[1.552s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_geom_properties__rosidl_typesupport_introspection_c.h
+[1.552s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_gravity__rosidl_typesupport_introspection_c.h
+[1.552s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_plugin_stats__rosidl_typesupport_introspection_c.h
+[1.552s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_sim_info__rosidl_typesupport_introspection_c.h
+[1.552s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_state_uint__rosidl_typesupport_introspection_c.h
+[1.552s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/register_sensor_noise_models__rosidl_typesupport_introspection_c.h
+[1.552s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reload__rosidl_typesupport_introspection_c.h
+[1.552s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reset_body_q_pos__rosidl_typesupport_introspection_c.h
+[1.552s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_body_state__rosidl_typesupport_introspection_c.h
+[1.552s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_equality_constraint_parameters__rosidl_typesupport_introspection_c.h
+[1.552s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_float__rosidl_typesupport_introspection_c.h
+[1.552s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_geom_properties__rosidl_typesupport_introspection_c.h
+[1.552s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_gravity__rosidl_typesupport_introspection_c.h
+[1.552s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_mocap_state__rosidl_typesupport_introspection_c.h
+[1.552s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_pause__rosidl_typesupport_introspection_c.h
+[1.553s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/action/detail/step__builder.hpp
+[1.553s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/action/detail/step__struct.hpp
+[1.553s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/action/detail/step__traits.hpp
+[1.553s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/action/detail/step__type_support.hpp
+[1.553s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/action/step.hpp
+[1.553s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/body_state.hpp
+[1.553s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/body_state__builder.hpp
+[1.553s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/body_state__struct.hpp
+[1.553s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/body_state__traits.hpp
+[1.554s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/body_state__type_support.hpp
+[1.554s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_parameters__builder.hpp
+[1.554s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_parameters__struct.hpp
+[1.554s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_parameters__traits.hpp
+[1.554s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_parameters__type_support.hpp
+[1.554s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_type__builder.hpp
+[1.554s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_type__struct.hpp
+[1.554s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_type__traits.hpp
+[1.554s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_type__type_support.hpp
+[1.554s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_properties__builder.hpp
+[1.554s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_properties__struct.hpp
+[1.554s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_properties__traits.hpp
+[1.554s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_properties__type_support.hpp
+[1.554s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_type__builder.hpp
+[1.554s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_type__struct.hpp
+[1.554s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_type__traits.hpp
+[1.554s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_type__type_support.hpp
+[1.554s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/mocap_state__builder.hpp
+[1.554s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/mocap_state__struct.hpp
+[1.554s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/mocap_state__traits.hpp
+[1.554s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/mocap_state__type_support.hpp
+[1.555s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/plugin_stats__builder.hpp
+[1.555s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/plugin_stats__struct.hpp
+[1.555s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/plugin_stats__traits.hpp
+[1.555s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/plugin_stats__type_support.hpp
+[1.555s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/scalar_stamped__builder.hpp
+[1.555s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/scalar_stamped__struct.hpp
+[1.555s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/scalar_stamped__traits.hpp
+[1.555s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/scalar_stamped__type_support.hpp
+[1.555s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sensor_noise_model__builder.hpp
+[1.555s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sensor_noise_model__struct.hpp
+[1.555s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sensor_noise_model__traits.hpp
+[1.555s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sensor_noise_model__type_support.hpp
+[1.555s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sim_info__builder.hpp
+[1.555s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sim_info__struct.hpp
+[1.555s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sim_info__traits.hpp
+[1.555s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sim_info__type_support.hpp
+[1.555s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/solver_parameters__builder.hpp
+[1.556s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/solver_parameters__struct.hpp
+[1.556s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/solver_parameters__traits.hpp
+[1.556s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/solver_parameters__type_support.hpp
+[1.556s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/state_uint__builder.hpp
+[1.556s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/state_uint__struct.hpp
+[1.556s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/state_uint__traits.hpp
+[1.556s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/state_uint__type_support.hpp
+[1.556s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/equality_constraint_parameters.hpp
+[1.556s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/equality_constraint_type.hpp
+[1.556s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/geom_properties.hpp
+[1.557s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/geom_type.hpp
+[1.557s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/mocap_state.hpp
+[1.557s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/plugin_stats.hpp
+[1.557s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.557s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/scalar_stamped.hpp
+[1.557s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/sensor_noise_model.hpp
+[1.557s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/sim_info.hpp
+[1.557s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/solver_parameters.hpp
+[1.557s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/state_uint.hpp
+[1.557s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_body_state__builder.hpp
+[1.557s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_body_state__struct.hpp
+[1.557s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_body_state__traits.hpp
+[1.558s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_body_state__type_support.hpp
+[1.558s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_equality_constraint_parameters__builder.hpp
+[1.558s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_equality_constraint_parameters__struct.hpp
+[1.558s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_equality_constraint_parameters__traits.hpp
+[1.558s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_equality_constraint_parameters__type_support.hpp
+[1.558s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_geom_properties__builder.hpp
+[1.558s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_geom_properties__struct.hpp
+[1.558s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_geom_properties__traits.hpp
+[1.558s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_geom_properties__type_support.hpp
+[1.558s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_gravity__builder.hpp
+[1.558s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_gravity__struct.hpp
+[1.558s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_gravity__traits.hpp
+[1.558s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_gravity__type_support.hpp
+[1.558s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_plugin_stats__builder.hpp
+[1.558s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_plugin_stats__struct.hpp
+[1.558s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_plugin_stats__traits.hpp
+[1.558s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_plugin_stats__type_support.hpp
+[1.558s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_sim_info__builder.hpp
+[1.558s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_sim_info__struct.hpp
+[1.558s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_sim_info__traits.hpp
+[1.558s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_sim_info__type_support.hpp
+[1.558s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_state_uint__builder.hpp
+[1.559s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_state_uint__struct.hpp
+[1.559s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_state_uint__traits.hpp
+[1.559s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_state_uint__type_support.hpp
+[1.559s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/register_sensor_noise_models__builder.hpp
+[1.559s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/register_sensor_noise_models__struct.hpp
+[1.559s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/register_sensor_noise_models__traits.hpp
+[1.559s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/register_sensor_noise_models__type_support.hpp
+[1.559s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reload__builder.hpp
+[1.559s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reload__struct.hpp
+[1.559s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reload__traits.hpp
+[1.559s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reload__type_support.hpp
+[1.559s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reset_body_q_pos__builder.hpp
+[1.559s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reset_body_q_pos__struct.hpp
+[1.559s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reset_body_q_pos__traits.hpp
+[1.559s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reset_body_q_pos__type_support.hpp
+[1.559s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_body_state__builder.hpp
+[1.559s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_body_state__struct.hpp
+[1.559s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_body_state__traits.hpp
+[1.560s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_body_state__type_support.hpp
+[1.560s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_equality_constraint_parameters__builder.hpp
+[1.560s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_equality_constraint_parameters__struct.hpp
+[1.560s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_equality_constraint_parameters__traits.hpp
+[1.560s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_equality_constraint_parameters__type_support.hpp
+[1.560s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_float__builder.hpp
+[1.560s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_float__struct.hpp
+[1.560s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_float__traits.hpp
+[1.560s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_float__type_support.hpp
+[1.560s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_geom_properties__builder.hpp
+[1.560s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_geom_properties__struct.hpp
+[1.560s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_geom_properties__traits.hpp
+[1.560s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_geom_properties__type_support.hpp
+[1.560s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_gravity__builder.hpp
+[1.560s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_gravity__struct.hpp
+[1.560s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_gravity__traits.hpp
+[1.560s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_gravity__type_support.hpp
+[1.560s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_mocap_state__builder.hpp
+[1.560s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_mocap_state__struct.hpp
+[1.560s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_mocap_state__traits.hpp
+[1.560s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_mocap_state__type_support.hpp
+[1.560s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_pause__builder.hpp
+[1.560s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_pause__struct.hpp
+[1.561s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_pause__traits.hpp
+[1.561s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_pause__type_support.hpp
+[1.561s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/get_body_state.hpp
+[1.561s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/get_equality_constraint_parameters.hpp
+[1.561s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/get_geom_properties.hpp
+[1.561s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/get_gravity.hpp
+[1.561s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/get_plugin_stats.hpp
+[1.561s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/get_sim_info.hpp
+[1.561s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/get_state_uint.hpp
+[1.561s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/register_sensor_noise_models.hpp
+[1.561s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/reload.hpp
+[1.561s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/reset_body_q_pos.hpp
+[1.561s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/set_body_state.hpp
+[1.561s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/set_equality_constraint_parameters.hpp
+[1.561s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/set_float.hpp
+[1.561s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/set_geom_properties.hpp
+[1.561s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/set_gravity.hpp
+[1.561s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/set_mocap_state.hpp
+[1.561s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/set_pause.hpp
+[1.562s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/action/detail/step__rosidl_typesupport_fastrtps_cpp.hpp
+[1.562s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/body_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.562s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_parameters__rosidl_typesupport_fastrtps_cpp.hpp
+[1.562s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_type__rosidl_typesupport_fastrtps_cpp.hpp
+[1.562s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_properties__rosidl_typesupport_fastrtps_cpp.hpp
+[1.562s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_type__rosidl_typesupport_fastrtps_cpp.hpp
+[1.562s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/mocap_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.562s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/plugin_stats__rosidl_typesupport_fastrtps_cpp.hpp
+[1.562s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/scalar_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[1.562s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sensor_noise_model__rosidl_typesupport_fastrtps_cpp.hpp
+[1.562s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sim_info__rosidl_typesupport_fastrtps_cpp.hpp
+[1.562s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/solver_parameters__rosidl_typesupport_fastrtps_cpp.hpp
+[1.562s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/state_uint__rosidl_typesupport_fastrtps_cpp.hpp
+[1.562s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.562s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_body_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.563s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_equality_constraint_parameters__rosidl_typesupport_fastrtps_cpp.hpp
+[1.563s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_geom_properties__rosidl_typesupport_fastrtps_cpp.hpp
+[1.563s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_gravity__rosidl_typesupport_fastrtps_cpp.hpp
+[1.563s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_plugin_stats__rosidl_typesupport_fastrtps_cpp.hpp
+[1.563s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_sim_info__rosidl_typesupport_fastrtps_cpp.hpp
+[1.563s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_state_uint__rosidl_typesupport_fastrtps_cpp.hpp
+[1.563s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/register_sensor_noise_models__rosidl_typesupport_fastrtps_cpp.hpp
+[1.563s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reload__rosidl_typesupport_fastrtps_cpp.hpp
+[1.563s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reset_body_q_pos__rosidl_typesupport_fastrtps_cpp.hpp
+[1.563s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_body_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.563s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_equality_constraint_parameters__rosidl_typesupport_fastrtps_cpp.hpp
+[1.563s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_float__rosidl_typesupport_fastrtps_cpp.hpp
+[1.563s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_geom_properties__rosidl_typesupport_fastrtps_cpp.hpp
+[1.563s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_gravity__rosidl_typesupport_fastrtps_cpp.hpp
+[1.563s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_mocap_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.564s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_pause__rosidl_typesupport_fastrtps_cpp.hpp
+[1.564s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/action/detail/step__rosidl_typesupport_introspection_cpp.hpp
+[1.564s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/body_state__rosidl_typesupport_introspection_cpp.hpp
+[1.564s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_parameters__rosidl_typesupport_introspection_cpp.hpp
+[1.564s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_type__rosidl_typesupport_introspection_cpp.hpp
+[1.564s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_properties__rosidl_typesupport_introspection_cpp.hpp
+[1.564s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_type__rosidl_typesupport_introspection_cpp.hpp
+[1.565s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/mocap_state__rosidl_typesupport_introspection_cpp.hpp
+[1.565s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/plugin_stats__rosidl_typesupport_introspection_cpp.hpp
+[1.565s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/scalar_stamped__rosidl_typesupport_introspection_cpp.hpp
+[1.565s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sensor_noise_model__rosidl_typesupport_introspection_cpp.hpp
+[1.565s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sim_info__rosidl_typesupport_introspection_cpp.hpp
+[1.565s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/solver_parameters__rosidl_typesupport_introspection_cpp.hpp
+[1.565s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/state_uint__rosidl_typesupport_introspection_cpp.hpp
+[1.565s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_body_state__rosidl_typesupport_introspection_cpp.hpp
+[1.565s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_equality_constraint_parameters__rosidl_typesupport_introspection_cpp.hpp
+[1.565s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_geom_properties__rosidl_typesupport_introspection_cpp.hpp
+[1.565s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_gravity__rosidl_typesupport_introspection_cpp.hpp
+[1.565s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_plugin_stats__rosidl_typesupport_introspection_cpp.hpp
+[1.565s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_sim_info__rosidl_typesupport_introspection_cpp.hpp
+[1.566s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_state_uint__rosidl_typesupport_introspection_cpp.hpp
+[1.566s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/register_sensor_noise_models__rosidl_typesupport_introspection_cpp.hpp
+[1.566s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reload__rosidl_typesupport_introspection_cpp.hpp
+[1.566s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reset_body_q_pos__rosidl_typesupport_introspection_cpp.hpp
+[1.566s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_body_state__rosidl_typesupport_introspection_cpp.hpp
+[1.566s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_equality_constraint_parameters__rosidl_typesupport_introspection_cpp.hpp
+[1.566s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_float__rosidl_typesupport_introspection_cpp.hpp
+[1.566s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_geom_properties__rosidl_typesupport_introspection_cpp.hpp
+[1.566s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_gravity__rosidl_typesupport_introspection_cpp.hpp
+[1.566s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_mocap_state__rosidl_typesupport_introspection_cpp.hpp
+[1.566s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_pause__rosidl_typesupport_introspection_cpp.hpp
+[1.566s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/environment/pythonpath.sh
+[1.566s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/environment/pythonpath.dsv
+[1.566s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs-0.9.0-py3.12.egg-info/PKG-INFO
+[1.566s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs-0.9.0-py3.12.egg-info/SOURCES.txt
+[1.566s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs-0.9.0-py3.12.egg-info/dependency_links.txt
+[1.566s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs-0.9.0-py3.12.egg-info/top_level.txt
+[1.567s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/__init__.py
+[1.567s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/_mujoco_ros_msgs_s.ep.rosidl_typesupport_c.c
+[1.567s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/_mujoco_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.567s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/_mujoco_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.567s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/action/__init__.py
+[1.567s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/action/_step.py
+[1.567s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/action/_step_s.c
+[1.567s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/__init__.py
+[1.567s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_body_state.py
+[1.567s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_body_state_s.c
+[1.567s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_equality_constraint_parameters.py
+[1.567s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_equality_constraint_parameters_s.c
+[1.567s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_equality_constraint_type.py
+[1.567s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_equality_constraint_type_s.c
+[1.567s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_geom_properties.py
+[1.567s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_geom_properties_s.c
+[1.568s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_geom_type.py
+[1.568s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_geom_type_s.c
+[1.568s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_mocap_state.py
+[1.568s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_mocap_state_s.c
+[1.568s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_plugin_stats.py
+[1.568s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_plugin_stats_s.c
+[1.568s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_scalar_stamped.py
+[1.568s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_scalar_stamped_s.c
+[1.568s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_sensor_noise_model.py
+[1.568s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_sensor_noise_model_s.c
+[1.568s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_sim_info.py
+[1.568s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_sim_info_s.c
+[1.568s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_solver_parameters.py
+[1.568s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_solver_parameters_s.c
+[1.568s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_state_uint.py
+[1.568s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_state_uint_s.c
+[1.568s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/mujoco_ros_msgs_s__rosidl_typesupport_c.so
+[1.569s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/mujoco_ros_msgs_s__rosidl_typesupport_fastrtps_c.so
+[1.569s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/mujoco_ros_msgs_s__rosidl_typesupport_introspection_c.so
+[1.569s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/__init__.py
+[1.569s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_get_body_state.py
+[1.569s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_get_body_state_s.c
+[1.569s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_get_equality_constraint_parameters.py
+[1.569s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_get_equality_constraint_parameters_s.c
+[1.569s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_get_geom_properties.py
+[1.569s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_get_geom_properties_s.c
+[1.569s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_get_gravity.py
+[1.569s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_get_gravity_s.c
+[1.569s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_get_plugin_stats.py
+[1.569s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_get_plugin_stats_s.c
+[1.569s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_get_sim_info.py
+[1.569s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_get_sim_info_s.c
+[1.569s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_get_state_uint.py
+[1.569s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_get_state_uint_s.c
+[1.569s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_register_sensor_noise_models.py
+[1.569s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_register_sensor_noise_models_s.c
+[1.569s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_reload.py
+[1.570s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_reload_s.c
+[1.570s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_reset_body_q_pos.py
+[1.570s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_reset_body_q_pos_s.c
+[1.570s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_set_body_state.py
+[1.570s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_set_body_state_s.c
+[1.570s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_set_equality_constraint_parameters.py
+[1.570s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_set_equality_constraint_parameters_s.c
+[1.570s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_set_float.py
+[1.570s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_set_float_s.c
+[1.570s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_set_geom_properties.py
+[1.570s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_set_geom_properties_s.c
+[1.570s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_set_gravity.py
+[1.570s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_set_gravity_s.c
+[1.570s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_set_mocap_state.py
+[1.570s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_set_mocap_state_s.c
+[1.570s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_set_pause.py
+[1.570s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_set_pause_s.c
+[1.570s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/mujoco_ros_msgs_s__rosidl_typesupport_fastrtps_c.so
+[1.571s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/mujoco_ros_msgs_s__rosidl_typesupport_introspection_c.so
+[1.571s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/mujoco_ros_msgs_s__rosidl_typesupport_c.so
+[1.571s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/StateUint.idl
+[1.571s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/ScalarStamped.idl
+[1.571s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/BodyState.idl
+[1.571s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/GeomProperties.idl
+[1.571s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/GeomType.idl
+[1.571s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/SensorNoiseModel.idl
+[1.571s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/SolverParameters.idl
+[1.571s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/MocapState.idl
+[1.571s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/EqualityConstraintType.idl
+[1.571s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/EqualityConstraintParameters.idl
+[1.572s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/SimInfo.idl
+[1.572s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/PluginStats.idl
+[1.572s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetStateUint.idl
+[1.572s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetFloat.idl
+[1.572s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetPause.idl
+[1.572s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetBodyState.idl
+[1.572s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetBodyState.idl
+[1.572s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetGeomProperties.idl
+[1.572s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetGeomProperties.idl
+[1.572s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetEqualityConstraintParameters.idl
+[1.572s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetEqualityConstraintParameters.idl
+[1.572s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/ResetBodyQPos.idl
+[1.572s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/RegisterSensorNoiseModels.idl
+[1.573s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetGravity.idl
+[1.573s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetGravity.idl
+[1.573s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/Reload.idl
+[1.573s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetMocapState.idl
+[1.573s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetSimInfo.idl
+[1.573s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetPluginStats.idl
+[1.573s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/action/Step.idl
+[1.573s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/StateUint.msg
+[1.573s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/ScalarStamped.msg
+[1.573s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/BodyState.msg
+[1.573s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/GeomProperties.msg
+[1.573s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/GeomType.msg
+[1.573s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/SensorNoiseModel.msg
+[1.573s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/SolverParameters.msg
+[1.574s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/MocapState.msg
+[1.574s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/EqualityConstraintType.msg
+[1.574s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/EqualityConstraintParameters.msg
+[1.574s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/SimInfo.msg
+[1.574s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/PluginStats.msg
+[1.574s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetStateUint.srv
+[1.574s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetFloat.srv
+[1.574s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetPause.srv
+[1.574s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetBodyState.srv
+[1.574s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetBodyState.srv
+[1.574s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetGeomProperties.srv
+[1.574s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetGeomProperties.srv
+[1.574s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetEqualityConstraintParameters.srv
+[1.574s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetEqualityConstraintParameters.srv
+[1.574s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/ResetBodyQPos.srv
+[1.575s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/RegisterSensorNoiseModels.srv
+[1.575s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetGravity.srv
+[1.575s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetGravity.srv
+[1.575s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/Reload.srv
+[1.575s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetMocapState.srv
+[1.575s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetSimInfo.srv
+[1.575s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetPluginStats.srv
+[1.575s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/action/Step.action
+[1.575s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/ament_index/resource_index/package_run_dependencies/mujoco_ros_msgs
+[1.575s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/ament_index/resource_index/parent_prefix_path/mujoco_ros_msgs
+[1.575s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/environment/ament_prefix_path.sh
+[1.575s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/environment/ament_prefix_path.dsv
+[1.575s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/environment/path.sh
+[1.575s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/environment/path.dsv
+[1.576s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/local_setup.bash
+[1.576s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/local_setup.sh
+[1.576s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/local_setup.zsh
+[1.576s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/local_setup.dsv
+[1.576s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/package.dsv
+[1.582s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/ament_index/resource_index/packages/mujoco_ros_msgs
+[1.583s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/rosidl_cmake-extras.cmake
+[1.583s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.583s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.583s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.583s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.583s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.583s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.583s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/mujoco_ros_msgsConfig.cmake
+[1.583s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/mujoco_ros_msgsConfig-version.cmake
+[1.583s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/package.xml
+[1.583s] -- Up-to-date: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/libmujoco_ros_msgs__rosidl_generator_c.so
+[1.584s] -- Up-to-date: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/libmujoco_ros_msgs__rosidl_typesupport_fastrtps_c.so
+[1.584s] -- Up-to-date: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/libmujoco_ros_msgs__rosidl_typesupport_introspection_c.so
+[1.584s] -- Up-to-date: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/libmujoco_ros_msgs__rosidl_typesupport_c.so
+[1.584s] -- Up-to-date: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/libmujoco_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.584s] -- Up-to-date: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/libmujoco_ros_msgs__rosidl_typesupport_introspection_cpp.so
+[1.584s] -- Up-to-date: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/libmujoco_ros_msgs__rosidl_typesupport_cpp.so
+[1.608s] Listing '/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs'...
+[1.608s] Compiling '/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/__init__.py'...
+[1.608s] Listing '/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/action'...
+[1.608s] Listing '/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg'...
+[1.608s] Listing '/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv'...
+[1.612s] -- Up-to-date: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/libmujoco_ros_msgs__rosidl_generator_py.so
+[1.612s] -- Up-to-date: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/export_mujoco_ros_msgs__rosidl_generator_cExport.cmake
+[1.613s] -- Up-to-date: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/export_mujoco_ros_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.613s] -- Up-to-date: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/export_mujoco_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.613s] -- Up-to-date: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/export_mujoco_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.613s] -- Up-to-date: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/mujoco_ros_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.613s] -- Up-to-date: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/mujoco_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.613s] -- Up-to-date: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/mujoco_ros_msgs__rosidl_typesupport_cExport.cmake
+[1.613s] -- Up-to-date: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/mujoco_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.613s] -- Up-to-date: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/export_mujoco_ros_msgs__rosidl_generator_cppExport.cmake
+[1.613s] -- Up-to-date: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/export_mujoco_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.613s] -- Up-to-date: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/export_mujoco_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.613s] -- Up-to-date: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/mujoco_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.613s] -- Up-to-date: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/mujoco_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.613s] -- Up-to-date: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/mujoco_ros_msgs__rosidl_typesupport_cppExport.cmake
+[1.613s] -- Up-to-date: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/mujoco_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.613s] -- Up-to-date: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/export_mujoco_ros_msgs__rosidl_generator_pyExport.cmake
+[1.613s] -- Up-to-date: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/export_mujoco_ros_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.614s] Invoked command in '/home/herring/rzddzy/ros2_ws/build/mujoco_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/herring/rzddzy/ros2_ws/build/mujoco_ros_msgs

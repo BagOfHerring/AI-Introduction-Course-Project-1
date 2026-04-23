@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "mujoco_ros_msgs/srv/Reload_Request",
+      "fields": [
+        {
+          "name": "model",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "admin_hash",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "mujoco_ros_msgs/srv/Reload_Request",
+      "hash_string": "RIHS01_7d31bebc9a2f1071779de479d1f2adeb347af36fa137590071a2a8b69819a66c"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/herring/rzddzy/ros2_ws/build/controller/buffer_controller" "/home/herring/rzddzy/ros2_ws/build/controller/ssa_controller" "/home/herring/rzddzy/ros2_ws/build/controller/gbp_mpc_controller" "TARGETS" "buffer_controller" "ssa_controller" "gbp_mpc_controller" "DESTINATION" "lib/controller")

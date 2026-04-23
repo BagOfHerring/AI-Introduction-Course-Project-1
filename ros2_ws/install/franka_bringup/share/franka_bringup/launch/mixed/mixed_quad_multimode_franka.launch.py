@@ -1,0 +1,1 @@
+/home/herring/rzddzy/ros2_ws/src/franka_bringup/launch/mixed/mixed_quad_multimode_franka.launch.py

@@ -1,0 +1,48 @@
+[0.006s] Invoking command in '/home/herring/rzddzy/ros2_ws/build/mujoco_ros_pkgs': AMENT_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros_pkgs -DMUJOCO_DIR=/home/herring/.mujoco/mujoco-3.2.0 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/herring/rzddzy/ros2_ws/install/mujoco_ros_pkgs
+[0.048s] -- The C compiler identification is GNU 13.3.0
+[0.088s] -- The CXX compiler identification is GNU 13.3.0
+[0.101s] -- Detecting C compiler ABI info
+[0.177s] -- Detecting C compiler ABI info - done
+[0.186s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.186s] -- Detecting C compile features
+[0.186s] -- Detecting C compile features - done
+[0.195s] -- Detecting CXX compiler ABI info
+[0.274s] -- Detecting CXX compiler ABI info - done
+[0.283s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.283s] -- Detecting CXX compile features
+[0.284s] -- Detecting CXX compile features - done
+[0.286s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.402s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.451s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.526s] WARNING: Metapackage "mujoco_ros_pkgs" should not have other dependencies besides a buildtool_depend on catkin and exec_depends.
+[0.539s] -- Configuring done (0.5s)
+[0.540s] -- Generating done (0.0s)
+[0.541s] [33mCMake Warning:
+[0.541s]   Manually-specified variables were not used by the project:
+[0.541s] 
+[0.541s]     MUJOCO_DIR
+[0.541s] 
+[0.541s] [0m
+[0.541s] -- Build files have been written to: /home/herring/rzddzy/ros2_ws/build/mujoco_ros_pkgs
+[0.545s] Invoked command in '/home/herring/rzddzy/ros2_ws/build/mujoco_ros_pkgs' returned '0': AMENT_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros_pkgs -DMUJOCO_DIR=/home/herring/.mujoco/mujoco-3.2.0 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/herring/rzddzy/ros2_ws/install/mujoco_ros_pkgs
+[0.546s] Invoking command in '/home/herring/rzddzy/ros2_ws/build/mujoco_ros_pkgs': AMENT_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/herring/rzddzy/ros2_ws/build/mujoco_ros_pkgs -- -j28 -l28
+[0.582s] Invoked command in '/home/herring/rzddzy/ros2_ws/build/mujoco_ros_pkgs' returned '0': AMENT_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/herring/rzddzy/ros2_ws/build/mujoco_ros_pkgs -- -j28 -l28
+[0.583s] Invoking command in '/home/herring/rzddzy/ros2_ws/build/mujoco_ros_pkgs': AMENT_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/herring/rzddzy/ros2_ws/build/mujoco_ros_pkgs
+[0.591s] -- Install configuration: ""
+[0.591s] -- Execute custom install script
+[0.591s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_pkgs/share/ament_index/resource_index/package_run_dependencies/mujoco_ros_pkgs
+[0.599s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_pkgs/share/ament_index/resource_index/parent_prefix_path/mujoco_ros_pkgs
+[0.605s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_pkgs/share/mujoco_ros_pkgs/environment/ament_prefix_path.sh
+[0.613s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_pkgs/share/mujoco_ros_pkgs/environment/ament_prefix_path.dsv
+[0.621s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_pkgs/share/mujoco_ros_pkgs/environment/path.sh
+[0.630s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_pkgs/share/mujoco_ros_pkgs/environment/path.dsv
+[0.638s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_pkgs/share/mujoco_ros_pkgs/local_setup.bash
+[0.646s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_pkgs/share/mujoco_ros_pkgs/local_setup.sh
+[0.654s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_pkgs/share/mujoco_ros_pkgs/local_setup.zsh
+[0.661s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_pkgs/share/mujoco_ros_pkgs/local_setup.dsv
+[0.670s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_pkgs/share/mujoco_ros_pkgs/package.dsv
+[0.678s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_pkgs/share/ament_index/resource_index/packages/mujoco_ros_pkgs
+[0.686s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_pkgs/share/mujoco_ros_pkgs/cmake/mujoco_ros_pkgsConfig.cmake
+[0.694s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_pkgs/share/mujoco_ros_pkgs/cmake/mujoco_ros_pkgsConfig-version.cmake
+[0.702s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/mujoco_ros_pkgs/share/mujoco_ros_pkgs/package.xml
+[0.712s] Invoked command in '/home/herring/rzddzy/ros2_ws/build/mujoco_ros_pkgs' returned '0': AMENT_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/herring/rzddzy/ros2_ws/build/mujoco_ros_pkgs

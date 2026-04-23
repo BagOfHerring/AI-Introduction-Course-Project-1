@@ -1,0 +1,188 @@
+[0.014s] Invoking command in '/home/herring/rzddzy/ros2_ws/build/franka_hardware': AMENT_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control:/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:/home/herring/rzddzy/ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control:/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:/home/herring/rzddzy/ros2_ws/install/franka_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib:/home/herring/rzddzy/ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/ros2_ws/install/franka_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/herring/rzddzy/ros2_ws/src/franka_hardware -DMUJOCO_DIR=/home/herring/.mujoco/mujoco-3.2.0 -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/herring/rzddzy/ros2_ws/install/franka_hardware
+[0.026s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.198s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.204s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.224s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.229s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.235s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.241s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.274s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.275s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.324s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.359s] -- Found rclcpp_action: 28.1.16 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[0.380s] -- Found rclcpp_components: 28.1.16 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[0.395s] -- Found rclcpp_lifecycle: 28.1.16 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[0.411s] -- Found mujoco_ros2_control: 0.9.0 (/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/cmake)
+[0.592s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[0.598s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.599s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.601s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/actionlib_msgs/cmake/actionlib_msgsConfig.cmake:31 (message):
+[0.601s]   Package 'actionlib_msgs' is deprecated (This package will be removed in a
+[0.601s]   future ROS distro, once the ROS 1 bridge supports actions.)
+[0.601s] Call Stack (most recent call first):
+[0.601s]   /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.601s]   /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/mujoco_ros_msgsConfig.cmake:41 (include)
+[0.601s]   /home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/mujoco_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.601s]   /home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/mujoco_ros/cmake/mujoco_rosConfig.cmake:41 (include)
+[0.601s]   /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.601s]   /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/cmake/mujoco_ros2_controlConfig.cmake:41 (include)
+[0.601s]   CMakeLists.txt:33 (find_package)
+[0.601s] 
+[0.602s] [0m
+[0.669s] -- Found franka_msgs: 0.0.0 (/home/herring/rzddzy/ros2_ws/install/franka_msgs/share/franka_msgs/cmake)
+[0.692s] -- Looking for MuJoCo tar install ...
+[0.693s] [0mMuJoCo tar install found, but version can not be detected. If experiencing errors check that version 3.2.0 or a newer, compatible version is installed[0m
+[0.762s] -- Configuring done (0.7s)
+[0.801s] -- Generating done (0.0s)
+[0.806s] -- Build files have been written to: /home/herring/rzddzy/ros2_ws/build/franka_hardware
+[0.813s] Invoked command in '/home/herring/rzddzy/ros2_ws/build/franka_hardware' returned '0': AMENT_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control:/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:/home/herring/rzddzy/ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control:/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:/home/herring/rzddzy/ros2_ws/install/franka_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib:/home/herring/rzddzy/ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/ros2_ws/install/franka_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/herring/rzddzy/ros2_ws/src/franka_hardware -DMUJOCO_DIR=/home/herring/.mujoco/mujoco-3.2.0 -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/herring/rzddzy/ros2_ws/install/franka_hardware
+[0.813s] Invoking command in '/home/herring/rzddzy/ros2_ws/build/franka_hardware': AMENT_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control:/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:/home/herring/rzddzy/ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control:/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:/home/herring/rzddzy/ros2_ws/install/franka_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib:/home/herring/rzddzy/ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/ros2_ws/install/franka_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/herring/rzddzy/ros2_ws/build/franka_hardware -- -j28 -l28
+[0.861s] [ 20%] [32mBuilding CXX object CMakeFiles/franka_mj_hardware.dir/src/sim/franka_mj_hardware_system.cpp.o[0m
+[0.861s] [ 26%] [32mBuilding CXX object CMakeFiles/franka_mj_hardware.dir/src/sim/robot_sim.cpp.o[0m
+[0.861s] [ 26%] [32mBuilding CXX object CMakeFiles/franka_hardware.dir/src/real/franka_error_recovery_service_server.cpp.o[0m
+[0.861s] [ 26%] [32mBuilding CXX object CMakeFiles/franka_hardware.dir/src/real/franka_multi_hardware_interface.cpp.o[0m
+[0.861s] [ 33%] [32mBuilding CXX object CMakeFiles/franka_hardware.dir/src/real/franka_param_service_server.cpp.o[0m
+[0.861s] [ 46%] [32mBuilding CXX object CMakeFiles/franka_mj_hardware.dir/src/common/control_mode.cpp.o[0m
+[0.861s] [ 46%] [32mBuilding CXX object CMakeFiles/franka_mj_hardware.dir/src/common/franka_executor.cpp.o[0m
+[0.862s] [ 53%] [32mBuilding CXX object CMakeFiles/franka_hardware.dir/src/real/robot.cpp.o[0m
+[0.863s] [ 60%] [32mBuilding CXX object CMakeFiles/franka_hardware.dir/src/common/control_mode.cpp.o[0m
+[0.863s] [ 66%] [32mBuilding CXX object CMakeFiles/franka_hardware.dir/src/common/franka_executor.cpp.o[0m
+[0.863s] [ 73%] [32mBuilding CXX object CMakeFiles/franka_mj_hardware.dir/src/sim/gripper_sim_action_server.cpp.o[0m
+[0.863s] [ 80%] [32mBuilding CXX object CMakeFiles/franka_hardware.dir/src/common/helper_functions.cpp.o[0m
+[0.864s] [ 86%] [32mBuilding CXX object CMakeFiles/franka_mj_hardware.dir/src/common/helper_functions.cpp.o[0m
+[1.783s] In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/robot.hpp:33[m[K,
+[1.783s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/src/real/robot.cpp:15[m[K:
+[1.783s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/model_franka.hpp:[m[K In member function ‘[01m[Kvirtual std::array<double, 7> franka_hardware::ModelFranka::[01;32m[KcoriolisImpl[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’:
+[1.784s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/model_franka.hpp:142:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::array<double, 7> franka::Model::[01;32m[Kcoriolis[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’ is deprecated: Use coriolis(q, dq, i_total, m_total, f_x_ctotal, g_earth) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.784s]   142 |     return [01;35m[Kmodel_->coriolis(q, dq, I_total, m_total, F_x_Ctotal)[m[K;
+[1.784s]       |            [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.784s] In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/robot.hpp:28[m[K:
+[1.784s] [01m[K/usr/local/include/franka/model.h:248:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.784s]   248 |   [01;36m[Kcoriolis[m[K(const std::array<double, 7>& q,        // NOLINT(readability-identifier-length)
+[1.784s]       |   [01;36m[K^~~~~~~~[m[K
+[1.948s] In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/robot.hpp:33[m[K,
+[1.949s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/franka_error_recovery_service_server.hpp:4[m[K,
+[1.949s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/src/real/franka_error_recovery_service_server.cpp:1[m[K:
+[1.949s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/model_franka.hpp:[m[K In member function ‘[01m[Kvirtual std::array<double, 7> franka_hardware::ModelFranka::[01;32m[KcoriolisImpl[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’:
+[1.949s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/model_franka.hpp:142:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::array<double, 7> franka::Model::[01;32m[Kcoriolis[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’ is deprecated: Use coriolis(q, dq, i_total, m_total, f_x_ctotal, g_earth) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.949s]   142 |     return [01;35m[Kmodel_->coriolis(q, dq, I_total, m_total, F_x_Ctotal)[m[K;
+[1.949s]       |            [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.949s] In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/robot.hpp:28[m[K:
+[1.949s] [01m[K/usr/local/include/franka/model.h:248:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.949s]   248 |   [01;36m[Kcoriolis[m[K(const std::array<double, 7>& q,        // NOLINT(readability-identifier-length)
+[1.949s]       |   [01;36m[K^~~~~~~~[m[K
+[1.959s] In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/robot.hpp:33[m[K,
+[1.959s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/franka_param_service_server.hpp:20[m[K,
+[1.959s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/src/real/franka_param_service_server.cpp:2[m[K:
+[1.959s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/model_franka.hpp:[m[K In member function ‘[01m[Kvirtual std::array<double, 7> franka_hardware::ModelFranka::[01;32m[KcoriolisImpl[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’:
+[1.959s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/model_franka.hpp:142:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::array<double, 7> franka::Model::[01;32m[Kcoriolis[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’ is deprecated: Use coriolis(q, dq, i_total, m_total, f_x_ctotal, g_earth) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.960s]   142 |     return [01;35m[Kmodel_->coriolis(q, dq, I_total, m_total, F_x_Ctotal)[m[K;
+[1.960s]       |            [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.960s] In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/robot.hpp:28[m[K:
+[1.960s] [01m[K/usr/local/include/franka/model.h:248:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.960s]   248 |   [01;36m[Kcoriolis[m[K(const std::array<double, 7>& q,        // NOLINT(readability-identifier-length)
+[1.960s]       |   [01;36m[K^~~~~~~~[m[K
+[4.150s] In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/robot.hpp:33[m[K,
+[4.150s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/franka_multi_hardware_interface.hpp:32[m[K,
+[4.150s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/src/real/franka_multi_hardware_interface.cpp:1[m[K:
+[4.150s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/model_franka.hpp:[m[K In member function ‘[01m[Kvirtual std::array<double, 7> franka_hardware::ModelFranka::[01;32m[KcoriolisImpl[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’:
+[4.150s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/model_franka.hpp:142:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::array<double, 7> franka::Model::[01;32m[Kcoriolis[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’ is deprecated: Use coriolis(q, dq, i_total, m_total, f_x_ctotal, g_earth) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.150s]   142 |     return [01;35m[Kmodel_->coriolis(q, dq, I_total, m_total, F_x_Ctotal)[m[K;
+[4.150s]       |            [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.150s] In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/robot.hpp:28[m[K:
+[4.150s] [01m[K/usr/local/include/franka/model.h:248:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.150s]   248 |   [01;36m[Kcoriolis[m[K(const std::array<double, 7>& q,        // NOLINT(readability-identifier-length)
+[4.150s]       |   [01;36m[K^~~~~~~~[m[K
+[4.328s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/src/real/franka_multi_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual CallbackReturn franka_hardware::FrankaMultiHardwareInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’:
+[4.328s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/src/real/franka_multi_hardware_interface.cpp:22:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’ is deprecated: Use on_init(const HardwareComponentInterfaceParams & params) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.328s]    22 |   if ([01;35m[Khardware_interface::SystemInterface::on_init(info)[m[K != CallbackReturn::SUCCESS) {
+[4.329s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[4.329s] In file included from [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/system_interface.hpp:18[m[K,
+[4.329s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/franka_multi_hardware_interface.hpp:22[m[K:
+[4.329s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/hardware_component_interface.hpp:140:26:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.329s]   140 |   virtual CallbackReturn [01;36m[Kon_init[m[K(const HardwareInfo & hardware_info);
+[4.329s]       |                          [01;36m[K^~~~~~~[m[K
+[5.647s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/src/sim/franka_mj_hardware_system.cpp:[m[K In member function ‘[01m[Kvirtual CallbackReturn franka_hardware::FrankaMjHardwareSystem::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’:
+[5.647s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/src/sim/franka_mj_hardware_system.cpp:162:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’ is deprecated: Use on_init(const HardwareComponentInterfaceParams & params) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.647s]   162 |   if ([01;35m[Khardware_interface::SystemInterface::on_init(info)[m[K != CallbackReturn::SUCCESS) {
+[5.648s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[5.648s] In file included from [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/system_interface.hpp:18[m[K,
+[5.648s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/sim/franka_mj_hardware_system.hpp:22[m[K,
+[5.648s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/src/sim/franka_mj_hardware_system.cpp:15[m[K:
+[5.648s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/hardware_component_interface.hpp:140:26:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.648s]   140 |   virtual CallbackReturn [01;36m[Kon_init[m[K(const HardwareInfo & hardware_info);
+[5.648s]       |                          [01;36m[K^~~~~~~[m[K
+[6.823s] [ 93%] [32m[1mLinking CXX shared library libfranka_hardware.so[0m
+[6.995s] [ 93%] Built target franka_hardware
+[7.177s] In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/sim/robot_sim.hpp:8[m[K,
+[7.177s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/sim/franka_mj_hardware_system.hpp:37[m[K:
+[7.178s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/sim/model_sim.hpp:[m[K In member function ‘[01m[Kvirtual std::array<double, 49> franka_hardware::ModelSim::[01;32m[KmassImpl[m[K(const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’:
+[7.178s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/sim/model_sim.hpp:518:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid[01;32m[K operator delete[m[K(void*, std::size_t)[m[K’ called on pointer returned from a mismatched allocation function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmismatched-new-delete-Wmismatched-new-delete]8;;[m[K]
+[7.178s]   518 |     delete [01;35m[KM[m[K;
+[7.178s]       |            [01;35m[K^[m[K
+[7.178s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/sim/model_sim.hpp:509:51:[m[K [01;36m[Knote: [m[Kreturned from ‘[01m[Kvoid*[01;32m[K operator new [][m[K(std::size_t)[m[K’
+[7.178s]   509 |     double *M = new double[model_->nv * model_->nv[01;36m[K][m[K;
+[7.178s]       |                                                   [01;36m[K^[m[K
+[7.288s] In member function ‘[01m[Kvirtual std::array<double, 49> franka_hardware::ModelSim::[01;32m[KmassImpl[m[K(const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’,
+[7.288s]     inlined from ‘[01m[Kstd::array<double, 49> franka_hardware::ModelBase::[01;32m[Kmass[m[K(const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’ at [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/common/model_base.hpp:118:20[m[K,
+[7.288s]     inlined from ‘[01m[Kvirtual std::array<double, 49> franka_hardware::ModelBase::[01;32m[Kmass[m[K(const franka::RobotState&) const[m[K’ at [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/common/model_base.hpp:220:16[m[K:
+[7.288s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/sim/model_sim.hpp:518:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid[01;32m[K operator delete[m[K(void*, std::size_t)[m[K’ called on pointer returned from a mismatched allocation function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmismatched-new-delete-Wmismatched-new-delete]8;;[m[K]
+[7.288s]   518 |     delete [01;35m[KM[m[K;
+[7.288s]       |            [01;35m[K^[m[K
+[7.288s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/sim/model_sim.hpp:509:51:[m[K [01;36m[Knote: [m[Kreturned from ‘[01m[Kvoid*[01;32m[K operator new [][m[K(std::size_t)[m[K’
+[7.288s]   509 |     double *M = new double[model_->nv * model_->nv[01;36m[K][m[K;
+[7.288s]       |                                                   [01;36m[K^[m[K
+[7.491s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/sim/model_sim.hpp:[m[K In member function ‘[01m[Kvirtual std::array<double, 49> franka_hardware::ModelSim::[01;32m[K_ZTv0_n112_NK15franka_hardware8ModelSim8massImplERKSt5arrayIdLm7EERKS1_IdLm9EEdRKS1_IdLm3EE[m[K(const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’:
+[7.491s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/sim/model_sim.hpp:518:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid[01;32m[K operator delete[m[K(void*, std::size_t)[m[K’ called on pointer returned from a mismatched allocation function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmismatched-new-delete-Wmismatched-new-delete]8;;[m[K]
+[7.491s]   518 |     delete [01;35m[KM[m[K;
+[7.491s]       |            [01;35m[K^[m[K
+[7.491s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/sim/model_sim.hpp:509:51:[m[K [01;36m[Knote: [m[Kreturned from ‘[01m[Kvoid*[01;32m[K operator new [][m[K(std::size_t)[m[K’
+[7.491s]   509 |     double *M = new double[model_->nv * model_->nv[01;36m[K][m[K;
+[7.491s]       |                                                   [01;36m[K^[m[K
+[9.220s] [100%] [32m[1mLinking CXX shared library libfranka_mj_hardware.so[0m
+[9.430s] [100%] Built target franka_mj_hardware
+[9.437s] Invoked command in '/home/herring/rzddzy/ros2_ws/build/franka_hardware' returned '0': AMENT_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control:/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:/home/herring/rzddzy/ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control:/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:/home/herring/rzddzy/ros2_ws/install/franka_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib:/home/herring/rzddzy/ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/ros2_ws/install/franka_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/herring/rzddzy/ros2_ws/build/franka_hardware -- -j28 -l28
+[9.438s] Invoking command in '/home/herring/rzddzy/ros2_ws/build/franka_hardware': AMENT_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control:/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:/home/herring/rzddzy/ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control:/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:/home/herring/rzddzy/ros2_ws/install/franka_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib:/home/herring/rzddzy/ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/ros2_ws/install/franka_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/herring/rzddzy/ros2_ws/build/franka_hardware
+[9.443s] -- Install configuration: "Release"
+[9.443s] -- Execute custom install script
+[9.443s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware//franka_hardware.xml
+[9.448s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware//franka_mj_hardware.xml
+[9.454s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware//franka_mj_hardware_hw_interface.xml
+[9.459s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/lib/libfranka_hardware.so
+[9.464s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/lib/libfranka_mj_hardware.so
+[9.470s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/include/franka_hardware/common/control_mode.h
+[9.475s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/include/franka_hardware/common/franka_executor.hpp
+[9.481s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/include/franka_hardware/common/helper_functions.hpp
+[9.488s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/include/franka_hardware/common/model_base.hpp
+[9.493s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/include/franka_hardware/real/franka_error_recovery_service_server.hpp
+[9.500s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/include/franka_hardware/real/franka_multi_hardware_interface.hpp
+[9.507s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/include/franka_hardware/real/franka_param_service_server.hpp
+[9.512s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/include/franka_hardware/real/model_franka.hpp
+[9.516s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/include/franka_hardware/real/robot.hpp
+[9.524s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/include/franka_hardware/sim/franka_mj_hardware_system.hpp
+[9.532s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/include/franka_hardware/sim/gripper_sim_action_server.hpp
+[9.537s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/include/franka_hardware/sim/model_sim.hpp
+[9.544s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/include/franka_hardware/sim/robot_sim.hpp
+[9.551s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/environment/library_path.sh
+[9.558s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/environment/library_path.dsv
+[9.564s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/ament_index/resource_index/package_run_dependencies/franka_hardware
+[9.568s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/ament_index/resource_index/parent_prefix_path/franka_hardware
+[9.576s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/environment/ament_prefix_path.sh
+[9.581s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/environment/ament_prefix_path.dsv
+[9.585s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/environment/path.sh
+[9.591s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/environment/path.dsv
+[9.597s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/local_setup.bash
+[9.605s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/local_setup.sh
+[9.613s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/local_setup.zsh
+[9.619s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/local_setup.dsv
+[9.627s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/package.dsv
+[9.635s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/ament_index/resource_index/packages/franka_hardware
+[9.643s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/franka_hardware
+[9.651s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/ament_index/resource_index/mujoco_ros2_control__pluginlib__plugin/franka_hardware
+[9.657s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.662s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[9.669s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.675s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/cmake/franka_hardwareConfig.cmake
+[9.683s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/cmake/franka_hardwareConfig-version.cmake
+[9.689s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/package.xml
+[9.696s] Invoked command in '/home/herring/rzddzy/ros2_ws/build/franka_hardware' returned '0': AMENT_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control:/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:/home/herring/rzddzy/ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control:/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:/home/herring/rzddzy/ros2_ws/install/franka_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib:/home/herring/rzddzy/ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/ros2_ws/install/franka_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/herring/rzddzy/ros2_ws/build/franka_hardware

@@ -1,0 +1,143 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-0748d16c8b59877e66d9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3,
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Release-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "mujoco_ros",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "lodepng::@145eef247bfb46b6828c",
+					"jsonFile" : "target-lodepng-Release-1d9793da7d85b2e0cf93.json",
+					"name" : "lodepng",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mujoco_node::@145eef247bfb46b6828c",
+					"jsonFile" : "target-mujoco_node-Release-10790b3822bcbf48ec6e.json",
+					"name" : "mujoco_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mujoco_ros::@145eef247bfb46b6828c",
+					"jsonFile" : "target-mujoco_ros-Release-5ac9fc3950825dad8c48.json",
+					"name" : "mujoco_ros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mujoco_ros_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mujoco_ros_uninstall-Release-595c27f3655e2631dcc8.json",
+					"name" : "mujoco_ros_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "platform_ui_adapter::@145eef247bfb46b6828c",
+					"jsonFile" : "target-platform_ui_adapter-Release-88c23b32a32dbf09100c.json",
+					"name" : "platform_ui_adapter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "render_backend_h::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-render_backend_h-Release-16cfe343303f6f5e0390.json",
+					"name" : "render_backend_h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_version_h::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_version_h-Release-b7a299c68a4356ba2381.json",
+					"name" : "ros_version_h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-094b4350e4ab7db7df62.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/herring/rzddzy/ros2_ws/build/mujoco_ros",
+		"source" : "/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

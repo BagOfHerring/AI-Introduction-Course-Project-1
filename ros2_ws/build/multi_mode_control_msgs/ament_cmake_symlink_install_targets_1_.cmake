@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/herring/rzddzy/ros2_ws/build/multi_mode_control_msgs/rosidl_generator_py/multi_mode_control_msgs/multi_mode_control_msgs_s__rosidl_typesupport_introspection_c.so" "TARGETS" "multi_mode_control_msgs_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/multi_mode_control_msgs")

@@ -1,0 +1,104 @@
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found control_msgs: 5.7.0 (/opt/ros/jazzy/share/control_msgs/cmake)
+-- Found multi_mode_control_msgs: 0.0.0 (/home/herring/rzddzy/ros2_ws/install/multi_mode_control_msgs/share/multi_mode_control_msgs/cmake)
+-- Found controller_interface: 4.42.2 (/opt/ros/jazzy/share/controller_interface/cmake)
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found controller_manager: 4.42.2 (/opt/ros/jazzy/share/controller_manager/cmake)
+-- Found franka_semantic_components: 0.0.0 (/home/herring/rzddzy/ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake)
+-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0mCMake Deprecation Warning at /opt/ros/jazzy/share/actionlib_msgs/cmake/actionlib_msgsConfig.cmake:31 (message):
+  Package 'actionlib_msgs' is deprecated (This package will be removed in a
+  future ROS distro, once the ROS 1 bridge supports actions.)
+Call Stack (most recent call first):
+  /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/mujoco_ros_msgsConfig.cmake:41 (include)
+  /home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/mujoco_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/mujoco_ros/cmake/mujoco_rosConfig.cmake:41 (include)
+  /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/cmake/mujoco_ros2_controlConfig.cmake:41 (include)
+  /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/cmake/franka_hardwareConfig.cmake:41 (include)
+  /home/herring/rzddzy/ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/herring/rzddzy/ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake/franka_semantic_componentsConfig.cmake:41 (include)
+  CMakeLists.txt:45 (find_package)
+
+[0m
+-- Configuring done (1.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/herring/rzddzy/ros2_ws/build/multi_mode_controller
+[ 10%] Built target openGJK
+[ 15%] [32m[1mLinking CXX shared library libsynchronous_client.so[0m
+[ 20%] [32m[1mLinking CXX shared library libmulti_mode_controller.so[0m
+[ 25%] Built target synchronous_client
+[100%] Built target multi_mode_controller
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/lib/libopenGJK.a
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/lib/libmulti_mode_controller.so
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/base/panda_controller_interface.h
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/base/switch_engine.h
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/base/switch_engine_interface.h
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/comless_coupled_dual_cartesian_impedance_controller.h
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/comless_dual_cartesian_impedance_controller.h
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/comless_dual_joint_impedance_controller.h
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/comless_panda_cartesian_impedance_controller.h
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/comless_panda_joint_impedance_controller.h
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/des_coupled_dual_cartesian_impedance_controller.h
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/dual_cartesian_impedance_controller.h
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/panda_cartesian_impedance_controller.h
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/panda_joint_impedance_controller.h
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/panda_joint_velocity_controller.h
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/twin_cartesian_impedance_controller.h
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/twin_joint_impedance_controller.h
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/utils/buffered.h
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/utils/controller_factory.h
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/utils/conversions.h
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/utils/damping_design.h
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/utils/factory.h
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/utils/get_robot_state_msg.h
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/utils/nullspace_projection.h
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/utils/openGJK.h
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/utils/panda_limits.h
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/utils/redundancy_resolution.h
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/utils/robot_data.h
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/utils/sync_service_client.hpp
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/utils/synchronous_client.h
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/utils/type_name.h
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/lib/libsynchronous_client.so
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/environment/library_path.sh
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/environment/library_path.dsv
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/ament_index/resource_index/package_run_dependencies/multi_mode_controller
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/ament_index/resource_index/parent_prefix_path/multi_mode_controller
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/environment/path.sh
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/environment/path.dsv
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/local_setup.bash
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/local_setup.sh
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/local_setup.zsh
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/local_setup.dsv
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/package.dsv
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/ament_index/resource_index/packages/multi_mode_controller
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/cmake/multi_mode_controllerConfig.cmake
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/cmake/multi_mode_controllerConfig-version.cmake
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/package.xml

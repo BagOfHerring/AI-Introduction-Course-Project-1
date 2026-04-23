@@ -1,0 +1,11 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/multi_mode_control_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/multi_mode_control_msgs/_multi_mode_control_msgs_s.ep.rosidl_typesupport_c.c.o"
+  "CMakeFiles/multi_mode_control_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/multi_mode_control_msgs/_multi_mode_control_msgs_s.ep.rosidl_typesupport_c.c.o.d"
+  "rosidl_generator_py/multi_mode_control_msgs/multi_mode_control_msgs_s__rosidl_typesupport_c.pdb"
+  "rosidl_generator_py/multi_mode_control_msgs/multi_mode_control_msgs_s__rosidl_typesupport_c.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/multi_mode_control_msgs_s__rosidl_typesupport_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

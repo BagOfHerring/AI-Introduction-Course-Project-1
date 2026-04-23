@@ -1,0 +1,61 @@
+[0.011s] Invoking command in '/home/herring/rzddzy/ros2_ws/build/mujoco_ros2_control_system': AMENT_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control:/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control:/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_control_system -DMUJOCO_DIR=/home/herring/.mujoco/mujoco-3.2.0 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control_system
+[0.056s] -- The C compiler identification is GNU 13.3.0
+[0.098s] -- The CXX compiler identification is GNU 13.3.0
+[0.112s] -- Detecting C compiler ABI info
+[0.188s] -- Detecting C compiler ABI info - done
+[0.193s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.193s] -- Detecting C compile features
+[0.193s] -- Detecting C compile features - done
+[0.201s] -- Detecting CXX compiler ABI info
+[0.282s] -- Detecting CXX compiler ABI info - done
+[0.291s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.291s] -- Detecting CXX compile features
+[0.292s] -- Detecting CXX compile features - done
+[0.294s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.409s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.451s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.482s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.490s] -- Found mujoco_ros2_control: 0.9.0 (/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/cmake)
+[0.526s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.533s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.542s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.552s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.597s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.599s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.660s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.674s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.694s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.104s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[1.114s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.115s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.115s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.119s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/actionlib_msgs/cmake/actionlib_msgsConfig.cmake:31 (message):
+[1.119s]   Package 'actionlib_msgs' is deprecated (This package will be removed in a
+[1.119s]   future ROS distro, once the ROS 1 bridge supports actions.)
+[1.119s] Call Stack (most recent call first):
+[1.119s]   /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.119s]   /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/mujoco_ros_msgsConfig.cmake:41 (include)
+[1.119s]   /home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/mujoco_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.119s]   /home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/mujoco_ros/cmake/mujoco_rosConfig.cmake:41 (include)
+[1.119s]   /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.119s]   /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/cmake/mujoco_ros2_controlConfig.cmake:41 (include)
+[1.119s]   CMakeLists.txt:11 (find_package)
+[1.119s] 
+[1.119s] [0m
+[1.197s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.259s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.259s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_control_system/include>
+[1.259s] -- Configured cppcheck exclude dirs and/or files: 
+[1.259s] -- Added test 'lint_cmake' to check CMake code style
+[1.260s] -- Added test 'uncrustify' to check C / C++ code style
+[1.260s] -- Configured uncrustify additional arguments: 
+[1.260s] -- Added test 'xmllint' to check XML markup files
+[1.262s] -- Configuring done (1.2s)
+[1.288s] -- Generating done (0.0s)
+[1.289s] [33mCMake Warning:
+[1.289s]   Manually-specified variables were not used by the project:
+[1.289s] 
+[1.289s]     MUJOCO_DIR
+[1.289s] 
+[1.289s] [0m
+[1.291s] -- Build files have been written to: /home/herring/rzddzy/ros2_ws/build/mujoco_ros2_control_system

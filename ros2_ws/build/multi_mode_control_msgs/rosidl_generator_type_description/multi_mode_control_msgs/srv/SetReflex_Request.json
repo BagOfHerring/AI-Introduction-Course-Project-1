@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "multi_mode_control_msgs/srv/SetReflex_Request",
+      "fields": [
+        {
+          "name": "level1",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "level2",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "multi_mode_control_msgs/srv/SetReflex_Request",
+      "hash_string": "RIHS01_09ba3b470b77770a8ff2f373689da81b215849b8eb6dec8d0c59186ce23c6eea"
+    }
+  ]
+}

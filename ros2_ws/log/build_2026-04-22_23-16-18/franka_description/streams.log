@@ -1,0 +1,155 @@
+[0.008s] Invoking command in '/home/herring/rzddzy/ros2_ws/build/franka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/herring/rzddzy/ros2_ws/src/franka_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/herring/rzddzy/ros2_ws/install/franka_description
+[0.077s] -- The C compiler identification is GNU 13.3.0
+[0.136s] -- The CXX compiler identification is GNU 13.3.0
+[0.150s] -- Detecting C compiler ABI info
+[0.231s] -- Detecting C compiler ABI info - done
+[0.247s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.247s] -- Detecting C compile features
+[0.248s] -- Detecting C compile features - done
+[0.255s] -- Detecting CXX compiler ABI info
+[0.336s] -- Detecting CXX compiler ABI info - done
+[0.342s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.342s] -- Detecting CXX compile features
+[0.342s] -- Detecting CXX compile features - done
+[0.343s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.457s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.517s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.540s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.878s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.884s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.884s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.885s] -- Added test 'lint_cmake' to check CMake code style
+[0.885s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.888s] -- Added test 'xmllint' to check XML markup files
+[0.889s] -- Configuring done (0.9s)
+[0.891s] -- Generating done (0.0s)
+[0.892s] -- Build files have been written to: /home/herring/rzddzy/ros2_ws/build/franka_description
+[0.896s] Invoked command in '/home/herring/rzddzy/ros2_ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/herring/rzddzy/ros2_ws/src/franka_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/herring/rzddzy/ros2_ws/install/franka_description
+[0.897s] Invoking command in '/home/herring/rzddzy/ros2_ws/build/franka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/herring/rzddzy/ros2_ws/build/franka_description -- -j28 -l28
+[0.936s] Invoked command in '/home/herring/rzddzy/ros2_ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/herring/rzddzy/ros2_ws/build/franka_description -- -j28 -l28
+[0.945s] Invoking command in '/home/herring/rzddzy/ros2_ws/build/franka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/herring/rzddzy/ros2_ws/build/franka_description
+[0.953s] -- Install configuration: ""
+[0.953s] -- Execute custom install script
+[0.953s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//launch/visualize_franka.launch.py
+[0.963s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//robots/common/hand.urdf.xacro
+[0.970s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//robots/common/hand.xacro
+[0.979s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//robots/common/panda_arm.xacro
+[0.987s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//robots/mixed/mixed_dual_panda_arm.urdf.xacro
+[0.994s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//robots/mixed/mixed_quad_panda_arm.urdf.xacro
+[1.002s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//robots/real/dual_panda_arm.ros2_control.xacro
+[1.011s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//robots/real/dual_panda_arm.urdf.xacro
+[1.019s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//robots/real/panda_arm.ros2_control.xacro
+[1.027s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//robots/real/panda_arm.urdf.xacro
+[1.034s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//robots/sim/dual_panda_arm_sim.ros2_control.xacro
+[1.042s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//robots/sim/dual_panda_arm_sim.urdf.xacro
+[1.049s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//robots/sim/panda_arm_sim.ros2_control.xacro
+[1.057s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//robots/sim/panda_arm_sim.urdf.xacro
+[1.066s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//meshes/visual/finger.dae
+[1.074s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//meshes/visual/hand.dae
+[1.082s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//meshes/visual/link0.dae
+[1.089s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//meshes/visual/link1.dae
+[1.098s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//meshes/visual/link2.dae
+[1.107s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//meshes/visual/link3.dae
+[1.114s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//meshes/visual/link4.dae
+[1.122s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//meshes/visual/link5.dae
+[1.131s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//meshes/visual/link6.dae
+[1.140s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//meshes/visual/link7.dae
+[1.148s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//meshes/visual/meshes.blend
+[1.157s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//rviz/visualize_dual_franka.rviz
+[1.162s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//rviz/visualize_franka.rviz
+[1.171s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/TEMPLATE_panda.xml
+[1.179s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/finger_0.obj
+[1.188s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/finger_1.obj
+[1.196s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/hand.stl
+[1.203s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/hand_0.obj
+[1.212s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/hand_1.obj
+[1.219s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/hand_2.obj
+[1.227s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/hand_3.obj
+[1.235s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/hand_4.obj
+[1.242s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link0.stl
+[1.253s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link0_0.obj
+[1.260s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link0_1.obj
+[1.268s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link0_10.obj
+[1.277s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link0_11.obj
+[1.285s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link0_2.obj
+[1.293s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link0_3.obj
+[1.300s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link0_4.obj
+[1.309s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link0_5.obj
+[1.317s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link0_7.obj
+[1.325s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link0_8.obj
+[1.333s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link0_9.obj
+[1.341s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link1.obj
+[1.348s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link1.stl
+[1.356s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link2.obj
+[1.364s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link2.stl
+[1.371s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link3.stl
+[1.380s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link3_0.obj
+[1.388s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link3_1.obj
+[1.395s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link3_2.obj
+[1.402s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link3_3.obj
+[1.411s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link4.stl
+[1.420s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link4_0.obj
+[1.428s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link4_1.obj
+[1.436s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link4_2.obj
+[1.444s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link4_3.obj
+[1.452s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link5_0.obj
+[1.459s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link5_1.obj
+[1.467s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link5_2.obj
+[1.472s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link5_collision_0.obj
+[1.483s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link5_collision_1.obj
+[1.492s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link5_collision_2.obj
+[1.504s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6.stl
+[1.512s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6_0.obj
+[1.521s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6_1.obj
+[1.531s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6_10.obj
+[1.539s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6_11.obj
+[1.547s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6_12.obj
+[1.557s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6_13.obj
+[1.564s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6_14.obj
+[1.573s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6_15.obj
+[1.584s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6_16.obj
+[1.594s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6_2.obj
+[1.605s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6_3.obj
+[1.613s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6_4.obj
+[1.624s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6_5.obj
+[1.631s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6_6.obj
+[1.638s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6_7.obj
+[1.645s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6_8.obj
+[1.655s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link6_9.obj
+[1.666s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link7.stl
+[1.677s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link7_0.obj
+[1.688s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link7_1.obj
+[1.698s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link7_2.obj
+[1.706s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link7_3.obj
+[1.716s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link7_4.obj
+[1.723s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link7_5.obj
+[1.734s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link7_6.obj
+[1.742s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link7_7.obj
+[1.750s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/dual_scene.xml
+[1.761s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/dual_scene_ng.xml
+[1.768s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/dual_scene_rl.xml
+[1.778s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/mj_dual.xml
+[1.788s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/mj_dual_ng.xml
+[1.799s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/mj_dual_rl.xml
+[1.807s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/objects.xml
+[1.816s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/panda.xml
+[1.825s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/panda_ng.xml
+[1.834s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/scene.xml
+[1.844s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/scene_ng.xml
+[1.851s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/scene_with_workbench.xml
+[1.859s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/ament_index/resource_index/package_run_dependencies/franka_description
+[1.868s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/ament_index/resource_index/parent_prefix_path/franka_description
+[1.875s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description/environment/ament_prefix_path.sh
+[1.883s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description/environment/ament_prefix_path.dsv
+[1.892s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description/environment/path.sh
+[1.905s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description/environment/path.dsv
+[1.915s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description/local_setup.bash
+[1.925s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description/local_setup.sh
+[1.935s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description/local_setup.zsh
+[1.945s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description/local_setup.dsv
+[1.954s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description/package.dsv
+[1.962s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/ament_index/resource_index/packages/franka_description
+[1.971s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description/cmake/franka_descriptionConfig.cmake
+[1.980s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description/cmake/franka_descriptionConfig-version.cmake
+[1.989s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description/package.xml
+[2.000s] Invoked command in '/home/herring/rzddzy/ros2_ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/herring/rzddzy/ros2_ws/build/franka_description

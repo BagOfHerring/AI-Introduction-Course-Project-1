@@ -1,0 +1,45 @@
+[0mCMake Deprecation Warning at /opt/ros/jazzy/share/actionlib_msgs/cmake/actionlib_msgsConfig.cmake:31 (message):
+  Package 'actionlib_msgs' is deprecated (This package will be removed in a
+  future ROS distro, once the ROS 1 bridge supports actions.)
+Call Stack (most recent call first):
+  /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/mujoco_ros_msgsConfig.cmake:41 (include)
+  /home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/mujoco_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/mujoco_ros/cmake/mujoco_rosConfig.cmake:41 (include)
+  /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/cmake/mujoco_ros2_controlConfig.cmake:41 (include)
+  /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/cmake/franka_hardwareConfig.cmake:41 (include)
+  /home/herring/rzddzy/ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/herring/rzddzy/ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake/franka_semantic_componentsConfig.cmake:41 (include)
+  /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/cmake/multi_mode_controllerConfig.cmake:41 (include)
+  CMakeLists.txt:26 (find_package)
+
+[0m
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    MUJOCO_DIR
+
+[0m
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller_impl/include/multi_mode_controller_impl/multi_mode_controller.h:33[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller_impl/src/multi_mode_controller.cpp:15[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/utils/conversions.h:[m[K In function ‘[01m[Kstd::string[01;32m[K vectorToResource[m[K(const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/utils/conversions.h:32:17:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   32 |   for (int i=1;[01;35m[Ki<vec.size()[m[K;++i) {
+      |                [01;35m[K~^~~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller_impl/src/multi_mode_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::InterfaceConfiguration multi_mode_controller::MultiModeController::[01;32m[Kcommand_interface_configuration[m[K() const[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller_impl/src/multi_mode_controller.cpp:40:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   40 |     for (size_t i = 1; [01;35m[Ki <= num_joints[m[K; ++i) {
+      |                        [01;35m[K~~^~~~~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller_impl/src/multi_mode_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type multi_mode_controller::MultiModeController::[01;32m[Kupdate[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller_impl/src/multi_mode_controller.cpp:75:39:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+   75 |       [01;35m[Kcommand_interfaces_[k].set_value(arm.tau_[i])[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:29[m[K,
+                 from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface.hpp:21[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller_impl/include/multi_mode_controller_impl/multi_mode_controller.h:24[m[K:
+[01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K

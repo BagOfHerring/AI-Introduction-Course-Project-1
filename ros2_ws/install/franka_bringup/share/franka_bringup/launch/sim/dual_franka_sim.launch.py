@@ -1,0 +1,1 @@
+/home/herring/rzddzy/ros2_ws/src/franka_bringup/launch/sim/dual_franka_sim.launch.py

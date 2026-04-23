@@ -1,0 +1,1 @@
+/home/herring/rzddzy/ros2_ws/build/multi_mode_control_msgs/rosidl_typesupport_introspection_c/multi_mode_control_msgs/srv/detail/get_robot_states__rosidl_typesupport_introspection_c.h

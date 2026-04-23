@@ -1,0 +1,581 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Setting build type to 'Release' as none was specified.
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found control_msgs: 5.7.0 (/opt/ros/jazzy/share/control_msgs/cmake)
+-- Found multi_mode_control_msgs: 0.0.0 (/home/herring/rzddzy/ros2_ws/install/multi_mode_control_msgs/share/multi_mode_control_msgs/cmake)
+-- Found controller_interface: 4.42.2 (/opt/ros/jazzy/share/controller_interface/cmake)
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found controller_manager: 4.42.2 (/opt/ros/jazzy/share/controller_manager/cmake)
+-- Found franka_semantic_components: 0.0.0 (/home/herring/rzddzy/ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake)
+-- Found Threads: TRUE  
+-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0mCMake Deprecation Warning at /opt/ros/jazzy/share/actionlib_msgs/cmake/actionlib_msgsConfig.cmake:31 (message):
+  Package 'actionlib_msgs' is deprecated (This package will be removed in a
+  future ROS distro, once the ROS 1 bridge supports actions.)
+Call Stack (most recent call first):
+  /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/mujoco_ros_msgsConfig.cmake:41 (include)
+  /home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/mujoco_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/mujoco_ros/cmake/mujoco_rosConfig.cmake:41 (include)
+  /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/cmake/mujoco_ros2_controlConfig.cmake:41 (include)
+  /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/herring/rzddzy/ros2_ws/install/franka_hardware/share/franka_hardware/cmake/franka_hardwareConfig.cmake:41 (include)
+  /home/herring/rzddzy/ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/herring/rzddzy/ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake/franka_semantic_componentsConfig.cmake:41 (include)
+  CMakeLists.txt:45 (find_package)
+
+[0m
+-- Configuring done (1.3s)
+-- Generating done (0.0s)
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    MUJOCO_DIR
+
+[0m
+-- Build files have been written to: /home/herring/rzddzy/ros2_ws/build/multi_mode_controller
+[  5%] [32mBuilding C object CMakeFiles/openGJK.dir/src/openGJK.c.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/synchronous_client.dir/src/synchronous_client.cpp.o[0m
+[ 15%] [32m[1mLinking C static library libopenGJK.a[0m
+[ 15%] Built target openGJK
+[ 20%] [32mBuilding CXX object CMakeFiles/multi_mode_controller.dir/src/controller_factory.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/multi_mode_controller.dir/src/robot_data.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/multi_mode_controller.dir/src/comless_panda_cartesian_impedance_controller.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/multi_mode_controller.dir/src/redundancy_resolution.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/multi_mode_controller.dir/src/panda_cartesian_impedance_controller.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/multi_mode_controller.dir/src/panda_joint_velocity_controller.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/multi_mode_controller.dir/src/comless_dual_cartesian_impedance_controller.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/multi_mode_controller.dir/src/des_coupled_dual_cartesian_impedance_controller.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/multi_mode_controller.dir/src/comless_panda_joint_impedance_controller.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/multi_mode_controller.dir/src/comless_dual_joint_impedance_controller.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/multi_mode_controller.dir/src/comless_coupled_dual_cartesian_impedance_controller.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/multi_mode_controller.dir/src/panda_joint_impedance_controller.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/multi_mode_controller.dir/src/dual_cartesian_impedance_controller.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/multi_mode_controller.dir/src/twin_cartesian_impedance_controller.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/multi_mode_controller.dir/src/twin_joint_impedance_controller.cpp.o[0m
+[ 95%] [32m[1mLinking CXX shared library libsynchronous_client.so[0m
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/redundancy_resolution.cpp:[m[K In function ‘[01m[KEigen::Matrix4d redundancy_resolution::[01;32m[KFK[m[K(const Eigen::VectorXd&, int, bool)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/redundancy_resolution.cpp:55:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kwidth[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   55 |     double [01;35m[Kwidth[m[K = 0.75; // base plotting
+      |            [01;35m[K^~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/redundancy_resolution.cpp:57:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdepth[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   57 |     double [01;35m[Kdepth[m[K = 0.75; // base plotting
+      |            [01;35m[K^~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/redundancy_resolution.cpp:58:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KwheelRadius[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   58 |     double [01;35m[KwheelRadius[m[K = height / 2;
+      |            [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/redundancy_resolution.cpp:[m[K In function ‘[01m[Kvoid redundancy_resolution::[01;32m[KcomputeDynamics[m[K(const Eigen::VectorXd&, const Eigen::VectorXd&, Eigen::MatrixXd&, Eigen::MatrixXd&, Eigen::VectorXd&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/redundancy_resolution.cpp:300:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KQdot[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  300 | void computeDynamics(const VectorXd& Q, [01;35m[Kconst VectorXd& Qdot[m[K, MatrixXd& M, MatrixXd& C, VectorXd& G) {
+      |                                         [01;35m[K~~~~~~~~~~~~~~~~^~~~[m[K
+[ 95%] Built target synchronous_client
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/redundancy_resolution.cpp:[m[K In function ‘[01m[Kredundancy_resolution::ControlOutput redundancy_resolution::[01;32m[KwholeBodyController[m[K(const Eigen::Matrix<double, 6, 2>&, const Eigen::VectorXd&, const Eigen::VectorXd&, const Eigen::VectorXd&, double)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/redundancy_resolution.cpp:621:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgain_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  621 |     double [01;35m[Kgain_x[m[K = 10.0; // Gain for disturbance in the x direction
+      |            [01;35m[K^~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/redundancy_resolution.cpp:622:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgain_theta[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  622 |     double [01;35m[Kgain_theta[m[K = 12.0; // Gain for disturbance in the theta direction
+      |            [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:6[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/controllers/comless_dual_joint_impedance_controller.h:4[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/comless_dual_joint_impedance_controller.cpp:1[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:37:3:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   37 |   [01;35m[Kconst[m[K T* const operator->() {
+      |   [01;35m[K^~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:76:3:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   76 |   [01;35m[KT[m[K* const operator->() {
+      |   [01;35m[K^[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:6[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/controllers/comless_panda_joint_impedance_controller.h:4[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/comless_panda_joint_impedance_controller.cpp:1[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:37:3:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   37 |   [01;35m[Kconst[m[K T* const operator->() {
+      |   [01;35m[K^~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:76:3:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   76 |   [01;35m[KT[m[K* const operator->() {
+      |   [01;35m[K^[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/robot_data.cpp:1[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/utils/robot_data.h:[m[K In constructor ‘[01m[Kpanda_controllers::RobotData::[01;32m[KRobotData[m[K(panda_controllers::RobotData&&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/utils/robot_data.h:52:65:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpanda_controllers::RobotData::frm_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   52 | unique_ptr<franka_semantic_components::FrankaRobotModel> [01;35m[Kfrm_[m[K;
+      |                                                          [01;35m[K^~~~[m[K
+
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/utils/robot_data.h:50:21:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kconst std::string panda_controllers::RobotData::resource_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   50 |   const std::string [01;35m[Kresource_[m[K;
+      |                     [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/robot_data.cpp:8:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    8 | [01;35m[KRobotData[m[K::RobotData(RobotData&& rd) : frm_(std::move(rd.frm_)),
+      | [01;35m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:6[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:12[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/controllers/panda_cartesian_impedance_controller.h:5[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/panda_cartesian_impedance_controller.cpp:1[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:37:3:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   37 |   [01;35m[Kconst[m[K T* const operator->() {
+      |   [01;35m[K^~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:76:3:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   76 |   [01;35m[KT[m[K* const operator->() {
+      |   [01;35m[K^[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:6[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/controllers/comless_coupled_dual_cartesian_impedance_controller.h:4[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/comless_coupled_dual_cartesian_impedance_controller.cpp:1[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:37:3:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   37 |   [01;35m[Kconst[m[K T* const operator->() {
+      |   [01;35m[K^~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:76:3:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   76 |   [01;35m[KT[m[K* const operator->() {
+      |   [01;35m[K^[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:6[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:12[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/controllers/twin_cartesian_impedance_controller.h:5[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/twin_cartesian_impedance_controller.cpp:1[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:37:3:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   37 |   [01;35m[Kconst[m[K T* const operator->() {
+      |   [01;35m[K^~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:76:3:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   76 |   [01;35m[KT[m[K* const operator->() {
+      |   [01;35m[K^[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:6[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/controllers/comless_panda_cartesian_impedance_controller.h:4[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/comless_panda_cartesian_impedance_controller.cpp:1[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:37:3:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   37 |   [01;35m[Kconst[m[K T* const operator->() {
+      |   [01;35m[K^~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:76:3:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   76 |   [01;35m[KT[m[K* const operator->() {
+      |   [01;35m[K^[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/twin_cartesian_impedance_controller.cpp:[m[K In member function ‘[01m[Kvirtual bool panda_controllers::TwinCartesianImpedanceController::[01;32m[KsetParametersCallbackImpl[m[K(panda_controllers::Parameters&, const panda_controllers::Parameters&, const std::shared_ptr<multi_mode_control_msgs::srv::SetCartesianImpedance_Request_<std::allocator<void> > >&, const std::shared_ptr<multi_mode_control_msgs::srv::SetCartesianImpedance_Response_<std::allocator<void> > >&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/twin_cartesian_impedance_controller.cpp:71:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   71 | bool Controller::setParametersCallbackImpl(Parameters& p_d, [01;35m[Kconst Parameters& p[m[K,
+      |                                                             [01;35m[K~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/twin_cartesian_impedance_controller.cpp:72:99:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   72 |             const std::shared_ptr<ConfigRequest>& request, [01;35m[Kconst std::shared_ptr<ConfigResponse>& response[m[K) {
+      |                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:6[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:12[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/controllers/dual_cartesian_impedance_controller.h:5[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/dual_cartesian_impedance_controller.cpp:1[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:37:3:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   37 |   [01;35m[Kconst[m[K T* const operator->() {
+      |   [01;35m[K^~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:76:3:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   76 |   [01;35m[KT[m[K* const operator->() {
+      |   [01;35m[K^[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/panda_cartesian_impedance_controller.cpp:[m[K In member function ‘[01m[Kvirtual bool panda_controllers::PandaCartesianImpedanceController::[01;32m[KsetParametersCallbackImpl[m[K(panda_controllers::Parameters&, const panda_controllers::Parameters&, const std::shared_ptr<multi_mode_control_msgs::srv::SetCartesianImpedance_Request_<std::allocator<void> > >&, const std::shared_ptr<multi_mode_control_msgs::srv::SetCartesianImpedance_Response_<std::allocator<void> > >&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/panda_cartesian_impedance_controller.cpp:52:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   52 | bool Controller::setParametersCallbackImpl(Parameters& p_d, [01;35m[Kconst Parameters& p[m[K,
+      |                                                             [01;35m[K~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/panda_cartesian_impedance_controller.cpp:53:99:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   53 |             const std::shared_ptr<ConfigRequest>& request, [01;35m[Kconst std::shared_ptr<ConfigResponse>& response[m[K) {
+      |                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:6[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/controllers/comless_dual_cartesian_impedance_controller.h:4[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/comless_dual_cartesian_impedance_controller.cpp:1[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:37:3:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   37 |   [01;35m[Kconst[m[K T* const operator->() {
+      |   [01;35m[K^~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:76:3:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   76 |   [01;35m[KT[m[K* const operator->() {
+      |   [01;35m[K^[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/dual_cartesian_impedance_controller.cpp:[m[K In member function ‘[01m[Kvirtual bool panda_controllers::DualCartesianImpedanceController::[01;32m[KsetParametersCallbackImpl[m[K(panda_controllers::Parameters&, const panda_controllers::Parameters&, const std::shared_ptr<multi_mode_control_msgs::srv::SetCartesianImpedance_Request_<std::allocator<void> > >&, const std::shared_ptr<multi_mode_control_msgs::srv::SetCartesianImpedance_Response_<std::allocator<void> > >&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/dual_cartesian_impedance_controller.cpp:71:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   71 | bool Controller::setParametersCallbackImpl(Parameters& p_d, [01;35m[Kconst Parameters& p[m[K,
+      |                                                             [01;35m[K~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/dual_cartesian_impedance_controller.cpp:72:99:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   72 |             const std::shared_ptr<ConfigRequest>& request, [01;35m[Kconst std::shared_ptr<ConfigResponse>& response[m[K) {
+      |                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:6[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:12[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/controllers/des_coupled_dual_cartesian_impedance_controller.h:5[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/des_coupled_dual_cartesian_impedance_controller.cpp:1[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:37:3:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   37 |   [01;35m[Kconst[m[K T* const operator->() {
+      |   [01;35m[K^~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:76:3:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   76 |   [01;35m[KT[m[K* const operator->() {
+      |   [01;35m[K^[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/des_coupled_dual_cartesian_impedance_controller.cpp:[m[K In member function ‘[01m[Kvirtual bool panda_controllers::DesCoupledDualCartesianImpedanceController::[01;32m[KsetParametersCallbackImpl[m[K(panda_controllers::Parameters&, const panda_controllers::Parameters&, const std::shared_ptr<multi_mode_control_msgs::srv::SetCartesianImpedance_Request_<std::allocator<void> > >&, const std::shared_ptr<multi_mode_control_msgs::srv::SetCartesianImpedance_Response_<std::allocator<void> > >&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/des_coupled_dual_cartesian_impedance_controller.cpp:65:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   65 | bool Controller::setParametersCallbackImpl(Parameters& p_d, [01;35m[Kconst Parameters& p[m[K,
+      |                                                             [01;35m[K~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/des_coupled_dual_cartesian_impedance_controller.cpp:66:99:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   66 |             const std::shared_ptr<ConfigRequest>& request, [01;35m[Kconst std::shared_ptr<ConfigResponse>& response[m[K) {
+      |                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:6[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:12[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/controllers/panda_joint_velocity_controller.h:5[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/panda_joint_velocity_controller.cpp:1[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:37:3:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   37 |   [01;35m[Kconst[m[K T* const operator->() {
+      |   [01;35m[K^~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:76:3:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   76 |   [01;35m[KT[m[K* const operator->() {
+      |   [01;35m[K^[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/panda_joint_velocity_controller.cpp:[m[K In member function ‘[01m[Kvirtual bool panda_controllers::PandaJointVelocityController::[01;32m[KsetParametersCallbackImpl[m[K(Params&, const Params&, const multi_mode_control_msgs::srv::SetJointImpedance_Request_<std::allocator<void> >::SharedPtr&, const multi_mode_control_msgs::srv::SetJointImpedance_Response_<std::allocator<void> >::SharedPtr&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/panda_joint_velocity_controller.cpp:50:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   50 | bool Controller::setParametersCallbackImpl(Params& p_d, [01;35m[Kconst Params& p[m[K,
+      |                                                         [01;35m[K~~~~~~~~~~~~~~^[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/panda_joint_velocity_controller.cpp:51:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   51 |     const ConfigRequest::SharedPtr& request, [01;35m[Kconst ConfigResponse::SharedPtr& response[m[K) {
+      |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:6[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:12[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/controllers/panda_joint_impedance_controller.h:5[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/panda_joint_impedance_controller.cpp:1[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:37:3:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   37 |   [01;35m[Kconst[m[K T* const operator->() {
+      |   [01;35m[K^~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:76:3:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   76 |   [01;35m[KT[m[K* const operator->() {
+      |   [01;35m[K^[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/panda_joint_impedance_controller.cpp:[m[K In member function ‘[01m[Kvirtual bool panda_controllers::PandaJointImpedanceController::[01;32m[KsetParametersCallbackImpl[m[K(Params&, const Params&, const multi_mode_control_msgs::srv::SetJointImpedance_Request_<std::allocator<void> >::SharedPtr&, const multi_mode_control_msgs::srv::SetJointImpedance_Response_<std::allocator<void> >::SharedPtr&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/panda_joint_impedance_controller.cpp:37:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   37 | bool Controller::setParametersCallbackImpl(Params& p_d, [01;35m[Kconst Params& p[m[K,
+      |                                                         [01;35m[K~~~~~~~~~~~~~~^[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/panda_joint_impedance_controller.cpp:38:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   38 |     const ConfigRequest::SharedPtr& request, [01;35m[Kconst ConfigResponse::SharedPtr& response[m[K) {
+      |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:6[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:12[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/controllers/twin_joint_impedance_controller.h:5[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/twin_joint_impedance_controller.cpp:1[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:37:3:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   37 |   [01;35m[Kconst[m[K T* const operator->() {
+      |   [01;35m[K^~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/utils/buffered.h:76:3:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   76 |   [01;35m[KT[m[K* const operator->() {
+      |   [01;35m[K^[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/twin_joint_impedance_controller.cpp:[m[K In member function ‘[01m[Kvirtual bool panda_controllers::TwinJointImpedanceController::[01;32m[KsetParametersCallbackImpl[m[K(Params&, const Params&, const multi_mode_control_msgs::srv::SetJointImpedance_Request_<std::allocator<void> >::SharedPtr&, const multi_mode_control_msgs::srv::SetJointImpedance_Response_<std::allocator<void> >::SharedPtr&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/twin_joint_impedance_controller.cpp:40:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   40 | bool Controller::setParametersCallbackImpl(Params& p_d, [01;35m[Kconst Params& p[m[K,
+      |                                                         [01;35m[K~~~~~~~~~~~~~~^[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/twin_joint_impedance_controller.cpp:41:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   41 |     const ConfigRequest::SharedPtr& request, [01;35m[Kconst ConfigResponse::SharedPtr& response[m[K) {
+      |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h: In instantiation of ‘[01m[Kbool panda_controllers::PandaControllerBase<Parameters, Pose>::[01;32m[KinitImpl[m[K(const std::vector<panda_controllers::RobotData*>&, rclcpp_lifecycle::LifecycleNode::SharedPtr&, std::string, std::string) [35m[K[with Parameters = panda_controllers::DualCartesianImpedanceControllerParams; Pose = panda_controllers::DualCartesianImpedanceControllerPose; rclcpp_lifecycle::LifecycleNode::SharedPtr = std::shared_ptr<rclcpp_lifecycle::LifecycleNode>; std::string = std::__cxx11::basic_string<char>][m[K[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:16:[m[K   required from here
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl([01;35m[Kconst std::vector<RobotData*>& robot_data[m[K, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, [01;35m[Krclcpp_lifecycle::LifecycleNode::SharedPtr& node[m[K, std::string name, std::string resource) {
+      |                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:130:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, [01;35m[Kstd::string name[m[K, std::string resource) {
+      |                                                                                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:148:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresource[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, [01;35m[Kstd::string resource[m[K) {
+      |                                                                                                                                        [01;35m[K~~~~~~~~~~~~^~~~~~~~[m[K
+/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h: In instantiation of ‘[01m[Kvoid panda_controllers::ControllerRosInterface<ServiceParameter, DesPoseMsg, Parameters, Pose>::[01;32m[KstartROSCom[m[K() [35m[K[with ServiceParameter = multi_mode_control_msgs::srv::SetCartesianImpedance; DesPoseMsg = multi_mode_control_msgs::msg::CartesianImpedanceGoal_<std::allocator<void> >; Parameters = panda_controllers::DualCartesianImpedanceControllerParams; Pose = panda_controllers::DualCartesianImpedanceControllerPose][m[K[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:85:5:[m[K   required from ‘[01m[Kvoid panda_controllers::ControllerRosInterface<ServiceParameter, DesPoseMsg, Parameters, Pose>::[01;32m[Kstart_[m[K() [35m[K[with ServiceParameter = multi_mode_control_msgs::srv::SetCartesianImpedance; DesPoseMsg = multi_mode_control_msgs::msg::CartesianImpedanceGoal_<std::allocator<void> >; Parameters = panda_controllers::DualCartesianImpedanceControllerParams; Pose = panda_controllers::DualCartesianImpedanceControllerPose][m[K[m[K’
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:105:16:[m[K   required from here
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:30:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst std::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   30 |     while ([01;35m[K(pos = resource.find(amps)) != std::string::npos[m[K)
+      |            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h: In instantiation of ‘[01m[Kbool panda_controllers::PandaControllerBase<Parameters, Pose>::[01;32m[KinitImpl[m[K(const std::vector<panda_controllers::RobotData*>&, rclcpp_lifecycle::LifecycleNode::SharedPtr&, std::string, std::string) [35m[K[with Parameters = panda_controllers::PandaCartesianImpedanceControllerParams; Pose = panda_controllers::PandaCartesianImpedanceControllerPose; rclcpp_lifecycle::LifecycleNode::SharedPtr = std::shared_ptr<rclcpp_lifecycle::LifecycleNode>; std::string = std::__cxx11::basic_string<char>][m[K[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:16:[m[K   required from here
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl([01;35m[Kconst std::vector<RobotData*>& robot_data[m[K, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, [01;35m[Krclcpp_lifecycle::LifecycleNode::SharedPtr& node[m[K, std::string name, std::string resource) {
+      |                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:130:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, [01;35m[Kstd::string name[m[K, std::string resource) {
+      |                                                                                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:148:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresource[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, [01;35m[Kstd::string resource[m[K) {
+      |                                                                                                                                        [01;35m[K~~~~~~~~~~~~^~~~~~~~[m[K
+/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h: In instantiation of ‘[01m[Kvoid panda_controllers::ControllerRosInterface<ServiceParameter, DesPoseMsg, Parameters, Pose>::[01;32m[KstartROSCom[m[K() [35m[K[with ServiceParameter = multi_mode_control_msgs::srv::SetCartesianImpedance; DesPoseMsg = multi_mode_control_msgs::msg::CartesianImpedanceGoal_<std::allocator<void> >; Parameters = panda_controllers::PandaCartesianImpedanceControllerParams; Pose = panda_controllers::PandaCartesianImpedanceControllerPose][m[K[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:85:5:[m[K   required from ‘[01m[Kvoid panda_controllers::ControllerRosInterface<ServiceParameter, DesPoseMsg, Parameters, Pose>::[01;32m[Kstart_[m[K() [35m[K[with ServiceParameter = multi_mode_control_msgs::srv::SetCartesianImpedance; DesPoseMsg = multi_mode_control_msgs::msg::CartesianImpedanceGoal_<std::allocator<void> >; Parameters = panda_controllers::PandaCartesianImpedanceControllerParams; Pose = panda_controllers::PandaCartesianImpedanceControllerPose][m[K[m[K’
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:105:16:[m[K   required from here
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:30:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst std::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   30 |     while ([01;35m[K(pos = resource.find(amps)) != std::string::npos[m[K)
+      |            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h: In instantiation of ‘[01m[Kbool panda_controllers::PandaControllerBase<Parameters, Pose>::[01;32m[KinitImpl[m[K(const std::vector<panda_controllers::RobotData*>&, rclcpp_lifecycle::LifecycleNode::SharedPtr&, std::string, std::string) [35m[K[with Parameters = panda_controllers::DualCartesianImpedanceControllerParams; Pose = panda_controllers::DualCartesianImpedanceControllerPose; rclcpp_lifecycle::LifecycleNode::SharedPtr = std::shared_ptr<rclcpp_lifecycle::LifecycleNode>; std::string = std::__cxx11::basic_string<char>][m[K[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:16:[m[K   required from here
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl([01;35m[Kconst std::vector<RobotData*>& robot_data[m[K, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, [01;35m[Krclcpp_lifecycle::LifecycleNode::SharedPtr& node[m[K, std::string name, std::string resource) {
+      |                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:130:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, [01;35m[Kstd::string name[m[K, std::string resource) {
+      |                                                                                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:148:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresource[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, [01;35m[Kstd::string resource[m[K) {
+      |                                                                                                                                        [01;35m[K~~~~~~~~~~~~^~~~~~~~[m[K
+/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h: In instantiation of ‘[01m[Kvoid panda_controllers::ControllerRosInterface<ServiceParameter, DesPoseMsg, Parameters, Pose>::[01;32m[KstartROSCom[m[K() [35m[K[with ServiceParameter = multi_mode_control_msgs::srv::SetCartesianImpedance; DesPoseMsg = multi_mode_control_msgs::msg::DualCartesianImpedanceGoal_<std::allocator<void> >; Parameters = panda_controllers::DualCartesianImpedanceControllerParams; Pose = panda_controllers::DualCartesianImpedanceControllerPose][m[K[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:85:5:[m[K   required from ‘[01m[Kvoid panda_controllers::ControllerRosInterface<ServiceParameter, DesPoseMsg, Parameters, Pose>::[01;32m[Kstart_[m[K() [35m[K[with ServiceParameter = multi_mode_control_msgs::srv::SetCartesianImpedance; DesPoseMsg = multi_mode_control_msgs::msg::DualCartesianImpedanceGoal_<std::allocator<void> >; Parameters = panda_controllers::DualCartesianImpedanceControllerParams; Pose = panda_controllers::DualCartesianImpedanceControllerPose][m[K[m[K’
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:105:16:[m[K   required from here
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:30:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst std::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   30 |     while ([01;35m[K(pos = resource.find(amps)) != std::string::npos[m[K)
+      |            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h: In instantiation of ‘[01m[Kbool panda_controllers::PandaControllerBase<Parameters, Pose>::[01;32m[KinitImpl[m[K(const std::vector<panda_controllers::RobotData*>&, rclcpp_lifecycle::LifecycleNode::SharedPtr&, std::string, std::string) [35m[K[with Parameters = panda_controllers::DualCartesianImpedanceControllerParams; Pose = panda_controllers::DualCartesianImpedanceControllerPose; rclcpp_lifecycle::LifecycleNode::SharedPtr = std::shared_ptr<rclcpp_lifecycle::LifecycleNode>; std::string = std::__cxx11::basic_string<char>][m[K[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:16:[m[K   required from here
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl([01;35m[Kconst std::vector<RobotData*>& robot_data[m[K, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, [01;35m[Krclcpp_lifecycle::LifecycleNode::SharedPtr& node[m[K, std::string name, std::string resource) {
+      |                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:130:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, [01;35m[Kstd::string name[m[K, std::string resource) {
+      |                                                                                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:148:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresource[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, [01;35m[Kstd::string resource[m[K) {
+      |                                                                                                                                        [01;35m[K~~~~~~~~~~~~^~~~~~~~[m[K
+/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h: In instantiation of ‘[01m[Kvoid panda_controllers::ControllerRosInterface<ServiceParameter, DesPoseMsg, Parameters, Pose>::[01;32m[KstartROSCom[m[K() [35m[K[with ServiceParameter = multi_mode_control_msgs::srv::SetCartesianImpedance; DesPoseMsg = multi_mode_control_msgs::msg::CartesianImpedanceGoal_<std::allocator<void> >; Parameters = panda_controllers::DualCartesianImpedanceControllerParams; Pose = panda_controllers::DualCartesianImpedanceControllerPose][m[K[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:85:5:[m[K   required from ‘[01m[Kvoid panda_controllers::ControllerRosInterface<ServiceParameter, DesPoseMsg, Parameters, Pose>::[01;32m[Kstart_[m[K() [35m[K[with ServiceParameter = multi_mode_control_msgs::srv::SetCartesianImpedance; DesPoseMsg = multi_mode_control_msgs::msg::CartesianImpedanceGoal_<std::allocator<void> >; Parameters = panda_controllers::DualCartesianImpedanceControllerParams; Pose = panda_controllers::DualCartesianImpedanceControllerPose][m[K[m[K’
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:105:16:[m[K   required from here
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:30:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst std::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   30 |     while ([01;35m[K(pos = resource.find(amps)) != std::string::npos[m[K)
+      |            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h: In instantiation of ‘[01m[Kbool panda_controllers::PandaControllerBase<Parameters, Pose>::[01;32m[KinitImpl[m[K(const std::vector<panda_controllers::RobotData*>&, rclcpp_lifecycle::LifecycleNode::SharedPtr&, std::string, std::string) [35m[K[with Parameters = double; Pose = panda_controllers::PandaJointImpedanceControllerPose; rclcpp_lifecycle::LifecycleNode::SharedPtr = std::shared_ptr<rclcpp_lifecycle::LifecycleNode>; std::string = std::__cxx11::basic_string<char>][m[K[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:16:[m[K   required from here
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl([01;35m[Kconst std::vector<RobotData*>& robot_data[m[K, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, [01;35m[Krclcpp_lifecycle::LifecycleNode::SharedPtr& node[m[K, std::string name, std::string resource) {
+      |                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:130:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, [01;35m[Kstd::string name[m[K, std::string resource) {
+      |                                                                                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:148:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresource[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, [01;35m[Kstd::string resource[m[K) {
+      |                                                                                                                                        [01;35m[K~~~~~~~~~~~~^~~~~~~~[m[K
+/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h: In instantiation of ‘[01m[Kvoid panda_controllers::ControllerRosInterface<ServiceParameter, DesPoseMsg, Parameters, Pose>::[01;32m[KstartROSCom[m[K() [35m[K[with ServiceParameter = multi_mode_control_msgs::srv::SetJointImpedance; DesPoseMsg = multi_mode_control_msgs::msg::VelocityGoal_<std::allocator<void> >; Parameters = double; Pose = panda_controllers::PandaJointImpedanceControllerPose][m[K[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:85:5:[m[K   required from ‘[01m[Kvoid panda_controllers::ControllerRosInterface<ServiceParameter, DesPoseMsg, Parameters, Pose>::[01;32m[Kstart_[m[K() [35m[K[with ServiceParameter = multi_mode_control_msgs::srv::SetJointImpedance; DesPoseMsg = multi_mode_control_msgs::msg::VelocityGoal_<std::allocator<void> >; Parameters = double; Pose = panda_controllers::PandaJointImpedanceControllerPose][m[K[m[K’
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:105:16:[m[K   required from here
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:30:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst std::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   30 |     while ([01;35m[K(pos = resource.find(amps)) != std::string::npos[m[K)
+      |            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h: In instantiation of ‘[01m[Kbool panda_controllers::PandaControllerBase<Parameters, Pose>::[01;32m[KinitImpl[m[K(const std::vector<panda_controllers::RobotData*>&, rclcpp_lifecycle::LifecycleNode::SharedPtr&, std::string, std::string) [35m[K[with Parameters = double; Pose = panda_controllers::PandaJointImpedanceControllerPose; rclcpp_lifecycle::LifecycleNode::SharedPtr = std::shared_ptr<rclcpp_lifecycle::LifecycleNode>; std::string = std::__cxx11::basic_string<char>][m[K[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:16:[m[K   required from here
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl([01;35m[Kconst std::vector<RobotData*>& robot_data[m[K, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, [01;35m[Krclcpp_lifecycle::LifecycleNode::SharedPtr& node[m[K, std::string name, std::string resource) {
+      |                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:130:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, [01;35m[Kstd::string name[m[K, std::string resource) {
+      |                                                                                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:148:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresource[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, [01;35m[Kstd::string resource[m[K) {
+      |                                                                                                                                        [01;35m[K~~~~~~~~~~~~^~~~~~~~[m[K
+/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h: In instantiation of ‘[01m[Kvoid panda_controllers::ControllerRosInterface<ServiceParameter, DesPoseMsg, Parameters, Pose>::[01;32m[KstartROSCom[m[K() [35m[K[with ServiceParameter = multi_mode_control_msgs::srv::SetJointImpedance; DesPoseMsg = multi_mode_control_msgs::msg::JointGoal_<std::allocator<void> >; Parameters = double; Pose = panda_controllers::PandaJointImpedanceControllerPose][m[K[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:85:5:[m[K   required from ‘[01m[Kvoid panda_controllers::ControllerRosInterface<ServiceParameter, DesPoseMsg, Parameters, Pose>::[01;32m[Kstart_[m[K() [35m[K[with ServiceParameter = multi_mode_control_msgs::srv::SetJointImpedance; DesPoseMsg = multi_mode_control_msgs::msg::JointGoal_<std::allocator<void> >; Parameters = double; Pose = panda_controllers::PandaJointImpedanceControllerPose][m[K[m[K’
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:105:16:[m[K   required from here
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:30:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst std::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   30 |     while ([01;35m[K(pos = resource.find(amps)) != std::string::npos[m[K)
+      |            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h: In instantiation of ‘[01m[Kbool panda_controllers::PandaControllerBase<Parameters, Pose>::[01;32m[KinitImpl[m[K(const std::vector<panda_controllers::RobotData*>&, rclcpp_lifecycle::LifecycleNode::SharedPtr&, std::string, std::string) [35m[K[with Parameters = double; Pose = panda_controllers::DualJointImpedanceControllerPose; rclcpp_lifecycle::LifecycleNode::SharedPtr = std::shared_ptr<rclcpp_lifecycle::LifecycleNode>; std::string = std::__cxx11::basic_string<char>][m[K[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:16:[m[K   required from here
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl([01;35m[Kconst std::vector<RobotData*>& robot_data[m[K, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, [01;35m[Krclcpp_lifecycle::LifecycleNode::SharedPtr& node[m[K, std::string name, std::string resource) {
+      |                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:130:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, [01;35m[Kstd::string name[m[K, std::string resource) {
+      |                                                                                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:148:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresource[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, [01;35m[Kstd::string resource[m[K) {
+      |                                                                                                                                        [01;35m[K~~~~~~~~~~~~^~~~~~~~[m[K
+/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h: In instantiation of ‘[01m[Kvoid panda_controllers::ControllerRosInterface<ServiceParameter, DesPoseMsg, Parameters, Pose>::[01;32m[KstartROSCom[m[K() [35m[K[with ServiceParameter = multi_mode_control_msgs::srv::SetJointImpedance; DesPoseMsg = multi_mode_control_msgs::msg::JointGoal_<std::allocator<void> >; Parameters = double; Pose = panda_controllers::DualJointImpedanceControllerPose][m[K[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:85:5:[m[K   required from ‘[01m[Kvoid panda_controllers::ControllerRosInterface<ServiceParameter, DesPoseMsg, Parameters, Pose>::[01;32m[Kstart_[m[K() [35m[K[with ServiceParameter = multi_mode_control_msgs::srv::SetJointImpedance; DesPoseMsg = multi_mode_control_msgs::msg::JointGoal_<std::allocator<void> >; Parameters = double; Pose = panda_controllers::DualJointImpedanceControllerPose][m[K[m[K’
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:105:16:[m[K   required from here
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h:30:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst std::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   30 |     while ([01;35m[K(pos = resource.find(amps)) != std::string::npos[m[K)
+      |            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h: In instantiation of ‘[01m[Kbool panda_controllers::PandaControllerBase<Parameters, Pose>::[01;32m[KinitImpl[m[K(const std::vector<panda_controllers::RobotData*>&, rclcpp_lifecycle::LifecycleNode::SharedPtr&, std::string, std::string) [35m[K[with Parameters = double; Pose = panda_controllers::DualJointImpedanceControllerPose; rclcpp_lifecycle::LifecycleNode::SharedPtr = std::shared_ptr<rclcpp_lifecycle::LifecycleNode>; std::string = std::__cxx11::basic_string<char>][m[K[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:16:[m[K   required from here
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl([01;35m[Kconst std::vector<RobotData*>& robot_data[m[K, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, [01;35m[Krclcpp_lifecycle::LifecycleNode::SharedPtr& node[m[K, std::string name, std::string resource) {
+      |                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:130:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, [01;35m[Kstd::string name[m[K, std::string resource) {
+      |                                                                                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:148:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresource[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, [01;35m[Kstd::string resource[m[K) {
+      |                                                                                                                                        [01;35m[K~~~~~~~~~~~~^~~~~~~~[m[K
+/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h: In instantiation of ‘[01m[Kbool panda_controllers::PandaControllerBase<Parameters, Pose>::[01;32m[KinitImpl[m[K(const std::vector<panda_controllers::RobotData*>&, rclcpp_lifecycle::LifecycleNode::SharedPtr&, std::string, std::string) [35m[K[with Parameters = double; Pose = panda_controllers::PandaJointImpedanceControllerPose; rclcpp_lifecycle::LifecycleNode::SharedPtr = std::shared_ptr<rclcpp_lifecycle::LifecycleNode>; std::string = std::__cxx11::basic_string<char>][m[K[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:16:[m[K   required from here
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl([01;35m[Kconst std::vector<RobotData*>& robot_data[m[K, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, [01;35m[Krclcpp_lifecycle::LifecycleNode::SharedPtr& node[m[K, std::string name, std::string resource) {
+      |                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:130:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, [01;35m[Kstd::string name[m[K, std::string resource) {
+      |                                                                                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:148:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresource[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, [01;35m[Kstd::string resource[m[K) {
+      |                                                                                                                                        [01;35m[K~~~~~~~~~~~~^~~~~~~~[m[K
+/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h: In instantiation of ‘[01m[Kbool panda_controllers::PandaControllerBase<Parameters, Pose>::[01;32m[KinitImpl[m[K(const std::vector<panda_controllers::RobotData*>&, rclcpp_lifecycle::LifecycleNode::SharedPtr&, std::string, std::string) [35m[K[with Parameters = panda_controllers::DualCartesianImpedanceControllerParams; Pose = panda_controllers::DualCartesianImpedanceControllerPose; rclcpp_lifecycle::LifecycleNode::SharedPtr = std::shared_ptr<rclcpp_lifecycle::LifecycleNode>; std::string = std::__cxx11::basic_string<char>][m[K[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:16:[m[K   required from here
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl([01;35m[Kconst std::vector<RobotData*>& robot_data[m[K, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, [01;35m[Krclcpp_lifecycle::LifecycleNode::SharedPtr& node[m[K, std::string name, std::string resource) {
+      |                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:130:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, [01;35m[Kstd::string name[m[K, std::string resource) {
+      |                                                                                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:148:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresource[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, [01;35m[Kstd::string resource[m[K) {
+      |                                                                                                                                        [01;35m[K~~~~~~~~~~~~^~~~~~~~[m[K
+/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h: In instantiation of ‘[01m[Kbool panda_controllers::PandaControllerBase<Parameters, Pose>::[01;32m[KinitImpl[m[K(const std::vector<panda_controllers::RobotData*>&, rclcpp_lifecycle::LifecycleNode::SharedPtr&, std::string, std::string) [35m[K[with Parameters = panda_controllers::PandaCartesianImpedanceControllerParams; Pose = panda_controllers::PandaCartesianImpedanceControllerPose; rclcpp_lifecycle::LifecycleNode::SharedPtr = std::shared_ptr<rclcpp_lifecycle::LifecycleNode>; std::string = std::__cxx11::basic_string<char>][m[K[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:16:[m[K   required from here
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl([01;35m[Kconst std::vector<RobotData*>& robot_data[m[K, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, [01;35m[Krclcpp_lifecycle::LifecycleNode::SharedPtr& node[m[K, std::string name, std::string resource) {
+      |                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:130:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, [01;35m[Kstd::string name[m[K, std::string resource) {
+      |                                                                                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:148:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresource[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, [01;35m[Kstd::string resource[m[K) {
+      |                                                                                                                                        [01;35m[K~~~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:346[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:22[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/redundancy_resolution.cpp:1[m[K:
+In function ‘[01m[K__m128d[01;32m[K _mm_set1_pd[m[K(double)[m[K’,
+    inlined from ‘[01m[KPacket Eigen::internal::[01;32m[Kpset1[m[K(const typename unpacket_traits<T>::type&) [35m[K[with Packet = __vector(2) double][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:258:97[m[K,
+    inlined from ‘[01m[Kconst PacketType Eigen::internal::scalar_constant_op<Scalar>::[01;32m[KpacketOp[m[K() const [35m[K[with PacketType = __vector(2) double; Scalar = double][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h:23:111[m[K,
+    inlined from ‘[01m[KT Eigen::internal::nullary_wrapper<Scalar, NullaryOp, true, false, false>::[01;32m[KpacketOp[m[K(const NullaryOp&, IndexType, IndexType) const [35m[K[with T = __vector(2) double; IndexType = long int; Scalar = double; NullaryOp = Eigen::internal::scalar_constant_op<double>][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:402:179[m[K,
+    inlined from ‘[01m[KPacketType Eigen::internal::evaluator<Eigen::CwiseNullaryOp<NullaryOp, PlainObjectType> >::[01;32m[Kpacket[m[K(IndexType) const [35m[K[with int LoadMode = 16; PacketType = __vector(2) double; IndexType = long int; NullaryOp = Eigen::internal::scalar_constant_op<double>; PlainObjectType = const Eigen::Matrix<double, -1, 1>][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:547:51[m[K,
+    inlined from ‘[01m[KPacketType Eigen::internal::binary_evaluator<Eigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>, Eigen::internal::IndexBased, Eigen::internal::IndexBased>::[01;32m[Kpacket[m[K(Eigen::Index) const [35m[K[with int LoadMode = 16; PacketType = __vector(2) double; BinaryOp = Eigen::internal::scalar_product_op<double, double>; Lhs = const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, -1, 1> >; Rhs = const Eigen::Matrix<double, -1, 1>][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:790:80[m[K,
+    inlined from ‘[01m[KPacketType Eigen::internal::binary_evaluator<Eigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>, Eigen::internal::IndexBased, Eigen::internal::IndexBased>::[01;32m[Kpacket[m[K(Eigen::Index) const [35m[K[with int LoadMode = 16; PacketType = __vector(2) double; BinaryOp = Eigen::internal::scalar_sum_op<double, double>; Lhs = const Eigen::Matrix<double, -1, 1>; Rhs = const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, -1, 1> >, const Eigen::Matrix<double, -1, 1> >][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:791:80[m[K,
+    inlined from ‘[01m[Kvoid Eigen::internal::generic_dense_assignment_kernel<DstEvaluatorTypeT, SrcEvaluatorTypeT, Functor, Version>::[01;32m[KassignPacket[m[K(Eigen::Index) [35m[K[with int StoreMode = 16; int LoadMode = 16; PacketType = __vector(2) double; DstEvaluatorTypeT = Eigen::internal::evaluator<Eigen::Matrix<double, -1, 1> >; SrcEvaluatorTypeT = Eigen::internal::evaluator<Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, const Eigen::Matrix<double, -1, 1>, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, -1, 1> >, const Eigen::Matrix<double, -1, 1> > > >; Functor = Eigen::internal::assign_op<double, double>; int Version = 0][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:681:114[m[K,
+    inlined from ‘[01m[Kstatic void Eigen::internal::dense_assignment_loop<Kernel, 3, 0>::[01;32m[Krun[m[K(Kernel&) [35m[K[with Kernel = Eigen::internal::generic_dense_assignment_kernel<Eigen::internal::evaluator<Eigen::Matrix<double, -1, 1> >, Eigen::internal::evaluator<Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, const Eigen::Matrix<double, -1, 1>, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, -1, 1> >, const Eigen::Matrix<double, -1, 1> > > >, Eigen::internal::assign_op<double, double>, 0>][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:437:75[m[K,
+    inlined from ‘[01m[Kvoid Eigen::internal::[01;32m[Kcall_dense_assignment_loop[m[K(DstXprType&, const SrcXprType&, const Functor&) [35m[K[with DstXprType = Eigen::Matrix<double, -1, 1>; SrcXprType = Eigen::CwiseBinaryOp<scalar_sum_op<double, double>, const Eigen::Matrix<double, -1, 1>, const Eigen::CwiseBinaryOp<scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<scalar_constant_op<double>, const Eigen::Matrix<double, -1, 1> >, const Eigen::Matrix<double, -1, 1> > >; Functor = assign_op<double, double>][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:785:37[m[K,
+    inlined from ‘[01m[Kstatic void Eigen::internal::Assignment<DstXprType, SrcXprType, Functor, Eigen::internal::Dense2Dense, Weak>::[01;32m[Krun[m[K(DstXprType&, const SrcXprType&, const Functor&) [35m[K[with DstXprType = Eigen::Matrix<double, -1, 1>; SrcXprType = Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, const Eigen::Matrix<double, -1, 1>, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, -1, 1> >, const Eigen::Matrix<double, -1, 1> > >; Functor = Eigen::internal::assign_op<double, double>; Weak = void][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:954:31[m[K,
+    inlined from ‘[01m[Kvoid Eigen::internal::[01;32m[Kcall_assignment_no_alias[m[K(Dst&, const Src&, const Func&) [35m[K[with Dst = Eigen::Matrix<double, -1, 1>; Src = Eigen::CwiseBinaryOp<scalar_sum_op<double, double>, const Eigen::Matrix<double, -1, 1>, const Eigen::CwiseBinaryOp<scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<scalar_constant_op<double>, const Eigen::Matrix<double, -1, 1> >, const Eigen::Matrix<double, -1, 1> > >; Func = assign_op<double, double>][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:890:49[m[K,
+    inlined from ‘[01m[Kvoid Eigen::internal::[01;32m[Kcall_assignment[m[K(Dst&, const Src&, const Func&, typename enable_if<(! evaluator_assume_aliasing<Src>::value), void*>::type) [35m[K[with Dst = Eigen::Matrix<double, -1, 1>; Src = Eigen::CwiseBinaryOp<scalar_sum_op<double, double>, const Eigen::Matrix<double, -1, 1>, const Eigen::CwiseBinaryOp<scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<scalar_constant_op<double>, const Eigen::Matrix<double, -1, 1> >, const Eigen::Matrix<double, -1, 1> > >; Func = assign_op<double, double>][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:858:27[m[K,
+    inlined from ‘[01m[Kvoid Eigen::internal::[01;32m[Kcall_assignment[m[K(Dst&, const Src&) [35m[K[with Dst = Eigen::Matrix<double, -1, 1>; Src = Eigen::CwiseBinaryOp<scalar_sum_op<double, double>, const Eigen::Matrix<double, -1, 1>, const Eigen::CwiseBinaryOp<scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<scalar_constant_op<double>, const Eigen::Matrix<double, -1, 1> >, const Eigen::Matrix<double, -1, 1> > >][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:836:18[m[K,
+    inlined from ‘[01m[KDerived& Eigen::PlainObjectBase<Derived>::[01;32m[K_set[m[K(const Eigen::DenseBase<OtherDerived>&) [35m[K[with OtherDerived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, const Eigen::Matrix<double, -1, 1>, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, -1, 1> >, const Eigen::Matrix<double, -1, 1> > >; Derived = Eigen::Matrix<double, -1, 1>][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:779:32[m[K,
+    inlined from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::[01;32m[Koperator=[m[K(const Eigen::DenseBase<OtherDerived>&) [35m[K[with OtherDerived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, const Eigen::Matrix<double, -1, 1>, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, -1, 1> >, const Eigen::Matrix<double, -1, 1> > >; _Scalar = double; int _Rows = -1; int _Cols = 1; int _Options = 0; int _MaxRows = -1; int _MaxCols = 1][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:225:24[m[K,
+    inlined from ‘[01m[Kredundancy_resolution::ControlOutput redundancy_resolution::[01;32m[KwholeBodyController[m[K(const Eigen::Matrix<double, 6, 2>&, const Eigen::VectorXd&, const Eigen::VectorXd&, const Eigen::VectorXd&, double)[m[K’ at [01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/redundancy_resolution.cpp:742:29[m[K:
+[01m[K/usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h:75:44:[m[K [01;35m[Kwarning: [m[K‘[01m[KdeltaTime[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+   75 |   return __extension__ (__m128d){ __F, __F [01;35m[K}[m[K;
+      |                                            [01;35m[K^[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/redundancy_resolution.cpp:[m[K In function ‘[01m[Kredundancy_resolution::ControlOutput redundancy_resolution::[01;32m[KwholeBodyController[m[K(const Eigen::Matrix<double, 6, 2>&, const Eigen::VectorXd&, const Eigen::VectorXd&, const Eigen::VectorXd&, double)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/src/redundancy_resolution.cpp:674:12:[m[K [01;36m[Knote: [m[K‘[01m[KdeltaTime[m[K’ was declared here
+  674 |     double [01;36m[KdeltaTime[m[K;
+      |            [01;36m[K^~~~~~~~~[m[K
+/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h: In instantiation of ‘[01m[Kbool panda_controllers::PandaControllerBase<Parameters, Pose>::[01;32m[KinitImpl[m[K(const std::vector<panda_controllers::RobotData*>&, rclcpp_lifecycle::LifecycleNode::SharedPtr&, std::string, std::string) [35m[K[with Parameters = panda_controllers::DualCartesianImpedanceControllerParams; Pose = panda_controllers::DualCartesianImpedanceControllerPose; rclcpp_lifecycle::LifecycleNode::SharedPtr = std::shared_ptr<rclcpp_lifecycle::LifecycleNode>; std::string = std::__cxx11::basic_string<char>][m[K[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:16:[m[K   required from here
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl([01;35m[Kconst std::vector<RobotData*>& robot_data[m[K, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, std::string resource) {
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, [01;35m[Krclcpp_lifecycle::LifecycleNode::SharedPtr& node[m[K, std::string name, std::string resource) {
+      |                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:130:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, [01;35m[Kstd::string name[m[K, std::string resource) {
+      |                                                                                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h:102:148:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresource[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  102 |   virtual bool initImpl(const std::vector<RobotData*>& robot_data, rclcpp_lifecycle::LifecycleNode::SharedPtr& node, std::string name, [01;35m[Kstd::string resource[m[K) {
+      |                                                                                                                                        [01;35m[K~~~~~~~~~~~~^~~~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library libmulti_mode_controller.so[0m
+[100%] Built target multi_mode_controller
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/lib/libopenGJK.a
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/lib/libmulti_mode_controller.so
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/base/panda_controller_base.h
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/base/panda_controller_interface.h
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/base/panda_controller_ros_interface.h
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/base/switch_engine.h
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/base/switch_engine_interface.h
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/comless_coupled_dual_cartesian_impedance_controller.h
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/comless_dual_cartesian_impedance_controller.h
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/comless_dual_joint_impedance_controller.h
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/comless_panda_cartesian_impedance_controller.h
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/comless_panda_joint_impedance_controller.h
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/des_coupled_dual_cartesian_impedance_controller.h
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/dual_cartesian_impedance_controller.h
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/panda_cartesian_impedance_controller.h
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/panda_joint_impedance_controller.h
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/panda_joint_velocity_controller.h
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/twin_cartesian_impedance_controller.h
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/controllers/twin_joint_impedance_controller.h
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/utils/buffered.h
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/utils/controller_factory.h
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/utils/conversions.h
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/utils/damping_design.h
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/utils/factory.h
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/utils/get_robot_state_msg.h
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/utils/nullspace_projection.h
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/utils/openGJK.h
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/utils/panda_limits.h
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/utils/redundancy_resolution.h
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/utils/robot_data.h
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/utils/sync_service_client.hpp
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/utils/synchronous_client.h
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/include/multi_mode_controller/utils/type_name.h
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/lib/libsynchronous_client.so
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/environment/library_path.sh
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/environment/library_path.dsv
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/ament_index/resource_index/package_run_dependencies/multi_mode_controller
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/ament_index/resource_index/parent_prefix_path/multi_mode_controller
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/environment/ament_prefix_path.sh
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/environment/ament_prefix_path.dsv
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/environment/path.sh
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/environment/path.dsv
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/local_setup.bash
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/local_setup.sh
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/local_setup.zsh
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/local_setup.dsv
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/package.dsv
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/ament_index/resource_index/packages/multi_mode_controller
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/cmake/multi_mode_controllerConfig.cmake
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/cmake/multi_mode_controllerConfig-version.cmake
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/multi_mode_controller/share/multi_mode_controller/package.xml

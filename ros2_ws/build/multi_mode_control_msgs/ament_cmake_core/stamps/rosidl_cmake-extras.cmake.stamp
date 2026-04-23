@@ -1,0 +1,4 @@
+# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
+
+set(multi_mode_control_msgs_IDL_FILES "msg/CartesianImpedanceGoal.idl;msg/DualCartesianImpedanceGoal.idl;msg/ContactThresholds.idl;msg/Controller.idl;msg/JointArray.idl;msg/JointGoal.idl;msg/VelocityGoal.idl;msg/Wrench.idl;srv/GetControllers.idl;srv/GetRobotStates.idl;srv/SetCartesianImpedance.idl;srv/SetControllers.idl;srv/SetJointImpedance.idl;srv/SetRecoveryMode.idl;srv/SetReflex.idl;srv/SetThresholds.idl;srv/SetWorldState.idl")
+set(multi_mode_control_msgs_INTERFACE_FILES "msg/CartesianImpedanceGoal.msg;msg/DualCartesianImpedanceGoal.msg;msg/ContactThresholds.msg;msg/Controller.msg;msg/JointArray.msg;msg/JointGoal.msg;msg/VelocityGoal.msg;msg/Wrench.msg;srv/GetControllers.srv;srv/GetRobotStates.srv;srv/SetCartesianImpedance.srv;srv/SetControllers.srv;srv/SetJointImpedance.srv;srv/SetRecoveryMode.srv;srv/SetReflex.srv;srv/SetThresholds.srv;srv/SetWorldState.srv")

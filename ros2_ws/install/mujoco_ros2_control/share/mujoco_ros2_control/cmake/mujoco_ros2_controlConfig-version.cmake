@@ -1,0 +1,1 @@
+/home/herring/rzddzy/ros2_ws/build/mujoco_ros2_control/ament_cmake_core/mujoco_ros2_controlConfig-version.cmake

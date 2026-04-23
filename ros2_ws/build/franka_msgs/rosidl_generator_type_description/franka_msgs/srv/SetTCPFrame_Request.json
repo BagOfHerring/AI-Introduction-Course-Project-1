@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "franka_msgs/srv/SetTCPFrame_Request",
+      "fields": [
+        {
+          "name": "transformation",
+          "type": {
+            "type_id": 59,
+            "capacity": 16,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "franka_msgs/srv/SetTCPFrame_Request",
+      "hash_string": "RIHS01_dd1586530f0dd484c8f52975c501802f0f74420faf3113451597a8e78943c5e6"
+    }
+  ]
+}

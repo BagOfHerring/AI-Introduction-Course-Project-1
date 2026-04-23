@@ -1,0 +1,1 @@
+/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros_msgs/msg/GeomProperties.msg

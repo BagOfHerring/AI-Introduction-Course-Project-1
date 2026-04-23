@@ -1,0 +1,31 @@
+{
+  "package_name": "multi_mode_control_msgs",
+  "output_dir": "/home/herring/rzddzy/ros2_ws/build/multi_mode_control_msgs/rosidl_generator_type_description/multi_mode_control_msgs",
+  "idl_tuples": [
+    "/home/herring/rzddzy/ros2_ws/build/multi_mode_control_msgs/rosidl_adapter/multi_mode_control_msgs:msg/CartesianImpedanceGoal.idl",
+    "/home/herring/rzddzy/ros2_ws/build/multi_mode_control_msgs/rosidl_adapter/multi_mode_control_msgs:msg/DualCartesianImpedanceGoal.idl",
+    "/home/herring/rzddzy/ros2_ws/build/multi_mode_control_msgs/rosidl_adapter/multi_mode_control_msgs:msg/ContactThresholds.idl",
+    "/home/herring/rzddzy/ros2_ws/build/multi_mode_control_msgs/rosidl_adapter/multi_mode_control_msgs:msg/Controller.idl",
+    "/home/herring/rzddzy/ros2_ws/build/multi_mode_control_msgs/rosidl_adapter/multi_mode_control_msgs:msg/JointArray.idl",
+    "/home/herring/rzddzy/ros2_ws/build/multi_mode_control_msgs/rosidl_adapter/multi_mode_control_msgs:msg/JointGoal.idl",
+    "/home/herring/rzddzy/ros2_ws/build/multi_mode_control_msgs/rosidl_adapter/multi_mode_control_msgs:msg/VelocityGoal.idl",
+    "/home/herring/rzddzy/ros2_ws/build/multi_mode_control_msgs/rosidl_adapter/multi_mode_control_msgs:msg/Wrench.idl",
+    "/home/herring/rzddzy/ros2_ws/build/multi_mode_control_msgs/rosidl_adapter/multi_mode_control_msgs:srv/GetControllers.idl",
+    "/home/herring/rzddzy/ros2_ws/build/multi_mode_control_msgs/rosidl_adapter/multi_mode_control_msgs:srv/GetRobotStates.idl",
+    "/home/herring/rzddzy/ros2_ws/build/multi_mode_control_msgs/rosidl_adapter/multi_mode_control_msgs:srv/SetCartesianImpedance.idl",
+    "/home/herring/rzddzy/ros2_ws/build/multi_mode_control_msgs/rosidl_adapter/multi_mode_control_msgs:srv/SetControllers.idl",
+    "/home/herring/rzddzy/ros2_ws/build/multi_mode_control_msgs/rosidl_adapter/multi_mode_control_msgs:srv/SetJointImpedance.idl",
+    "/home/herring/rzddzy/ros2_ws/build/multi_mode_control_msgs/rosidl_adapter/multi_mode_control_msgs:srv/SetRecoveryMode.idl",
+    "/home/herring/rzddzy/ros2_ws/build/multi_mode_control_msgs/rosidl_adapter/multi_mode_control_msgs:srv/SetReflex.idl",
+    "/home/herring/rzddzy/ros2_ws/build/multi_mode_control_msgs/rosidl_adapter/multi_mode_control_msgs:srv/SetThresholds.idl",
+    "/home/herring/rzddzy/ros2_ws/build/multi_mode_control_msgs/rosidl_adapter/multi_mode_control_msgs:srv/SetWorldState.idl"
+  ],
+  "include_paths": [
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "franka_msgs:/home/herring/rzddzy/ros2_ws/install/franka_msgs/share/franka_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}
