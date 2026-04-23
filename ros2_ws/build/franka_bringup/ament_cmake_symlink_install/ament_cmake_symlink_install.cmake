@@ -318,8 +318,8 @@ message(STATUS "Execute custom install script")
 # install(DIRECTORY "config" "launch" "DESTINATION" "share/franka_bringup")
 ament_cmake_symlink_install_directory("/home/herring/rzddzy/ros2_ws/src/franka_bringup" DIRECTORY "config" "launch" "DESTINATION" "share/franka_bringup")
 
-# install(PROGRAMS "scripts/robot_description_topic_publisher.py" "scripts/mock_vision_node.py" "scripts/pick_and_place.py" "DESTINATION" "lib/franka_bringup")
-ament_cmake_symlink_install_programs("/home/herring/rzddzy/ros2_ws/src/franka_bringup" PROGRAMS "scripts/robot_description_topic_publisher.py" "scripts/mock_vision_node.py" "scripts/pick_and_place.py" "DESTINATION" "lib/franka_bringup")
+# install(PROGRAMS "scripts/robot_description_topic_publisher.py" "scripts/mock_vision_node.py" "scripts/pick_and_place.py" "scripts/yolo_vision_node.py" "scripts/part_spawner.py" "DESTINATION" "lib/franka_bringup")
+ament_cmake_symlink_install_programs("/home/herring/rzddzy/ros2_ws/src/franka_bringup" PROGRAMS "scripts/robot_description_topic_publisher.py" "scripts/mock_vision_node.py" "scripts/pick_and_place.py" "scripts/yolo_vision_node.py" "scripts/part_spawner.py" "DESTINATION" "lib/franka_bringup")
 
 # install(FILES "/home/herring/rzddzy/ros2_ws/build/franka_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/franka_bringup" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/herring/rzddzy/ros2_ws/src/franka_bringup" FILES "/home/herring/rzddzy/ros2_ws/build/franka_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/franka_bringup" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

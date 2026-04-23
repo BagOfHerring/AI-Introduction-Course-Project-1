@@ -4,6 +4,7 @@ from rclpy.node import Node
 from rclpy.action import ActionClient
 
 from geometry_msgs.msg import PoseStamped
+from std_msgs.msg import String
 from control_msgs.action import FollowJointTrajectory, GripperCommand
 from trajectory_msgs.msg import JointTrajectoryPoint
 
@@ -14,17 +15,22 @@ class PickAndPlaceNode(Node):
         super().__init__('pick_and_place_node')
         
         self.pose_sub = self.create_subscription(PoseStamped, '/vision_detector/part_pose', self.pose_callback, 10)
+        self.type_sub = self.create_subscription(String, '/vision_detector/part_type', self.type_callback, 10)
         
         # Action Clients
         self.arm_client = ActionClient(self, FollowJointTrajectory, '/panda_joint_trajectory_controller/follow_joint_trajectory')
         self.gripper_client = ActionClient(self, GripperCommand, '/panda_gripper_sim_node/gripper_action')
         
         self.pending_pose = None
+        self.current_part_type = 'unknown'
         self.get_logger().info("Pick and Place Node Started. Waiting for part poses...")
 
     def pose_callback(self, msg):
         if self.pending_pose is None:
             self.pending_pose = msg.pose
+
+    def type_callback(self, msg):
+        self.current_part_type = msg.data
 
     def calculate_ik(self, pose):
         import math
@@ -56,7 +62,10 @@ class PickAndPlaceNode(Node):
         return q_actual
 
     def execute_grasp_sequence(self, pose):
-        self.get_logger().info(f"Received new target at X:{pose.position.x:.3f}, Y:{pose.position.y:.3f}, Z:{pose.position.z:.3f}!")
+        self.get_logger().info(
+            f"Received new target [{self.current_part_type}] at "
+            f"X:{pose.position.x:.3f}, Y:{pose.position.y:.3f}, Z:{pose.position.z:.3f}!"
+        )
 
         # 1. Open Gripper (Max single finger width logic: 0.04m)
         self.send_gripper_command(width=0.04, max_effort=20.0)
