@@ -117,6 +117,10 @@
         <param name="num_mj_threads"       value="$(var mujoco_threads)" />
         <param from="$(var initial_joint_states)" />
         <param from="$(var mujoco_plugin_config)" />
+        <!-- Camera quality: 1920x1080 @ 30Hz -->
+        <param name="vision_cam.width"     value="1920" />
+        <param name="vision_cam.height"    value="1080" />
+        <param name="vision_cam.frequency" value="30.0" />
       </node>
     </group>
   </group>

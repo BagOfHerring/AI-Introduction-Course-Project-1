@@ -26,6 +26,7 @@
 /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//rviz/visualize_dual_franka.rviz
 /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//rviz/visualize_franka.rviz
 /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/TEMPLATE_panda.xml
+/home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/bearing.stl
 /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/finger_0.obj
 /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/finger_1.obj
 /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/gear.stl
@@ -94,6 +95,8 @@
 /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link7_5.obj
 /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link7_6.obj
 /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/link7_7.obj
+/home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/nut.stl
+/home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/square_gear.stl
 /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/assets/what.stl
 /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/dual_scene.xml
 /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/dual_scene_ng.xml
