@@ -32,7 +32,6 @@
 /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/gtsam_factors/FactorInterRobotDistState.h
 /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/gtsam_factors/FactorObstacleState.h
 /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/gtsam_factors/FactorPriorSub.h
-/home/herring/rzddzy/ros2_ws/install/cplus_dev/include/gtsam_factors/GtsamCompat.h
 /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/other_packages/yaml/ReadYaml.h
 /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/other_packages/yaml/ReadYamlRaw.h
 /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/utilities_function/DataLogger.h

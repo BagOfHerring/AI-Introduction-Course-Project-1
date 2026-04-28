@@ -1,0 +1,1 @@
+/home/herring/rzddzy/build/mujoco_ros_msgs/rosidl_generator_cpp/mujoco_ros_msgs/srv/detail/reset_body_q_pos__type_support.hpp

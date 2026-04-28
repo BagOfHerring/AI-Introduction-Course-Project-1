@@ -29,7 +29,7 @@
 /home/herring/rzddzy/ros2_ws/install/franka_bringup/lib/franka_bringup/mock_vision_node.py
 /home/herring/rzddzy/ros2_ws/install/franka_bringup/lib/franka_bringup/pick_and_place.py
 /home/herring/rzddzy/ros2_ws/install/franka_bringup/lib/franka_bringup/yolo_vision_node.py
-/home/herring/rzddzy/ros2_ws/install/franka_bringup/lib/franka_bringup/part_spawner.py
+/home/herring/rzddzy/ros2_ws/install/franka_bringup/lib/franka_bringup/generate_scene.py
 /home/herring/rzddzy/ros2_ws/install/franka_bringup/share/ament_index/resource_index/package_run_dependencies/franka_bringup
 /home/herring/rzddzy/ros2_ws/install/franka_bringup/share/ament_index/resource_index/parent_prefix_path/franka_bringup
 /home/herring/rzddzy/ros2_ws/install/franka_bringup/share/franka_bringup/environment/ament_prefix_path.sh

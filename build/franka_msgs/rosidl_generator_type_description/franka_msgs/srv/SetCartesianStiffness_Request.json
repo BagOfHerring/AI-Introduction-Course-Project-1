@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "franka_msgs/srv/SetCartesianStiffness_Request",
+      "fields": [
+        {
+          "name": "cartesian_stiffness",
+          "type": {
+            "type_id": 59,
+            "capacity": 6,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "franka_msgs/srv/SetCartesianStiffness_Request",
+      "hash_string": "RIHS01_250c36757cdfd945152f5ff02e38c759ad77c06384e32d0fcfa6fe9e1e1770de"
+    }
+  ]
+}

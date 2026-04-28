@@ -35,7 +35,6 @@ CMakeFiles/test_gtsam_method.dir/src/tests/test_gtsam_method.cpp.o
  /home/herring/rzddzy/ros2_ws/src/cplus_dev/include/gtsam_factors/FactorInterRobotDistState.h
  /home/herring/rzddzy/ros2_ws/src/cplus_dev/include/gtsam_factors/FactorObstacleState.h
  /home/herring/rzddzy/ros2_ws/src/cplus_dev/include/gtsam_factors/FactorPriorSub.h
- /home/herring/rzddzy/ros2_ws/src/cplus_dev/include/gtsam_factors/GtsamCompat.h
  /home/herring/rzddzy/ros2_ws/src/cplus_dev/include/utilities_function/DataLogger.h
  /home/herring/rzddzy/ros2_ws/src/cplus_dev/include/utilities_function/dist_arm_3D_sphere.h
  /home/herring/rzddzy/ros2_ws/src/cplus_dev/include/utilities_function/dist_interarm_sphere.h

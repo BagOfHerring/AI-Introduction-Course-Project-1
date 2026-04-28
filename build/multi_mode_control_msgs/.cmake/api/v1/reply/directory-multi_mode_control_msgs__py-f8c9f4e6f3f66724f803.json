@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "multi_mode_control_msgs__py",
+		"source" : "/home/herring/rzddzy/build/multi_mode_control_msgs/multi_mode_control_msgs__py"
+	}
+}

@@ -1,0 +1,24 @@
+[0.036s] Invoking command in '/home/herring/rzddzy/ros2_ws/build/panda_motion_generator_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/herring/rzddzy/ros2_ws/build/panda_motion_generator_msgs -- -j28 -l28
+[0.115s] [  1%] Built target panda_motion_generator_msgs__rosidl_generator_type_description
+[0.165s] [  1%] Built target ament_cmake_python_symlink_panda_motion_generator_msgs
+[0.203s] [  2%] Built target panda_motion_generator_msgs__cpp
+[0.558s] running egg_info
+[0.589s] writing panda_motion_generator_msgs.egg-info/PKG-INFO
+[0.590s] writing dependency_links to panda_motion_generator_msgs.egg-info/dependency_links.txt
+[0.590s] writing top-level names to panda_motion_generator_msgs.egg-info/top_level.txt
+[0.677s] reading manifest file 'panda_motion_generator_msgs.egg-info/SOURCES.txt'
+[0.679s] writing manifest file 'panda_motion_generator_msgs.egg-info/SOURCES.txt'
+[0.754s] [  2%] Built target ament_cmake_python_build_panda_motion_generator_msgs_egg
+[0.796s] [ 25%] Built target panda_motion_generator_msgs__rosidl_generator_c
+[0.853s] [ 35%] Built target panda_motion_generator_msgs__rosidl_typesupport_fastrtps_c
+[0.898s] [ 44%] Built target panda_motion_generator_msgs__rosidl_typesupport_cpp
+[0.965s] [ 54%] Built target panda_motion_generator_msgs__rosidl_typesupport_introspection_cpp
+[1.011s] [ 63%] Built target panda_motion_generator_msgs__rosidl_typesupport_c
+[1.050s] [ 72%] Built target panda_motion_generator_msgs__rosidl_typesupport_introspection_c
+[1.104s] [ 82%] Built target panda_motion_generator_msgs__rosidl_typesupport_fastrtps_cpp
+[1.142s] [ 82%] Built target panda_motion_generator_msgs
+[1.188s] [ 83%] Built target panda_motion_generator_msgs__py
+[1.244s] [ 91%] Built target panda_motion_generator_msgs__rosidl_generator_py
+[1.288s] [ 94%] Built target panda_motion_generator_msgs_s__rosidl_typesupport_fastrtps_c
+[1.330s] [ 97%] Built target panda_motion_generator_msgs_s__rosidl_typesupport_c
+[1.369s] [100%] Built target panda_motion_generator_msgs_s__rosidl_typesupport_introspection_c

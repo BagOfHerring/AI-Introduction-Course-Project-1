@@ -1,0 +1,1 @@
+Ignore legacy ROS1 package during colcon discovery.

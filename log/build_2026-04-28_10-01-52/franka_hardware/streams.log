@@ -1,0 +1,73 @@
+[0.013s] Invoking command in '/home/herring/rzddzy/build/franka_hardware': AMENT_PREFIX_PATH=/home/herring/rzddzy/install/mujoco_ros2_control:/home/herring/rzddzy/install/mujoco_ros:/home/herring/rzddzy/install/mujoco_ros_msgs:/home/herring/rzddzy/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/install/mujoco_ros2_control:/home/herring/rzddzy/install/mujoco_ros:/home/herring/rzddzy/install/mujoco_ros_msgs:/home/herring/rzddzy/install/franka_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/install/mujoco_ros2_control/lib:/home/herring/rzddzy/install/mujoco_ros/lib:/home/herring/rzddzy/install/mujoco_ros_msgs/lib:/home/herring/rzddzy/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/install/franka_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/herring/rzddzy/ros2_ws/src/franka_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/herring/rzddzy/install/franka_hardware
+[0.059s] -- The C compiler identification is GNU 13.3.0
+[0.106s] -- The CXX compiler identification is GNU 13.3.0
+[0.121s] -- Detecting C compiler ABI info
+[0.194s] -- Detecting C compiler ABI info - done
+[0.204s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.204s] -- Detecting C compile features
+[0.204s] -- Detecting C compile features - done
+[0.212s] -- Detecting CXX compiler ABI info
+[0.295s] -- Detecting CXX compiler ABI info - done
+[0.304s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.304s] -- Detecting CXX compile features
+[0.305s] -- Detecting CXX compile features - done
+[0.306s] -- Setting build type to 'Release' as none was specified.
+[0.308s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.431s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.479s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.507s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.537s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.545s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.556s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.567s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.615s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.617s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.687s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.706s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.728s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.777s] -- Found rclcpp_action: 28.1.16 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[0.808s] -- Found rclcpp_components: 28.1.16 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[0.833s] -- Found rclcpp_lifecycle: 28.1.16 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[0.853s] -- Found mujoco_ros2_control: 0.9.0 (/home/herring/rzddzy/install/mujoco_ros2_control/share/mujoco_ros2_control/cmake)
+[1.170s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[1.182s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.183s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.183s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.187s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/actionlib_msgs/cmake/actionlib_msgsConfig.cmake:31 (message):
+[1.187s]   Package 'actionlib_msgs' is deprecated (This package will be removed in a
+[1.187s]   future ROS distro, once the ROS 1 bridge supports actions.)
+[1.187s] Call Stack (most recent call first):
+[1.187s]   /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.187s]   /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/mujoco_ros_msgsConfig.cmake:41 (include)
+[1.187s]   /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.187s]   /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/cmake/mujoco_rosConfig.cmake:41 (include)
+[1.187s]   /home/herring/rzddzy/install/mujoco_ros2_control/share/mujoco_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.187s]   /home/herring/rzddzy/install/mujoco_ros2_control/share/mujoco_ros2_control/cmake/mujoco_ros2_controlConfig.cmake:41 (include)
+[1.187s]   CMakeLists.txt:33 (find_package)
+[1.187s] 
+[1.187s] [0m
+[1.259s] -- Found franka_msgs: 0.0.0 (/home/herring/rzddzy/install/franka_msgs/share/franka_msgs/cmake)
+[1.279s] -- Found Threads: TRUE  
+[1.287s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread chrono 
+[1.288s] -- Looking for MuJoCo tar install ...
+[1.294s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.294s] [0mMuJoCo tar install found, but version can not be detected. If experiencing errors check that version 3.2.0 or a newer, compatible version is installed[0m
+[1.316s] [31mCMake Error at CMakeLists.txt:145 (find_package):
+[1.316s]   By not providing "Findament_cmake_clang_format.cmake" in CMAKE_MODULE_PATH
+[1.316s]   this project has asked CMake to find a package configuration file provided
+[1.317s]   by "ament_cmake_clang_format", but CMake did not find one.
+[1.317s] 
+[1.317s]   Could not find a package configuration file provided by
+[1.317s]   "ament_cmake_clang_format" with any of the following names:
+[1.317s] 
+[1.317s]     ament_cmake_clang_formatConfig.cmake
+[1.317s]     ament_cmake_clang_format-config.cmake
+[1.317s] 
+[1.317s]   Add the installation prefix of "ament_cmake_clang_format" to
+[1.317s]   CMAKE_PREFIX_PATH or set "ament_cmake_clang_format_DIR" to a directory
+[1.317s]   containing one of the above files.  If "ament_cmake_clang_format" provides
+[1.317s]   a separate development package or SDK, be sure it has been installed.
+[1.317s] 
+[1.317s] [0m
+[1.317s] -- Configuring incomplete, errors occurred!
+[1.324s] Invoked command in '/home/herring/rzddzy/build/franka_hardware' returned '1': AMENT_PREFIX_PATH=/home/herring/rzddzy/install/mujoco_ros2_control:/home/herring/rzddzy/install/mujoco_ros:/home/herring/rzddzy/install/mujoco_ros_msgs:/home/herring/rzddzy/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/install/mujoco_ros2_control:/home/herring/rzddzy/install/mujoco_ros:/home/herring/rzddzy/install/mujoco_ros_msgs:/home/herring/rzddzy/install/franka_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/install/mujoco_ros2_control/lib:/home/herring/rzddzy/install/mujoco_ros/lib:/home/herring/rzddzy/install/mujoco_ros_msgs/lib:/home/herring/rzddzy/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/install/franka_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/herring/rzddzy/ros2_ws/src/franka_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/herring/rzddzy/install/franka_hardware

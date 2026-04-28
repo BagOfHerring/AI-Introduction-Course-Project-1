@@ -1,0 +1,1 @@
+/home/herring/rzddzy/build/franka_msgs/rosidl_generator_cpp/franka_msgs/srv/detail/set_cartesian_stiffness__type_support.hpp

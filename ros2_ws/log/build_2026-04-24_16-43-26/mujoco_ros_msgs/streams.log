@@ -1,0 +1,27 @@
+[0.051s] Invoking command in '/home/herring/rzddzy/ros2_ws/build/mujoco_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs
+[0.071s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.104s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.215s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.230s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.239s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.300s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.348s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.351s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.400s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.427s] -- Found actionlib_msgs: 5.3.6 (/opt/ros/jazzy/share/actionlib_msgs/cmake)
+[0.427s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/actionlib_msgs/cmake/actionlib_msgsConfig.cmake:31 (message):
+[0.427s]   Package 'actionlib_msgs' is deprecated (This package will be removed in a
+[0.427s]   future ROS distro, once the ROS 1 bridge supports actions.)
+[0.427s] Call Stack (most recent call first):
+[0.428s]   cmake/Ros2.cmake:5 (find_package)
+[0.428s]   CMakeLists.txt:15 (include)
+[0.428s] 
+[0.428s] [0m
+[1.283s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.582s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.976s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.978s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.478s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.566s] -- Configuring done (2.5s)
+[2.740s] -- Generating done (0.1s)
+[2.768s] -- Build files have been written to: /home/herring/rzddzy/ros2_ws/build/mujoco_ros_msgs

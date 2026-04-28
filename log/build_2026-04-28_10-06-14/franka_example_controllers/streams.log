@@ -1,0 +1,351 @@
+[0.018s] Invoking command in '/home/herring/rzddzy/build/franka_example_controllers': AMENT_PREFIX_PATH=/home/herring/rzddzy/install/franka_semantic_components:/home/herring/rzddzy/install/franka_hardware:/home/herring/rzddzy/install/mujoco_ros2_control:/home/herring/rzddzy/install/multi_mode_control_msgs:/home/herring/rzddzy/install/mujoco_ros:/home/herring/rzddzy/install/mujoco_ros_msgs:/home/herring/rzddzy/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/install/franka_semantic_components:/home/herring/rzddzy/install/franka_hardware:/home/herring/rzddzy/install/mujoco_ros2_control:/home/herring/rzddzy/install/multi_mode_control_msgs:/home/herring/rzddzy/install/mujoco_ros:/home/herring/rzddzy/install/mujoco_ros_msgs:/home/herring/rzddzy/install/franka_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/install/franka_semantic_components/lib:/home/herring/rzddzy/install/franka_hardware/lib:/home/herring/rzddzy/install/mujoco_ros2_control/lib:/home/herring/rzddzy/install/multi_mode_control_msgs/lib:/home/herring/rzddzy/install/mujoco_ros/lib:/home/herring/rzddzy/install/mujoco_ros_msgs/lib:/home/herring/rzddzy/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/herring/rzddzy/install/multi_mode_control_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/install/franka_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/herring/rzddzy/ros2_ws/src/franka_example_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/herring/rzddzy/install/franka_example_controllers
+[0.059s] -- The C compiler identification is GNU 13.3.0
+[0.096s] -- The CXX compiler identification is GNU 13.3.0
+[0.111s] -- Detecting C compiler ABI info
+[0.184s] -- Detecting C compiler ABI info - done
+[0.189s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.189s] -- Detecting C compile features
+[0.190s] -- Detecting C compile features - done
+[0.197s] -- Detecting CXX compiler ABI info
+[0.276s] -- Detecting CXX compiler ABI info - done
+[0.283s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.284s] -- Detecting CXX compile features
+[0.284s] -- Detecting CXX compile features - done
+[0.286s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.376s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.416s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.437s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.463s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.471s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.481s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.492s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.538s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.540s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.603s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.616s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.633s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.677s] -- Found controller_interface: 4.42.2 (/opt/ros/jazzy/share/controller_interface/cmake)
+[0.921s] -- Found franka_semantic_components: 0.0.0 (/home/herring/rzddzy/install/franka_semantic_components/share/franka_semantic_components/cmake)
+[0.924s] -- Found Threads: TRUE  
+[1.046s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[1.058s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.058s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.059s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.063s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/actionlib_msgs/cmake/actionlib_msgsConfig.cmake:31 (message):
+[1.063s]   Package 'actionlib_msgs' is deprecated (This package will be removed in a
+[1.063s]   future ROS distro, once the ROS 1 bridge supports actions.)
+[1.063s] Call Stack (most recent call first):
+[1.063s]   /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.063s]   /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/mujoco_ros_msgsConfig.cmake:41 (include)
+[1.063s]   /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.063s]   /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/cmake/mujoco_rosConfig.cmake:41 (include)
+[1.063s]   /home/herring/rzddzy/install/mujoco_ros2_control/share/mujoco_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.063s]   /home/herring/rzddzy/install/mujoco_ros2_control/share/mujoco_ros2_control/cmake/mujoco_ros2_controlConfig.cmake:41 (include)
+[1.063s]   /home/herring/rzddzy/install/franka_hardware/share/franka_hardware/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.063s]   /home/herring/rzddzy/install/franka_hardware/share/franka_hardware/cmake/franka_hardwareConfig.cmake:41 (include)
+[1.063s]   /home/herring/rzddzy/install/franka_semantic_components/share/franka_semantic_components/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.063s]   /home/herring/rzddzy/install/franka_semantic_components/share/franka_semantic_components/cmake/franka_semantic_componentsConfig.cmake:41 (include)
+[1.063s]   CMakeLists.txt:22 (find_package)
+[1.063s] 
+[1.063s] [0m
+[1.155s] -- Found multi_mode_control_msgs: 0.0.0 (/home/herring/rzddzy/install/multi_mode_control_msgs/share/multi_mode_control_msgs/cmake)
+[1.257s] -- Configuring done (1.2s)
+[1.284s] -- Generating done (0.0s)
+[1.288s] -- Build files have been written to: /home/herring/rzddzy/build/franka_example_controllers
+[1.295s] Invoked command in '/home/herring/rzddzy/build/franka_example_controllers' returned '0': AMENT_PREFIX_PATH=/home/herring/rzddzy/install/franka_semantic_components:/home/herring/rzddzy/install/franka_hardware:/home/herring/rzddzy/install/mujoco_ros2_control:/home/herring/rzddzy/install/multi_mode_control_msgs:/home/herring/rzddzy/install/mujoco_ros:/home/herring/rzddzy/install/mujoco_ros_msgs:/home/herring/rzddzy/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/install/franka_semantic_components:/home/herring/rzddzy/install/franka_hardware:/home/herring/rzddzy/install/mujoco_ros2_control:/home/herring/rzddzy/install/multi_mode_control_msgs:/home/herring/rzddzy/install/mujoco_ros:/home/herring/rzddzy/install/mujoco_ros_msgs:/home/herring/rzddzy/install/franka_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/install/franka_semantic_components/lib:/home/herring/rzddzy/install/franka_hardware/lib:/home/herring/rzddzy/install/mujoco_ros2_control/lib:/home/herring/rzddzy/install/multi_mode_control_msgs/lib:/home/herring/rzddzy/install/mujoco_ros/lib:/home/herring/rzddzy/install/mujoco_ros_msgs/lib:/home/herring/rzddzy/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/herring/rzddzy/install/multi_mode_control_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/install/franka_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/herring/rzddzy/ros2_ws/src/franka_example_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/herring/rzddzy/install/franka_example_controllers
+[1.296s] Invoking command in '/home/herring/rzddzy/build/franka_example_controllers': AMENT_PREFIX_PATH=/home/herring/rzddzy/install/franka_semantic_components:/home/herring/rzddzy/install/franka_hardware:/home/herring/rzddzy/install/mujoco_ros2_control:/home/herring/rzddzy/install/multi_mode_control_msgs:/home/herring/rzddzy/install/mujoco_ros:/home/herring/rzddzy/install/mujoco_ros_msgs:/home/herring/rzddzy/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/install/franka_semantic_components:/home/herring/rzddzy/install/franka_hardware:/home/herring/rzddzy/install/mujoco_ros2_control:/home/herring/rzddzy/install/multi_mode_control_msgs:/home/herring/rzddzy/install/mujoco_ros:/home/herring/rzddzy/install/mujoco_ros_msgs:/home/herring/rzddzy/install/franka_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/install/franka_semantic_components/lib:/home/herring/rzddzy/install/franka_hardware/lib:/home/herring/rzddzy/install/mujoco_ros2_control/lib:/home/herring/rzddzy/install/multi_mode_control_msgs/lib:/home/herring/rzddzy/install/mujoco_ros/lib:/home/herring/rzddzy/install/mujoco_ros_msgs/lib:/home/herring/rzddzy/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/herring/rzddzy/install/multi_mode_control_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/install/franka_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/herring/rzddzy/build/franka_example_controllers -- -j28 -l28
+[1.339s] [  6%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/herring/rzddzy/build/franka_example_controllers/include/franka_example_controllers/franka_example_controllers_parameters.hpp /home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/model_example_controller_parameters.yaml `[0m
+[1.342s] [ 12%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/comless/motion_generator.cpp.o[0m
+[1.342s] [ 25%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/comless/cartesian_velocity_example_controller.cpp.o[0m
+[1.342s] [ 25%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/comless/model_example_controller.cpp.o[0m
+[1.342s] [ 31%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/comless/joint_impedance_example_controller.cpp.o[0m
+[1.342s] [ 37%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/comless/joint_position_example_controller.cpp.o[0m
+[1.342s] [ 43%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/comless/gravity_compensation_example_controller.cpp.o[0m
+[1.343s] [ 50%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/comless/cartesian_impedance_example_controller.cpp.o[0m
+[1.343s] [ 56%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/comless/move_to_start_example_controller.cpp.o[0m
+[1.343s] [ 62%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/comless/dual_joint_velocity_example_controller.cpp.o[0m
+[1.343s] [ 68%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/comless/joint_velocity_example_controller.cpp.o[0m
+[1.343s] [ 75%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/subscriber/cartesian_impedance_controller.cpp.o[0m
+[1.344s] [ 81%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/comless/multi_joint_impedance_example_controller.cpp.o[0m
+[1.345s] [ 87%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/subscriber/joint_impedance_controller.cpp.o[0m
+[1.669s] [ 93%] [34m[1mCreating deprecated header file /home/herring/rzddzy/build/franka_example_controllers/include/franka_example_controllers_parameters.hpp[0m
+[1.686s] [ 93%] Built target franka_example_controllers_parameters
+[3.442s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/gravity_compensation_example_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type franka_example_controllers::GravityCompensationExampleController::[01;32m[Kupdate[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[3.442s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/gravity_compensation_example_controller.cpp:42:32:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = int][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[3.442s]    42 |     [01;35m[Kcommand_interface.set_value(0)[m[K;
+[3.442s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[3.442s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:29[m[K,
+[3.443s]                  from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface.hpp:21[m[K,
+[3.443s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/include/franka_example_controllers/comless/gravity_compensation_example_controller.hpp:19[m[K,
+[3.443s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/gravity_compensation_example_controller.cpp:15[m[K:
+[3.443s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.443s]   113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+[3.443s]       |                      [01;36m[K^~~~~~~~~[m[K
+[4.175s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/joint_velocity_example_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type franka_example_controllers::JointVelocityExampleController::[01;32m[Kupdate[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[4.175s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/joint_velocity_example_controller.cpp:55:37:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[4.175s]    55 |     [01;35m[Kcommand_interfaces_[i].set_value(omega)[m[K;
+[4.175s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[4.175s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:29[m[K,
+[4.176s]                  from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface.hpp:21[m[K,
+[4.176s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/include/franka_example_controllers/comless/joint_velocity_example_controller.hpp:20[m[K,
+[4.176s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/joint_velocity_example_controller.cpp:15[m[K:
+[4.176s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.176s]   113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+[4.176s]       |                      [01;36m[K^~~~~~~~~[m[K
+[4.177s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/joint_velocity_example_controller.cpp:[m[K In member function ‘[01m[Kvoid franka_example_controllers::JointVelocityExampleController::[01;32m[KupdateJointStates[m[K()[m[K’:
+[4.177s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/joint_velocity_example_controller.cpp:99:41:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.177s]    99 |     q_(i) = [01;35m[Kposition_interface.get_value()[m[K;
+[4.178s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[4.178s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:30[m[K:
+[4.178s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.178s]    94 |   double [01;36m[Kget_value[m[K() const
+[4.178s]       |          [01;36m[K^~~~~~~~~[m[K
+[4.178s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/joint_velocity_example_controller.cpp:100:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.178s]   100 |     dq_(i) = [01;35m[Kvelocity_interface.get_value()[m[K;
+[4.178s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[4.178s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.178s]    94 |   double [01;36m[Kget_value[m[K() const
+[4.178s]       |          [01;36m[K^~~~~~~~~[m[K
+[4.207s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/joint_position_example_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type franka_example_controllers::JointPositionExampleController::[01;32m[Kupdate[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[4.207s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/joint_position_example_controller.cpp:55:41:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[4.207s]    55 |         [01;35m[Kcommand_interfaces_[i].set_value(initial_q_(i) + delta_angle)[m[K;
+[4.207s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.207s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:29[m[K,
+[4.207s]                  from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface.hpp:21[m[K,
+[4.207s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/include/franka_example_controllers/comless/joint_position_example_controller.hpp:20[m[K,
+[4.207s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/joint_position_example_controller.cpp:15[m[K:
+[4.207s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.208s]   113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+[4.208s]       |                      [01;36m[K^~~~~~~~~[m[K
+[4.209s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/joint_position_example_controller.cpp:[m[K In member function ‘[01m[Kvoid franka_example_controllers::JointPositionExampleController::[01;32m[KupdateJointStates[m[K()[m[K’:
+[4.209s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/joint_position_example_controller.cpp:93:41:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.209s]    93 |     q_(i) = [01;35m[Kposition_interface.get_value()[m[K;
+[4.209s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[4.209s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:30[m[K:
+[4.209s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.209s]    94 |   double [01;36m[Kget_value[m[K() const
+[4.209s]       |          [01;36m[K^~~~~~~~~[m[K
+[4.209s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/joint_position_example_controller.cpp:94:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.209s]    94 |     dq_(i) = [01;35m[Kvelocity_interface.get_value()[m[K;
+[4.209s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[4.209s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.209s]    94 |   double [01;36m[Kget_value[m[K() const
+[4.209s]       |          [01;36m[K^~~~~~~~~[m[K
+[4.505s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/subscriber/cartesian_impedance_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type franka_example_controllers::CartesianImpedanceController::[01;32m[Kupdate[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[4.505s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/subscriber/cartesian_impedance_controller.cpp:86:37:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[4.505s]    86 |     [01;35m[Kcommand_interfaces_[i].set_value(tau_d(i))[m[K;
+[4.505s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[4.505s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:29[m[K,
+[4.505s]                  from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface.hpp:21[m[K,
+[4.505s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/include/franka_example_controllers/subscriber/cartesian_impedance_controller.hpp:6[m[K,
+[4.506s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/subscriber/cartesian_impedance_controller.cpp:1[m[K:
+[4.506s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.506s]   113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+[4.506s]       |                      [01;36m[K^~~~~~~~~[m[K
+[4.599s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/cartesian_impedance_example_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type franka_example_controllers::CartesianImpedanceExampleController::[01;32m[Kupdate[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[4.599s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/cartesian_impedance_example_controller.cpp:105:37:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[4.599s]   105 |     [01;35m[Kcommand_interfaces_[i].set_value(tau_d(i))[m[K;
+[4.599s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[4.599s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:29[m[K,
+[4.599s]                  from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface.hpp:21[m[K,
+[4.599s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/include/franka_example_controllers/comless/cartesian_impedance_example_controller.hpp:20[m[K,
+[4.599s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/cartesian_impedance_example_controller.cpp:15[m[K:
+[4.599s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.599s]   113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+[4.599s]       |                      [01;36m[K^~~~~~~~~[m[K
+[4.929s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/cartesian_velocity_example_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type franka_example_controllers::CartesianVelocityExampleController::[01;32m[Kupdate[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[4.929s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/cartesian_velocity_example_controller.cpp:69:37:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[4.929s]    69 |     [01;35m[Kcommand_interfaces_[i].set_value(command[i])[m[K;
+[4.929s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[4.929s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:29[m[K,
+[4.929s]                  from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface.hpp:21[m[K,
+[4.929s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/include/franka_example_controllers/comless/cartesian_velocity_example_controller.hpp:20[m[K,
+[4.929s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/cartesian_velocity_example_controller.cpp:15[m[K:
+[4.929s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.929s]   113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+[4.929s]       |                      [01;36m[K^~~~~~~~~[m[K
+[5.149s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/dual_joint_velocity_example_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type franka_example_controllers::DualJointVelocityExampleController::[01;32m[Kupdate[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[5.149s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/dual_joint_velocity_example_controller.cpp:65:41:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[5.149s]    65 |         [01;35m[Kcommand_interfaces_[k].set_value(omega)[m[K;
+[5.149s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[5.149s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:29[m[K,
+[5.149s]                  from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface.hpp:21[m[K,
+[5.149s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/include/franka_example_controllers/comless/dual_joint_velocity_example_controller.hpp:20[m[K,
+[5.150s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/dual_joint_velocity_example_controller.cpp:15[m[K:
+[5.150s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.150s]   113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+[5.150s]       |                      [01;36m[K^~~~~~~~~[m[K
+[5.150s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/dual_joint_velocity_example_controller.cpp:68:41:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = int][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[5.150s]    68 |         [01;35m[Kcommand_interfaces_[k].set_value(0)[m[K;
+[5.150s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[5.150s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.150s]   113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+[5.150s]       |                      [01;36m[K^~~~~~~~~[m[K
+[5.150s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/dual_joint_velocity_example_controller.cpp:61:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karm[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.150s]    61 |     auto &[01;35m[Karm[m[K = arm_container_pair.second;
+[5.150s]       |           [01;35m[K^~~[m[K
+[5.156s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/dual_joint_velocity_example_controller.cpp:[m[K In member function ‘[01m[Kvoid franka_example_controllers::DualJointVelocityExampleController::[01;32m[KupdateJointStates[m[K()[m[K’:
+[5.156s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/dual_joint_velocity_example_controller.cpp:142:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.156s]   142 |       arm.q_(k) = [01;35m[Kposition_interface.get_value()[m[K;
+[5.156s]       |                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[5.156s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:30[m[K:
+[5.156s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.156s]    94 |   double [01;36m[Kget_value[m[K() const
+[5.156s]       |          [01;36m[K^~~~~~~~~[m[K
+[5.156s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/dual_joint_velocity_example_controller.cpp:143:48:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.156s]   143 |       arm.dq_(k) = [01;35m[Kvelocity_interface.get_value()[m[K;
+[5.157s]       |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[5.157s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.157s]    94 |   double [01;36m[Kget_value[m[K() const
+[5.157s]       |          [01;36m[K^~~~~~~~~[m[K
+[5.318s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/multi_joint_impedance_example_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type franka_example_controllers::MultiJointImpedanceExampleController::[01;32m[Kupdate[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[5.318s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/multi_joint_impedance_example_controller.cpp:71:39:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[5.318s]    71 |       [01;35m[Kcommand_interfaces_[k].set_value(tau_d_calculated(i))[m[K;
+[5.318s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[5.318s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:29[m[K,
+[5.318s]                  from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface.hpp:21[m[K,
+[5.318s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/include/franka_example_controllers/comless/multi_joint_impedance_example_controller.hpp:20[m[K,
+[5.318s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/multi_joint_impedance_example_controller.cpp:15[m[K:
+[5.319s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.319s]   113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+[5.319s]       |                      [01;36m[K^~~~~~~~~[m[K
+[5.331s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/multi_joint_impedance_example_controller.cpp:[m[K In member function ‘[01m[Kvoid franka_example_controllers::MultiJointImpedanceExampleController::[01;32m[KupdateJointStates[m[K()[m[K’:
+[5.331s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/multi_joint_impedance_example_controller.cpp:170:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.331s]   170 |       arm.q_(k) = [01;35m[Kposition_interface.get_value()[m[K;
+[5.331s]       |                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[5.331s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:30[m[K:
+[5.331s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.332s]    94 |   double [01;36m[Kget_value[m[K() const
+[5.332s]       |          [01;36m[K^~~~~~~~~[m[K
+[5.332s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/multi_joint_impedance_example_controller.cpp:171:48:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.332s]   171 |       arm.dq_(k) = [01;35m[Kvelocity_interface.get_value()[m[K;
+[5.332s]       |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[5.332s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.332s]    94 |   double [01;36m[Kget_value[m[K() const
+[5.332s]       |          [01;36m[K^~~~~~~~~[m[K
+[5.348s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/move_to_start_example_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type franka_example_controllers::MoveToStartExampleController::[01;32m[Kupdate[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[5.348s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/move_to_start_example_controller.cpp:62:39:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[5.348s]    62 |       [01;35m[Kcommand_interfaces_[i].set_value(tau_d_calculated(i))[m[K;
+[5.348s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[5.348s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:29[m[K,
+[5.349s]                  from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface.hpp:21[m[K,
+[5.349s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/include/franka_example_controllers/comless/move_to_start_example_controller.hpp:21[m[K,
+[5.349s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/move_to_start_example_controller.cpp:15[m[K:
+[5.349s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.349s]   113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+[5.349s]       |                      [01;36m[K^~~~~~~~~[m[K
+[5.349s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/move_to_start_example_controller.cpp:66:34:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = int][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[5.349s]    66 |       [01;35m[Kcommand_interface.set_value(0)[m[K;
+[5.349s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[5.349s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.349s]   113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+[5.349s]       |                      [01;36m[K^~~~~~~~~[m[K
+[5.353s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/move_to_start_example_controller.cpp:[m[K In member function ‘[01m[Kvoid franka_example_controllers::MoveToStartExampleController::[01;32m[KupdateJointStates[m[K()[m[K’:
+[5.353s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/move_to_start_example_controller.cpp:132:41:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.354s]   132 |     q_(i) = [01;35m[Kposition_interface.get_value()[m[K;
+[5.354s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[5.354s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:30[m[K:
+[5.354s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.354s]    94 |   double [01;36m[Kget_value[m[K() const
+[5.354s]       |          [01;36m[K^~~~~~~~~[m[K
+[5.354s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/move_to_start_example_controller.cpp:133:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.354s]   133 |     dq_(i) = [01;35m[Kvelocity_interface.get_value()[m[K;
+[5.354s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[5.354s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.354s]    94 |   double [01;36m[Kget_value[m[K() const
+[5.354s]       |          [01;36m[K^~~~~~~~~[m[K
+[5.596s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/joint_impedance_example_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type franka_example_controllers::JointImpedanceExampleController::[01;32m[Kupdate[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[5.596s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/joint_impedance_example_controller.cpp:66:37:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[5.596s]    66 |     [01;35m[Kcommand_interfaces_[i].set_value(tau_d_calculated(i))[m[K;
+[5.596s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[5.596s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:29[m[K,
+[5.597s]                  from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface.hpp:21[m[K,
+[5.597s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/include/franka_example_controllers/comless/joint_impedance_example_controller.hpp:20[m[K,
+[5.597s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/joint_impedance_example_controller.cpp:15[m[K:
+[5.597s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.597s]   113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+[5.597s]       |                      [01;36m[K^~~~~~~~~[m[K
+[5.600s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/joint_impedance_example_controller.cpp:[m[K In member function ‘[01m[Kvoid franka_example_controllers::JointImpedanceExampleController::[01;32m[KupdateJointStates[m[K()[m[K’:
+[5.600s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/joint_impedance_example_controller.cpp:134:41:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.600s]   134 |     q_(i) = [01;35m[Kposition_interface.get_value()[m[K;
+[5.601s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[5.601s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:30[m[K:
+[5.601s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.601s]    94 |   double [01;36m[Kget_value[m[K() const
+[5.601s]       |          [01;36m[K^~~~~~~~~[m[K
+[5.601s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/comless/joint_impedance_example_controller.cpp:135:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.601s]   135 |     dq_(i) = [01;35m[Kvelocity_interface.get_value()[m[K;
+[5.601s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[5.601s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.601s]    94 |   double [01;36m[Kget_value[m[K() const
+[5.601s]       |          [01;36m[K^~~~~~~~~[m[K
+[5.803s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/subscriber/joint_impedance_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type franka_example_controllers::JointImpedanceController::[01;32m[Kupdate[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[5.803s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/subscriber/joint_impedance_controller.cpp:72:37:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[5.803s]    72 |     [01;35m[Kcommand_interfaces_[i].set_value(tau_d_calculated(i))[m[K;
+[5.803s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[5.803s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:29[m[K,
+[5.803s]                  from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface.hpp:21[m[K,
+[5.803s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/include/franka_example_controllers/subscriber/joint_impedance_controller.hpp:7[m[K,
+[5.803s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/subscriber/joint_impedance_controller.cpp:1[m[K:
+[5.803s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.803s]   113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+[5.803s]       |                      [01;36m[K^~~~~~~~~[m[K
+[5.815s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/subscriber/joint_impedance_controller.cpp:[m[K In member function ‘[01m[Kvoid franka_example_controllers::JointImpedanceController::[01;32m[KupdateJointStates[m[K()[m[K’:
+[5.815s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/subscriber/joint_impedance_controller.cpp:155:41:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.815s]   155 |     q_(i) = [01;35m[Kposition_interface.get_value()[m[K;
+[5.815s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[5.815s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:30[m[K:
+[5.815s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.815s]    94 |   double [01;36m[Kget_value[m[K() const
+[5.816s]       |          [01;36m[K^~~~~~~~~[m[K
+[5.816s] [01m[K/home/herring/rzddzy/ros2_ws/src/franka_example_controllers/src/subscriber/joint_impedance_controller.cpp:156:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.816s]   156 |     dq_(i) = [01;35m[Kvelocity_interface.get_value()[m[K;
+[5.816s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[5.816s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.816s]    94 |   double [01;36m[Kget_value[m[K() const
+[5.816s]       |          [01;36m[K^~~~~~~~~[m[K
+[12.070s] [100%] [32m[1mLinking CXX shared library libfranka_example_controllers.so[0m
+[12.852s] [100%] Built target franka_example_controllers
+[12.862s] Invoked command in '/home/herring/rzddzy/build/franka_example_controllers' returned '0': AMENT_PREFIX_PATH=/home/herring/rzddzy/install/franka_semantic_components:/home/herring/rzddzy/install/franka_hardware:/home/herring/rzddzy/install/mujoco_ros2_control:/home/herring/rzddzy/install/multi_mode_control_msgs:/home/herring/rzddzy/install/mujoco_ros:/home/herring/rzddzy/install/mujoco_ros_msgs:/home/herring/rzddzy/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/install/franka_semantic_components:/home/herring/rzddzy/install/franka_hardware:/home/herring/rzddzy/install/mujoco_ros2_control:/home/herring/rzddzy/install/multi_mode_control_msgs:/home/herring/rzddzy/install/mujoco_ros:/home/herring/rzddzy/install/mujoco_ros_msgs:/home/herring/rzddzy/install/franka_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/install/franka_semantic_components/lib:/home/herring/rzddzy/install/franka_hardware/lib:/home/herring/rzddzy/install/mujoco_ros2_control/lib:/home/herring/rzddzy/install/multi_mode_control_msgs/lib:/home/herring/rzddzy/install/mujoco_ros/lib:/home/herring/rzddzy/install/mujoco_ros_msgs/lib:/home/herring/rzddzy/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/herring/rzddzy/install/multi_mode_control_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/install/franka_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/herring/rzddzy/build/franka_example_controllers -- -j28 -l28
+[12.864s] Invoking command in '/home/herring/rzddzy/build/franka_example_controllers': AMENT_PREFIX_PATH=/home/herring/rzddzy/install/franka_semantic_components:/home/herring/rzddzy/install/franka_hardware:/home/herring/rzddzy/install/mujoco_ros2_control:/home/herring/rzddzy/install/multi_mode_control_msgs:/home/herring/rzddzy/install/mujoco_ros:/home/herring/rzddzy/install/mujoco_ros_msgs:/home/herring/rzddzy/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/install/franka_semantic_components:/home/herring/rzddzy/install/franka_hardware:/home/herring/rzddzy/install/mujoco_ros2_control:/home/herring/rzddzy/install/multi_mode_control_msgs:/home/herring/rzddzy/install/mujoco_ros:/home/herring/rzddzy/install/mujoco_ros_msgs:/home/herring/rzddzy/install/franka_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/install/franka_semantic_components/lib:/home/herring/rzddzy/install/franka_hardware/lib:/home/herring/rzddzy/install/mujoco_ros2_control/lib:/home/herring/rzddzy/install/multi_mode_control_msgs/lib:/home/herring/rzddzy/install/mujoco_ros/lib:/home/herring/rzddzy/install/mujoco_ros_msgs/lib:/home/herring/rzddzy/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/herring/rzddzy/install/multi_mode_control_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/install/franka_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/herring/rzddzy/build/franka_example_controllers
+[12.871s] -- Install configuration: ""
+[12.871s] -- Execute custom install script
+[12.872s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/include/franka_example_controllers/franka_example_controllers_parameters.hpp
+[12.881s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/share/franka_example_controllers//franka_example_controllers.xml
+[12.889s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/lib/libfranka_example_controllers.so
+[12.898s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/include/franka_example_controllers/comless/cartesian_impedance_example_controller.hpp
+[12.907s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/include/franka_example_controllers/comless/cartesian_velocity_example_controller.hpp
+[12.915s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/include/franka_example_controllers/comless/dual_joint_velocity_example_controller.hpp
+[12.923s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/include/franka_example_controllers/comless/gravity_compensation_example_controller.hpp
+[12.931s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/include/franka_example_controllers/comless/joint_impedance_example_controller.hpp
+[12.938s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/include/franka_example_controllers/comless/joint_position_example_controller.hpp
+[12.945s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/include/franka_example_controllers/comless/joint_velocity_example_controller.hpp
+[12.953s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/include/franka_example_controllers/comless/model_example_controller.hpp
+[12.958s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/include/franka_example_controllers/comless/motion_generator.hpp
+[12.966s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/include/franka_example_controllers/comless/move_to_start_example_controller.hpp
+[12.974s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/include/franka_example_controllers/comless/multi_joint_impedance_example_controller.hpp
+[12.982s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/include/franka_example_controllers/subscriber/cartesian_impedance_controller.hpp
+[12.991s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/include/franka_example_controllers/subscriber/custom_controller_template.hpp
+[12.999s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/include/franka_example_controllers/subscriber/joint_impedance_controller.hpp
+[13.007s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/share/franka_example_controllers/environment/library_path.sh
+[13.016s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/share/franka_example_controllers/environment/library_path.dsv
+[13.024s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/share/ament_index/resource_index/package_run_dependencies/franka_example_controllers
+[13.033s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/share/ament_index/resource_index/parent_prefix_path/franka_example_controllers
+[13.040s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/share/franka_example_controllers/environment/ament_prefix_path.sh
+[13.048s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/share/franka_example_controllers/environment/ament_prefix_path.dsv
+[13.056s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/share/franka_example_controllers/environment/path.sh
+[13.064s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/share/franka_example_controllers/environment/path.dsv
+[13.070s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/share/franka_example_controllers/local_setup.bash
+[13.078s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/share/franka_example_controllers/local_setup.sh
+[13.085s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/share/franka_example_controllers/local_setup.zsh
+[13.093s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/share/franka_example_controllers/local_setup.dsv
+[13.101s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/share/franka_example_controllers/package.dsv
+[13.110s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/share/ament_index/resource_index/packages/franka_example_controllers
+[13.117s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/franka_example_controllers
+[13.125s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/share/franka_example_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.133s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/share/franka_example_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.140s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/share/franka_example_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[13.148s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/share/franka_example_controllers/cmake/franka_example_controllersConfig.cmake
+[13.155s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/share/franka_example_controllers/cmake/franka_example_controllersConfig-version.cmake
+[13.163s] -- Symlinking: /home/herring/rzddzy/install/franka_example_controllers/share/franka_example_controllers/package.xml
+[13.171s] Invoked command in '/home/herring/rzddzy/build/franka_example_controllers' returned '0': AMENT_PREFIX_PATH=/home/herring/rzddzy/install/franka_semantic_components:/home/herring/rzddzy/install/franka_hardware:/home/herring/rzddzy/install/mujoco_ros2_control:/home/herring/rzddzy/install/multi_mode_control_msgs:/home/herring/rzddzy/install/mujoco_ros:/home/herring/rzddzy/install/mujoco_ros_msgs:/home/herring/rzddzy/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/install/franka_semantic_components:/home/herring/rzddzy/install/franka_hardware:/home/herring/rzddzy/install/mujoco_ros2_control:/home/herring/rzddzy/install/multi_mode_control_msgs:/home/herring/rzddzy/install/mujoco_ros:/home/herring/rzddzy/install/mujoco_ros_msgs:/home/herring/rzddzy/install/franka_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/install/franka_semantic_components/lib:/home/herring/rzddzy/install/franka_hardware/lib:/home/herring/rzddzy/install/mujoco_ros2_control/lib:/home/herring/rzddzy/install/multi_mode_control_msgs/lib:/home/herring/rzddzy/install/mujoco_ros/lib:/home/herring/rzddzy/install/mujoco_ros_msgs/lib:/home/herring/rzddzy/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/herring/rzddzy/install/multi_mode_control_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/install/franka_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/herring/rzddzy/build/franka_example_controllers

@@ -1,0 +1,24 @@
+[0.035s] Invoking command in '/home/herring/rzddzy/ros2_ws/build/mujoco_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/herring/rzddzy/ros2_ws/build/mujoco_ros_msgs -- -j28 -l28
+[0.129s] [  0%] Built target mujoco_ros_msgs__rosidl_generator_type_description
+[0.179s] [  0%] Built target ament_cmake_python_symlink_mujoco_ros_msgs
+[0.261s] [ 29%] Built target mujoco_ros_msgs__rosidl_generator_c
+[0.570s] running egg_info
+[0.589s] writing mujoco_ros_msgs.egg-info/PKG-INFO
+[0.589s] writing dependency_links to mujoco_ros_msgs.egg-info/dependency_links.txt
+[0.589s] writing top-level names to mujoco_ros_msgs.egg-info/top_level.txt
+[0.666s] reading manifest file 'mujoco_ros_msgs.egg-info/SOURCES.txt'
+[0.667s] writing manifest file 'mujoco_ros_msgs.egg-info/SOURCES.txt'
+[0.745s] [ 29%] Built target ament_cmake_python_build_mujoco_ros_msgs_egg
+[0.809s] [ 39%] Built target mujoco_ros_msgs__rosidl_typesupport_c
+[0.871s] [ 49%] Built target mujoco_ros_msgs__rosidl_typesupport_introspection_c
+[0.992s] [ 59%] Built target mujoco_ros_msgs__rosidl_typesupport_fastrtps_c
+[1.037s] [ 59%] Built target mujoco_ros_msgs__cpp
+[1.130s] [ 69%] Built target mujoco_ros_msgs__rosidl_typesupport_cpp
+[1.214s] [ 79%] Built target mujoco_ros_msgs__rosidl_typesupport_introspection_cpp
+[1.321s] [ 89%] Built target mujoco_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[1.374s] [ 89%] Built target mujoco_ros_msgs
+[1.414s] [ 89%] Built target mujoco_ros_msgs__py
+[1.504s] [ 98%] Built target mujoco_ros_msgs__rosidl_generator_py
+[1.548s] [ 99%] Built target mujoco_ros_msgs_s__rosidl_typesupport_fastrtps_c
+[1.583s] [ 99%] Built target mujoco_ros_msgs_s__rosidl_typesupport_c
+[1.625s] [100%] Built target mujoco_ros_msgs_s__rosidl_typesupport_introspection_c

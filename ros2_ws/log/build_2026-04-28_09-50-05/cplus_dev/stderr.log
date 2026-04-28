@@ -1,0 +1,35 @@
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/../../include/GBP_classes/graph_env_message/Agent.h:10[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:44[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/FNode.h:[m[K In member function ‘[01m[Kvirtual void FNode::[01;32m[Krelin_factor[m[K(const Eigen::VectorXd&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/FNode.h:41:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   41 |       virtual void relin_factor([01;35m[Kconst Eigen::VectorXd &v[m[K) {}
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:55[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/../../include/gtsam_factors/FactorInterRobotDistState.h:[m[K In member function ‘[01m[Kvirtual gtsam::Vector gtsam_factors_state::FactorInterRobotDistState::[01;32m[KevaluateError[m[K(const gtsam::Vector&, const gtsam::Vector&, gtsam::Matrix*, gtsam::Matrix*) const[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/../../include/gtsam_factors/FactorInterRobotDistState.h:42:30:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbeta[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   42 |             constexpr double [01;35m[Kbeta[m[K = 20.0; // adjust if needed
+      |                              [01;35m[K^~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:[m[K In lambda function:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:89:9:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kfor[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+   89 |         [01;35m[Kfor[m[K (const auto& k: keys) if (root[k]) return root[k].as<double>(def); return def; };
+      |         [01;35m[K^~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:89:80:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kfor[m[K’
+   89 |         for (const auto& k: keys) if (root[k]) return root[k].as<double>(def); [01;36m[Kreturn[m[K def; };
+      |                                                                                [01;36m[K^~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:[m[K In lambda function:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:92:9:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kfor[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+   92 |         [01;35m[Kfor[m[K (const auto& k: keys) if (root[k]) return root[k].as<int>(def); return def; };
+      |         [01;35m[K^~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:92:77:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kfor[m[K’
+   92 |         for (const auto& k: keys) if (root[k]) return root[k].as<int>(def); [01;36m[Kreturn[m[K def; };
+      |                                                                             [01;36m[K^~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:[m[K In member function ‘[01m[Kstd::pair<std::vector<double, std::allocator<double> >, bool> GTSAMOptimizer::[01;32m[Koptimize[m[K(int, double)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:583:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmax_iter[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  583 |     std::pair<std::vector<double>, bool> optimize([01;35m[Kint max_iter[m[K, double converge_threshold)
+      |                                                   [01;35m[K~~~~^~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:583:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kconverge_threshold[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  583 |     std::pair<std::vector<double>, bool> optimize(int max_iter, [01;35m[Kdouble converge_threshold[m[K)
+      |                                                                 [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:1458:39:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<int>, int>::value_type[m[K’ {aka ‘[01m[Kint[m[K’} and ‘[01m[Kstd::vector<Eigen::Matrix<double, -1, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1458 |             if (target_indices[r] + 1 < target_sequences[r].size())

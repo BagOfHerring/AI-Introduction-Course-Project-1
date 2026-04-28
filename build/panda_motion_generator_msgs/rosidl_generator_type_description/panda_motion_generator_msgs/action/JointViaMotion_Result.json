@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "panda_motion_generator_msgs/action/JointViaMotion_Result",
+      "fields": [
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "panda_motion_generator_msgs/msg/SimpleActionResult"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "panda_motion_generator_msgs/msg/SimpleActionResult",
+        "fields": [
+          {
+            "name": "state",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "error",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "panda_motion_generator_msgs/action/JointViaMotion_Result",
+      "hash_string": "RIHS01_31d832cf234db88ce23ff5b8e52259fa684c4884cec14acbc9dc773282afc47d"
+    },
+    {
+      "type_name": "panda_motion_generator_msgs/msg/SimpleActionResult",
+      "hash_string": "RIHS01_52c39308e9348a69000001216f60e2c56319a11de00b1987bb01e851a428a72a"
+    }
+  ]
+}

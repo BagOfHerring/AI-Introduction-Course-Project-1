@@ -1,0 +1,1 @@
+/home/herring/rzddzy/build/multi_mode_control_msgs/rosidl_generator_c/multi_mode_control_msgs/srv/detail/set_controllers__type_support.h

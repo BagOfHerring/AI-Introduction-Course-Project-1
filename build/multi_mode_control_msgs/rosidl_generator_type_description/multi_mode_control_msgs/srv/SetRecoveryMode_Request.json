@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "multi_mode_control_msgs/srv/SetRecoveryMode_Request",
+      "fields": [
+        {
+          "name": "mode",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "timeout",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "multi_mode_control_msgs/srv/SetRecoveryMode_Request",
+      "hash_string": "RIHS01_caa574f0a9d516d8681da6b650891ecdca5e7b36f9b24e505686c5564595d5e6"
+    }
+  ]
+}

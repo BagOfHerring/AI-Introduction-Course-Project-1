@@ -1,0 +1,1 @@
+/home/herring/rzddzy/ros2_ws/src/franka_msgs/msg/PoseStampedArray.msg

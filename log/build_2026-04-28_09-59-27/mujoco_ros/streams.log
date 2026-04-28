@@ -1,0 +1,78 @@
+[0.007s] Invoking command in '/home/herring/rzddzy/build/mujoco_ros': AMENT_PREFIX_PATH=/home/herring/rzddzy/install/mujoco_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/install/mujoco_ros_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/install/mujoco_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/herring/rzddzy/install/mujoco_ros
+[0.054s] -- The C compiler identification is GNU 13.3.0
+[0.102s] -- The CXX compiler identification is GNU 13.3.0
+[0.119s] -- Detecting C compiler ABI info
+[0.203s] -- Detecting C compiler ABI info - done
+[0.213s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.213s] -- Detecting C compile features
+[0.213s] -- Detecting C compile features - done
+[0.223s] -- Detecting CXX compiler ABI info
+[0.336s] -- Detecting CXX compiler ABI info - done
+[0.345s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.345s] -- Detecting CXX compile features
+[0.345s] -- Detecting CXX compile features - done
+[0.346s] -- CMAKE_BUILD_TYPE not set. Defaulting to 'Release'.
+[0.348s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.484s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.545s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.569s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.616s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.631s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.645s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.663s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.712s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.714s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.782s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.803s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.823s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.874s] -- Found rclcpp_lifecycle: 28.1.16 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[0.912s] -- Found pluginlib: 5.4.4 (/opt/ros/jazzy/share/pluginlib/cmake)
+[0.929s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: program_options 
+[0.931s] -- Found tf2: 0.36.19 (/opt/ros/jazzy/share/tf2/cmake)
+[0.958s] -- Found tf2_ros: 0.36.19 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.047s] -- Found image_transport: 5.1.7 (/opt/ros/jazzy/share/image_transport/cmake)
+[1.086s] -- Found camera_info_manager: 5.1.7 (/opt/ros/jazzy/share/camera_info_manager/cmake)
+[1.095s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[1.104s] -- Found tf2_geometry_msgs: 0.36.19 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[1.115s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.116s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.116s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.117s] -- Found mujoco_ros_msgs: 0.9.0 (/home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake)
+[1.120s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/actionlib_msgs/cmake/actionlib_msgsConfig.cmake:31 (message):
+[1.120s]   Package 'actionlib_msgs' is deprecated (This package will be removed in a
+[1.120s]   future ROS distro, once the ROS 1 bridge supports actions.)
+[1.120s] Call Stack (most recent call first):
+[1.121s]   /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.121s]   /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/mujoco_ros_msgsConfig.cmake:41 (include)
+[1.121s]   CMakeLists.txt:62 (find_package)
+[1.121s] 
+[1.121s] [0m
+[1.165s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[1.183s] [33mCMake Warning at cmake/CompilerCache.cmake:33 (message):
+[1.184s]   ccache is enabled but was not found.  Not using it
+[1.184s] Call Stack (most recent call first):
+[1.184s]   cmake/CompilerCache.cmake:44 (_configure_ccache)
+[1.184s]   cmake/CompilerCache.cmake:44 (cmake_language)
+[1.184s]   cmake/ProjectOption.cmake:61 (configure_compiler_cache)
+[1.184s]   CMakeLists.txt:70 (configure_project_option)
+[1.184s] 
+[1.184s] [0m
+[1.184s] -- Can't identify catkin workspace root directory, neither did user provide one, using default config
+[1.184s] -- Performing Test CAN_BUILD_AVX
+[1.506s] -- Performing Test CAN_BUILD_AVX - Success
+[1.506s] -- Performing Test SUPPORTS_LLD
+[1.571s] -- Performing Test SUPPORTS_LLD - Failed
+[1.572s] -- Performing Test SUPPORTS_GOLD
+[1.668s] -- Performing Test SUPPORTS_GOLD - Success
+[1.668s] -- Performing Test SUPPORTS_GC_SECTIONS
+[1.805s] -- Performing Test SUPPORTS_GC_SECTIONS - Success
+[1.817s] -- Looking for MuJoCo tar install ...
+[1.833s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.834s] -- Configuring incomplete, errors occurred!
+[1.834s] [31mCMake Error at cmake/Findmujoco.cmake:50 (message):
+[1.835s]   Failed to find mujoco (MUJOCO_DIR=)
+[1.835s] Call Stack (most recent call first):
+[1.835s]   CMakeLists.txt:90 (find_package)
+[1.835s] 
+[1.835s] [0m
+[1.848s] Invoked command in '/home/herring/rzddzy/build/mujoco_ros' returned '1': AMENT_PREFIX_PATH=/home/herring/rzddzy/install/mujoco_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/install/mujoco_ros_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/install/mujoco_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/herring/rzddzy/install/mujoco_ros

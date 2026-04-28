@@ -1,0 +1,31 @@
+[0mCMake Deprecation Warning at /opt/ros/jazzy/share/actionlib_msgs/cmake/actionlib_msgsConfig.cmake:31 (message):
+  Package 'actionlib_msgs' is deprecated (This package will be removed in a
+  future ROS distro, once the ROS 1 bridge supports actions.)
+Call Stack (most recent call first):
+  /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/mujoco_ros_msgsConfig.cmake:41 (include)
+  /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/cmake/mujoco_rosConfig.cmake:41 (include)
+  /home/herring/rzddzy/install/mujoco_ros2_control/share/mujoco_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/herring/rzddzy/install/mujoco_ros2_control/share/mujoco_ros2_control/cmake/mujoco_ros2_controlConfig.cmake:41 (include)
+  CMakeLists.txt:33 (find_package)
+
+[0m
+[0mMuJoCo tar install found, but version can not be detected. If experiencing errors check that version 3.2.0 or a newer, compatible version is installed[0m
+[31mCMake Error at CMakeLists.txt:145 (find_package):
+  By not providing "Findament_cmake_clang_format.cmake" in CMAKE_MODULE_PATH
+  this project has asked CMake to find a package configuration file provided
+  by "ament_cmake_clang_format", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "ament_cmake_clang_format" with any of the following names:
+
+    ament_cmake_clang_formatConfig.cmake
+    ament_cmake_clang_format-config.cmake
+
+  Add the installation prefix of "ament_cmake_clang_format" to
+  CMAKE_PREFIX_PATH or set "ament_cmake_clang_format_DIR" to a directory
+  containing one of the above files.  If "ament_cmake_clang_format" provides
+  a separate development package or SDK, be sure it has been installed.
+
+[0m

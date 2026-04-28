@@ -1,0 +1,330 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "multi_mode_control_msgs/srv/SetThresholds",
+      "fields": [
+        {
+          "name": "request_message",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "multi_mode_control_msgs/srv/SetThresholds_Request"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "response_message",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "multi_mode_control_msgs/srv/SetThresholds_Response"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "event_message",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "multi_mode_control_msgs/srv/SetThresholds_Event"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "builtin_interfaces/msg/Time",
+        "fields": [
+          {
+            "name": "sec",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "nanosec",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "multi_mode_control_msgs/msg/ContactThresholds",
+        "fields": [
+          {
+            "name": "f_max",
+            "type": {
+              "type_id": 59,
+              "capacity": 6,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "f_min",
+            "type": {
+              "type_id": 59,
+              "capacity": 6,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "tau_max",
+            "type": {
+              "type_id": 145,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "multi_mode_control_msgs/msg/JointArray"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "tau_min",
+            "type": {
+              "type_id": 145,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "multi_mode_control_msgs/msg/JointArray"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "f_abs_max",
+            "type": {
+              "type_id": 11,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "m_abs_max",
+            "type": {
+              "type_id": 11,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "abs_mode",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "directional_mode",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "torque_mode",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "multi_mode_control_msgs/msg/JointArray",
+        "fields": [
+          {
+            "name": "data",
+            "type": {
+              "type_id": 59,
+              "capacity": 7,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "multi_mode_control_msgs/srv/SetThresholds_Event",
+        "fields": [
+          {
+            "name": "info",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "request",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "multi_mode_control_msgs/srv/SetThresholds_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "multi_mode_control_msgs/srv/SetThresholds_Response"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "multi_mode_control_msgs/srv/SetThresholds_Request",
+        "fields": [
+          {
+            "name": "level1",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "multi_mode_control_msgs/msg/ContactThresholds"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "level2",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "multi_mode_control_msgs/msg/ContactThresholds"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "multi_mode_control_msgs/srv/SetThresholds_Response",
+        "fields": [
+          {
+            "name": "structure_needs_at_least_one_member",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "service_msgs/msg/ServiceEventInfo",
+        "fields": [
+          {
+            "name": "event_type",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "client_gid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "sequence_number",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "multi_mode_control_msgs/srv/SetThresholds",
+      "hash_string": "RIHS01_ed0733580fc3ef303115b1a496733b6228ac64c3e778a8cf67d182973cb19e6d"
+    },
+    {
+      "type_name": "builtin_interfaces/msg/Time",
+      "hash_string": "RIHS01_b106235e25a4c5ed35098aa0a61a3ee9c9b18d197f398b0e4206cea9acf9c197"
+    },
+    {
+      "type_name": "multi_mode_control_msgs/msg/ContactThresholds",
+      "hash_string": "RIHS01_24ba8096acaee2a4c58269c9ec279821d10470cf2c740d2b59102f0d16c901d9"
+    },
+    {
+      "type_name": "multi_mode_control_msgs/msg/JointArray",
+      "hash_string": "RIHS01_55be3ec4e2faae7425bf878639e27db94a6b6c418715a8462b54ca8a51dff927"
+    },
+    {
+      "type_name": "multi_mode_control_msgs/srv/SetThresholds_Event",
+      "hash_string": "RIHS01_31c9685a989f1e0bb0226d1624762e2724939e256643e84cdfa28b010f001b4a"
+    },
+    {
+      "type_name": "multi_mode_control_msgs/srv/SetThresholds_Request",
+      "hash_string": "RIHS01_0a64f8f40118c9cf9a41371845cecfdba1a1ea113f83a6aaf4293b004bff789d"
+    },
+    {
+      "type_name": "multi_mode_control_msgs/srv/SetThresholds_Response",
+      "hash_string": "RIHS01_f7ba3691ec6ea8f2d6763f273bb8176b437294c5a81270b79d7cfe6704fc6e5c"
+    },
+    {
+      "type_name": "service_msgs/msg/ServiceEventInfo",
+      "hash_string": "RIHS01_41bcbbe07a75c9b52bc96bfd5c24d7f0fc0a08c0cb7921b3373c5732345a6f45"
+    }
+  ]
+}

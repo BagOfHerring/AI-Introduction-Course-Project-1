@@ -1,0 +1,1 @@
+/home/herring/rzddzy/build/cplus_dev/ament_cmake_environment_hooks/local_setup.sh

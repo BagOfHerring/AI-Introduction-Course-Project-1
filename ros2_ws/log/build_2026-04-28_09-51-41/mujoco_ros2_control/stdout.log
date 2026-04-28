@@ -1,0 +1,68 @@
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Found mujoco_ros: 0.9.0 (/home/herring/rzddzy/ros2_ws/install/mujoco_ros/share/mujoco_ros/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found hardware_interface: 4.42.2 (/opt/ros/jazzy/share/hardware_interface/cmake)
+-- Found controller_manager: 4.42.2 (/opt/ros/jazzy/share/controller_manager/cmake)
+-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_control/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/herring/rzddzy/ros2_ws/build/mujoco_ros2_control
+[ 50%] [32mBuilding CXX object CMakeFiles/mujoco_ros2_control.dir/src/mujoco_ros2_control.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libmujoco_ros2_control.so[0m
+[100%] Built target mujoco_ros2_control
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control//plugins.xml
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/include/mujoco_ros2_control/mujoco_ros2_control.hpp
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/include/mujoco_ros2_control/mujoco_ros2_control_system_interface.hpp
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/include/mujoco_ros2_control/visibility_control.h
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/lib/libmujoco_ros2_control.so
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/launch/launch_server.launch
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/launch/mujoco_ros2_control.launch.py
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/launch/mujoco_ros2_control_with_ns.launch.py
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/example/pendulum.urdf
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/example/pendulum.xml
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/example/ros2_control_plugins_example.yaml
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/example/ros2_control_plugins_example_with_ns.yaml
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/environment/library_path.sh
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/environment/library_path.dsv
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/ament_index/resource_index/package_run_dependencies/mujoco_ros2_control
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/ament_index/resource_index/parent_prefix_path/mujoco_ros2_control
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/environment/path.sh
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/environment/path.dsv
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/local_setup.bash
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/local_setup.sh
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/local_setup.zsh
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/local_setup.dsv
+-- Symlinking: /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/package.dsv
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/ament_index/resource_index/packages/mujoco_ros2_control
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/ament_index/resource_index/mujoco_ros__pluginlib__plugin/mujoco_ros2_control
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/cmake/mujoco_ros2_controlConfig.cmake
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/cmake/mujoco_ros2_controlConfig-version.cmake
+-- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/package.xml

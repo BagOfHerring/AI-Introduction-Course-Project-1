@@ -1,0 +1,1 @@
+/home/herring/rzddzy/build/mujoco_ros_msgs/rosidl_generator_c/mujoco_ros_msgs/msg/detail/geom_type__struct.h

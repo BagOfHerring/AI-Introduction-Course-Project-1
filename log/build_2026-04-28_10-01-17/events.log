@@ -1,0 +1,1041 @@
+[0.000000] (-) TimerEvent: {}
+[0.000273] (-) JobUnselected: {'identifier': 'controller'}
+[0.000396] (-) JobUnselected: {'identifier': 'cplus_dev'}
+[0.000455] (-) JobUnselected: {'identifier': 'franka_bringup'}
+[0.000484] (-) JobUnselected: {'identifier': 'franka_description'}
+[0.000639] (-) JobUnselected: {'identifier': 'franka_example_controllers'}
+[0.000662] (-) JobUnselected: {'identifier': 'franka_hardware'}
+[0.000758] (-) JobUnselected: {'identifier': 'franka_ik_py'}
+[0.000891] (-) JobUnselected: {'identifier': 'franka_msgs'}
+[0.000917] (-) JobUnselected: {'identifier': 'franka_robot_state_broadcaster'}
+[0.000957] (-) JobUnselected: {'identifier': 'franka_semantic_components'}
+[0.000980] (-) JobUnselected: {'identifier': 'mujoco_ros2_control'}
+[0.001025] (-) JobUnselected: {'identifier': 'mujoco_ros2_control_system'}
+[0.001040] (-) JobUnselected: {'identifier': 'mujoco_ros2_dummy_plugin'}
+[0.001055] (-) JobUnselected: {'identifier': 'mujoco_ros2_sensors'}
+[0.001069] (-) JobUnselected: {'identifier': 'mujoco_ros_pkgs'}
+[0.001091] (-) JobUnselected: {'identifier': 'multi_mode_control_msgs'}
+[0.001113] (-) JobUnselected: {'identifier': 'multi_mode_controller'}
+[0.001150] (-) JobUnselected: {'identifier': 'multi_mode_controller_impl'}
+[0.001187] (-) JobUnselected: {'identifier': 'panda_motion_generator_msgs'}
+[0.001213] (-) JobUnselected: {'identifier': 'panda_motion_generators'}
+[0.001231] (mujoco_ros_msgs) JobQueued: {'identifier': 'mujoco_ros_msgs', 'dependencies': OrderedDict()}
+[0.001250] (mujoco_ros) JobQueued: {'identifier': 'mujoco_ros', 'dependencies': OrderedDict({'mujoco_ros_msgs': '/home/herring/rzddzy/install/mujoco_ros_msgs'})}
+[0.001272] (mujoco_ros_msgs) JobStarted: {'identifier': 'mujoco_ros_msgs'}
+[0.005354] (mujoco_ros_msgs) JobProgress: {'identifier': 'mujoco_ros_msgs', 'progress': 'cmake'}
+[0.005930] (mujoco_ros_msgs) JobProgress: {'identifier': 'mujoco_ros_msgs', 'progress': 'build'}
+[0.006319] (mujoco_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/herring/rzddzy/build/mujoco_ros_msgs', '--', '-j28', '-l28'], 'cwd': '/home/herring/rzddzy/build/mujoco_ros_msgs', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en', 'USER': 'herring', 'LC_TIME': 'en_US.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'GIT_EDITOR': ':', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/herring', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/herring/rzddzy/ros2_ws', 'TERM_PROGRAM_VERSION': '1.114.0', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/herring/.nvm/versions/node/v20.20.1/bin', 'NVM_INC': '/home/herring/.nvm/versions/node/v20.20.1/include/node', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '3212', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '3483', 'BUNDLED_DEBUGPY_PATH': '/home/herring/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5337', 'NVM_DIR': '/home/herring/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'herring', 'JOURNAL_STREAM': '8:20470', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'herring', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'HISTCONTROL': 'ignorespace', 'PATH': '/home/herring/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/herring/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/herring/.local/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/herring/.nvm/versions/node/v20.20.1/bin:/home/herring/.cargo/bin:/home/herring/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/herring/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/herring-Legion-Y7000P-IRX9:@/tmp/.ICE-unix/3444,unix/herring-Legion-Y7000P-IRX9:/tmp/.ICE-unix/3444', 'INVOCATION_ID': 'bd76833d1de64fda9f4b7cef648bbcdd', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/herring/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-96998ed788fe5f81.txt', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/herring/.config/Code/User/workspaceStorage/e0a7d35be3a23be38b76db43a4e3f908/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TO6QO3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-31311df754.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/herring/rzddzy/build/mujoco_ros_msgs', 'GIT_MERGE_AUTOEDIT': 'no', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'xim', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.061497] (mujoco_ros_msgs) StdoutLine: {'line': b'[  0%] Built target mujoco_ros_msgs__rosidl_generator_type_description\n'}
+[0.063675] (mujoco_ros_msgs) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_symlink_mujoco_ros_msgs\n'}
+[0.081884] (mujoco_ros_msgs) StdoutLine: {'line': b'[  0%] Built target mujoco_ros_msgs__cpp\n'}
+[0.099857] (-) TimerEvent: {}
+[0.119355] (mujoco_ros_msgs) StdoutLine: {'line': b'[ 29%] Built target mujoco_ros_msgs__rosidl_generator_c\n'}
+[0.149266] (mujoco_ros_msgs) StdoutLine: {'line': b'[ 39%] Built target mujoco_ros_msgs__rosidl_typesupport_introspection_c\n'}
+[0.154512] (mujoco_ros_msgs) StdoutLine: {'line': b'[ 49%] Built target mujoco_ros_msgs__rosidl_typesupport_c\n'}
+[0.160320] (mujoco_ros_msgs) StdoutLine: {'line': b'[ 59%] Built target mujoco_ros_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.172729] (mujoco_ros_msgs) StdoutLine: {'line': b'[ 69%] Built target mujoco_ros_msgs__rosidl_typesupport_cpp\n'}
+[0.180132] (mujoco_ros_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.180317] (mujoco_ros_msgs) StdoutLine: {'line': b'[ 89%] Built target mujoco_ros_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.180401] (mujoco_ros_msgs) StdoutLine: {'line': b'[ 89%] Built target mujoco_ros_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.190468] (mujoco_ros_msgs) StdoutLine: {'line': b'writing mujoco_ros_msgs.egg-info/PKG-INFO\n'}
+[0.190630] (mujoco_ros_msgs) StdoutLine: {'line': b'writing dependency_links to mujoco_ros_msgs.egg-info/dependency_links.txt\n'}
+[0.190718] (mujoco_ros_msgs) StdoutLine: {'line': b'writing top-level names to mujoco_ros_msgs.egg-info/top_level.txt\n'}
+[0.199205] (mujoco_ros_msgs) StdoutLine: {'line': b'[ 89%] Built target mujoco_ros_msgs\n'}
+[0.199969] (-) TimerEvent: {}
+[0.217685] (mujoco_ros_msgs) StdoutLine: {'line': b"reading manifest file 'mujoco_ros_msgs.egg-info/SOURCES.txt'\n"}
+[0.217868] (mujoco_ros_msgs) StdoutLine: {'line': b'[ 89%] Built target mujoco_ros_msgs__py\n'}
+[0.217963] (mujoco_ros_msgs) StdoutLine: {'line': b"writing manifest file 'mujoco_ros_msgs.egg-info/SOURCES.txt'\n"}
+[0.236331] (mujoco_ros_msgs) StdoutLine: {'line': b'[ 89%] Built target ament_cmake_python_build_mujoco_ros_msgs_egg\n'}
+[0.259618] (mujoco_ros_msgs) StdoutLine: {'line': b'[ 98%] Built target mujoco_ros_msgs__rosidl_generator_py\n'}
+[0.279518] (mujoco_ros_msgs) StdoutLine: {'line': b'[ 99%] Built target mujoco_ros_msgs_s__rosidl_typesupport_introspection_c\n'}
+[0.280774] (mujoco_ros_msgs) StdoutLine: {'line': b'[100%] Built target mujoco_ros_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[0.281188] (mujoco_ros_msgs) StdoutLine: {'line': b'[100%] Built target mujoco_ros_msgs_s__rosidl_typesupport_c\n'}
+[0.292603] (mujoco_ros_msgs) CommandEnded: {'returncode': 0}
+[0.293198] (mujoco_ros_msgs) JobProgress: {'identifier': 'mujoco_ros_msgs', 'progress': 'install'}
+[0.300067] (-) TimerEvent: {}
+[0.300898] (mujoco_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/herring/rzddzy/build/mujoco_ros_msgs'], 'cwd': '/home/herring/rzddzy/build/mujoco_ros_msgs', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en', 'USER': 'herring', 'LC_TIME': 'en_US.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'GIT_EDITOR': ':', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/herring', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/herring/rzddzy/ros2_ws', 'TERM_PROGRAM_VERSION': '1.114.0', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/herring/.nvm/versions/node/v20.20.1/bin', 'NVM_INC': '/home/herring/.nvm/versions/node/v20.20.1/include/node', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '3212', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '3483', 'BUNDLED_DEBUGPY_PATH': '/home/herring/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5337', 'NVM_DIR': '/home/herring/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'herring', 'JOURNAL_STREAM': '8:20470', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'herring', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'HISTCONTROL': 'ignorespace', 'PATH': '/home/herring/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/herring/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/herring/.local/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/herring/.nvm/versions/node/v20.20.1/bin:/home/herring/.cargo/bin:/home/herring/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/herring/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/herring-Legion-Y7000P-IRX9:@/tmp/.ICE-unix/3444,unix/herring-Legion-Y7000P-IRX9:/tmp/.ICE-unix/3444', 'INVOCATION_ID': 'bd76833d1de64fda9f4b7cef648bbcdd', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/herring/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-96998ed788fe5f81.txt', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/herring/.config/Code/User/workspaceStorage/e0a7d35be3a23be38b76db43a4e3f908/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TO6QO3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-31311df754.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/herring/rzddzy/build/mujoco_ros_msgs', 'GIT_MERGE_AUTOEDIT': 'no', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'xim', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.307873] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.308414] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.308539] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/mujoco_ros_msgs\n'}
+[0.308642] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/StateUint.json\n'}
+[0.308729] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/ScalarStamped.json\n'}
+[0.308815] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/BodyState.json\n'}
+[0.308904] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/GeomProperties.json\n'}
+[0.309015] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/GeomType.json\n'}
+[0.309108] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/SensorNoiseModel.json\n'}
+[0.309239] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/SolverParameters.json\n'}
+[0.309325] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/MocapState.json\n'}
+[0.309404] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/EqualityConstraintType.json\n'}
+[0.309496] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/EqualityConstraintParameters.json\n'}
+[0.309601] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/SimInfo.json\n'}
+[0.309697] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/PluginStats.json\n'}
+[0.309768] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetStateUint.json\n'}
+[0.309872] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetFloat.json\n'}
+[0.309953] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetPause.json\n'}
+[0.310068] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetBodyState.json\n'}
+[0.310172] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetBodyState.json\n'}
+[0.310244] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetGeomProperties.json\n'}
+[0.310352] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetGeomProperties.json\n'}
+[0.310446] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetEqualityConstraintParameters.json\n'}
+[0.310539] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetEqualityConstraintParameters.json\n'}
+[0.310637] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/ResetBodyQPos.json\n'}
+[0.310706] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/RegisterSensorNoiseModels.json\n'}
+[0.310785] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetGravity.json\n'}
+[0.310850] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetGravity.json\n'}
+[0.310916] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/Reload.json\n'}
+[0.310982] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetMocapState.json\n'}
+[0.311051] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetSimInfo.json\n'}
+[0.311117] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetPluginStats.json\n'}
+[0.311188] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/action/Step.json\n'}
+[0.311585] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/action/detail/step__functions.h\n'}
+[0.311702] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/action/detail/step__struct.h\n'}
+[0.311797] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/action/detail/step__type_support.h\n'}
+[0.311877] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/action/step.h\n'}
+[0.311969] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/body_state.h\n'}
+[0.312061] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/body_state__functions.h\n'}
+[0.312143] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/body_state__struct.h\n'}
+[0.312239] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/body_state__type_support.h\n'}
+[0.312332] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_parameters__functions.h\n'}
+[0.312426] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_parameters__struct.h\n'}
+[0.312520] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_parameters__type_support.h\n'}
+[0.312620] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_type__functions.h\n'}
+[0.312714] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_type__struct.h\n'}
+[0.312807] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_type__type_support.h\n'}
+[0.312890] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_properties__functions.h\n'}
+[0.312984] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_properties__struct.h\n'}
+[0.313075] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_properties__type_support.h\n'}
+[0.313167] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_type__functions.h\n'}
+[0.313261] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_type__struct.h\n'}
+[0.313344] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_type__type_support.h\n'}
+[0.313437] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/mocap_state__functions.h\n'}
+[0.313522] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/mocap_state__struct.h\n'}
+[0.313641] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/mocap_state__type_support.h\n'}
+[0.313744] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/plugin_stats__functions.h\n'}
+[0.313825] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/plugin_stats__struct.h\n'}
+[0.313916] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/plugin_stats__type_support.h\n'}
+[0.314007] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/scalar_stamped__functions.h\n'}
+[0.314098] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/scalar_stamped__struct.h\n'}
+[0.314192] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/scalar_stamped__type_support.h\n'}
+[0.314283] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sensor_noise_model__functions.h\n'}
+[0.314370] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sensor_noise_model__struct.h\n'}
+[0.314450] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sensor_noise_model__type_support.h\n'}
+[0.314547] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sim_info__functions.h\n'}
+[0.314643] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sim_info__struct.h\n'}
+[0.314735] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sim_info__type_support.h\n'}
+[0.314825] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/solver_parameters__functions.h\n'}
+[0.314913] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/solver_parameters__struct.h\n'}
+[0.315013] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/solver_parameters__type_support.h\n'}
+[0.315102] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/state_uint__functions.h\n'}
+[0.315190] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/state_uint__struct.h\n'}
+[0.315282] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/state_uint__type_support.h\n'}
+[0.315376] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/equality_constraint_parameters.h\n'}
+[0.315469] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/equality_constraint_type.h\n'}
+[0.315569] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/geom_properties.h\n'}
+[0.315653] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/geom_type.h\n'}
+[0.315743] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/mocap_state.h\n'}
+[0.315842] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/plugin_stats.h\n'}
+[0.315936] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.316031] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/scalar_stamped.h\n'}
+[0.316125] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/sensor_noise_model.h\n'}
+[0.316206] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/sim_info.h\n'}
+[0.316299] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/solver_parameters.h\n'}
+[0.316392] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/state_uint.h\n'}
+[0.316484] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_body_state__functions.h\n'}
+[0.316592] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_body_state__struct.h\n'}
+[0.316678] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_body_state__type_support.h\n'}
+[0.316783] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_equality_constraint_parameters__functions.h\n'}
+[0.316874] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_equality_constraint_parameters__struct.h\n'}
+[0.316957] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_equality_constraint_parameters__type_support.h\n'}
+[0.317050] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_geom_properties__functions.h\n'}
+[0.317144] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_geom_properties__struct.h\n'}
+[0.317233] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_geom_properties__type_support.h\n'}
+[0.317326] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_gravity__functions.h\n'}
+[0.317414] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_gravity__struct.h\n'}
+[0.317516] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_gravity__type_support.h\n'}
+[0.317605] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_plugin_stats__functions.h\n'}
+[0.317686] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_plugin_stats__struct.h\n'}
+[0.317770] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_plugin_stats__type_support.h\n'}
+[0.317837] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_sim_info__functions.h\n'}
+[0.317902] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_sim_info__struct.h\n'}
+[0.317967] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_sim_info__type_support.h\n'}
+[0.318033] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_state_uint__functions.h\n'}
+[0.318098] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_state_uint__struct.h\n'}
+[0.318164] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_state_uint__type_support.h\n'}
+[0.318228] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/register_sensor_noise_models__functions.h\n'}
+[0.318294] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/register_sensor_noise_models__struct.h\n'}
+[0.318360] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/register_sensor_noise_models__type_support.h\n'}
+[0.318442] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reload__functions.h\n'}
+[0.318547] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reload__struct.h\n'}
+[0.318629] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reload__type_support.h\n'}
+[0.318726] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reset_body_q_pos__functions.h\n'}
+[0.318811] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reset_body_q_pos__struct.h\n'}
+[0.318906] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reset_body_q_pos__type_support.h\n'}
+[0.318987] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_body_state__functions.h\n'}
+[0.319079] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_body_state__struct.h\n'}
+[0.319172] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_body_state__type_support.h\n'}
+[0.319264] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_equality_constraint_parameters__functions.h\n'}
+[0.319346] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_equality_constraint_parameters__struct.h\n'}
+[0.319451] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_equality_constraint_parameters__type_support.h\n'}
+[0.319551] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_float__functions.h\n'}
+[0.319634] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_float__struct.h\n'}
+[0.319726] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_float__type_support.h\n'}
+[0.319807] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_geom_properties__functions.h\n'}
+[0.319896] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_geom_properties__struct.h\n'}
+[0.319974] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_geom_properties__type_support.h\n'}
+[0.320038] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_gravity__functions.h\n'}
+[0.320102] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_gravity__struct.h\n'}
+[0.320166] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_gravity__type_support.h\n'}
+[0.320229] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_mocap_state__functions.h\n'}
+[0.320293] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_mocap_state__struct.h\n'}
+[0.320370] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_mocap_state__type_support.h\n'}
+[0.320454] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_pause__functions.h\n'}
+[0.320561] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_pause__struct.h\n'}
+[0.320702] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_pause__type_support.h\n'}
+[0.320809] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/get_body_state.h\n'}
+[0.320915] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/get_equality_constraint_parameters.h\n'}
+[0.321012] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/get_geom_properties.h\n'}
+[0.321113] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/get_gravity.h\n'}
+[0.321208] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/get_plugin_stats.h\n'}
+[0.321302] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/get_sim_info.h\n'}
+[0.321397] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/get_state_uint.h\n'}
+[0.321478] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/register_sensor_noise_models.h\n'}
+[0.321571] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/reload.h\n'}
+[0.321661] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/reset_body_q_pos.h\n'}
+[0.321753] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/set_body_state.h\n'}
+[0.321845] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/set_equality_constraint_parameters.h\n'}
+[0.321912] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/set_float.h\n'}
+[0.321978] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/set_geom_properties.h\n'}
+[0.322043] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/set_gravity.h\n'}
+[0.322108] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/set_mocap_state.h\n'}
+[0.322178] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/set_pause.h\n'}
+[0.322244] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/environment/library_path.sh\n'}
+[0.322313] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/environment/library_path.dsv\n'}
+[0.322378] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/action/detail/step__rosidl_typesupport_fastrtps_c.h\n'}
+[0.322443] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/body_state__rosidl_typesupport_fastrtps_c.h\n'}
+[0.322522] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_parameters__rosidl_typesupport_fastrtps_c.h\n'}
+[0.322602] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_type__rosidl_typesupport_fastrtps_c.h\n'}
+[0.322667] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_properties__rosidl_typesupport_fastrtps_c.h\n'}
+[0.322759] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_type__rosidl_typesupport_fastrtps_c.h\n'}
+[0.322849] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/mocap_state__rosidl_typesupport_fastrtps_c.h\n'}
+[0.322936] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/plugin_stats__rosidl_typesupport_fastrtps_c.h\n'}
+[0.323017] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/scalar_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[0.323114] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sensor_noise_model__rosidl_typesupport_fastrtps_c.h\n'}
+[0.323199] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sim_info__rosidl_typesupport_fastrtps_c.h\n'}
+[0.323279] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/solver_parameters__rosidl_typesupport_fastrtps_c.h\n'}
+[0.323369] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/state_uint__rosidl_typesupport_fastrtps_c.h\n'}
+[0.323458] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.323579] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_body_state__rosidl_typesupport_fastrtps_c.h\n'}
+[0.323673] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_equality_constraint_parameters__rosidl_typesupport_fastrtps_c.h\n'}
+[0.323761] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_geom_properties__rosidl_typesupport_fastrtps_c.h\n'}
+[0.323851] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_gravity__rosidl_typesupport_fastrtps_c.h\n'}
+[0.323946] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_plugin_stats__rosidl_typesupport_fastrtps_c.h\n'}
+[0.324026] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_sim_info__rosidl_typesupport_fastrtps_c.h\n'}
+[0.324114] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_state_uint__rosidl_typesupport_fastrtps_c.h\n'}
+[0.324208] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/register_sensor_noise_models__rosidl_typesupport_fastrtps_c.h\n'}
+[0.324299] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reload__rosidl_typesupport_fastrtps_c.h\n'}
+[0.324392] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reset_body_q_pos__rosidl_typesupport_fastrtps_c.h\n'}
+[0.324479] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_body_state__rosidl_typesupport_fastrtps_c.h\n'}
+[0.324563] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_equality_constraint_parameters__rosidl_typesupport_fastrtps_c.h\n'}
+[0.324655] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_float__rosidl_typesupport_fastrtps_c.h\n'}
+[0.324745] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_geom_properties__rosidl_typesupport_fastrtps_c.h\n'}
+[0.324836] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_gravity__rosidl_typesupport_fastrtps_c.h\n'}
+[0.324927] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_mocap_state__rosidl_typesupport_fastrtps_c.h\n'}
+[0.325013] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_pause__rosidl_typesupport_fastrtps_c.h\n'}
+[0.325095] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/action/detail/step__rosidl_typesupport_introspection_c.h\n'}
+[0.325187] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/body_state__rosidl_typesupport_introspection_c.h\n'}
+[0.325276] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_parameters__rosidl_typesupport_introspection_c.h\n'}
+[0.325367] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_type__rosidl_typesupport_introspection_c.h\n'}
+[0.325457] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_properties__rosidl_typesupport_introspection_c.h\n'}
+[0.325559] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_type__rosidl_typesupport_introspection_c.h\n'}
+[0.325656] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/mocap_state__rosidl_typesupport_introspection_c.h\n'}
+[0.325748] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/plugin_stats__rosidl_typesupport_introspection_c.h\n'}
+[0.325843] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/scalar_stamped__rosidl_typesupport_introspection_c.h\n'}
+[0.325935] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sensor_noise_model__rosidl_typesupport_introspection_c.h\n'}
+[0.326022] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sim_info__rosidl_typesupport_introspection_c.h\n'}
+[0.326101] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/solver_parameters__rosidl_typesupport_introspection_c.h\n'}
+[0.326193] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/state_uint__rosidl_typesupport_introspection_c.h\n'}
+[0.326285] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.326375] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_body_state__rosidl_typesupport_introspection_c.h\n'}
+[0.326454] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_equality_constraint_parameters__rosidl_typesupport_introspection_c.h\n'}
+[0.326637] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_geom_properties__rosidl_typesupport_introspection_c.h\n'}
+[0.326744] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_gravity__rosidl_typesupport_introspection_c.h\n'}
+[0.326812] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_plugin_stats__rosidl_typesupport_introspection_c.h\n'}
+[0.326924] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_sim_info__rosidl_typesupport_introspection_c.h\n'}
+[0.327011] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_state_uint__rosidl_typesupport_introspection_c.h\n'}
+[0.327099] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/register_sensor_noise_models__rosidl_typesupport_introspection_c.h\n'}
+[0.327174] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reload__rosidl_typesupport_introspection_c.h\n'}
+[0.327248] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reset_body_q_pos__rosidl_typesupport_introspection_c.h\n'}
+[0.327369] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_body_state__rosidl_typesupport_introspection_c.h\n'}
+[0.327454] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_equality_constraint_parameters__rosidl_typesupport_introspection_c.h\n'}
+[0.327558] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_float__rosidl_typesupport_introspection_c.h\n'}
+[0.327653] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_geom_properties__rosidl_typesupport_introspection_c.h\n'}
+[0.327762] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_gravity__rosidl_typesupport_introspection_c.h\n'}
+[0.327864] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_mocap_state__rosidl_typesupport_introspection_c.h\n'}
+[0.327953] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_pause__rosidl_typesupport_introspection_c.h\n'}
+[0.328057] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/action/detail/step__builder.hpp\n'}
+[0.328150] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/action/detail/step__struct.hpp\n'}
+[0.328239] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/action/detail/step__traits.hpp\n'}
+[0.328331] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/action/detail/step__type_support.hpp\n'}
+[0.328423] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/action/step.hpp\n'}
+[0.328524] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/body_state.hpp\n'}
+[0.328627] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/body_state__builder.hpp\n'}
+[0.328722] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/body_state__struct.hpp\n'}
+[0.328818] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/body_state__traits.hpp\n'}
+[0.328910] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/body_state__type_support.hpp\n'}
+[0.328990] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_parameters__builder.hpp\n'}
+[0.329086] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_parameters__struct.hpp\n'}
+[0.329178] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_parameters__traits.hpp\n'}
+[0.329271] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_parameters__type_support.hpp\n'}
+[0.329365] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_type__builder.hpp\n'}
+[0.329466] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_type__struct.hpp\n'}
+[0.329599] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_type__traits.hpp\n'}
+[0.329697] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_type__type_support.hpp\n'}
+[0.329797] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_properties__builder.hpp\n'}
+[0.329917] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_properties__struct.hpp\n'}
+[0.330008] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_properties__traits.hpp\n'}
+[0.330095] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_properties__type_support.hpp\n'}
+[0.330162] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_type__builder.hpp\n'}
+[0.330229] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_type__struct.hpp\n'}
+[0.330297] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_type__traits.hpp\n'}
+[0.330372] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_type__type_support.hpp\n'}
+[0.330439] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/mocap_state__builder.hpp\n'}
+[0.330515] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/mocap_state__struct.hpp\n'}
+[0.330591] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/mocap_state__traits.hpp\n'}
+[0.330658] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/mocap_state__type_support.hpp\n'}
+[0.330738] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/plugin_stats__builder.hpp\n'}
+[0.330828] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/plugin_stats__struct.hpp\n'}
+[0.330907] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/plugin_stats__traits.hpp\n'}
+[0.330999] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/plugin_stats__type_support.hpp\n'}
+[0.331092] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/scalar_stamped__builder.hpp\n'}
+[0.331175] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/scalar_stamped__struct.hpp\n'}
+[0.331281] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/scalar_stamped__traits.hpp\n'}
+[0.331375] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/scalar_stamped__type_support.hpp\n'}
+[0.331455] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sensor_noise_model__builder.hpp\n'}
+[0.331558] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sensor_noise_model__struct.hpp\n'}
+[0.331652] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sensor_noise_model__traits.hpp\n'}
+[0.331740] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sensor_noise_model__type_support.hpp\n'}
+[0.331834] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sim_info__builder.hpp\n'}
+[0.331922] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sim_info__struct.hpp\n'}
+[0.332013] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sim_info__traits.hpp\n'}
+[0.332092] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sim_info__type_support.hpp\n'}
+[0.332185] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/solver_parameters__builder.hpp\n'}
+[0.332264] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/solver_parameters__struct.hpp\n'}
+[0.332331] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/solver_parameters__traits.hpp\n'}
+[0.332398] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/solver_parameters__type_support.hpp\n'}
+[0.332464] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/state_uint__builder.hpp\n'}
+[0.332546] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/state_uint__struct.hpp\n'}
+[0.332643] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/state_uint__traits.hpp\n'}
+[0.332741] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/state_uint__type_support.hpp\n'}
+[0.332830] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/equality_constraint_parameters.hpp\n'}
+[0.332911] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/equality_constraint_type.hpp\n'}
+[0.333003] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/geom_properties.hpp\n'}
+[0.333096] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/geom_type.hpp\n'}
+[0.333196] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/mocap_state.hpp\n'}
+[0.333290] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/plugin_stats.hpp\n'}
+[0.333377] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.333469] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/scalar_stamped.hpp\n'}
+[0.333571] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/sensor_noise_model.hpp\n'}
+[0.333667] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/sim_info.hpp\n'}
+[0.333747] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/solver_parameters.hpp\n'}
+[0.333836] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/state_uint.hpp\n'}
+[0.333927] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_body_state__builder.hpp\n'}
+[0.334017] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_body_state__struct.hpp\n'}
+[0.334095] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_body_state__traits.hpp\n'}
+[0.334171] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_body_state__type_support.hpp\n'}
+[0.334237] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_equality_constraint_parameters__builder.hpp\n'}
+[0.334315] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_equality_constraint_parameters__struct.hpp\n'}
+[0.334400] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_equality_constraint_parameters__traits.hpp\n'}
+[0.334491] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_equality_constraint_parameters__type_support.hpp\n'}
+[0.334575] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_geom_properties__builder.hpp\n'}
+[0.334643] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_geom_properties__struct.hpp\n'}
+[0.334708] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_geom_properties__traits.hpp\n'}
+[0.334774] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_geom_properties__type_support.hpp\n'}
+[0.334839] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_gravity__builder.hpp\n'}
+[0.334903] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_gravity__struct.hpp\n'}
+[0.334968] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_gravity__traits.hpp\n'}
+[0.335041] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_gravity__type_support.hpp\n'}
+[0.335106] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_plugin_stats__builder.hpp\n'}
+[0.335171] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_plugin_stats__struct.hpp\n'}
+[0.335270] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_plugin_stats__traits.hpp\n'}
+[0.335363] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_plugin_stats__type_support.hpp\n'}
+[0.335457] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_sim_info__builder.hpp\n'}
+[0.335605] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_sim_info__struct.hpp\n'}
+[0.335700] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_sim_info__traits.hpp\n'}
+[0.335794] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_sim_info__type_support.hpp\n'}
+[0.335887] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_state_uint__builder.hpp\n'}
+[0.336033] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_state_uint__struct.hpp\n'}
+[0.336093] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_state_uint__traits.hpp\n'}
+[0.336132] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_state_uint__type_support.hpp\n'}
+[0.336170] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/register_sensor_noise_models__builder.hpp\n'}
+[0.336207] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/register_sensor_noise_models__struct.hpp\n'}
+[0.336242] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/register_sensor_noise_models__traits.hpp\n'}
+[0.336277] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/register_sensor_noise_models__type_support.hpp\n'}
+[0.336312] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reload__builder.hpp\n'}
+[0.336347] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reload__struct.hpp\n'}
+[0.336383] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reload__traits.hpp\n'}
+[0.336417] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reload__type_support.hpp\n'}
+[0.336452] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reset_body_q_pos__builder.hpp\n'}
+[0.336486] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reset_body_q_pos__struct.hpp\n'}
+[0.336540] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reset_body_q_pos__traits.hpp\n'}
+[0.336576] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reset_body_q_pos__type_support.hpp\n'}
+[0.336610] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_body_state__builder.hpp\n'}
+[0.336643] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_body_state__struct.hpp\n'}
+[0.336677] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_body_state__traits.hpp\n'}
+[0.336764] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_body_state__type_support.hpp\n'}
+[0.336810] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_equality_constraint_parameters__builder.hpp\n'}
+[0.336847] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_equality_constraint_parameters__struct.hpp\n'}
+[0.336882] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_equality_constraint_parameters__traits.hpp\n'}
+[0.336917] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_equality_constraint_parameters__type_support.hpp\n'}
+[0.336954] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_float__builder.hpp\n'}
+[0.336990] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_float__struct.hpp\n'}
+[0.337024] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_float__traits.hpp\n'}
+[0.337058] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_float__type_support.hpp\n'}
+[0.337092] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_geom_properties__builder.hpp\n'}
+[0.337128] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_geom_properties__struct.hpp\n'}
+[0.337161] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_geom_properties__traits.hpp\n'}
+[0.337195] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_geom_properties__type_support.hpp\n'}
+[0.337229] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_gravity__builder.hpp\n'}
+[0.337262] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_gravity__struct.hpp\n'}
+[0.337296] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_gravity__traits.hpp\n'}
+[0.337330] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_gravity__type_support.hpp\n'}
+[0.337366] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_mocap_state__builder.hpp\n'}
+[0.337399] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_mocap_state__struct.hpp\n'}
+[0.337433] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_mocap_state__traits.hpp\n'}
+[0.337467] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_mocap_state__type_support.hpp\n'}
+[0.337501] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_pause__builder.hpp\n'}
+[0.337558] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_pause__struct.hpp\n'}
+[0.337593] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_pause__traits.hpp\n'}
+[0.337627] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_pause__type_support.hpp\n'}
+[0.337662] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/get_body_state.hpp\n'}
+[0.337697] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/get_equality_constraint_parameters.hpp\n'}
+[0.337786] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/get_geom_properties.hpp\n'}
+[0.337826] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/get_gravity.hpp\n'}
+[0.337860] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/get_plugin_stats.hpp\n'}
+[0.337894] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/get_sim_info.hpp\n'}
+[0.337928] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/get_state_uint.hpp\n'}
+[0.337962] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/register_sensor_noise_models.hpp\n'}
+[0.337996] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/reload.hpp\n'}
+[0.338030] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/reset_body_q_pos.hpp\n'}
+[0.338065] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/set_body_state.hpp\n'}
+[0.338100] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/set_equality_constraint_parameters.hpp\n'}
+[0.338133] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/set_float.hpp\n'}
+[0.338167] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/set_geom_properties.hpp\n'}
+[0.338202] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/set_gravity.hpp\n'}
+[0.338236] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/set_mocap_state.hpp\n'}
+[0.338270] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/set_pause.hpp\n'}
+[0.338305] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/action/detail/step__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.338338] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/body_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.338385] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_parameters__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.338419] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_type__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.338454] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_properties__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.338489] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_type__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.338532] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/mocap_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.338568] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/plugin_stats__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.338604] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/scalar_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.338639] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sensor_noise_model__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.338673] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sim_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.338733] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/solver_parameters__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.338771] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/state_uint__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.338823] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.338859] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_body_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.338895] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_equality_constraint_parameters__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.338930] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_geom_properties__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.338965] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_gravity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.339000] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_plugin_stats__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.339035] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_sim_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.339070] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_state_uint__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.339105] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/register_sensor_noise_models__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.339140] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reload__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.339175] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reset_body_q_pos__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.339209] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_body_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.339244] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_equality_constraint_parameters__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.339286] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_float__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.339322] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_geom_properties__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.339358] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_gravity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.339393] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_mocap_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.339428] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_pause__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.339463] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/action/detail/step__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.339498] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/body_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.339557] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_parameters__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.339596] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/equality_constraint_type__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.339633] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_properties__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.339709] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/geom_type__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.339745] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/mocap_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.339784] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/plugin_stats__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.339822] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/scalar_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.339860] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sensor_noise_model__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.339900] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/sim_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.339938] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/solver_parameters__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.339976] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/msg/detail/state_uint__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.340012] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_body_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.340051] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_equality_constraint_parameters__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.340089] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_geom_properties__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.340126] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_gravity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.340168] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_plugin_stats__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.340206] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_sim_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.340246] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/get_state_uint__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.340285] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/register_sensor_noise_models__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.340322] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reload__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.340359] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/reset_body_q_pos__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.340396] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_body_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.340477] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_equality_constraint_parameters__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.340534] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_float__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.340572] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_geom_properties__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.340609] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_gravity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.340669] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_mocap_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.340706] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/include/mujoco_ros_msgs/mujoco_ros_msgs/srv/detail/set_pause__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.340742] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/environment/pythonpath.sh\n'}
+[0.340779] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/environment/pythonpath.dsv\n'}
+[0.340815] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs-0.9.0-py3.12.egg-info/PKG-INFO\n'}
+[0.340851] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs-0.9.0-py3.12.egg-info/SOURCES.txt\n'}
+[0.340900] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs-0.9.0-py3.12.egg-info/dependency_links.txt\n'}
+[0.340937] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs-0.9.0-py3.12.egg-info/top_level.txt\n'}
+[0.340971] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/__init__.py\n'}
+[0.341004] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/_mujoco_ros_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[0.341039] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/_mujoco_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.341073] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/_mujoco_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.341107] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/action/__init__.py\n'}
+[0.341141] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/action/_step.py\n'}
+[0.341176] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/action/_step_s.c\n'}
+[0.341228] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/__init__.py\n'}
+[0.341264] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_body_state.py\n'}
+[0.341300] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_body_state_s.c\n'}
+[0.341336] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_equality_constraint_parameters.py\n'}
+[0.341374] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_equality_constraint_parameters_s.c\n'}
+[0.341410] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_equality_constraint_type.py\n'}
+[0.341446] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_equality_constraint_type_s.c\n'}
+[0.341503] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_geom_properties.py\n'}
+[0.341565] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_geom_properties_s.c\n'}
+[0.341602] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_geom_type.py\n'}
+[0.341637] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_geom_type_s.c\n'}
+[0.341674] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_mocap_state.py\n'}
+[0.341709] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_mocap_state_s.c\n'}
+[0.341745] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_plugin_stats.py\n'}
+[0.341807] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_plugin_stats_s.c\n'}
+[0.341841] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_scalar_stamped.py\n'}
+[0.341877] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_scalar_stamped_s.c\n'}
+[0.341914] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_sensor_noise_model.py\n'}
+[0.341949] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_sensor_noise_model_s.c\n'}
+[0.341984] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_sim_info.py\n'}
+[0.342019] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_sim_info_s.c\n'}
+[0.342054] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_solver_parameters.py\n'}
+[0.342100] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_solver_parameters_s.c\n'}
+[0.342136] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_state_uint.py\n'}
+[0.342171] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg/_state_uint_s.c\n'}
+[0.342205] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/mujoco_ros_msgs_s__rosidl_typesupport_c.so\n'}
+[0.342240] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/mujoco_ros_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[0.342274] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/mujoco_ros_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[0.342308] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/__init__.py\n'}
+[0.342341] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_get_body_state.py\n'}
+[0.342376] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_get_body_state_s.c\n'}
+[0.342410] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_get_equality_constraint_parameters.py\n'}
+[0.342445] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_get_equality_constraint_parameters_s.c\n'}
+[0.342478] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_get_geom_properties.py\n'}
+[0.342536] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_get_geom_properties_s.c\n'}
+[0.342575] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_get_gravity.py\n'}
+[0.342610] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_get_gravity_s.c\n'}
+[0.342644] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_get_plugin_stats.py\n'}
+[0.342679] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_get_plugin_stats_s.c\n'}
+[0.342713] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_get_sim_info.py\n'}
+[0.342747] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_get_sim_info_s.c\n'}
+[0.342782] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_get_state_uint.py\n'}
+[0.342840] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_get_state_uint_s.c\n'}
+[0.342899] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_register_sensor_noise_models.py\n'}
+[0.342934] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_register_sensor_noise_models_s.c\n'}
+[0.342967] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_reload.py\n'}
+[0.343002] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_reload_s.c\n'}
+[0.343036] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_reset_body_q_pos.py\n'}
+[0.343071] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_reset_body_q_pos_s.c\n'}
+[0.343106] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_set_body_state.py\n'}
+[0.343141] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_set_body_state_s.c\n'}
+[0.343175] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_set_equality_constraint_parameters.py\n'}
+[0.343209] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_set_equality_constraint_parameters_s.c\n'}
+[0.343244] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_set_float.py\n'}
+[0.343280] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_set_float_s.c\n'}
+[0.343315] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_set_geom_properties.py\n'}
+[0.343350] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_set_geom_properties_s.c\n'}
+[0.343385] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_set_gravity.py\n'}
+[0.343419] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_set_gravity_s.c\n'}
+[0.343454] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_set_mocap_state.py\n'}
+[0.343487] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_set_mocap_state_s.c\n'}
+[0.343529] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_set_pause.py\n'}
+[0.343577] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv/_set_pause_s.c\n'}
+[0.343632] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/mujoco_ros_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[0.343662] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/mujoco_ros_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[0.343692] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/mujoco_ros_msgs_s__rosidl_typesupport_c.so\n'}
+[0.343721] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/StateUint.idl\n'}
+[0.343750] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/ScalarStamped.idl\n'}
+[0.343780] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/BodyState.idl\n'}
+[0.343810] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/GeomProperties.idl\n'}
+[0.343839] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/GeomType.idl\n'}
+[0.343869] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/SensorNoiseModel.idl\n'}
+[0.343897] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/SolverParameters.idl\n'}
+[0.343930] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/MocapState.idl\n'}
+[0.343959] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/EqualityConstraintType.idl\n'}
+[0.343988] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/EqualityConstraintParameters.idl\n'}
+[0.344016] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/SimInfo.idl\n'}
+[0.344044] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/PluginStats.idl\n'}
+[0.344072] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetStateUint.idl\n'}
+[0.344101] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetFloat.idl\n'}
+[0.344131] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetPause.idl\n'}
+[0.344160] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetBodyState.idl\n'}
+[0.344189] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetBodyState.idl\n'}
+[0.344218] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetGeomProperties.idl\n'}
+[0.344246] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetGeomProperties.idl\n'}
+[0.344274] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetEqualityConstraintParameters.idl\n'}
+[0.344301] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetEqualityConstraintParameters.idl\n'}
+[0.344332] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/ResetBodyQPos.idl\n'}
+[0.344361] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/RegisterSensorNoiseModels.idl\n'}
+[0.344391] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetGravity.idl\n'}
+[0.344420] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetGravity.idl\n'}
+[0.344449] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/Reload.idl\n'}
+[0.344478] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetMocapState.idl\n'}
+[0.344512] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetSimInfo.idl\n'}
+[0.344547] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetPluginStats.idl\n'}
+[0.344577] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/action/Step.idl\n'}
+[0.344607] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/StateUint.msg\n'}
+[0.344637] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/ScalarStamped.msg\n'}
+[0.344667] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/BodyState.msg\n'}
+[0.344696] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/GeomProperties.msg\n'}
+[0.344725] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/GeomType.msg\n'}
+[0.344754] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/SensorNoiseModel.msg\n'}
+[0.344784] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/SolverParameters.msg\n'}
+[0.344813] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/MocapState.msg\n'}
+[0.344842] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/EqualityConstraintType.msg\n'}
+[0.344871] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/EqualityConstraintParameters.msg\n'}
+[0.344900] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/SimInfo.msg\n'}
+[0.344930] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/msg/PluginStats.msg\n'}
+[0.344960] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetStateUint.srv\n'}
+[0.344990] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetFloat.srv\n'}
+[0.345022] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetPause.srv\n'}
+[0.345052] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetBodyState.srv\n'}
+[0.345081] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetBodyState.srv\n'}
+[0.345109] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetGeomProperties.srv\n'}
+[0.345137] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetGeomProperties.srv\n'}
+[0.345166] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetEqualityConstraintParameters.srv\n'}
+[0.345196] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetEqualityConstraintParameters.srv\n'}
+[0.345225] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/ResetBodyQPos.srv\n'}
+[0.345254] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/RegisterSensorNoiseModels.srv\n'}
+[0.345284] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetGravity.srv\n'}
+[0.345314] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetGravity.srv\n'}
+[0.345343] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/Reload.srv\n'}
+[0.345371] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/SetMocapState.srv\n'}
+[0.345401] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetSimInfo.srv\n'}
+[0.345431] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/srv/GetPluginStats.srv\n'}
+[0.345459] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/action/Step.action\n'}
+[0.345488] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/ament_index/resource_index/package_run_dependencies/mujoco_ros_msgs\n'}
+[0.345523] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/ament_index/resource_index/parent_prefix_path/mujoco_ros_msgs\n'}
+[0.345558] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/environment/ament_prefix_path.sh\n'}
+[0.345589] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/environment/ament_prefix_path.dsv\n'}
+[0.345618] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/environment/path.sh\n'}
+[0.345648] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/environment/path.dsv\n'}
+[0.345677] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/local_setup.bash\n'}
+[0.345707] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/local_setup.sh\n'}
+[0.345737] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/local_setup.zsh\n'}
+[0.345768] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/local_setup.dsv\n'}
+[0.345798] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/package.dsv\n'}
+[0.350858] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/ament_index/resource_index/packages/mujoco_ros_msgs\n'}
+[0.350948] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[0.351099] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.351249] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.351395] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.351547] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.351691] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.351831] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.351990] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/mujoco_ros_msgsConfig.cmake\n'}
+[0.352090] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/mujoco_ros_msgsConfig-version.cmake\n'}
+[0.352230] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/package.xml\n'}
+[0.352488] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/libmujoco_ros_msgs__rosidl_generator_c.so\n'}
+[0.352780] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/libmujoco_ros_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.353032] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/libmujoco_ros_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.353261] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/libmujoco_ros_msgs__rosidl_typesupport_c.so\n'}
+[0.353497] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/libmujoco_ros_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.353768] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/libmujoco_ros_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.354020] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/libmujoco_ros_msgs__rosidl_typesupport_cpp.so\n'}
+[0.377917] (mujoco_ros_msgs) StdoutLine: {'line': b"Listing '/home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs'...\n"}
+[0.378035] (mujoco_ros_msgs) StdoutLine: {'line': b"Listing '/home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/action'...\n"}
+[0.378076] (mujoco_ros_msgs) StdoutLine: {'line': b"Listing '/home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/msg'...\n"}
+[0.378119] (mujoco_ros_msgs) StdoutLine: {'line': b"Listing '/home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages/mujoco_ros_msgs/srv'...\n"}
+[0.381491] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/herring/rzddzy/install/mujoco_ros_msgs/lib/libmujoco_ros_msgs__rosidl_generator_py.so\n'}
+[0.381627] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/export_mujoco_ros_msgs__rosidl_generator_cExport.cmake\n'}
+[0.381683] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/export_mujoco_ros_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.381902] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/export_mujoco_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.381941] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/export_mujoco_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.381973] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/mujoco_ros_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.382005] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/mujoco_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.382035] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/mujoco_ros_msgs__rosidl_typesupport_cExport.cmake\n'}
+[0.382066] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/mujoco_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.382095] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/export_mujoco_ros_msgs__rosidl_generator_cppExport.cmake\n'}
+[0.382124] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/export_mujoco_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.382153] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/export_mujoco_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.382182] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/mujoco_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.382212] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/mujoco_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.382242] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/mujoco_ros_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[0.382272] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/mujoco_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.382306] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/export_mujoco_ros_msgs__rosidl_generator_pyExport.cmake\n'}
+[0.382335] (mujoco_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/export_mujoco_ros_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.383368] (mujoco_ros_msgs) CommandEnded: {'returncode': 0}
+[0.400322] (-) TimerEvent: {}
+[0.405912] (mujoco_ros_msgs) JobEnded: {'identifier': 'mujoco_ros_msgs', 'rc': 0}
+[0.406309] (mujoco_ros) JobStarted: {'identifier': 'mujoco_ros'}
+[0.413330] (mujoco_ros) JobProgress: {'identifier': 'mujoco_ros', 'progress': 'cmake'}
+[0.413951] (mujoco_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/herring/rzddzy/install/mujoco_ros'], 'cwd': '/home/herring/rzddzy/build/mujoco_ros', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en', 'USER': 'herring', 'LC_TIME': 'en_US.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'GIT_EDITOR': ':', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/herring/rzddzy/install/mujoco_ros_msgs/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/herring', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/herring/rzddzy/ros2_ws', 'TERM_PROGRAM_VERSION': '1.114.0', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/herring/.nvm/versions/node/v20.20.1/bin', 'NVM_INC': '/home/herring/.nvm/versions/node/v20.20.1/include/node', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '3212', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '3483', 'BUNDLED_DEBUGPY_PATH': '/home/herring/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5337', 'NVM_DIR': '/home/herring/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'herring', 'JOURNAL_STREAM': '8:20470', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'herring', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'HISTCONTROL': 'ignorespace', 'PATH': '/home/herring/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/herring/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/herring/.local/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/herring/.nvm/versions/node/v20.20.1/bin:/home/herring/.cargo/bin:/home/herring/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/herring/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/herring-Legion-Y7000P-IRX9:@/tmp/.ICE-unix/3444,unix/herring-Legion-Y7000P-IRX9:/tmp/.ICE-unix/3444', 'INVOCATION_ID': 'bd76833d1de64fda9f4b7cef648bbcdd', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/herring/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-96998ed788fe5f81.txt', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/herring/.config/Code/User/workspaceStorage/e0a7d35be3a23be38b76db43a4e3f908/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TO6QO3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-31311df754.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/herring/rzddzy/install/mujoco_ros_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/herring/rzddzy/build/mujoco_ros', 'GIT_MERGE_AUTOEDIT': 'no', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'xim', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/herring/rzddzy/install/mujoco_ros_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.427055] (mujoco_ros) StdoutLine: {'line': b"-- CMAKE_BUILD_TYPE not set. Defaulting to 'Release'.\n"}
+[0.427896] (mujoco_ros) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.500522] (-) TimerEvent: {}
+[0.584797] (mujoco_ros) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.590789] (mujoco_ros) StdoutLine: {'line': b'-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.600679] (-) TimerEvent: {}
+[0.615744] (mujoco_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.623965] (mujoco_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.634708] (mujoco_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.643383] (mujoco_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.678143] (mujoco_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.678882] (mujoco_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700809] (-) TimerEvent: {}
+[0.730330] (mujoco_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.766790] (mujoco_ros) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 28.1.16 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)\n'}
+[0.782374] (mujoco_ros) StdoutLine: {'line': b'-- Found pluginlib: 5.4.4 (/opt/ros/jazzy/share/pluginlib/cmake)\n'}
+[0.787795] (mujoco_ros) StdoutLine: {'line': b'-- Found tf2: 0.36.19 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[0.800888] (-) TimerEvent: {}
+[0.807692] (mujoco_ros) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.19 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[0.870212] (mujoco_ros) StdoutLine: {'line': b'-- Found image_transport: 5.1.7 (/opt/ros/jazzy/share/image_transport/cmake)\n'}
+[0.886555] (mujoco_ros) StdoutLine: {'line': b'-- Found camera_info_manager: 5.1.7 (/opt/ros/jazzy/share/camera_info_manager/cmake)\n'}
+[0.888405] (mujoco_ros) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'\n"}
+[0.891974] (mujoco_ros) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.19 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[0.893842] (mujoco_ros) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[0.894748] (mujoco_ros) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.895763] (mujoco_ros) StdoutLine: {'line': b'-- Found mujoco_ros_msgs: 0.9.0 (/home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake)\n'}
+[0.897124] (mujoco_ros) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/jazzy/share/actionlib_msgs/cmake/actionlib_msgsConfig.cmake:31 (message):\n'}
+[0.897241] (mujoco_ros) StderrLine: {'line': b"  Package 'actionlib_msgs' is deprecated (This package will be removed in a\n"}
+[0.897309] (mujoco_ros) StderrLine: {'line': b'  future ROS distro, once the ROS 1 bridge supports actions.)\n'}
+[0.897371] (mujoco_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.897431] (mujoco_ros) StderrLine: {'line': b'  /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.897491] (mujoco_ros) StderrLine: {'line': b'  /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/mujoco_ros_msgsConfig.cmake:41 (include)\n'}
+[0.897567] (mujoco_ros) StderrLine: {'line': b'  CMakeLists.txt:62 (find_package)\n'}
+[0.897628] (mujoco_ros) StderrLine: {'line': b'\n'}
+[0.897686] (mujoco_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[0.900989] (-) TimerEvent: {}
+[0.935939] (mujoco_ros) StdoutLine: {'line': b'-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[0.951221] (mujoco_ros) StdoutLine: {'line': b"-- Can't identify catkin workspace root directory, neither did user provide one, using default config\n"}
+[0.951377] (mujoco_ros) StderrLine: {'line': b'\x1b[33mCMake Warning at cmake/CompilerCache.cmake:33 (message):\n'}
+[0.951455] (mujoco_ros) StderrLine: {'line': b'  ccache is enabled but was not found.  Not using it\n'}
+[0.951546] (mujoco_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.951614] (mujoco_ros) StderrLine: {'line': b'  cmake/CompilerCache.cmake:44 (_configure_ccache)\n'}
+[0.951676] (mujoco_ros) StderrLine: {'line': b'  cmake/CompilerCache.cmake:44 (cmake_language)\n'}
+[0.951737] (mujoco_ros) StderrLine: {'line': b'  cmake/ProjectOption.cmake:61 (configure_compiler_cache)\n'}
+[0.951801] (mujoco_ros) StderrLine: {'line': b'  CMakeLists.txt:70 (configure_project_option)\n'}
+[0.951865] (mujoco_ros) StderrLine: {'line': b'\n'}
+[0.951946] (mujoco_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[0.952016] (mujoco_ros) StdoutLine: {'line': b'-- Looking for MuJoCo tar install ...\n'}
+[0.954496] (mujoco_ros) StderrLine: {'line': b'\x1b[0mMuJoCo tar install found, but version can not be detected. If experiencing errors check that version 3.2.0 or a newer, compatible version is installed\x1b[0m\n'}
+[0.955038] (mujoco_ros) StdoutLine: {'line': b'-- GLFW3 found. GUI and offscreen rendering available.\n'}
+[0.955138] (mujoco_ros) StdoutLine: {'line': b'-- configured RENDERING_BACKEND: GLFW\n'}
+[0.960153] (mujoco_ros) StderrLine: {'line': b'\x1b[33mCMake Warning at /opt/ros/jazzy/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):\n'}
+[0.960252] (mujoco_ros) StderrLine: {'line': b"  ament_export_include_directories() package 'mujoco_ros' exports the include\n"}
+[0.960321] (mujoco_ros) StderrLine: {'line': b"  directory '/home/herring/rzddzy/build/mujoco_ros/include' which doesn't\n"}
+[0.960384] (mujoco_ros) StderrLine: {'line': b'  exist\n'}
+[0.960444] (mujoco_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.960515] (mujoco_ros) StderrLine: {'line': b'  CMakeLists.txt:260 (ament_export_include_directories)\n'}
+[0.960585] (mujoco_ros) StderrLine: {'line': b'\n'}
+[0.960646] (mujoco_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[1.001164] (-) TimerEvent: {}
+[1.023917] (mujoco_ros) StdoutLine: {'line': b'-- Configuring done (0.6s)\n'}
+[1.042484] (mujoco_ros) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.046880] (mujoco_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/herring/rzddzy/build/mujoco_ros\n'}
+[1.053148] (mujoco_ros) CommandEnded: {'returncode': 0}
+[1.053602] (mujoco_ros) JobProgress: {'identifier': 'mujoco_ros', 'progress': 'build'}
+[1.054050] (mujoco_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/herring/rzddzy/build/mujoco_ros', '--', '-j28', '-l28'], 'cwd': '/home/herring/rzddzy/build/mujoco_ros', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en', 'USER': 'herring', 'LC_TIME': 'en_US.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'GIT_EDITOR': ':', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/herring/rzddzy/install/mujoco_ros_msgs/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/herring', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/herring/rzddzy/ros2_ws', 'TERM_PROGRAM_VERSION': '1.114.0', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/herring/.nvm/versions/node/v20.20.1/bin', 'NVM_INC': '/home/herring/.nvm/versions/node/v20.20.1/include/node', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '3212', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '3483', 'BUNDLED_DEBUGPY_PATH': '/home/herring/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5337', 'NVM_DIR': '/home/herring/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'herring', 'JOURNAL_STREAM': '8:20470', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'herring', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'HISTCONTROL': 'ignorespace', 'PATH': '/home/herring/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/herring/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/herring/.local/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/herring/.nvm/versions/node/v20.20.1/bin:/home/herring/.cargo/bin:/home/herring/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/herring/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/herring-Legion-Y7000P-IRX9:@/tmp/.ICE-unix/3444,unix/herring-Legion-Y7000P-IRX9:/tmp/.ICE-unix/3444', 'INVOCATION_ID': 'bd76833d1de64fda9f4b7cef648bbcdd', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/herring/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-96998ed788fe5f81.txt', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/herring/.config/Code/User/workspaceStorage/e0a7d35be3a23be38b76db43a4e3f908/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TO6QO3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-31311df754.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/herring/rzddzy/install/mujoco_ros_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/herring/rzddzy/build/mujoco_ros', 'GIT_MERGE_AUTOEDIT': 'no', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'xim', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/herring/rzddzy/install/mujoco_ros_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.101310] (-) TimerEvent: {}
+[1.105156] (mujoco_ros) StdoutLine: {'line': b'[ 13%] \x1b[34m\x1b[1mGenerating include/mujoco_ros/render_backend.hpp, always_rebuild_backend\x1b[0m\n'}
+[1.105315] (mujoco_ros) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object src/CMakeFiles/lodepng.dir/lodepng.cpp.o\x1b[0m\n'}
+[1.105426] (mujoco_ros) StdoutLine: {'line': b'[ 13%] \x1b[34m\x1b[1mGenerating include/mujoco_ros/ros_version.hpp, always_rebuild_ros\x1b[0m\n'}
+[1.130488] (mujoco_ros) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating render backend header\x1b[0m\n'}
+[1.130684] (mujoco_ros) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating ROS version header\x1b[0m\n'}
+[1.139062] (mujoco_ros) StdoutLine: {'line': b'[ 21%] Built target render_backend_h\n'}
+[1.139226] (mujoco_ros) StdoutLine: {'line': b'[ 21%] Built target ros_version_h\n'}
+[1.201410] (-) TimerEvent: {}
+[1.301731] (-) TimerEvent: {}
+[1.401977] (-) TimerEvent: {}
+[1.502324] (-) TimerEvent: {}
+[1.602568] (-) TimerEvent: {}
+[1.702863] (-) TimerEvent: {}
+[1.803146] (-) TimerEvent: {}
+[1.903499] (-) TimerEvent: {}
+[2.003769] (-) TimerEvent: {}
+[2.104087] (-) TimerEvent: {}
+[2.204435] (-) TimerEvent: {}
+[2.304798] (-) TimerEvent: {}
+[2.405056] (-) TimerEvent: {}
+[2.505443] (-) TimerEvent: {}
+[2.605740] (-) TimerEvent: {}
+[2.706074] (-) TimerEvent: {}
+[2.806350] (-) TimerEvent: {}
+[2.906776] (-) TimerEvent: {}
+[3.007120] (-) TimerEvent: {}
+[3.107401] (-) TimerEvent: {}
+[3.197548] (mujoco_ros) StdoutLine: {'line': b'[ 21%] Built target lodepng\n'}
+[3.207531] (-) TimerEvent: {}
+[3.214913] (mujoco_ros) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object src/CMakeFiles/platform_ui_adapter.dir/glfw_dispatch.cc.o\x1b[0m\n'}
+[3.215381] (mujoco_ros) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object src/CMakeFiles/platform_ui_adapter.dir/glfw_adapter.cc.o\x1b[0m\n'}
+[3.215483] (mujoco_ros) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object src/CMakeFiles/platform_ui_adapter.dir/platform_ui_adapter.cc.o\x1b[0m\n'}
+[3.307764] (-) TimerEvent: {}
+[3.408069] (-) TimerEvent: {}
+[3.454109] (mujoco_ros) StdoutLine: {'line': b'[ 34%] Built target platform_ui_adapter\n'}
+[3.471749] (mujoco_ros) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/physics.cpp.o\x1b[0m\n'}
+[3.471957] (mujoco_ros) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/ros_two/parameter_interface.cpp.o\x1b[0m\n'}
+[3.472073] (mujoco_ros) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/interface.cpp.o\x1b[0m\n'}
+[3.472151] (mujoco_ros) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/offscreen_camera.cpp.o\x1b[0m\n'}
+[3.472224] (mujoco_ros) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/threading.cpp.o\x1b[0m\n'}
+[3.472655] (mujoco_ros) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/main.cpp.o\x1b[0m\n'}
+[3.472779] (mujoco_ros) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/mujoco_env.cpp.o\x1b[0m\n'}
+[3.472819] (mujoco_ros) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/offscreen_rendering.cpp.o\x1b[0m\n'}
+[3.472984] (mujoco_ros) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/ros_two/ros_api.cpp.o\x1b[0m\n'}
+[3.473623] (mujoco_ros) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/ros_two/plugin_utils.cpp.o\x1b[0m\n'}
+[3.474286] (mujoco_ros) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/loading.cpp.o\x1b[0m\n'}
+[3.475434] (mujoco_ros) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/viewer.cpp.o\x1b[0m\n'}
+[3.508152] (-) TimerEvent: {}
+[3.608338] (-) TimerEvent: {}
+[3.708604] (-) TimerEvent: {}
+[3.808799] (-) TimerEvent: {}
+[3.908991] (-) TimerEvent: {}
+[4.009200] (-) TimerEvent: {}
+[4.109459] (-) TimerEvent: {}
+[4.209769] (-) TimerEvent: {}
+[4.310087] (-) TimerEvent: {}
+[4.410397] (-) TimerEvent: {}
+[4.510717] (-) TimerEvent: {}
+[4.611024] (-) TimerEvent: {}
+[4.711317] (-) TimerEvent: {}
+[4.811649] (-) TimerEvent: {}
+[4.911927] (-) TimerEvent: {}
+[5.012246] (-) TimerEvent: {}
+[5.112539] (-) TimerEvent: {}
+[5.212903] (-) TimerEvent: {}
+[5.313233] (-) TimerEvent: {}
+[5.413565] (-) TimerEvent: {}
+[5.513849] (-) TimerEvent: {}
+[5.614161] (-) TimerEvent: {}
+[5.714470] (-) TimerEvent: {}
+[5.814825] (-) TimerEvent: {}
+[5.915122] (-) TimerEvent: {}
+[6.015502] (-) TimerEvent: {}
+[6.115812] (-) TimerEvent: {}
+[6.216130] (-) TimerEvent: {}
+[6.316458] (-) TimerEvent: {}
+[6.416776] (-) TimerEvent: {}
+[6.517073] (-) TimerEvent: {}
+[6.617443] (-) TimerEvent: {}
+[6.717735] (-) TimerEvent: {}
+[6.817994] (-) TimerEvent: {}
+[6.918283] (-) TimerEvent: {}
+[7.018629] (-) TimerEvent: {}
+[7.118914] (-) TimerEvent: {}
+[7.219223] (-) TimerEvent: {}
+[7.319522] (-) TimerEvent: {}
+[7.419810] (-) TimerEvent: {}
+[7.520131] (-) TimerEvent: {}
+[7.620449] (-) TimerEvent: {}
+[7.720706] (-) TimerEvent: {}
+[7.820974] (-) TimerEvent: {}
+[7.921376] (-) TimerEvent: {}
+[8.021734] (-) TimerEvent: {}
+[8.121973] (-) TimerEvent: {}
+[8.222329] (-) TimerEvent: {}
+[8.322583] (-) TimerEvent: {}
+[8.422879] (-) TimerEvent: {}
+[8.523122] (-) TimerEvent: {}
+[8.623457] (-) TimerEvent: {}
+[8.723710] (-) TimerEvent: {}
+[8.824023] (-) TimerEvent: {}
+[8.924300] (-) TimerEvent: {}
+[9.024623] (-) TimerEvent: {}
+[9.124839] (-) TimerEvent: {}
+[9.225082] (-) TimerEvent: {}
+[9.325350] (-) TimerEvent: {}
+[9.425604] (-) TimerEvent: {}
+[9.525920] (-) TimerEvent: {}
+[9.626234] (-) TimerEvent: {}
+[9.726585] (-) TimerEvent: {}
+[9.826852] (-) TimerEvent: {}
+[9.927115] (-) TimerEvent: {}
+[10.027384] (-) TimerEvent: {}
+[10.127726] (-) TimerEvent: {}
+[10.228023] (-) TimerEvent: {}
+[10.328357] (-) TimerEvent: {}
+[10.428615] (-) TimerEvent: {}
+[10.528870] (-) TimerEvent: {}
+[10.629116] (-) TimerEvent: {}
+[10.729370] (-) TimerEvent: {}
+[10.829657] (-) TimerEvent: {}
+[10.929916] (-) TimerEvent: {}
+[11.030306] (-) TimerEvent: {}
+[11.130670] (-) TimerEvent: {}
+[11.230985] (-) TimerEvent: {}
+[11.331327] (-) TimerEvent: {}
+[11.431663] (-) TimerEvent: {}
+[11.532005] (-) TimerEvent: {}
+[11.632412] (-) TimerEvent: {}
+[11.732770] (-) TimerEvent: {}
+[11.833045] (-) TimerEvent: {}
+[11.933389] (-) TimerEvent: {}
+[12.033656] (-) TimerEvent: {}
+[12.133918] (-) TimerEvent: {}
+[12.234292] (-) TimerEvent: {}
+[12.334759] (-) TimerEvent: {}
+[12.435006] (-) TimerEvent: {}
+[12.535303] (-) TimerEvent: {}
+[12.635581] (-) TimerEvent: {}
+[12.735871] (-) TimerEvent: {}
+[12.836126] (-) TimerEvent: {}
+[12.936490] (-) TimerEvent: {}
+[13.036918] (-) TimerEvent: {}
+[13.137300] (-) TimerEvent: {}
+[13.237735] (-) TimerEvent: {}
+[13.338059] (-) TimerEvent: {}
+[13.438405] (-) TimerEvent: {}
+[13.538760] (-) TimerEvent: {}
+[13.639117] (-) TimerEvent: {}
+[13.739435] (-) TimerEvent: {}
+[13.839759] (-) TimerEvent: {}
+[13.940118] (-) TimerEvent: {}
+[14.040496] (-) TimerEvent: {}
+[14.140952] (-) TimerEvent: {}
+[14.241311] (-) TimerEvent: {}
+[14.341754] (-) TimerEvent: {}
+[14.442069] (-) TimerEvent: {}
+[14.542385] (-) TimerEvent: {}
+[14.642708] (-) TimerEvent: {}
+[14.742946] (-) TimerEvent: {}
+[14.843190] (-) TimerEvent: {}
+[14.943470] (-) TimerEvent: {}
+[15.043779] (-) TimerEvent: {}
+[15.144102] (-) TimerEvent: {}
+[15.244539] (-) TimerEvent: {}
+[15.344840] (-) TimerEvent: {}
+[15.445150] (-) TimerEvent: {}
+[15.545484] (-) TimerEvent: {}
+[15.645795] (-) TimerEvent: {}
+[15.746029] (-) TimerEvent: {}
+[15.846330] (-) TimerEvent: {}
+[15.946662] (-) TimerEvent: {}
+[16.046904] (-) TimerEvent: {}
+[16.147263] (-) TimerEvent: {}
+[16.247649] (-) TimerEvent: {}
+[16.347928] (-) TimerEvent: {}
+[16.448196] (-) TimerEvent: {}
+[16.548533] (-) TimerEvent: {}
+[16.648922] (-) TimerEvent: {}
+[16.749265] (-) TimerEvent: {}
+[16.849720] (-) TimerEvent: {}
+[16.950048] (-) TimerEvent: {}
+[17.050456] (-) TimerEvent: {}
+[17.150789] (-) TimerEvent: {}
+[17.251170] (-) TimerEvent: {}
+[17.351618] (-) TimerEvent: {}
+[17.451912] (-) TimerEvent: {}
+[17.552230] (-) TimerEvent: {}
+[17.652641] (-) TimerEvent: {}
+[17.753070] (-) TimerEvent: {}
+[17.853466] (-) TimerEvent: {}
+[17.953758] (-) TimerEvent: {}
+[18.054182] (-) TimerEvent: {}
+[18.154553] (-) TimerEvent: {}
+[18.254921] (-) TimerEvent: {}
+[18.355346] (-) TimerEvent: {}
+[18.455728] (-) TimerEvent: {}
+[18.556017] (-) TimerEvent: {}
+[18.656349] (-) TimerEvent: {}
+[18.756787] (-) TimerEvent: {}
+[18.857068] (-) TimerEvent: {}
+[18.952977] (mujoco_ros) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX shared library libmujoco_ros.so\x1b[0m\n'}
+[18.957256] (-) TimerEvent: {}
+[19.033594] (mujoco_ros) StdoutLine: {'line': b'[ 91%] Built target mujoco_ros\n'}
+[19.050443] (mujoco_ros) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object src/CMakeFiles/mujoco_node.dir/main.cpp.o\x1b[0m\n'}
+[19.057498] (-) TimerEvent: {}
+[19.157771] (-) TimerEvent: {}
+[19.258086] (-) TimerEvent: {}
+[19.358530] (-) TimerEvent: {}
+[19.458813] (-) TimerEvent: {}
+[19.559091] (-) TimerEvent: {}
+[19.659518] (-) TimerEvent: {}
+[19.759818] (-) TimerEvent: {}
+[19.860105] (-) TimerEvent: {}
+[19.960526] (-) TimerEvent: {}
+[20.060826] (-) TimerEvent: {}
+[20.161153] (-) TimerEvent: {}
+[20.261437] (-) TimerEvent: {}
+[20.361703] (-) TimerEvent: {}
+[20.461999] (-) TimerEvent: {}
+[20.562302] (-) TimerEvent: {}
+[20.662619] (-) TimerEvent: {}
+[20.762938] (-) TimerEvent: {}
+[20.863182] (-) TimerEvent: {}
+[20.963586] (-) TimerEvent: {}
+[21.064000] (-) TimerEvent: {}
+[21.164406] (-) TimerEvent: {}
+[21.264702] (-) TimerEvent: {}
+[21.364976] (-) TimerEvent: {}
+[21.465339] (-) TimerEvent: {}
+[21.565665] (-) TimerEvent: {}
+[21.665967] (-) TimerEvent: {}
+[21.766216] (-) TimerEvent: {}
+[21.866695] (-) TimerEvent: {}
+[21.966976] (-) TimerEvent: {}
+[22.067226] (-) TimerEvent: {}
+[22.167587] (-) TimerEvent: {}
+[22.211105] (mujoco_ros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable mujoco_node\x1b[0m\n'}
+[22.267822] (-) TimerEvent: {}
+[22.271206] (mujoco_ros) StdoutLine: {'line': b'[100%] Built target mujoco_node\n'}
+[22.279861] (mujoco_ros) CommandEnded: {'returncode': 0}
+[22.280886] (mujoco_ros) JobProgress: {'identifier': 'mujoco_ros', 'progress': 'install'}
+[22.280909] (mujoco_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/herring/rzddzy/build/mujoco_ros'], 'cwd': '/home/herring/rzddzy/build/mujoco_ros', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en', 'USER': 'herring', 'LC_TIME': 'en_US.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'GIT_EDITOR': ':', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/herring/rzddzy/install/mujoco_ros_msgs/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/herring', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/herring/rzddzy/ros2_ws', 'TERM_PROGRAM_VERSION': '1.114.0', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/herring/.nvm/versions/node/v20.20.1/bin', 'NVM_INC': '/home/herring/.nvm/versions/node/v20.20.1/include/node', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '3212', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '3483', 'BUNDLED_DEBUGPY_PATH': '/home/herring/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5337', 'NVM_DIR': '/home/herring/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'herring', 'JOURNAL_STREAM': '8:20470', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'herring', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'HISTCONTROL': 'ignorespace', 'PATH': '/home/herring/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/herring/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/herring/.local/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/herring/.nvm/versions/node/v20.20.1/bin:/home/herring/.cargo/bin:/home/herring/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/herring/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/herring-Legion-Y7000P-IRX9:@/tmp/.ICE-unix/3444,unix/herring-Legion-Y7000P-IRX9:/tmp/.ICE-unix/3444', 'INVOCATION_ID': 'bd76833d1de64fda9f4b7cef648bbcdd', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/herring/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-96998ed788fe5f81.txt', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/herring/.config/Code/User/workspaceStorage/e0a7d35be3a23be38b76db43a4e3f908/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TO6QO3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-31311df754.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/herring/rzddzy/install/mujoco_ros_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/herring/rzddzy/build/mujoco_ros', 'GIT_MERGE_AUTOEDIT': 'no', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'xim', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/herring/rzddzy/install/mujoco_ros_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[22.288071] (mujoco_ros) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[22.288429] (mujoco_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[22.288663] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/include/mujoco_ros/render_backend.hpp\n'}
+[22.296600] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/include/mujoco_ros/ros_version.hpp\n'}
+[22.304813] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/array_safety.h\n'}
+[22.312914] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/common_types.hpp\n'}
+[22.321172] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/glfw_adapter.h\n'}
+[22.329829] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/glfw_dispatch.h\n'}
+[22.337382] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/lodepng.h\n'}
+[22.343803] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/logging.hpp\n'}
+[22.352264] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/mujoco_env.hpp\n'}
+[22.360171] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/offscreen_camera.hpp\n'}
+[22.366216] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/platform_ui_adapter.h\n'}
+[22.367927] (-) TimerEvent: {}
+[22.373168] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/ros_one/plugin_utils.hpp\n'}
+[22.381389] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/ros_one/ros_api.hpp\n'}
+[22.389490] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/ros_two/plugin_utils.hpp\n'}
+[22.395136] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/ros_two/ros_api.hpp\n'}
+[22.403222] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/util.hpp\n'}
+[22.410829] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/viewer.hpp\n'}
+[22.419230] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/launch/launch_server.launch\n'}
+[22.426685] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/config/initial_joint_states.yaml\n'}
+[22.434591] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/config/rosconsole.config\n'}
+[22.441997] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/assets/pendulum_world.xml\n'}
+[22.449419] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/lib/mujoco_ros/mujoco_node\n'}
+[22.454862] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/ament_index/resource_index/package_run_dependencies/mujoco_ros\n'}
+[22.460166] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/ament_index/resource_index/parent_prefix_path/mujoco_ros\n'}
+[22.468172] (-) TimerEvent: {}
+[22.468661] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/environment/ament_prefix_path.sh\n'}
+[22.476355] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/environment/ament_prefix_path.dsv\n'}
+[22.484010] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/environment/path.sh\n'}
+[22.491841] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/environment/path.dsv\n'}
+[22.498560] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/local_setup.bash\n'}
+[22.505939] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/local_setup.sh\n'}
+[22.513473] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/local_setup.zsh\n'}
+[22.521182] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/local_setup.dsv\n'}
+[22.527630] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/package.dsv\n'}
+[22.534284] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/ament_index/resource_index/packages/mujoco_ros\n'}
+[22.542106] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[22.548969] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[22.556427] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/cmake/mujoco_rosConfig.cmake\n'}
+[22.563905] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/cmake/mujoco_rosConfig-version.cmake\n'}
+[22.568266] (-) TimerEvent: {}
+[22.570291] (mujoco_ros) StdoutLine: {'line': b'-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/package.xml\n'}
+[22.577897] (mujoco_ros) StdoutLine: {'line': b'-- Installing: /home/herring/rzddzy/install/mujoco_ros/lib/libmujoco_ros.so\n'}
+[22.579798] (mujoco_ros) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/herring/rzddzy/install/mujoco_ros/lib/libmujoco_ros.so" to ""\n'}
+[22.580975] (mujoco_ros) CommandEnded: {'returncode': 0}
+[22.587924] (mujoco_ros) JobEnded: {'identifier': 'mujoco_ros', 'rc': 0}
+[22.588495] (-) EventReactorShutdown: {}

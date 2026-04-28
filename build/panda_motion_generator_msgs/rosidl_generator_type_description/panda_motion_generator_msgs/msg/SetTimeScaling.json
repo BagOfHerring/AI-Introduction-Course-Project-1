@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "panda_motion_generator_msgs/msg/SetTimeScaling",
+      "fields": [
+        {
+          "name": "steps",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "scaling",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "panda_motion_generator_msgs/msg/SetTimeScaling",
+      "hash_string": "RIHS01_5d309ae960728aafe3161acb16c46966f69f3c524735d04ece57c27b092ff3ca"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+/home/herring/rzddzy/build/multi_mode_control_msgs/rosidl_cmake/rosidl_cmake-extras.cmake

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/herring/rzddzy/build/franka_hardware/libfranka_hardware.so" "/home/herring/rzddzy/build/franka_hardware/libfranka_mj_hardware.so" "TARGETS" "franka_hardware" "franka_mj_hardware" "DESTINATION" "lib")

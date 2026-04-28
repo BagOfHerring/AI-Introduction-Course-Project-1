@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-bd58bf13ecdf9c64903f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cplus_dev",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cplus_dev::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cplus_dev-2bd32ed298f07c99c919.json",
+					"name" : "cplus_dev",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cplus_dev_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cplus_dev_uninstall-27feca7136ef69a5fa12.json",
+					"name" : "cplus_dev_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_GMBP2_method::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_GMBP2_method-319184099f1a0ad361ca.json",
+					"name" : "test_GMBP2_method",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_gtsam_method::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_gtsam_method-8e72f9143aeceb088c74.json",
+					"name" : "test_gtsam_method",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-fd98026d158192d271bd.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/herring/rzddzy/build/cplus_dev",
+		"source" : "/home/herring/rzddzy/ros2_ws/src/cplus_dev"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,79 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found trajectory_msgs: 5.3.6 (/opt/ros/jazzy/share/trajectory_msgs/cmake)
+-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.70") found components: graph serialization program_options random timer chrono 
+-- GTSAM include directory:  /usr/local/lib/cmake/GTSAM/../../../include
+-- Configuring done (1.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/herring/rzddzy/build/cplus_dev
+[  2%] [32mBuilding CXX object CMakeFiles/cplus_dev.dir/src/GBP_classes/factor_node/DynaFNode.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/cplus_dev.dir/src/GBP_classes/factor_node/BoxFNode.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/cplus_dev.dir/src/GBP_classes/factor_node/FNode.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/cplus_dev.dir/src/GBP_classes/factor_node/DistFNode.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/cplus_dev.dir/src/GBP_classes/factor_node/ObstacleIntpFNode.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/cplus_dev.dir/src/GBP_classes/factor_node/ObstacleFNode.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/cplus_dev.dir/src/GBP_classes/graph_env_message/Agent.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/cplus_dev.dir/src/GBP_classes/factor_node/InterarmIntpFNode.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/cplus_dev.dir/src/GBP_classes/factor_node/SSAObstacleFNode.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/cplus_dev.dir/src/GBP_classes/graph_env_message/Gaussian.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/cplus_dev.dir/src/GBP_classes/graph_env_message/Edge.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/cplus_dev.dir/src/GBP_classes/graph_env_message/ObstacleMap.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/cplus_dev.dir/src/GBP_classes/graph_env_message/FactorGraphRobot.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/cplus_dev.dir/src/GBP_classes/factor_node/TaskFNode.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/cplus_dev.dir/src/GBP_classes/task_classes/PoseTask.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/cplus_dev.dir/src/GBP_classes/graph_env_message/Env.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/cplus_dev.dir/src/GBP_classes/graph_env_message/Graph.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/cplus_dev.dir/src/GBP_classes/graph_env_message/Node.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/cplus_dev.dir/src/GBP_classes/factor_node/SSADistFNode.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/cplus_dev.dir/src/Robot_classes/CollisionGeometry.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/cplus_dev.dir/src/GBP_classes/value_node/RemoteVNode.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/cplus_dev.dir/src/GBP_classes/value_node/VNode.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/cplus_dev.dir/src/Robot_classes/CollisionSphere.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/cplus_dev.dir/src/Robot_classes/robotTree_ETs.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/cplus_dev.dir/src/other_packages/yaml/ReadYaml.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/cplus_dev.dir/src/Robot_classes/Elementary_T.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/cplus_dev.dir/src/other_packages/yaml/ReadYamlRaw.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/cplus_dev.dir/src/Robot_classes/RobotDescription.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/cplus_dev.dir/src/utilities_function/DataLogger.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/cplus_dev.dir/src/utilities_function/dist_arm_3D_sphere.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/cplus_dev.dir/src/utilities_function/dist_interarm_sphere.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/cplus_dev.dir/src/utilities_function/pdist2.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/cplus_dev.dir/src/utilities_function/relu_smooth/softplus.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/cplus_dev.dir/src/utilities_function/relu_smooth/swish.cpp.o[0m
+[ 89%] [32m[1mLinking CXX static library libcplus_dev.a[0m
+[ 89%] Built target cplus_dev
+[ 92%] [32mBuilding CXX object CMakeFiles/test_gtsam_method.dir/src/tests/test_gtsam_method.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/test_GMBP2_method.dir/src/tests/test_GMBP2_method.cpp.o[0m
+[ 97%] [32m[1mLinking CXX executable test_GMBP2_method[0m
+[ 97%] Built target test_GMBP2_method
+[100%] [32m[1mLinking CXX executable test_gtsam_method[0m
+[100%] Built target test_gtsam_method

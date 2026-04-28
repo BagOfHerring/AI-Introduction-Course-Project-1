@@ -1,0 +1,7 @@
+[01m[K/home/herring/rzddzy/ros2_ws/src/controller/src/gbp_mpc_controller.cpp:20:10:[m[K [01;31m[Kfatal error: [m[KRobot_classes/RobotDescription.h: 没有那个文件或目录
+   20 | #include [01;31m[K"Robot_classes/RobotDescription.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/gbp_mpc_controller.dir/build.make:76：CMakeFiles/gbp_mpc_controller.dir/src/gbp_mpc_controller.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:193：CMakeFiles/gbp_mpc_controller.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

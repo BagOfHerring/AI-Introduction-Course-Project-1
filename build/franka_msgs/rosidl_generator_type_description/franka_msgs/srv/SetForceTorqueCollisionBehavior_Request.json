@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "franka_msgs/srv/SetForceTorqueCollisionBehavior_Request",
+      "fields": [
+        {
+          "name": "lower_torque_thresholds_nominal",
+          "type": {
+            "type_id": 59,
+            "capacity": 7,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "upper_torque_thresholds_nominal",
+          "type": {
+            "type_id": 59,
+            "capacity": 7,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "lower_force_thresholds_nominal",
+          "type": {
+            "type_id": 59,
+            "capacity": 6,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "upper_force_thresholds_nominal",
+          "type": {
+            "type_id": 59,
+            "capacity": 6,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "franka_msgs/srv/SetForceTorqueCollisionBehavior_Request",
+      "hash_string": "RIHS01_9a07d7d351f955c2f9587d398effcdedc93888c8093051a05d8f14d8d1d9021d"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+Metadata-Version: 2.1
+Name: franka-ik-py
+Version: 0.1.0
+Summary: Analytical IK solver for Franka Emika Panda wrapper

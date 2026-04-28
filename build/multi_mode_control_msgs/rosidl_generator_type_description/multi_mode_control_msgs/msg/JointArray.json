@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "multi_mode_control_msgs/msg/JointArray",
+      "fields": [
+        {
+          "name": "data",
+          "type": {
+            "type_id": 59,
+            "capacity": 7,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "multi_mode_control_msgs/msg/JointArray",
+      "hash_string": "RIHS01_55be3ec4e2faae7425bf878639e27db94a6b6c418715a8462b54ca8a51dff927"
+    }
+  ]
+}

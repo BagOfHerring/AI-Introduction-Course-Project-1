@@ -1,0 +1,1 @@
+/home/herring/rzddzy/build/mujoco_ros_msgs/ament_cmake_core/mujoco_ros_msgsConfig.cmake

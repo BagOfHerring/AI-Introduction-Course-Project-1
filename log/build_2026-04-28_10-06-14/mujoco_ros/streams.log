@@ -1,0 +1,72 @@
+[0.007s] Invoking command in '/home/herring/rzddzy/build/mujoco_ros': AMENT_PREFIX_PATH=/home/herring/rzddzy/install/mujoco_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/install/mujoco_ros_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/install/mujoco_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/herring/rzddzy/build/mujoco_ros -- -j28 -l28
+[0.051s] [  4%] [34m[1mGenerating include/mujoco_ros/render_backend.hpp, always_rebuild_backend[0m
+[0.052s] [ 13%] [34m[1mGenerating include/mujoco_ros/ros_version.hpp, always_rebuild_ros[0m
+[0.052s] [ 13%] Built target lodepng
+[0.072s] [ 26%] Built target platform_ui_adapter
+[0.075s] [ 30%] [34m[1mGenerating render backend header[0m
+[0.075s] [ 34%] [34m[1mGenerating ROS version header[0m
+[0.084s] [ 34%] Built target render_backend_h
+[0.084s] [ 34%] Built target ros_version_h
+[0.158s] [ 39%] [32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/main.cpp.o[0m
+[0.159s] [ 43%] [32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/ros_two/parameter_interface.cpp.o[0m
+[0.159s] [ 47%] [32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/mujoco_env.cpp.o[0m
+[0.159s] [ 52%] [32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/ros_two/plugin_utils.cpp.o[0m
+[0.160s] [ 56%] [32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/ros_two/ros_api.cpp.o[0m
+[0.161s] [ 60%] [32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/physics.cpp.o[0m
+[0.161s] [ 65%] [32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/interface.cpp.o[0m
+[0.163s] [ 69%] [32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/loading.cpp.o[0m
+[0.166s] [ 73%] [32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/offscreen_camera.cpp.o[0m
+[0.167s] [ 78%] [32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/threading.cpp.o[0m
+[0.167s] [ 82%] [32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/offscreen_rendering.cpp.o[0m
+[0.171s] [ 86%] [32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/viewer.cpp.o[0m
+[14.501s] [ 91%] [32m[1mLinking CXX shared library libmujoco_ros.so[0m
+[14.575s] [ 91%] Built target mujoco_ros
+[14.610s] [ 95%] [32mBuilding CXX object src/CMakeFiles/mujoco_node.dir/main.cpp.o[0m
+[17.661s] [100%] [32m[1mLinking CXX executable mujoco_node[0m
+[17.715s] [100%] Built target mujoco_node
+[17.725s] Invoked command in '/home/herring/rzddzy/build/mujoco_ros' returned '0': AMENT_PREFIX_PATH=/home/herring/rzddzy/install/mujoco_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/install/mujoco_ros_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/install/mujoco_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/herring/rzddzy/build/mujoco_ros -- -j28 -l28
+[17.726s] Invoking command in '/home/herring/rzddzy/build/mujoco_ros': AMENT_PREFIX_PATH=/home/herring/rzddzy/install/mujoco_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/install/mujoco_ros_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/install/mujoco_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/herring/rzddzy/build/mujoco_ros
+[17.734s] -- Install configuration: "Release"
+[17.734s] -- Execute custom install script
+[17.734s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/include/mujoco_ros/render_backend.hpp
+[17.734s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/include/mujoco_ros/ros_version.hpp
+[17.734s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/array_safety.h
+[17.734s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/common_types.hpp
+[17.734s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/glfw_adapter.h
+[17.734s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/glfw_dispatch.h
+[17.734s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/lodepng.h
+[17.735s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/logging.hpp
+[17.735s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/mujoco_env.hpp
+[17.735s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/offscreen_camera.hpp
+[17.735s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/platform_ui_adapter.h
+[17.735s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/ros_one/plugin_utils.hpp
+[17.735s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/ros_one/ros_api.hpp
+[17.735s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/ros_two/plugin_utils.hpp
+[17.735s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/ros_two/ros_api.hpp
+[17.735s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/util.hpp
+[17.735s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/viewer.hpp
+[17.735s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/launch/launch_server.launch
+[17.736s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/config/initial_joint_states.yaml
+[17.736s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/config/rosconsole.config
+[17.736s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/assets/pendulum_world.xml
+[17.736s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/lib/mujoco_ros/mujoco_node
+[17.736s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/share/ament_index/resource_index/package_run_dependencies/mujoco_ros
+[17.736s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/share/ament_index/resource_index/parent_prefix_path/mujoco_ros
+[17.737s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/environment/ament_prefix_path.sh
+[17.737s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/environment/ament_prefix_path.dsv
+[17.737s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/environment/path.sh
+[17.737s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/environment/path.dsv
+[17.737s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/local_setup.bash
+[17.737s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/local_setup.sh
+[17.737s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/local_setup.zsh
+[17.737s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/local_setup.dsv
+[17.738s] -- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/package.dsv
+[17.747s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/share/ament_index/resource_index/packages/mujoco_ros
+[17.747s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.747s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.747s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/cmake/mujoco_rosConfig.cmake
+[17.747s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/cmake/mujoco_rosConfig-version.cmake
+[17.747s] -- Up-to-date symlink: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/package.xml
+[17.747s] -- Installing: /home/herring/rzddzy/install/mujoco_ros/lib/libmujoco_ros.so
+[17.751s] -- Set non-toolchain portion of runtime path of "/home/herring/rzddzy/install/mujoco_ros/lib/libmujoco_ros.so" to ""
+[17.753s] Invoked command in '/home/herring/rzddzy/build/mujoco_ros' returned '0': AMENT_PREFIX_PATH=/home/herring/rzddzy/install/mujoco_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/install/mujoco_ros_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/install/mujoco_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/herring/rzddzy/build/mujoco_ros

@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "multi_mode_control_msgs/srv/SetControllers_Request",
+      "fields": [
+        {
+          "name": "controllers",
+          "type": {
+            "type_id": 145,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "multi_mode_control_msgs/msg/Controller"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "multi_mode_control_msgs/msg/Controller",
+        "fields": [
+          {
+            "name": "name",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "resources",
+            "type": {
+              "type_id": 161,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "multi_mode_control_msgs/srv/SetControllers_Request",
+      "hash_string": "RIHS01_e1d7003798e9a5cb77a9318ebe6b13305ae6fc95e743dda4e5c0b933e5132225"
+    },
+    {
+      "type_name": "multi_mode_control_msgs/msg/Controller",
+      "hash_string": "RIHS01_71d0fcd560460dde93e94024268b7e28cd503040c595d9dc2cc25bda4a700561"
+    }
+  ]
+}

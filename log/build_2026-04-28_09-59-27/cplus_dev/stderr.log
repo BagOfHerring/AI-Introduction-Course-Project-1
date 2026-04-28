@@ -1,0 +1,303 @@
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/FNode.cpp:1[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/FNode.h:[m[K In member function ‘[01m[Kvirtual void FNode::[01;32m[Krelin_factor[m[K(const Eigen::VectorXd&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/FNode.h:41:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   41 |       virtual void relin_factor([01;35m[Kconst Eigen::VectorXd &v[m[K) {}
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/DynaFNode.h:2[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/DynaFNode.cpp:1[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/FNode.h:[m[K In member function ‘[01m[Kvirtual void FNode::[01;32m[Krelin_factor[m[K(const Eigen::VectorXd&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/FNode.h:41:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   41 |       virtual void relin_factor([01;35m[Kconst Eigen::VectorXd &v[m[K) {}
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/InterarmIntpFNode.h:2[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/InterarmIntpFNode.cpp:1[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/FNode.h:[m[K In member function ‘[01m[Kvirtual void FNode::[01;32m[Krelin_factor[m[K(const Eigen::VectorXd&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/FNode.h:41:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   41 |       virtual void relin_factor([01;35m[Kconst Eigen::VectorXd &v[m[K) {}
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/SSADistFNode.h:2[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/SSADistFNode.cpp:1[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/FNode.h:[m[K In member function ‘[01m[Kvirtual void FNode::[01;32m[Krelin_factor[m[K(const Eigen::VectorXd&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/FNode.h:41:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   41 |       virtual void relin_factor([01;35m[Kconst Eigen::VectorXd &v[m[K) {}
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/graph_env_message/FactorGraphRobot.cpp:4[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/graph_env_message/../factor_node/FNode.h:[m[K In member function ‘[01m[Kvirtual void FNode::[01;32m[Krelin_factor[m[K(const Eigen::VectorXd&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/graph_env_message/../factor_node/FNode.h:41:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   41 |       virtual void relin_factor([01;35m[Kconst Eigen::VectorXd &v[m[K) {}
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/graph_env_message/FactorGraphRobot.cpp:[m[K In member function ‘[01m[Kvoid FactorGraphRobot::[01;32m[Kloopy_propagate_extended_syn[m[K(int)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/graph_env_message/FactorGraphRobot.cpp:147:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kiter_steps[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  147 | void FactorGraphRobot::loopy_propagate_extended_syn([01;35m[Kint iter_steps[m[K)
+      |                                                     [01;35m[K~~~~^~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/SSADistFNode.h:[m[K In constructor ‘[01m[KSSADistFNode::[01;32m[KSSADistFNode[m[K(const std::string&, const std::vector<std::shared_ptr<VNode> >&, const std::shared_ptr<Gaussian>&, double, double, double, double, const std::vector<std::__cxx11::basic_string<char> >&, int, double, bool, bool)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/SSADistFNode.h:21:30:[m[K [01;35m[Kwarning: [m[K‘[01m[KSSADistFNode::dims[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   21 |     std::vector<std::string> [01;35m[Kdims[m[K;
+      |                              [01;35m[K^~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/SSADistFNode.h:19:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool SSADistFNode::is_ssa[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   19 |     bool [01;35m[Kis_ssa[m[K;
+      |          [01;35m[K^~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/SSADistFNode.cpp:15:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   15 | [01;35m[KSSADistFNode[m[K::SSADistFNode(const std::string &name,
+      | [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/DynaFNode.cpp:[m[K In member function ‘[01m[Kvirtual double DynaFNode::[01;32m[Kget_energy_log[m[K(const Eigen::VectorXd&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/DynaFNode.cpp:136:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Keval_point[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  136 | double DynaFNode::get_energy_log([01;35m[Kconst Eigen::VectorXd &eval_point[m[K)
+      |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/DistFNode.h:2[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/DistFNode.cpp:1[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/FNode.h:[m[K In member function ‘[01m[Kvirtual void FNode::[01;32m[Krelin_factor[m[K(const Eigen::VectorXd&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/FNode.h:41:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   41 |       virtual void relin_factor([01;35m[Kconst Eigen::VectorXd &v[m[K) {}
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/TaskFNode.h:2[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/TaskFNode.cpp:1[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/FNode.h:[m[K In member function ‘[01m[Kvirtual void FNode::[01;32m[Krelin_factor[m[K(const Eigen::VectorXd&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/FNode.h:41:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   41 |       virtual void relin_factor([01;35m[Kconst Eigen::VectorXd &v[m[K) {}
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/BoxFNode.h:2[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/BoxFNode.cpp:1[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/FNode.h:[m[K In member function ‘[01m[Kvirtual void FNode::[01;32m[Krelin_factor[m[K(const Eigen::VectorXd&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/FNode.h:41:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   41 |       virtual void relin_factor([01;35m[Kconst Eigen::VectorXd &v[m[K) {}
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/SSAObstacleFNode.h:2[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/SSAObstacleFNode.cpp:1[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/FNode.h:[m[K In member function ‘[01m[Kvirtual void FNode::[01;32m[Krelin_factor[m[K(const Eigen::VectorXd&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/FNode.h:41:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   41 |       virtual void relin_factor([01;35m[Kconst Eigen::VectorXd &v[m[K) {}
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/graph_env_message/Graph.cpp:5[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/graph_env_message/../factor_node/FNode.h:[m[K In member function ‘[01m[Kvirtual void FNode::[01;32m[Krelin_factor[m[K(const Eigen::VectorXd&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/graph_env_message/../factor_node/FNode.h:41:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   41 |       virtual void relin_factor([01;35m[Kconst Eigen::VectorXd &v[m[K) {}
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/ObstacleIntpFNode.h:2[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/ObstacleIntpFNode.cpp:1[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/FNode.h:[m[K In member function ‘[01m[Kvirtual void FNode::[01;32m[Krelin_factor[m[K(const Eigen::VectorXd&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/FNode.h:41:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   41 |       virtual void relin_factor([01;35m[Kconst Eigen::VectorXd &v[m[K) {}
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/Robot_classes/RobotDescription.cpp:1[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/Robot_classes/RobotDescription.h:[m[K In constructor ‘[01m[KRobotDescription::[01;32m[KRobotDescription[m[K(const std::string&, int, double)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/Robot_classes/RobotDescription.h:40:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KRobotDescription::horizon[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   40 |     int [01;35m[Khorizon[m[K = 0;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/Robot_classes/RobotDescription.h:39:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble RobotDescription::margin[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   39 |     double [01;35m[Kmargin[m[K = 0.0;
+      |            [01;35m[K^~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/Robot_classes/RobotDescription.cpp:34:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   34 | [01;35m[KRobotDescription[m[K::RobotDescription(const std::string &model, int horizon, double margin)
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/TaskFNode.cpp:[m[K In member function ‘[01m[Kvirtual double TaskFNode::[01;32m[Kget_energy_log[m[K(const Eigen::VectorXd&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/TaskFNode.cpp:117:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Keval_point[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  117 | double TaskFNode::get_energy_log([01;35m[Kconst Eigen::VectorXd &eval_point[m[K)
+      |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/Robot_classes/RobotDescription.cpp:[m[K In member function ‘[01m[Kvoid RobotDescription::[01;32m[KloadCollisionSphere[m[K(const std::string&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/Robot_classes/RobotDescription.cpp:197:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[KEigen::Index[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  197 |     if (!conf.IsMap() || [01;35m[Kconf.size() != DH.rows() + 1[m[K)
+      |                          [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/InterarmIntpFNode.cpp:[m[K In member function ‘[01m[Kvirtual double InterarmIntpFNode::[01;32m[Kget_energy_log[m[K(const Eigen::VectorXd&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/InterarmIntpFNode.cpp:213:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Keval_point[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  213 | double InterarmIntpFNode::get_energy_log([01;35m[Kconst Eigen::VectorXd &eval_point[m[K)
+      |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/SSADistFNode.cpp:[m[K In member function ‘[01m[Kvirtual double SSADistFNode::[01;32m[Kget_energy_log[m[K(const Eigen::VectorXd&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/SSADistFNode.cpp:189:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Keval_point[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  189 | double SSADistFNode::get_energy_log([01;35m[Kconst Eigen::VectorXd &eval_point[m[K)
+      |                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/ObstacleFNode.h:2[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/ObstacleFNode.cpp:1[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/FNode.h:[m[K In member function ‘[01m[Kvirtual void FNode::[01;32m[Krelin_factor[m[K(const Eigen::VectorXd&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/FNode.h:41:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   41 |       virtual void relin_factor([01;35m[Kconst Eigen::VectorXd &v[m[K) {}
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/BoxFNode.cpp:[m[K In member function ‘[01m[Kvirtual void BoxFNode::[01;32m[Krelin_factor[m[K(const Eigen::VectorXd&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/BoxFNode.cpp:49:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knjoint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   49 |     int [01;35m[Knjoint[m[K = robot->njoint;
+      |         [01;35m[K^~~~~~[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/graph_env_message/Agent.h:10[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/graph_env_message/Agent.cpp:1[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/FNode.h:[m[K In member function ‘[01m[Kvirtual void FNode::[01;32m[Krelin_factor[m[K(const Eigen::VectorXd&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/FNode.h:41:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   41 |       virtual void relin_factor([01;35m[Kconst Eigen::VectorXd &v[m[K) {}
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/BoxFNode.cpp:[m[K In member function ‘[01m[Kvirtual double BoxFNode::[01;32m[Kget_energy_log[m[K(const Eigen::VectorXd&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/BoxFNode.cpp:120:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Keval_point[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  120 | double BoxFNode::get_energy_log([01;35m[Kconst Eigen::VectorXd &eval_point[m[K)
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/DistFNode.cpp:[m[K In member function ‘[01m[Kvirtual double DistFNode::[01;32m[Kget_energy_log[m[K(const Eigen::VectorXd&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/DistFNode.cpp:107:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Keval_point[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  107 | double DistFNode::get_energy_log([01;35m[Kconst Eigen::VectorXd &eval_point[m[K)
+      |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/Robot_classes/RobotDescription.cpp:[m[K In member function ‘[01m[Kvoid RobotDescription::[01;32m[Kshow[m[K(const Eigen::VectorXd&, const Eigen::VectorXd&, bool, bool, bool, bool, bool) const[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/Robot_classes/RobotDescription.cpp:583:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  583 | void RobotDescription::show([01;35m[Kconst Eigen::VectorXd &q[m[K,
+      |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/Robot_classes/RobotDescription.cpp:584:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbase_pose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  584 |                             [01;35m[Kconst Eigen::VectorXd &base_pose[m[K,
+      |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/Robot_classes/RobotDescription.cpp:585:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kshow_frames[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  585 |                             [01;35m[Kbool show_frames[m[K,
+      |                             [01;35m[K~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/Robot_classes/RobotDescription.cpp:586:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kshow_visuals[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  586 |                             [01;35m[Kbool show_visuals[m[K,
+      |                             [01;35m[K~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/Robot_classes/RobotDescription.cpp:587:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kshow_collisions[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  587 |                             [01;35m[Kbool show_collisions[m[K,
+      |                             [01;35m[K~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/Robot_classes/RobotDescription.cpp:588:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfast_update[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  588 |                             [01;35m[Kbool fast_update[m[K,
+      |                             [01;35m[K~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/Robot_classes/RobotDescription.cpp:589:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpreserve_plot[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  589 |                             [01;35m[Kbool preserve_plot[m[K) const
+      |                             [01;35m[K~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/utilities_function/DataLogger.cpp:[m[K In member function ‘[01m[Kvoid DataLogger::[01;32m[KcreateOutputDirectory[m[K(const std::string&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/utilities_function/DataLogger.cpp:182:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ino[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+  182 |     struct stat st = {0[01;35m[K}[m[K;
+      |                        [01;35m[K^[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/utilities_function/DataLogger.cpp:182:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_nlink[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/utilities_function/DataLogger.cpp:182:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/utilities_function/DataLogger.cpp:182:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_uid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/utilities_function/DataLogger.cpp:182:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_gid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/utilities_function/DataLogger.cpp:182:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/utilities_function/DataLogger.cpp:182:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_rdev[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/utilities_function/DataLogger.cpp:182:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_size[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/utilities_function/DataLogger.cpp:182:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/utilities_function/DataLogger.cpp:182:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blocks[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/utilities_function/DataLogger.cpp:182:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_atim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/utilities_function/DataLogger.cpp:182:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mtim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/utilities_function/DataLogger.cpp:182:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ctim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/utilities_function/DataLogger.cpp:182:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__glibc_reserved[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/SSAObstacleFNode.h:[m[K In constructor ‘[01m[KSSAObstacleFNode::[01;32m[KSSAObstacleFNode[m[K(const std::string&, const std::vector<std::shared_ptr<VNode> >&, const std::shared_ptr<Gaussian>&, const std::shared_ptr<ObstacleMap>&, double, double, double, double, double, double, const std::vector<std::__cxx11::basic_string<char> >&, int, double, bool, bool)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/SSAObstacleFNode.h:24:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KSSAObstacleFNode::dims[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   24 |         [01;35m[Kdims[m[K;
+      |         [01;35m[K^~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/SSAObstacleFNode.h:20:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool SSAObstacleFNode::is_ssa[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   20 |     bool [01;35m[Kis_ssa[m[K;
+      |          [01;35m[K^~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/SSAObstacleFNode.cpp:14:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   14 | [01;35m[KSSAObstacleFNode[m[K::SSAObstacleFNode(const std::string &name,
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/SSAObstacleFNode.cpp:[m[K In member function ‘[01m[Kvirtual double SSAObstacleFNode::[01;32m[Kget_energy_log[m[K(const Eigen::VectorXd&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/SSAObstacleFNode.cpp:203:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Keval_point[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  203 | double SSAObstacleFNode::get_energy_log([01;35m[Kconst Eigen::VectorXd &eval_point[m[K)
+      |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/graph_env_message/Agent.h:10[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/graph_env_message/Env.cpp:3[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/FNode.h:[m[K In member function ‘[01m[Kvirtual void FNode::[01;32m[Krelin_factor[m[K(const Eigen::VectorXd&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/FNode.h:41:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   41 |       virtual void relin_factor([01;35m[Kconst Eigen::VectorXd &v[m[K) {}
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/ObstacleFNode.cpp:[m[K In constructor ‘[01m[KObstacleFNode::[01;32m[KObstacleFNode[m[K(const std::string&, const std::vector<std::shared_ptr<VNode> >&, const std::shared_ptr<Gaussian>&, const std::shared_ptr<ObstacleMap>&, double, double, double, const std::vector<std::__cxx11::basic_string<char> >&, int, double, bool)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/ObstacleFNode.cpp:20:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdt_predict[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   20 |                              [01;35m[Kdouble dt_predict[m[K,
+      |                              [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/ObstacleIntpFNode.cpp:[m[K In member function ‘[01m[Kvirtual void ObstacleIntpFNode::[01;32m[Krelin_factor[m[K(const Eigen::VectorXd&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/ObstacleIntpFNode.cpp:60:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knjoint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   60 |     int [01;35m[Knjoint[m[K = robot->njoint;
+      |         [01;35m[K^~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/ObstacleIntpFNode.cpp:[m[K In member function ‘[01m[Kvirtual double ObstacleIntpFNode::[01;32m[Kget_energy_log[m[K(const Eigen::VectorXd&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/ObstacleIntpFNode.cpp:177:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Keval_point[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  177 | double ObstacleIntpFNode::get_energy_log([01;35m[Kconst Eigen::VectorXd &eval_point[m[K)
+      |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/ObstacleFNode.cpp:[m[K In member function ‘[01m[Kvirtual double ObstacleFNode::[01;32m[Kget_energy_log[m[K(const Eigen::VectorXd&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/factor_node/ObstacleFNode.cpp:128:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Keval_point[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  128 | double ObstacleFNode::get_energy_log([01;35m[Kconst Eigen::VectorXd &eval_point[m[K)
+      |                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/graph_env_message/Agent.cpp:[m[K In constructor ‘[01m[KAgent::[01;32m[KAgent[m[K(RobotDescription*, const std::string&, const Eigen::VectorXd&, const Eigen::VectorXd&, std::shared_ptr<ObstacleMap>, const std::string&, std::shared_ptr<rclcpp::Node>, Env*)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/graph_env_message/Agent.cpp:41:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdistance_precision[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   41 |     double [01;35m[Kdistance_precision[m[K = config["Agent"]["distance_precision"].as<double>();
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/graph_env_message/Agent.cpp:43:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdynamic_velocity_precision[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   43 |     double [01;35m[Kdynamic_velocity_precision[m[K = config["Agent"]["dynamic_velocity_precision"].as<double>();
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/graph_env_message/Agent.cpp:44:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktarget_position_precision[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   44 |     double [01;35m[Ktarget_position_precision[m[K = config["Agent"]["target_position_precision"].as<double>();
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/graph_env_message/Agent.cpp:45:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstart_velocity_precision[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   45 |     double [01;35m[Kstart_velocity_precision[m[K = config["Agent"]["start_velocity_precision"].as<double>();
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/graph_env_message/Agent.cpp:46:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstart_position_precision[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   46 |     double [01;35m[Kstart_position_precision[m[K = config["Agent"]["start_position_precision"].as<double>();
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/graph_env_message/Agent.cpp:[m[K In member function ‘[01m[Kvoid Agent::[01;32m[Kdynamic_detection[m[K(int)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/graph_env_message/Agent.cpp:222:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Knearest_safe[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  222 |     double [01;35m[Knearest_safe[m[K = std::numeric_limits<double>::infinity();
+      |            [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/graph_env_message/Agent.cpp:196:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Khorizon_step[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  196 | void Agent::dynamic_detection([01;35m[Kint horizon_step[m[K)
+      |                               [01;35m[K~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/graph_env_message/Agent.cpp:[m[K In member function ‘[01m[Kvoid Agent::[01;32m[Kstep_connect_with[m[K(const std::vector<Agent*>&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/graph_env_message/Agent.cpp:788:10:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Khas_new_neighbor[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  788 |     bool [01;35m[Khas_new_neighbor[m[K = false;
+      |          [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/graph_env_message/Env.cpp:[m[K In member function ‘[01m[Kstd::pair<std::vector<std::vector<double, std::allocator<double> > >, std::vector<bool, std::allocator<bool> > > Env::[01;32m[Kstep_plan[m[K(int, double, int)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/graph_env_message/Env.cpp:602:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Komp_total[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  602 |                 double [01;35m[Komp_total[m[K = std::chrono::duration_cast<std::chrono::microseconds>(omp_end_time - omp_plan).count() / 1e6;
+      |                        [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/graph_env_message/Env.cpp:611:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktotal_wall_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  611 |     double [01;35m[Ktotal_wall_time[m[K = std::chrono::duration_cast<std::chrono::microseconds>(replan_end - replan_start).count() / 1e6;
+      |            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/graph_env_message/Agent.cpp:[m[K In member function ‘[01m[Kvoid Agent::[01;32m[Kspin_action_fsm[m[K(double)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/graph_env_message/Agent.cpp:1223:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdist_home_vel[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1223 |         double [01;35m[Kdist_home_vel[m[K = (cur.tail(7) - home_target14_.tail(7)).cwiseAbs().maxCoeff(); // 静态的速度都有0.013的误差
+      |                [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/graph_env_message/Agent.cpp:[m[K In member function ‘[01m[Kvoid Agent::[01;32m[Kpub_traj_msgs[m[K()[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/GBP_classes/graph_env_message/Agent.cpp:1562:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kskip_pts[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1562 |     int [01;35m[Kskip_pts[m[K = static_cast<int>(std::floor(elapsed / std::max(1e-6, this->dt)));
+      |         [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/graph_env_message/Agent.h:10[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_GMBP2_method.cpp:13[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/FNode.h:[m[K In member function ‘[01m[Kvirtual void FNode::[01;32m[Krelin_factor[m[K(const Eigen::VectorXd&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/FNode.h:41:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   41 |       virtual void relin_factor([01;35m[Kconst Eigen::VectorXd &v[m[K) {}
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_GMBP2_method.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_GMBP2_method.cpp:230:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  230 |     for (int i = 0; [01;35m[Ki < num_robots[m[K; ++i)
+      |                     [01;35m[K~~^~~~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_GMBP2_method.cpp:290:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  290 |     for (int i = 0; [01;35m[Ki < num_robots[m[K; ++i)
+      |                     [01;35m[K~~^~~~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_GMBP2_method.cpp:92:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knlink[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   92 |     int [01;35m[Knlink[m[K = config["Scene"]["njoint"].as<int>();
+      |         [01;35m[K^~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_GMBP2_method.cpp:93:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kuse_hand[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   93 |     int [01;35m[Kuse_hand[m[K = config["Scene"]["use_hand"].as<int>();
+      |         [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/../../include/GBP_classes/graph_env_message/Agent.h:10[m[K,
+                 from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:44[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/FNode.h:[m[K In member function ‘[01m[Kvirtual void FNode::[01;32m[Krelin_factor[m[K(const Eigen::VectorXd&)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/FNode.h:41:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   41 |       virtual void relin_factor([01;35m[Kconst Eigen::VectorXd &v[m[K) {}
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:55[m[K:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/../../include/gtsam_factors/FactorInterRobotDistState.h:[m[K In member function ‘[01m[Kvirtual gtsam::Vector gtsam_factors_state::FactorInterRobotDistState::[01;32m[KevaluateError[m[K(const gtsam::Vector&, const gtsam::Vector&, gtsam::Matrix*, gtsam::Matrix*) const[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/../../include/gtsam_factors/FactorInterRobotDistState.h:42:30:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbeta[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   42 |             constexpr double [01;35m[Kbeta[m[K = 20.0; // adjust if needed
+      |                              [01;35m[K^~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:[m[K In lambda function:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:89:9:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kfor[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+   89 |         [01;35m[Kfor[m[K (const auto& k: keys) if (root[k]) return root[k].as<double>(def); return def; };
+      |         [01;35m[K^~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:89:80:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kfor[m[K’
+   89 |         for (const auto& k: keys) if (root[k]) return root[k].as<double>(def); [01;36m[Kreturn[m[K def; };
+      |                                                                                [01;36m[K^~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:[m[K In lambda function:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:92:9:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kfor[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+   92 |         [01;35m[Kfor[m[K (const auto& k: keys) if (root[k]) return root[k].as<int>(def); return def; };
+      |         [01;35m[K^~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:92:77:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kfor[m[K’
+   92 |         for (const auto& k: keys) if (root[k]) return root[k].as<int>(def); [01;36m[Kreturn[m[K def; };
+      |                                                                             [01;36m[K^~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:[m[K In member function ‘[01m[Kstd::pair<std::vector<double, std::allocator<double> >, bool> GTSAMOptimizer::[01;32m[Koptimize[m[K(int, double)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:583:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmax_iter[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  583 |     std::pair<std::vector<double>, bool> optimize([01;35m[Kint max_iter[m[K, double converge_threshold)
+      |                                                   [01;35m[K~~~~^~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:583:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kconverge_threshold[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  583 |     std::pair<std::vector<double>, bool> optimize(int max_iter, [01;35m[Kdouble converge_threshold[m[K)
+      |                                                                 [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:1458:39:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<int>, int>::value_type[m[K’ {aka ‘[01m[Kint[m[K’} and ‘[01m[Kstd::vector<Eigen::Matrix<double, -1, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1458 |             if (target_indices[r] + 1 < target_sequences[r].size())

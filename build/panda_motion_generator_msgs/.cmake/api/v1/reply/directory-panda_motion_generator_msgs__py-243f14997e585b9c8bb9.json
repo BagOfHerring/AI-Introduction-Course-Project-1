@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "panda_motion_generator_msgs__py",
+		"source" : "/home/herring/rzddzy/build/panda_motion_generator_msgs/panda_motion_generator_msgs__py"
+	}
+}

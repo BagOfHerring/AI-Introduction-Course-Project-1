@@ -1,0 +1,1 @@
+/home/herring/rzddzy/build/mujoco_ros2_sensors/ament_cmake_environment_hooks/local_setup.sh

@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b4440ba1f89898b06c2a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "mujoco_ros_msgs__py",
+					"jsonFile" : "directory-mujoco_ros_msgs__py-9bc7eda50601625c3673.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/herring/rzddzy/build/mujoco_ros_msgs/mujoco_ros_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "mujoco_ros_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_mujoco_ros_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_mujoco_ros_msgs_egg-6f76e328310d64513f59.json",
+					"name" : "ament_cmake_python_build_mujoco_ros_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_mujoco_ros_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_mujoco_ros_msgs-0fb9cfdb23cd5b7f6498.json",
+					"name" : "ament_cmake_python_symlink_mujoco_ros_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mujoco_ros_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mujoco_ros_msgs-09227a9bdf0af83d3373.json",
+					"name" : "mujoco_ros_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mujoco_ros_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mujoco_ros_msgs__cpp-d04a5db6e770ce49ecab.json",
+					"name" : "mujoco_ros_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mujoco_ros_msgs__py::@7d655f005aec24e8bb2e",
+					"jsonFile" : "target-mujoco_ros_msgs__py-5032aa0d9e5f6437673b.json",
+					"name" : "mujoco_ros_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mujoco_ros_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mujoco_ros_msgs__rosidl_generator_c-8dd1f5a523a16d8502d4.json",
+					"name" : "mujoco_ros_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mujoco_ros_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mujoco_ros_msgs__rosidl_generator_py-699705af992e98e7f30a.json",
+					"name" : "mujoco_ros_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mujoco_ros_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mujoco_ros_msgs__rosidl_generator_type_description-c45433f0c0e410dae12a.json",
+					"name" : "mujoco_ros_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mujoco_ros_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mujoco_ros_msgs__rosidl_typesupport_c-83aa17a7a85ec0fda2c7.json",
+					"name" : "mujoco_ros_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mujoco_ros_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mujoco_ros_msgs__rosidl_typesupport_cpp-3f1b9d21e662b7479bc8.json",
+					"name" : "mujoco_ros_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mujoco_ros_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mujoco_ros_msgs__rosidl_typesupport_fastrtps_c-4f8fa3879c170dfb0dcc.json",
+					"name" : "mujoco_ros_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mujoco_ros_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mujoco_ros_msgs__rosidl_typesupport_fastrtps_cpp-4c48560d978aa908e32b.json",
+					"name" : "mujoco_ros_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mujoco_ros_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mujoco_ros_msgs__rosidl_typesupport_introspection_c-8c7e1acf22017ca7accc.json",
+					"name" : "mujoco_ros_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mujoco_ros_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mujoco_ros_msgs__rosidl_typesupport_introspection_cpp-f565cf428414bba0b3d1.json",
+					"name" : "mujoco_ros_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mujoco_ros_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mujoco_ros_msgs_s__rosidl_typesupport_c-07ff29f111c5af76733f.json",
+					"name" : "mujoco_ros_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mujoco_ros_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mujoco_ros_msgs_s__rosidl_typesupport_fastrtps_c-157af9c4bd3f911e2972.json",
+					"name" : "mujoco_ros_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mujoco_ros_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mujoco_ros_msgs_s__rosidl_typesupport_introspection_c-483abb593e114d85ef40.json",
+					"name" : "mujoco_ros_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mujoco_ros_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mujoco_ros_msgs_uninstall-eff02d0129891ba55c90.json",
+					"name" : "mujoco_ros_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f2ab96820a27ec9cdad3.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/herring/rzddzy/build/mujoco_ros_msgs",
+		"source" : "/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

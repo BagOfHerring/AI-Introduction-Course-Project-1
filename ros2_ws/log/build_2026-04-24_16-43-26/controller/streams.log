@@ -1,0 +1,31 @@
+[0.031s] Invoking command in '/home/herring/rzddzy/ros2_ws/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/herring/rzddzy/ros2_ws/src/controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/herring/rzddzy/ros2_ws/install/controller
+[0.051s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.383s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.391s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.425s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.436s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.452s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.470s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.543s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.545s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.638s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.716s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.735s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.754s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.785s] -- Found trajectory_msgs: 5.3.6 (/opt/ros/jazzy/share/trajectory_msgs/cmake)
+[0.812s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[0.848s] -- Found cplus_dev: 0.0.0 (/home/herring/rzddzy/ros2_ws/install/cplus_dev/share/cplus_dev/cmake)
+[1.160s] -- Configuring done (1.1s)
+[1.259s] -- Generating done (0.1s)
+[1.274s] -- Build files have been written to: /home/herring/rzddzy/ros2_ws/build/controller
+[1.301s] Invoked command in '/home/herring/rzddzy/ros2_ws/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/herring/rzddzy/ros2_ws/src/controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/herring/rzddzy/ros2_ws/install/controller
+[1.304s] Invoking command in '/home/herring/rzddzy/ros2_ws/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/herring/rzddzy/ros2_ws/build/controller -- -j28 -l28
+[1.441s] [ 37%] Built target buffer_controller
+[1.506s] [ 50%] [32mBuilding CXX object CMakeFiles/gbp_mpc_controller.dir/src/gbp_mpc_controller.cpp.o[0m
+[2.224s] [01m[K/home/herring/rzddzy/ros2_ws/src/controller/src/gbp_mpc_controller.cpp:20:10:[m[K [01;31m[Kfatal error: [m[KRobot_classes/RobotDescription.h: 没有那个文件或目录
+[2.225s]    20 | #include [01;31m[K"Robot_classes/RobotDescription.h"[m[K
+[2.225s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.225s] compilation terminated.
+[2.238s] gmake[2]: *** [CMakeFiles/gbp_mpc_controller.dir/build.make:76：CMakeFiles/gbp_mpc_controller.dir/src/gbp_mpc_controller.cpp.o] 错误 1
+[2.238s] gmake[1]: *** [CMakeFiles/Makefile2:193：CMakeFiles/gbp_mpc_controller.dir/all] 错误 2
+[2.239s] gmake: *** [Makefile:146：all] 错误 2

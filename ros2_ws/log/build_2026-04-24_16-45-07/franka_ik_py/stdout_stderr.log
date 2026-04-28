@@ -1,0 +1,22 @@
+running develop
+running egg_info
+writing franka_ik_py.egg-info/PKG-INFO
+writing dependency_links to franka_ik_py.egg-info/dependency_links.txt
+writing top-level names to franka_ik_py.egg-info/top_level.txt
+reading manifest file 'franka_ik_py.egg-info/SOURCES.txt'
+writing manifest file 'franka_ik_py.egg-info/SOURCES.txt'
+running build_ext
+building 'franka_ik_py' extension
+creating build/temp.linux-x86_64-cpython-312/home
+creating build/temp.linux-x86_64-cpython-312/home/herring
+creating build/temp.linux-x86_64-cpython-312/home/herring/rzddzy
+creating build/temp.linux-x86_64-cpython-312/home/herring/rzddzy/ros2_ws
+creating build/temp.linux-x86_64-cpython-312/home/herring/rzddzy/ros2_ws/src
+creating build/temp.linux-x86_64-cpython-312/home/herring/rzddzy/ros2_ws/src/franka_analytical_ik
+x86_64-linux-gnu-gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O2 -Wall -fPIC -I/home/herring/.local/lib/python3.12/site-packages/pybind11/include -I/home/herring/rzddzy/ros2_ws/src/franka_analytical_ik/Eigen -I/home/herring/rzddzy/ros2_ws/src/franka_analytical_ik -I/home/herring/rzddzy/ros2_ws/install/franka_ik_py/include -I/usr/include/python3.12 -c /home/herring/rzddzy/ros2_ws/src/franka_analytical_ik/pybind_wrapper.cpp -o build/temp.linux-x86_64-cpython-312/home/herring/rzddzy/ros2_ws/src/franka_analytical_ik/pybind_wrapper.o -std=c++11 -O3
+creating build/lib.linux-x86_64-cpython-312
+x86_64-linux-gnu-g++ -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -g -fwrapv -O2 build/temp.linux-x86_64-cpython-312/home/herring/rzddzy/ros2_ws/src/franka_analytical_ik/pybind_wrapper.o -L/usr/lib/x86_64-linux-gnu -o build/lib.linux-x86_64-cpython-312/franka_ik_py.cpython-312-x86_64-linux-gnu.so
+copying build/lib.linux-x86_64-cpython-312/franka_ik_py.cpython-312-x86_64-linux-gnu.so -> 
+Creating /home/herring/rzddzy/ros2_ws/install/franka_ik_py/lib/python3.12/site-packages/franka-ik-py.egg-link (link to .)
+
+Installed /home/herring/rzddzy/ros2_ws/build/franka_ik_py

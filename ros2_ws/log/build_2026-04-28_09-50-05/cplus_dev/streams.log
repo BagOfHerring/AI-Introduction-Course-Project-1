@@ -1,0 +1,133 @@
+[0.007s] Invoking command in '/home/herring/rzddzy/ros2_ws/build/cplus_dev': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/herring/rzddzy/ros2_ws/src/cplus_dev -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/herring/rzddzy/ros2_ws/install/cplus_dev
+[0.019s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.197s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.211s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.246s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.257s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.277s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.294s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.350s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.352s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.416s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.490s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.543s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.559s] -- Found trajectory_msgs: 5.3.6 (/opt/ros/jazzy/share/trajectory_msgs/cmake)
+[0.577s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[0.638s] -- GTSAM include directory:  /usr/local/lib/cmake/GTSAM/../../../include
+[0.719s] -- Configuring done (0.7s)
+[0.742s] -- Generating done (0.0s)
+[0.746s] -- Build files have been written to: /home/herring/rzddzy/ros2_ws/build/cplus_dev
+[0.751s] Invoked command in '/home/herring/rzddzy/ros2_ws/build/cplus_dev' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/herring/rzddzy/ros2_ws/src/cplus_dev -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/herring/rzddzy/ros2_ws/install/cplus_dev
+[0.752s] Invoking command in '/home/herring/rzddzy/ros2_ws/build/cplus_dev': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/herring/rzddzy/ros2_ws/build/cplus_dev -- -j28 -l28
+[0.864s] [ 89%] Built target cplus_dev
+[0.895s] [ 94%] Built target test_GMBP2_method
+[0.896s] [ 97%] [32mBuilding CXX object CMakeFiles/test_gtsam_method.dir/src/tests/test_gtsam_method.cpp.o[0m
+[3.932s] In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/../../include/GBP_classes/graph_env_message/Agent.h:10[m[K,
+[3.932s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:44[m[K:
+[3.932s] [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/FNode.h:[m[K In member function ‘[01m[Kvirtual void FNode::[01;32m[Krelin_factor[m[K(const Eigen::VectorXd&)[m[K’:
+[3.932s] [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/factor_node/FNode.h:41:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.932s]    41 |       virtual void relin_factor([01;35m[Kconst Eigen::VectorXd &v[m[K) {}
+[3.932s]       |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[4.219s] In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:55[m[K:
+[4.219s] [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/../../include/gtsam_factors/FactorInterRobotDistState.h:[m[K In member function ‘[01m[Kvirtual gtsam::Vector gtsam_factors_state::FactorInterRobotDistState::[01;32m[KevaluateError[m[K(const gtsam::Vector&, const gtsam::Vector&, gtsam::Matrix*, gtsam::Matrix*) const[m[K’:
+[4.219s] [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/../../include/gtsam_factors/FactorInterRobotDistState.h:42:30:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbeta[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.219s]    42 |             constexpr double [01;35m[Kbeta[m[K = 20.0; // adjust if needed
+[4.219s]       |                              [01;35m[K^~~~[m[K
+[4.227s] [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:[m[K In lambda function:
+[4.227s] [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:89:9:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kfor[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+[4.227s]    89 |         [01;35m[Kfor[m[K (const auto& k: keys) if (root[k]) return root[k].as<double>(def); return def; };
+[4.227s]       |         [01;35m[K^~~[m[K
+[4.227s] [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:89:80:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kfor[m[K’
+[4.227s]    89 |         for (const auto& k: keys) if (root[k]) return root[k].as<double>(def); [01;36m[Kreturn[m[K def; };
+[4.228s]       |                                                                                [01;36m[K^~~~~~[m[K
+[4.228s] [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:[m[K In lambda function:
+[4.228s] [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:92:9:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kfor[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+[4.228s]    92 |         [01;35m[Kfor[m[K (const auto& k: keys) if (root[k]) return root[k].as<int>(def); return def; };
+[4.228s]       |         [01;35m[K^~~[m[K
+[4.228s] [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:92:77:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kfor[m[K’
+[4.228s]    92 |         for (const auto& k: keys) if (root[k]) return root[k].as<int>(def); [01;36m[Kreturn[m[K def; };
+[4.228s]       |                                                                             [01;36m[K^~~~~~[m[K
+[4.272s] [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:[m[K In member function ‘[01m[Kstd::pair<std::vector<double, std::allocator<double> >, bool> GTSAMOptimizer::[01;32m[Koptimize[m[K(int, double)[m[K’:
+[4.272s] [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:583:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmax_iter[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.272s]   583 |     std::pair<std::vector<double>, bool> optimize([01;35m[Kint max_iter[m[K, double converge_threshold)
+[4.272s]       |                                                   [01;35m[K~~~~^~~~~~~~[m[K
+[4.272s] [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:583:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kconverge_threshold[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.272s]   583 |     std::pair<std::vector<double>, bool> optimize(int max_iter, [01;35m[Kdouble converge_threshold[m[K)
+[4.272s]       |                                                                 [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[4.344s] [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[4.344s] [01m[K/home/herring/rzddzy/ros2_ws/src/cplus_dev/src/tests/test_gtsam_method.cpp:1458:39:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<int>, int>::value_type[m[K’ {aka ‘[01m[Kint[m[K’} and ‘[01m[Kstd::vector<Eigen::Matrix<double, -1, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[4.344s]  1458 |             if (target_indices[r] + 1 < target_sequences[r].size())
+[17.062s] [100%] [32m[1mLinking CXX executable test_gtsam_method[0m
+[17.292s] [100%] Built target test_gtsam_method
+[17.302s] Invoked command in '/home/herring/rzddzy/ros2_ws/build/cplus_dev' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/herring/rzddzy/ros2_ws/build/cplus_dev -- -j28 -l28
+[17.311s] Invoking command in '/home/herring/rzddzy/ros2_ws/build/cplus_dev': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/herring/rzddzy/ros2_ws/build/cplus_dev
+[17.318s] -- Install configuration: "Release"
+[17.318s] -- Execute custom install script
+[17.318s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/lib/libcplus_dev.a
+[17.318s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/lib/cplus_dev/test_GMBP2_method
+[17.318s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/lib/cplus_dev/test_gtsam_method
+[17.319s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/GBP_classes/factor_node/BoxFNode.h
+[17.319s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/GBP_classes/factor_node/DistFNode.h
+[17.319s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/GBP_classes/factor_node/DynaFNode.h
+[17.319s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/GBP_classes/factor_node/FNode.h
+[17.319s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/GBP_classes/factor_node/InterarmIntpFNode.h
+[17.319s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/GBP_classes/factor_node/ObstacleFNode.h
+[17.319s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/GBP_classes/factor_node/ObstacleIntpFNode.h
+[17.319s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/GBP_classes/factor_node/SSADistFNode.h
+[17.319s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/GBP_classes/factor_node/SSAObstacleFNode.h
+[17.319s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/GBP_classes/factor_node/TaskFNode.h
+[17.319s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/GBP_classes/graph_env_message/Agent.h
+[17.319s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/GBP_classes/graph_env_message/Edge.h
+[17.319s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/GBP_classes/graph_env_message/Env.h
+[17.319s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/GBP_classes/graph_env_message/FactorGraphRobot.h
+[17.320s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/GBP_classes/graph_env_message/Gaussian.h
+[17.320s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/GBP_classes/graph_env_message/Graph.h
+[17.320s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/GBP_classes/graph_env_message/Node.h
+[17.320s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/GBP_classes/graph_env_message/ObstacleMap.h
+[17.320s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/GBP_classes/task_classes/PoseTask.h
+[17.320s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/GBP_classes/value_node/RemoteVNode.h
+[17.320s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/GBP_classes/value_node/VNode.h
+[17.320s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/Robot_classes/CollisionGeometry.h
+[17.320s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/Robot_classes/CollisionSphere.h
+[17.320s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/Robot_classes/Elementary_T.h
+[17.320s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/Robot_classes/RobotDescription.h
+[17.320s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/Robot_classes/robotTree_ETs.h
+[17.320s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/gtsam_factors/FactorBoxState.h
+[17.320s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/gtsam_factors/FactorDynamicsState.h
+[17.320s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/gtsam_factors/FactorInterRobotDistState.h
+[17.320s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/gtsam_factors/FactorObstacleState.h
+[17.320s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/gtsam_factors/FactorPriorSub.h
+[17.320s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/other_packages/yaml/ReadYaml.h
+[17.320s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/other_packages/yaml/ReadYamlRaw.h
+[17.320s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/utilities_function/DataLogger.h
+[17.320s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/utilities_function/ObstacleSeq.hpp
+[17.320s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/utilities_function/dist_arm_3D_sphere.h
+[17.320s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/utilities_function/dist_interarm_sphere.h
+[17.321s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/utilities_function/pdist2.h
+[17.321s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/utilities_function/relu_smooth/softplus.h
+[17.321s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/include/utilities_function/relu_smooth/swish.h
+[17.321s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/share/cplus_dev/config/MRGBP.yaml
+[17.321s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/share/cplus_dev/config/MRGBP_Default_Const.yaml
+[17.321s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/share/cplus_dev/config/franka_sphere.yaml
+[17.321s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/share/cplus_dev/config/global.yaml
+[17.321s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/share/cplus_dev/environment/library_path.sh
+[17.321s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/share/cplus_dev/environment/library_path.dsv
+[17.321s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/share/ament_index/resource_index/package_run_dependencies/cplus_dev
+[17.321s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/share/ament_index/resource_index/parent_prefix_path/cplus_dev
+[17.321s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/share/cplus_dev/environment/ament_prefix_path.sh
+[17.321s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/share/cplus_dev/environment/ament_prefix_path.dsv
+[17.321s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/share/cplus_dev/environment/path.sh
+[17.322s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/share/cplus_dev/environment/path.dsv
+[17.322s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/share/cplus_dev/local_setup.bash
+[17.322s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/share/cplus_dev/local_setup.sh
+[17.322s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/share/cplus_dev/local_setup.zsh
+[17.322s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/share/cplus_dev/local_setup.dsv
+[17.322s] -- Symlinking: /home/herring/rzddzy/ros2_ws/install/cplus_dev/share/cplus_dev/package.dsv
+[17.328s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/share/ament_index/resource_index/packages/cplus_dev
+[17.328s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/share/cplus_dev/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.328s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/share/cplus_dev/cmake/ament_cmake_export_libraries-extras.cmake
+[17.328s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/share/cplus_dev/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.328s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/share/cplus_dev/cmake/cplus_devConfig.cmake
+[17.328s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/share/cplus_dev/cmake/cplus_devConfig-version.cmake
+[17.328s] -- Up-to-date symlink: /home/herring/rzddzy/ros2_ws/install/cplus_dev/share/cplus_dev/package.xml
+[17.329s] Invoked command in '/home/herring/rzddzy/ros2_ws/build/cplus_dev' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/herring/rzddzy/ros2_ws/build/cplus_dev

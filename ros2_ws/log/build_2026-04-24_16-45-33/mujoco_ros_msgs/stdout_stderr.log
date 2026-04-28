@@ -1,0 +1,23 @@
+[  0%] Built target mujoco_ros_msgs__rosidl_generator_type_description
+[  0%] Built target ament_cmake_python_symlink_mujoco_ros_msgs
+[ 29%] Built target mujoco_ros_msgs__rosidl_generator_c
+running egg_info
+writing mujoco_ros_msgs.egg-info/PKG-INFO
+writing dependency_links to mujoco_ros_msgs.egg-info/dependency_links.txt
+writing top-level names to mujoco_ros_msgs.egg-info/top_level.txt
+reading manifest file 'mujoco_ros_msgs.egg-info/SOURCES.txt'
+writing manifest file 'mujoco_ros_msgs.egg-info/SOURCES.txt'
+[ 29%] Built target ament_cmake_python_build_mujoco_ros_msgs_egg
+[ 39%] Built target mujoco_ros_msgs__rosidl_typesupport_c
+[ 49%] Built target mujoco_ros_msgs__rosidl_typesupport_introspection_c
+[ 59%] Built target mujoco_ros_msgs__rosidl_typesupport_fastrtps_c
+[ 59%] Built target mujoco_ros_msgs__cpp
+[ 69%] Built target mujoco_ros_msgs__rosidl_typesupport_cpp
+[ 79%] Built target mujoco_ros_msgs__rosidl_typesupport_introspection_cpp
+[ 89%] Built target mujoco_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[ 89%] Built target mujoco_ros_msgs
+[ 89%] Built target mujoco_ros_msgs__py
+[ 98%] Built target mujoco_ros_msgs__rosidl_generator_py
+[ 99%] Built target mujoco_ros_msgs_s__rosidl_typesupport_fastrtps_c
+[ 99%] Built target mujoco_ros_msgs_s__rosidl_typesupport_c
+[100%] Built target mujoco_ros_msgs_s__rosidl_typesupport_introspection_c

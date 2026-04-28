@@ -1,0 +1,23 @@
+[  1%] Built target panda_motion_generator_msgs__rosidl_generator_type_description
+[  1%] Built target ament_cmake_python_symlink_panda_motion_generator_msgs
+[  2%] Built target panda_motion_generator_msgs__cpp
+running egg_info
+writing panda_motion_generator_msgs.egg-info/PKG-INFO
+writing dependency_links to panda_motion_generator_msgs.egg-info/dependency_links.txt
+writing top-level names to panda_motion_generator_msgs.egg-info/top_level.txt
+reading manifest file 'panda_motion_generator_msgs.egg-info/SOURCES.txt'
+writing manifest file 'panda_motion_generator_msgs.egg-info/SOURCES.txt'
+[  2%] Built target ament_cmake_python_build_panda_motion_generator_msgs_egg
+[ 25%] Built target panda_motion_generator_msgs__rosidl_generator_c
+[ 35%] Built target panda_motion_generator_msgs__rosidl_typesupport_fastrtps_c
+[ 44%] Built target panda_motion_generator_msgs__rosidl_typesupport_cpp
+[ 54%] Built target panda_motion_generator_msgs__rosidl_typesupport_introspection_cpp
+[ 63%] Built target panda_motion_generator_msgs__rosidl_typesupport_c
+[ 72%] Built target panda_motion_generator_msgs__rosidl_typesupport_introspection_c
+[ 82%] Built target panda_motion_generator_msgs__rosidl_typesupport_fastrtps_cpp
+[ 82%] Built target panda_motion_generator_msgs
+[ 83%] Built target panda_motion_generator_msgs__py
+[ 91%] Built target panda_motion_generator_msgs__rosidl_generator_py
+[ 94%] Built target panda_motion_generator_msgs_s__rosidl_typesupport_fastrtps_c
+[ 97%] Built target panda_motion_generator_msgs_s__rosidl_typesupport_c
+[100%] Built target panda_motion_generator_msgs_s__rosidl_typesupport_introspection_c

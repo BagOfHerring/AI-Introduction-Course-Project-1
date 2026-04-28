@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^cd /home/herring/rzddzy/ros2_ws && colcon build --packages-select franka_ik_py cplus_dev controller --symlink-install$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

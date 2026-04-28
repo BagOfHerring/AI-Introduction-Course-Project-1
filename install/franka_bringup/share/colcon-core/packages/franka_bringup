@@ -1,0 +1,1 @@
+controller_manager:franka_description:franka_hardware:franka_robot_state_broadcaster:joint_state_broadcaster:joint_state_publisher:multi_mode_controller_impl:robot_state_publisher:rviz2:xacro

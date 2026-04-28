@@ -1,0 +1,13 @@
+[0.503s] Invoking command in '/home/herring/rzddzy/build/franka_ik_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/herring/rzddzy/build/franka_ik_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/herring/rzddzy/install/franka_ik_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/herring/rzddzy/build/franka_ik_py/build --no-deps
+[0.788s] running develop
+[0.935s] running egg_info
+[0.945s] writing franka_ik_py.egg-info/PKG-INFO
+[0.945s] writing dependency_links to franka_ik_py.egg-info/dependency_links.txt
+[0.945s] writing top-level names to franka_ik_py.egg-info/top_level.txt
+[0.984s] reading manifest file 'franka_ik_py.egg-info/SOURCES.txt'
+[0.985s] writing manifest file 'franka_ik_py.egg-info/SOURCES.txt'
+[0.985s] running build_ext
+[1.005s] Creating /home/herring/rzddzy/install/franka_ik_py/lib/python3.12/site-packages/franka-ik-py.egg-link (link to .)
+[1.006s] 
+[1.006s] Installed /home/herring/rzddzy/build/franka_ik_py
+[1.041s] Invoked command in '/home/herring/rzddzy/build/franka_ik_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/herring/rzddzy/build/franka_ik_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/herring/rzddzy/install/franka_ik_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/herring/rzddzy/build/franka_ik_py/build --no-deps

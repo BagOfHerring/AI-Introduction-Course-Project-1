@@ -1,0 +1,1 @@
+/home/herring/rzddzy/build/multi_mode_controller_impl/ament_cmake_environment_hooks/local_setup.zsh

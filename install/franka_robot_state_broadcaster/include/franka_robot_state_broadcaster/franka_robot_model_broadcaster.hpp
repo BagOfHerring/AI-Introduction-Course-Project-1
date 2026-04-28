@@ -1,0 +1,1 @@
+/home/herring/rzddzy/ros2_ws/src/franka_robot_state_broadcaster/include/franka_robot_state_broadcaster/franka_robot_model_broadcaster.hpp

@@ -1,0 +1,195 @@
+[0.000000] (-) TimerEvent: {}
+[0.000359] (-) JobUnselected: {'identifier': 'controller'}
+[0.000650] (-) JobUnselected: {'identifier': 'franka_bringup'}
+[0.000796] (-) JobUnselected: {'identifier': 'franka_description'}
+[0.000954] (-) JobUnselected: {'identifier': 'franka_example_controllers'}
+[0.001005] (-) JobUnselected: {'identifier': 'franka_hardware'}
+[0.001229] (-) JobUnselected: {'identifier': 'franka_msgs'}
+[0.001310] (-) JobUnselected: {'identifier': 'franka_robot_state_broadcaster'}
+[0.001353] (-) JobUnselected: {'identifier': 'franka_semantic_components'}
+[0.001379] (-) JobUnselected: {'identifier': 'mujoco_ros'}
+[0.001410] (-) JobUnselected: {'identifier': 'mujoco_ros2_control'}
+[0.001438] (-) JobUnselected: {'identifier': 'mujoco_ros2_control_system'}
+[0.001469] (-) JobUnselected: {'identifier': 'mujoco_ros2_dummy_plugin'}
+[0.001493] (-) JobUnselected: {'identifier': 'mujoco_ros2_sensors'}
+[0.001516] (-) JobUnselected: {'identifier': 'mujoco_ros_msgs'}
+[0.001538] (-) JobUnselected: {'identifier': 'mujoco_ros_pkgs'}
+[0.001560] (-) JobUnselected: {'identifier': 'multi_mode_control_msgs'}
+[0.001582] (-) JobUnselected: {'identifier': 'multi_mode_controller'}
+[0.001604] (-) JobUnselected: {'identifier': 'multi_mode_controller_impl'}
+[0.001627] (-) JobUnselected: {'identifier': 'panda_motion_generator_msgs'}
+[0.001721] (-) JobUnselected: {'identifier': 'panda_motion_generators'}
+[0.001754] (franka_ik_py) JobQueued: {'identifier': 'franka_ik_py', 'dependencies': OrderedDict()}
+[0.001792] (franka_ik_py) JobStarted: {'identifier': 'franka_ik_py'}
+[0.099736] (-) TimerEvent: {}
+[0.200067] (-) TimerEvent: {}
+[0.300405] (-) TimerEvent: {}
+[0.400746] (-) TimerEvent: {}
+[0.501077] (-) TimerEvent: {}
+[0.601476] (-) TimerEvent: {}
+[0.701809] (-) TimerEvent: {}
+[0.717843] (franka_ik_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/herring/rzddzy/ros2_ws/build/franka_ik_py/build', '--no-deps'], 'cwd': '/home/herring/rzddzy/ros2_ws/build/franka_ik_py', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en', 'USER': 'herring', 'LC_TIME': 'en_US.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'GIT_EDITOR': ':', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/herring', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/herring/rzddzy/ros2_ws/src/franka_bringup/scripts', 'TERM_PROGRAM_VERSION': '1.114.0', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/herring/.nvm/versions/node/v20.20.1/bin', 'NVM_INC': '/home/herring/.nvm/versions/node/v20.20.1/include/node', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '3192', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '3479', 'BUNDLED_DEBUGPY_PATH': '/home/herring/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5031', 'NVM_DIR': '/home/herring/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'herring', 'JOURNAL_STREAM': '8:597', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'herring', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'HISTCONTROL': 'ignorespace', 'PATH': '/home/herring/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/herring/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/herring/.local/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/herring/.nvm/versions/node/v20.20.1/bin:/home/herring/.cargo/bin:/home/herring/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/herring/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/herring-Legion-Y7000P-IRX9:@/tmp/.ICE-unix/3420,unix/herring-Legion-Y7000P-IRX9:/tmp/.ICE-unix/3420', 'INVOCATION_ID': '62319a4d160a476e83d326f7f7c98760', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/herring/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-96998ed788fe5f81.txt', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/herring/.config/Code/User/workspaceStorage/e0a7d35be3a23be38b76db43a4e3f908/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.2SR4N3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-31311df754.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/herring/rzddzy/ros2_ws/build/franka_ik_py', 'GIT_MERGE_AUTOEDIT': 'no', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'xim', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/herring/rzddzy/ros2_ws/build/franka_ik_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/herring/rzddzy/ros2_ws/install/franka_ik_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[0.801912] (-) TimerEvent: {}
+[0.902303] (-) TimerEvent: {}
+[1.002616] (-) TimerEvent: {}
+[1.020267] (franka_ik_py) StdoutLine: {'line': b'running develop\n'}
+[1.102740] (-) TimerEvent: {}
+[1.169440] (franka_ik_py) StdoutLine: {'line': b'running egg_info\n'}
+[1.191785] (franka_ik_py) StdoutLine: {'line': b'writing franka_ik_py.egg-info/PKG-INFO\n'}
+[1.192176] (franka_ik_py) StdoutLine: {'line': b'writing dependency_links to franka_ik_py.egg-info/dependency_links.txt\n'}
+[1.192307] (franka_ik_py) StdoutLine: {'line': b'writing top-level names to franka_ik_py.egg-info/top_level.txt\n'}
+[1.202869] (-) TimerEvent: {}
+[1.221474] (franka_ik_py) StdoutLine: {'line': b"reading manifest file 'franka_ik_py.egg-info/SOURCES.txt'\n"}
+[1.221909] (franka_ik_py) StdoutLine: {'line': b"writing manifest file 'franka_ik_py.egg-info/SOURCES.txt'\n"}
+[1.222117] (franka_ik_py) StdoutLine: {'line': b'running build_ext\n'}
+[1.223095] (franka_ik_py) StdoutLine: {'line': b"building 'franka_ik_py' extension\n"}
+[1.223412] (franka_ik_py) StdoutLine: {'line': b'creating build/temp.linux-x86_64-cpython-312/home\n'}
+[1.223687] (franka_ik_py) StdoutLine: {'line': b'creating build/temp.linux-x86_64-cpython-312/home/herring\n'}
+[1.223759] (franka_ik_py) StdoutLine: {'line': b'creating build/temp.linux-x86_64-cpython-312/home/herring/rzddzy\n'}
+[1.223808] (franka_ik_py) StdoutLine: {'line': b'creating build/temp.linux-x86_64-cpython-312/home/herring/rzddzy/ros2_ws\n'}
+[1.223852] (franka_ik_py) StdoutLine: {'line': b'creating build/temp.linux-x86_64-cpython-312/home/herring/rzddzy/ros2_ws/src\n'}
+[1.223895] (franka_ik_py) StdoutLine: {'line': b'creating build/temp.linux-x86_64-cpython-312/home/herring/rzddzy/ros2_ws/src/franka_analytical_ik\n'}
+[1.223939] (franka_ik_py) StdoutLine: {'line': b'x86_64-linux-gnu-gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O2 -Wall -fPIC -I/home/herring/.local/lib/python3.12/site-packages/pybind11/include -I/home/herring/rzddzy/ros2_ws/src/franka_analytical_ik/Eigen -I/home/herring/rzddzy/ros2_ws/src/franka_analytical_ik -I/home/herring/rzddzy/ros2_ws/install/franka_ik_py/include -I/usr/include/python3.12 -c /home/herring/rzddzy/ros2_ws/src/franka_analytical_ik/pybind_wrapper.cpp -o build/temp.linux-x86_64-cpython-312/home/herring/rzddzy/ros2_ws/src/franka_analytical_ik/pybind_wrapper.o -std=c++11 -O3\n'}
+[1.302946] (-) TimerEvent: {}
+[1.403190] (-) TimerEvent: {}
+[1.503437] (-) TimerEvent: {}
+[1.603859] (-) TimerEvent: {}
+[1.704193] (-) TimerEvent: {}
+[1.804540] (-) TimerEvent: {}
+[1.904888] (-) TimerEvent: {}
+[2.005224] (-) TimerEvent: {}
+[2.105484] (-) TimerEvent: {}
+[2.205741] (-) TimerEvent: {}
+[2.306010] (-) TimerEvent: {}
+[2.406271] (-) TimerEvent: {}
+[2.506519] (-) TimerEvent: {}
+[2.606789] (-) TimerEvent: {}
+[2.707041] (-) TimerEvent: {}
+[2.807295] (-) TimerEvent: {}
+[2.907552] (-) TimerEvent: {}
+[3.007949] (-) TimerEvent: {}
+[3.108286] (-) TimerEvent: {}
+[3.208777] (-) TimerEvent: {}
+[3.309104] (-) TimerEvent: {}
+[3.409491] (-) TimerEvent: {}
+[3.509904] (-) TimerEvent: {}
+[3.610234] (-) TimerEvent: {}
+[3.710567] (-) TimerEvent: {}
+[3.810936] (-) TimerEvent: {}
+[3.911292] (-) TimerEvent: {}
+[4.011624] (-) TimerEvent: {}
+[4.111993] (-) TimerEvent: {}
+[4.212390] (-) TimerEvent: {}
+[4.312693] (-) TimerEvent: {}
+[4.412958] (-) TimerEvent: {}
+[4.513227] (-) TimerEvent: {}
+[4.613489] (-) TimerEvent: {}
+[4.713813] (-) TimerEvent: {}
+[4.814084] (-) TimerEvent: {}
+[4.914345] (-) TimerEvent: {}
+[5.014608] (-) TimerEvent: {}
+[5.114870] (-) TimerEvent: {}
+[5.215177] (-) TimerEvent: {}
+[5.315567] (-) TimerEvent: {}
+[5.415954] (-) TimerEvent: {}
+[5.516299] (-) TimerEvent: {}
+[5.616680] (-) TimerEvent: {}
+[5.717078] (-) TimerEvent: {}
+[5.817450] (-) TimerEvent: {}
+[5.917753] (-) TimerEvent: {}
+[6.018795] (-) TimerEvent: {}
+[6.119227] (-) TimerEvent: {}
+[6.219597] (-) TimerEvent: {}
+[6.320010] (-) TimerEvent: {}
+[6.420726] (-) TimerEvent: {}
+[6.521149] (-) TimerEvent: {}
+[6.621563] (-) TimerEvent: {}
+[6.721896] (-) TimerEvent: {}
+[6.822171] (-) TimerEvent: {}
+[6.922529] (-) TimerEvent: {}
+[7.022911] (-) TimerEvent: {}
+[7.123271] (-) TimerEvent: {}
+[7.223624] (-) TimerEvent: {}
+[7.323969] (-) TimerEvent: {}
+[7.424316] (-) TimerEvent: {}
+[7.524605] (-) TimerEvent: {}
+[7.624879] (-) TimerEvent: {}
+[7.725154] (-) TimerEvent: {}
+[7.825430] (-) TimerEvent: {}
+[7.925854] (-) TimerEvent: {}
+[8.026389] (-) TimerEvent: {}
+[8.126835] (-) TimerEvent: {}
+[8.227236] (-) TimerEvent: {}
+[8.327537] (-) TimerEvent: {}
+[8.427887] (-) TimerEvent: {}
+[8.528146] (-) TimerEvent: {}
+[8.628546] (-) TimerEvent: {}
+[8.728851] (-) TimerEvent: {}
+[8.829144] (-) TimerEvent: {}
+[8.929448] (-) TimerEvent: {}
+[9.029815] (-) TimerEvent: {}
+[9.130252] (-) TimerEvent: {}
+[9.230585] (-) TimerEvent: {}
+[9.330914] (-) TimerEvent: {}
+[9.431280] (-) TimerEvent: {}
+[9.531593] (-) TimerEvent: {}
+[9.631928] (-) TimerEvent: {}
+[9.732253] (-) TimerEvent: {}
+[9.832557] (-) TimerEvent: {}
+[9.932887] (-) TimerEvent: {}
+[10.033238] (-) TimerEvent: {}
+[10.133590] (-) TimerEvent: {}
+[10.233935] (-) TimerEvent: {}
+[10.334268] (-) TimerEvent: {}
+[10.434619] (-) TimerEvent: {}
+[10.535263] (-) TimerEvent: {}
+[10.635621] (-) TimerEvent: {}
+[10.735974] (-) TimerEvent: {}
+[10.836291] (-) TimerEvent: {}
+[10.936626] (-) TimerEvent: {}
+[11.036988] (-) TimerEvent: {}
+[11.137356] (-) TimerEvent: {}
+[11.237613] (-) TimerEvent: {}
+[11.337885] (-) TimerEvent: {}
+[11.438153] (-) TimerEvent: {}
+[11.538494] (-) TimerEvent: {}
+[11.638924] (-) TimerEvent: {}
+[11.739310] (-) TimerEvent: {}
+[11.839651] (-) TimerEvent: {}
+[11.939968] (-) TimerEvent: {}
+[12.040290] (-) TimerEvent: {}
+[12.140649] (-) TimerEvent: {}
+[12.241026] (-) TimerEvent: {}
+[12.341376] (-) TimerEvent: {}
+[12.441727] (-) TimerEvent: {}
+[12.542108] (-) TimerEvent: {}
+[12.642523] (-) TimerEvent: {}
+[12.742982] (-) TimerEvent: {}
+[12.843412] (-) TimerEvent: {}
+[12.943860] (-) TimerEvent: {}
+[13.044276] (-) TimerEvent: {}
+[13.144685] (-) TimerEvent: {}
+[13.244966] (-) TimerEvent: {}
+[13.345244] (-) TimerEvent: {}
+[13.445467] (-) TimerEvent: {}
+[13.545778] (-) TimerEvent: {}
+[13.646225] (-) TimerEvent: {}
+[13.746543] (-) TimerEvent: {}
+[13.846852] (-) TimerEvent: {}
+[13.947160] (-) TimerEvent: {}
+[14.047449] (-) TimerEvent: {}
+[14.147873] (-) TimerEvent: {}
+[14.248220] (-) TimerEvent: {}
+[14.348604] (-) TimerEvent: {}
+[14.394029] (franka_ik_py) StdoutLine: {'line': b'creating build/lib.linux-x86_64-cpython-312\n'}
+[14.394266] (franka_ik_py) StdoutLine: {'line': b'x86_64-linux-gnu-g++ -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -g -fwrapv -O2 build/temp.linux-x86_64-cpython-312/home/herring/rzddzy/ros2_ws/src/franka_analytical_ik/pybind_wrapper.o -L/usr/lib/x86_64-linux-gnu -o build/lib.linux-x86_64-cpython-312/franka_ik_py.cpython-312-x86_64-linux-gnu.so\n'}
+[14.448735] (-) TimerEvent: {}
+[14.549114] (-) TimerEvent: {}
+[14.609685] (franka_ik_py) StdoutLine: {'line': b'copying build/lib.linux-x86_64-cpython-312/franka_ik_py.cpython-312-x86_64-linux-gnu.so -> \n'}
+[14.619805] (franka_ik_py) StdoutLine: {'line': b'Creating /home/herring/rzddzy/ros2_ws/install/franka_ik_py/lib/python3.12/site-packages/franka-ik-py.egg-link (link to .)\n'}
+[14.620900] (franka_ik_py) StdoutLine: {'line': b'\n'}
+[14.621182] (franka_ik_py) StdoutLine: {'line': b'Installed /home/herring/rzddzy/ros2_ws/build/franka_ik_py\n'}
+[14.649289] (-) TimerEvent: {}
+[14.675740] (franka_ik_py) CommandEnded: {'returncode': 0}
+[14.695416] (franka_ik_py) JobEnded: {'identifier': 'franka_ik_py', 'rc': 0}
+[14.696352] (-) EventReactorShutdown: {}

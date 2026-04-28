@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "panda_motion_generator_msgs/msg/JointPose",
+      "fields": [
+        {
+          "name": "q",
+          "type": {
+            "type_id": 155,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "panda_motion_generator_msgs/msg/JointPose",
+      "hash_string": "RIHS01_ac5e823fa18c7532a53de21314a218e26fb404f27c24a08df020404985f6d744"
+    }
+  ]
+}

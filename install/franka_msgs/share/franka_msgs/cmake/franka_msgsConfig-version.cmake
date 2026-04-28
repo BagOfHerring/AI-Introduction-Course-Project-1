@@ -1,0 +1,1 @@
+/home/herring/rzddzy/build/franka_msgs/ament_cmake_core/franka_msgsConfig-version.cmake

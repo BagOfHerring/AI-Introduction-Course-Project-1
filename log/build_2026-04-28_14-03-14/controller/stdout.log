@@ -1,0 +1,29 @@
+[ 25%] Built target gbp_mpc_controller
+[ 62%] Built target buffer_controller
+[100%] Built target ssa_controller
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/herring/rzddzy/install/controller/lib/controller/buffer_controller
+-- Up-to-date symlink: /home/herring/rzddzy/install/controller/lib/controller/ssa_controller
+-- Up-to-date symlink: /home/herring/rzddzy/install/controller/lib/controller/gbp_mpc_controller
+-- Up-to-date symlink: /home/herring/rzddzy/install/controller/share/controller/config/MRGBP.yaml
+-- Up-to-date symlink: /home/herring/rzddzy/install/controller/share/controller/config/franka_sphere.yaml
+-- Up-to-date symlink: /home/herring/rzddzy/install/controller/share/controller/config/gbp_mpc_params.yaml
+-- Up-to-date symlink: /home/herring/rzddzy/install/controller/share/ament_index/resource_index/package_run_dependencies/controller
+-- Up-to-date symlink: /home/herring/rzddzy/install/controller/share/ament_index/resource_index/parent_prefix_path/controller
+-- Up-to-date symlink: /home/herring/rzddzy/install/controller/share/controller/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/herring/rzddzy/install/controller/share/controller/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/herring/rzddzy/install/controller/share/controller/environment/path.sh
+-- Up-to-date symlink: /home/herring/rzddzy/install/controller/share/controller/environment/path.dsv
+-- Up-to-date symlink: /home/herring/rzddzy/install/controller/share/controller/local_setup.bash
+-- Up-to-date symlink: /home/herring/rzddzy/install/controller/share/controller/local_setup.sh
+-- Up-to-date symlink: /home/herring/rzddzy/install/controller/share/controller/local_setup.zsh
+-- Up-to-date symlink: /home/herring/rzddzy/install/controller/share/controller/local_setup.dsv
+-- Symlinking: /home/herring/rzddzy/install/controller/share/controller/package.dsv
+-- Up-to-date symlink: /home/herring/rzddzy/install/controller/share/ament_index/resource_index/packages/controller
+-- Up-to-date symlink: /home/herring/rzddzy/install/controller/share/controller/cmake/controllerConfig.cmake
+-- Up-to-date symlink: /home/herring/rzddzy/install/controller/share/controller/cmake/controllerConfig-version.cmake
+-- Up-to-date symlink: /home/herring/rzddzy/install/controller/share/controller/package.xml
+-- Up-to-date: /home/herring/rzddzy/install/controller/include/controller
+-- Up-to-date: /home/herring/rzddzy/install/controller/include/controller/controller
+-- Up-to-date: /home/herring/rzddzy/install/controller/include/controller/controller/buffer_controller.h

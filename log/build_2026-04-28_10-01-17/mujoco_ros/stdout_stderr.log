@@ -1,0 +1,129 @@
+-- CMAKE_BUILD_TYPE not set. Defaulting to 'Release'.
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 28.1.16 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found pluginlib: 5.4.4 (/opt/ros/jazzy/share/pluginlib/cmake)
+-- Found tf2: 0.36.19 (/opt/ros/jazzy/share/tf2/cmake)
+-- Found tf2_ros: 0.36.19 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Found image_transport: 5.1.7 (/opt/ros/jazzy/share/image_transport/cmake)
+-- Found camera_info_manager: 5.1.7 (/opt/ros/jazzy/share/camera_info_manager/cmake)
+-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+-- Found tf2_geometry_msgs: 0.36.19 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found mujoco_ros_msgs: 0.9.0 (/home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake)
+[0mCMake Deprecation Warning at /opt/ros/jazzy/share/actionlib_msgs/cmake/actionlib_msgsConfig.cmake:31 (message):
+  Package 'actionlib_msgs' is deprecated (This package will be removed in a
+  future ROS distro, once the ROS 1 bridge supports actions.)
+Call Stack (most recent call first):
+  /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/herring/rzddzy/install/mujoco_ros_msgs/share/mujoco_ros_msgs/cmake/mujoco_ros_msgsConfig.cmake:41 (include)
+  CMakeLists.txt:62 (find_package)
+
+[0m
+-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Can't identify catkin workspace root directory, neither did user provide one, using default config
+[33mCMake Warning at cmake/CompilerCache.cmake:33 (message):
+  ccache is enabled but was not found.  Not using it
+Call Stack (most recent call first):
+  cmake/CompilerCache.cmake:44 (_configure_ccache)
+  cmake/CompilerCache.cmake:44 (cmake_language)
+  cmake/ProjectOption.cmake:61 (configure_compiler_cache)
+  CMakeLists.txt:70 (configure_project_option)
+
+[0m
+-- Looking for MuJoCo tar install ...
+[0mMuJoCo tar install found, but version can not be detected. If experiencing errors check that version 3.2.0 or a newer, compatible version is installed[0m
+-- GLFW3 found. GUI and offscreen rendering available.
+-- configured RENDERING_BACKEND: GLFW
+[33mCMake Warning at /opt/ros/jazzy/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake:44 (message):
+  ament_export_include_directories() package 'mujoco_ros' exports the include
+  directory '/home/herring/rzddzy/build/mujoco_ros/include' which doesn't
+  exist
+Call Stack (most recent call first):
+  CMakeLists.txt:260 (ament_export_include_directories)
+
+[0m
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/herring/rzddzy/build/mujoco_ros
+[ 13%] [34m[1mGenerating include/mujoco_ros/render_backend.hpp, always_rebuild_backend[0m
+[ 13%] [32mBuilding CXX object src/CMakeFiles/lodepng.dir/lodepng.cpp.o[0m
+[ 13%] [34m[1mGenerating include/mujoco_ros/ros_version.hpp, always_rebuild_ros[0m
+[ 21%] [34m[1mGenerating render backend header[0m
+[ 21%] [34m[1mGenerating ROS version header[0m
+[ 21%] Built target render_backend_h
+[ 21%] Built target ros_version_h
+[ 21%] Built target lodepng
+[ 26%] [32mBuilding CXX object src/CMakeFiles/platform_ui_adapter.dir/glfw_dispatch.cc.o[0m
+[ 30%] [32mBuilding CXX object src/CMakeFiles/platform_ui_adapter.dir/glfw_adapter.cc.o[0m
+[ 34%] [32mBuilding CXX object src/CMakeFiles/platform_ui_adapter.dir/platform_ui_adapter.cc.o[0m
+[ 34%] Built target platform_ui_adapter
+[ 43%] [32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/physics.cpp.o[0m
+[ 43%] [32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/ros_two/parameter_interface.cpp.o[0m
+[ 47%] [32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/interface.cpp.o[0m
+[ 52%] [32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/offscreen_camera.cpp.o[0m
+[ 56%] [32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/threading.cpp.o[0m
+[ 65%] [32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/main.cpp.o[0m
+[ 65%] [32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/mujoco_env.cpp.o[0m
+[ 69%] [32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/offscreen_rendering.cpp.o[0m
+[ 73%] [32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/ros_two/ros_api.cpp.o[0m
+[ 78%] [32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/ros_two/plugin_utils.cpp.o[0m
+[ 82%] [32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/loading.cpp.o[0m
+[ 86%] [32mBuilding CXX object src/CMakeFiles/mujoco_ros.dir/viewer.cpp.o[0m
+[ 91%] [32m[1mLinking CXX shared library libmujoco_ros.so[0m
+[ 91%] Built target mujoco_ros
+[ 95%] [32mBuilding CXX object src/CMakeFiles/mujoco_node.dir/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable mujoco_node[0m
+[100%] Built target mujoco_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/include/mujoco_ros/render_backend.hpp
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/include/mujoco_ros/ros_version.hpp
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/array_safety.h
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/common_types.hpp
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/glfw_adapter.h
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/glfw_dispatch.h
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/lodepng.h
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/logging.hpp
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/mujoco_env.hpp
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/offscreen_camera.hpp
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/platform_ui_adapter.h
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/ros_one/plugin_utils.hpp
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/ros_one/ros_api.hpp
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/ros_two/plugin_utils.hpp
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/ros_two/ros_api.hpp
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/util.hpp
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/include//mujoco_ros/viewer.hpp
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/launch/launch_server.launch
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/config/initial_joint_states.yaml
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/config/rosconsole.config
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/assets/pendulum_world.xml
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/lib/mujoco_ros/mujoco_node
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/ament_index/resource_index/package_run_dependencies/mujoco_ros
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/ament_index/resource_index/parent_prefix_path/mujoco_ros
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/environment/ament_prefix_path.sh
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/environment/ament_prefix_path.dsv
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/environment/path.sh
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/environment/path.dsv
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/local_setup.bash
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/local_setup.sh
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/local_setup.zsh
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/local_setup.dsv
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/package.dsv
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/ament_index/resource_index/packages/mujoco_ros
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/cmake/mujoco_rosConfig.cmake
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/cmake/mujoco_rosConfig-version.cmake
+-- Symlinking: /home/herring/rzddzy/install/mujoco_ros/share/mujoco_ros/package.xml
+-- Installing: /home/herring/rzddzy/install/mujoco_ros/lib/libmujoco_ros.so
+-- Set non-toolchain portion of runtime path of "/home/herring/rzddzy/install/mujoco_ros/lib/libmujoco_ros.so" to ""

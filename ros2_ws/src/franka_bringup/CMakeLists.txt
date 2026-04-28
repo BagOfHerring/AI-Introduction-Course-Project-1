@@ -14,7 +14,6 @@ install(
     scripts/mock_vision_node.py
     scripts/pick_and_place.py
     scripts/yolo_vision_node.py
-    scripts/part_spawner.py
     scripts/generate_scene.py
   DESTINATION lib/${PROJECT_NAME}
 )

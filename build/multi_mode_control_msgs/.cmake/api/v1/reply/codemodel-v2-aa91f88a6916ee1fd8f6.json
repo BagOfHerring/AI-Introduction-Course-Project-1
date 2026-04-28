@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-54681ab7776e209c85ad.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "multi_mode_control_msgs__py",
+					"jsonFile" : "directory-multi_mode_control_msgs__py-f8c9f4e6f3f66724f803.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/herring/rzddzy/build/multi_mode_control_msgs/multi_mode_control_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "multi_mode_control_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_multi_mode_control_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_multi_mode_control_msgs_egg-a147a294305bef62473a.json",
+					"name" : "ament_cmake_python_build_multi_mode_control_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_multi_mode_control_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_multi_mode_control_msgs-6e668fef63c9b477dded.json",
+					"name" : "ament_cmake_python_symlink_multi_mode_control_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_mode_control_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_mode_control_msgs-49ca4ff69426d72c8938.json",
+					"name" : "multi_mode_control_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_mode_control_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_mode_control_msgs__cpp-d71fd0ba92f9d9b897dd.json",
+					"name" : "multi_mode_control_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "multi_mode_control_msgs__py::@5d90036b7f806ab9c719",
+					"jsonFile" : "target-multi_mode_control_msgs__py-5dab63e2006c040264b6.json",
+					"name" : "multi_mode_control_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_mode_control_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_mode_control_msgs__rosidl_generator_c-1d5492c1713b47090604.json",
+					"name" : "multi_mode_control_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_mode_control_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_mode_control_msgs__rosidl_generator_py-96653e8579ac5a39ebe6.json",
+					"name" : "multi_mode_control_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_mode_control_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_mode_control_msgs__rosidl_generator_type_description-3dee570b0c202105b664.json",
+					"name" : "multi_mode_control_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_mode_control_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_mode_control_msgs__rosidl_typesupport_c-62cf6ae38b70243e4000.json",
+					"name" : "multi_mode_control_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_mode_control_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_mode_control_msgs__rosidl_typesupport_cpp-c8503028360bd08719c3.json",
+					"name" : "multi_mode_control_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_mode_control_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_mode_control_msgs__rosidl_typesupport_fastrtps_c-93084ed6b8db827d77a2.json",
+					"name" : "multi_mode_control_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_mode_control_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_mode_control_msgs__rosidl_typesupport_fastrtps_cpp-49c29f1b04534d7ba52b.json",
+					"name" : "multi_mode_control_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_mode_control_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_mode_control_msgs__rosidl_typesupport_introspection_c-73e95d9d0ac888b5c0cc.json",
+					"name" : "multi_mode_control_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_mode_control_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_mode_control_msgs__rosidl_typesupport_introspection_cpp-97b896caa248dc8957f9.json",
+					"name" : "multi_mode_control_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_mode_control_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_mode_control_msgs_s__rosidl_typesupport_c-4bc838304a3a606062b4.json",
+					"name" : "multi_mode_control_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_mode_control_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_mode_control_msgs_s__rosidl_typesupport_fastrtps_c-39cd3bff04cbaa9158f1.json",
+					"name" : "multi_mode_control_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_mode_control_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_mode_control_msgs_s__rosidl_typesupport_introspection_c-0b9e560f7211dfee97a1.json",
+					"name" : "multi_mode_control_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_mode_control_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_mode_control_msgs_uninstall-d1ba31809baddefc4922.json",
+					"name" : "multi_mode_control_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1c3d6bcebcf85b7b507a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/herring/rzddzy/build/multi_mode_control_msgs",
+		"source" : "/home/herring/rzddzy/ros2_ws/src/multi_mode_control_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

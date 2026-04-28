@@ -1,0 +1,1 @@
+/home/herring/rzddzy/build/mujoco_ros_msgs/rosidl_typesupport_fastrtps_c/mujoco_ros_msgs/srv/detail/get_plugin_stats__rosidl_typesupport_fastrtps_c.h

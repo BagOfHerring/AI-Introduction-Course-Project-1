@@ -1,0 +1,1 @@
+/home/herring/rzddzy/ros2_ws/src/panda_motion_generator_msgs/msg/SetTimeScaling.msg

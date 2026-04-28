@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "franka_msgs/msg/GraspEpsilon",
+      "fields": [
+        {
+          "name": "inner",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "0.005"
+        },
+        {
+          "name": "outer",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "0.005"
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "franka_msgs/msg/GraspEpsilon",
+      "hash_string": "RIHS01_387fda91ae7324c144958fa617e7d5dc21f99d6b054b141b073ead3d082f46d3"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "panda_motion_generator_msgs/action/JointViaMotion_Feedback",
+      "fields": [
+        {
+          "name": "progress",
+          "type": {
+            "type_id": 10,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "time_to_completion",
+          "type": {
+            "type_id": 10,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "panda_motion_generator_msgs/action/JointViaMotion_Feedback",
+      "hash_string": "RIHS01_72b8c8d23b81a7affcf06146c99cdb2c7906aa8599a54951d2956b3689cbf6d3"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/herring/rzddzy/build/mujoco_ros_msgs/rosidl_generator_py/mujoco_ros_msgs/mujoco_ros_msgs_s__rosidl_typesupport_c.so" "TARGETS" "mujoco_ros_msgs_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/mujoco_ros_msgs")

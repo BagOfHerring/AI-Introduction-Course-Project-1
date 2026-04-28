@@ -1,0 +1,1 @@
+/home/herring/rzddzy/ros2_ws/src/franka_semantic_components/include/franka_semantic_components/franka_robot_model.hpp

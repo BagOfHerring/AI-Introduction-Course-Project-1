@@ -1,0 +1,189 @@
+[0.011s] Invoking command in '/home/herring/rzddzy/build/mujoco_ros2_control_system': AMENT_PREFIX_PATH=/home/herring/rzddzy/install/mujoco_ros2_control:/home/herring/rzddzy/install/mujoco_ros:/home/herring/rzddzy/install/mujoco_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/install/mujoco_ros2_control:/home/herring/rzddzy/install/mujoco_ros:/home/herring/rzddzy/install/mujoco_ros_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/install/mujoco_ros2_control/lib:/home/herring/rzddzy/install/mujoco_ros/lib:/home/herring/rzddzy/install/mujoco_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/herring/rzddzy/build/mujoco_ros2_control_system -- -j28 -l28
+[0.057s] [ 50%] [32mBuilding CXX object CMakeFiles/mujoco_ros2_control_system.dir/src/mujoco_ros2_control_system.cpp.o[0m
+[1.483s] [01m[K/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_control_system/src/mujoco_ros2_control_system.cpp:[m[K In member function ‘[01m[Kvirtual bool mujoco_ros2_control::MujocoRos2System::[01;32m[KinitSim[m[K(rclcpp_lifecycle::LifecycleNode::SharedPtr&, const hardware_interface::HardwareInfo&, const mjModel*, mjData*, unsigned int&)[m[K’:
+[1.483s] [01m[K/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_control_system/src/mujoco_ros2_control_system.cpp:51:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Khas_value[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.483s]    51 |       bool [01;35m[Khas_value[m[K = joint_info.parameters.find("test") != joint_info.parameters.end();
+[1.484s]       |            [01;35m[K^~~~~~~~~[m[K
+[1.485s] [01m[K/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_control_system/src/mujoco_ros2_control_system.cpp:[m[K In member function ‘[01m[Kvirtual mujoco_ros2_control::CallbackReturn mujoco_ros2_control::MujocoRos2System::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’:
+[1.485s] [01m[K/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_control_system/src/mujoco_ros2_control_system.cpp:186:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’ is deprecated: Use on_init(const HardwareComponentInterfaceParams & params) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.485s]   186 |   if ([01;35m[Khardware_interface::SystemInterface::on_init(system_info)[m[K != CallbackReturn::SUCCESS) {
+[1.485s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[1.485s] In file included from [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/system_interface.hpp:18[m[K,
+[1.485s]                  from [01m[K/home/herring/rzddzy/install/mujoco_ros2_control/include/mujoco_ros2_control/mujoco_ros2_control_system_interface.hpp:26[m[K,
+[1.485s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_control_system/include/mujoco_ros2_control_system/mujoco_ros2_control_system.hpp:13[m[K,
+[1.485s]                  from [01m[K/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_control_system/src/mujoco_ros2_control_system.cpp:1[m[K:
+[1.485s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/hardware_component_interface.hpp:140:26:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.486s]   140 |   virtual CallbackReturn [01;36m[Kon_init[m[K(const HardwareInfo & hardware_info);
+[1.486s]       |                          [01;36m[K^~~~~~~[m[K
+[1.486s] [01m[K/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_control_system/src/mujoco_ros2_control_system.cpp:[m[K In member function ‘[01m[Kvirtual mujoco_ros2_control::CallbackReturn mujoco_ros2_control::MujocoRos2System::[01;32m[Kon_configure[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[1.486s] [01m[K/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_control_system/src/mujoco_ros2_control_system.cpp:191:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.486s]   191 | ocoRos2System::on_configure([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K){
+[1.486s]       |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[1.486s] 
+[1.486s] [01m[K/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_control_system/src/mujoco_ros2_control_system.cpp:[m[K In member function ‘[01m[Kvirtual mujoco_ros2_control::CallbackReturn mujoco_ros2_control::MujocoRos2System::[01;32m[Kon_activate[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[1.486s] [01m[K/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_control_system/src/mujoco_ros2_control_system.cpp:203:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.486s]   203 | jocoRos2System::on_activate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K){
+[1.487s]       |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[1.487s] 
+[1.487s] [01m[K/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_control_system/src/mujoco_ros2_control_system.cpp:[m[K In member function ‘[01m[Kvirtual mujoco_ros2_control::CallbackReturn mujoco_ros2_control::MujocoRos2System::[01;32m[Kon_deactivate[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[1.487s] [01m[K/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_control_system/src/mujoco_ros2_control_system.cpp:207:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.487s]   207 | coRos2System::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K){
+[1.487s]       |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[1.487s] 
+[1.487s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.487s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[1.488s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[1.488s]                  from [01m[K/opt/ros/jazzy/include/pal_statistics/pal_statistics/pal_statistics_utils.hpp:45[m[K,
+[1.488s]                  from [01m[K/opt/ros/jazzy/include/pal_statistics/pal_statistics/pal_statistics.hpp:38[m[K,
+[1.488s]                  from [01m[K/opt/ros/jazzy/include/pal_statistics/pal_statistics/pal_statistics_macros.hpp:36[m[K,
+[1.488s]                  from [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/introspection.hpp:23[m[K,
+[1.488s]                  from [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:32[m[K,
+[1.488s]                  from [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/hardware_component_interface.hpp:28[m[K:
+[1.488s] [01m[K/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_control_system/src/mujoco_ros2_control_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type mujoco_ros2_control::MujocoRos2System::[01;32m[Kprepare_command_mode_switch[m[K(const std::vector<std::__cxx11::basic_string<char> >&, const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[1.488s] [01m[K/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_control_system/src/mujoco_ros2_control_system.cpp:248:51:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects a matching ‘[01m[Kchar*[m[K’ argument [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.488s]   248 |             RCLCPP_ERROR(this->nh_->get_logger(), [01;35m[K"The joint %s has already been marked to be"[m[K
+[1.488s]       |                                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.488s]   249 | [01;35m[K                                            " started! Check that you are not trying to start"[m[K
+[1.489s]       |                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.489s]   250 | [01;35m[K                                            " two command interfaces on the same joint together."[m[K
+[1.489s]       |                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.489s]   251 | [01;35m[K                                            " Given: %s, target joint: %s"[m[K,
+[1.489s]       |                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.489s] [01m[K/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_control_system/src/mujoco_ros2_control_system.cpp:251:73:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.489s]   251 |                                         " Given: %s, target joint: [01;36m[K%s[m[K",
+[1.489s]       |                                                                    [01;36m[K~^[m[K
+[1.489s]       |                                                                     [01;36m[K|[m[K
+[1.489s]       |                                                                     [01;36m[Kchar*[m[K
+[1.489s] 
+[1.489s] [01m[K/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_control_system/src/mujoco_ros2_control_system.cpp:260:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.489s]   260 |       RCLCPP_ERROR(this->nh_->get_logger(), [01;35m[K"The number of start interfaces is"[m[K
+[1.489s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.489s]   261 | [01;35m[K                                            " greater than the number of joints in this system!"[m[K
+[1.489s]       |                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.489s]   262 | [01;35m[K                                            " start interfaces: %d, system joint size: %d"[m[K,
+[1.490s]       |                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.490s]   263 |                                             [32m[Kfiltered_starts.size()[m[K, this->dataPtr_->joints_.size());
+[1.490s]       |                                             [32m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.490s]       |                                                                 [32m[K|[m[K
+[1.490s]       |                                                                 [32m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type {aka long unsigned int}[m[K
+[1.490s] [01m[K/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_control_system/src/mujoco_ros2_control_system.cpp:262:66:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.490s]   262 |                                        " start interfaces: [01;36m[K%d[m[K, system joint size: %d",
+[1.490s]       |                                                            [01;36m[K~^[m[K
+[1.490s]       |                                                             [01;36m[K|[m[K
+[1.490s]       |                                                             [01;36m[Kint[m[K
+[1.490s]       |                                                            [32m[K%ld[m[K
+[1.490s] [01m[K/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_control_system/src/mujoco_ros2_control_system.cpp:260:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kstd::vector<mujoco_ros2_control::jointData>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.490s]   260 |       RCLCPP_ERROR(this->nh_->get_logger(), [01;35m[K"The number of start interfaces is"[m[K
+[1.490s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.490s]   261 | [01;35m[K                                            " greater than the number of joints in this system!"[m[K
+[1.490s]       |                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.490s]   262 | [01;35m[K                                            " start interfaces: %d, system joint size: %d"[m[K,
+[1.490s]       |                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.491s]   263 |                                             filtered_starts.size(), [32m[Kthis->dataPtr_->joints_.size()[m[K);
+[1.491s]       |                                                                     [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.491s]       |                                                                                                 [32m[K|[m[K
+[1.491s]       |                                                                                                 [32m[Kstd::vector<mujoco_ros2_control::jointData>::size_type {aka long unsigned int}[m[K
+[1.491s] [01m[K/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_control_system/src/mujoco_ros2_control_system.cpp:262:89:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.491s]   262 |                         " start interfaces: %d, system joint size: [01;36m[K%d[m[K",
+[1.491s]       |                                                                    [01;36m[K~^[m[K
+[1.491s]       |                                                                     [01;36m[K|[m[K
+[1.491s]       |                                                                     [01;36m[Kint[m[K
+[1.491s]       |                                                                    [32m[K%ld[m[K
+[1.491s] [01m[K/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_control_system/src/mujoco_ros2_control_system.cpp:307:51:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects a matching ‘[01m[Kchar*[m[K’ argument [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.491s]   307 |             RCLCPP_ERROR(this->nh_->get_logger(), [01;35m[K"The joint %s has already been marked to be"[m[K
+[1.491s]       |                                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.491s]   308 | [01;35m[K                                            " stopped! Check that you are not trying to stop"[m[K
+[1.491s]       |                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.491s]   309 | [01;35m[K                                            " two command interfaces on the same joint together."[m[K
+[1.491s]       |                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.491s]   310 | [01;35m[K                                            " Given: %s, target joint: %s"[m[K,
+[1.491s]       |                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.491s] [01m[K/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_control_system/src/mujoco_ros2_control_system.cpp:310:73:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.491s]   310 |                                         " Given: %s, target joint: [01;36m[K%s[m[K",
+[1.491s]       |                                                                    [01;36m[K~^[m[K
+[1.491s]       |                                                                     [01;36m[K|[m[K
+[1.491s]       |                                                                     [01;36m[Kchar*[m[K
+[1.491s] 
+[1.491s] [01m[K/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_control_system/src/mujoco_ros2_control_system.cpp:322:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.491s]   322 |       RCLCPP_ERROR(this->nh_->get_logger(), [01;35m[K"The number of stop interfaces is"[m[K
+[1.491s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.491s]   323 | [01;35m[K                                            " greater than the number of joints in this system!"[m[K
+[1.491s]       |                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.491s]   324 | [01;35m[K                                            " stop interfaces: %d, system joint size: %d"[m[K,
+[1.491s]       |                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.492s]   325 |                                             [32m[Kfiltered_stops.size()[m[K, this->dataPtr_->joints_.size());
+[1.492s]       |                                             [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.492s]       |                                                                [32m[K|[m[K
+[1.492s]       |                                                                [32m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type {aka long unsigned int}[m[K
+[1.492s] [01m[K/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_control_system/src/mujoco_ros2_control_system.cpp:324:65:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.492s]   324 |                                         " stop interfaces: [01;36m[K%d[m[K, system joint size: %d",
+[1.492s]       |                                                            [01;36m[K~^[m[K
+[1.492s]       |                                                             [01;36m[K|[m[K
+[1.492s]       |                                                             [01;36m[Kint[m[K
+[1.492s]       |                                                            [32m[K%ld[m[K
+[1.492s] [01m[K/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_control_system/src/mujoco_ros2_control_system.cpp:322:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kstd::vector<mujoco_ros2_control::jointData>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.492s]   322 |       RCLCPP_ERROR(this->nh_->get_logger(), [01;35m[K"The number of stop interfaces is"[m[K
+[1.492s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.492s]   323 | [01;35m[K                                            " greater than the number of joints in this system!"[m[K
+[1.492s]       |                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.492s]   324 | [01;35m[K                                            " stop interfaces: %d, system joint size: %d"[m[K,
+[1.492s]       |                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.492s]   325 |                                             filtered_stops.size(), [32m[Kthis->dataPtr_->joints_.size()[m[K);
+[1.492s]       |                                                                    [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.492s]       |                                                                                                [32m[K|[m[K
+[1.492s]       |                                                                                                [32m[Kstd::vector<mujoco_ros2_control::jointData>::size_type {aka long unsigned int}[m[K
+[1.492s] [01m[K/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_control_system/src/mujoco_ros2_control_system.cpp:324:88:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.492s]   324 |                          " stop interfaces: %d, system joint size: [01;36m[K%d[m[K",
+[1.492s]       |                                                                    [01;36m[K~^[m[K
+[1.492s]       |                                                                     [01;36m[K|[m[K
+[1.493s]       |                                                                     [01;36m[Kint[m[K
+[1.493s]       |                                                                    [32m[K%ld[m[K
+[1.493s] [01m[K/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_control_system/src/mujoco_ros2_control_system.cpp:340:48:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[1.493s]   340 |           RCLCPP_INFO(this->nh_->get_logger(), [01;35m[K"Joint %s has been set to STOP"[m[K, joint.name.c_str(), interface.c_str());
+[1.493s]       |                                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.493s] [01m[K/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_control_system/src/mujoco_ros2_control_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type mujoco_ros2_control::MujocoRos2System::[01;32m[Kperform_command_mode_switch[m[K(const std::vector<std::__cxx11::basic_string<char> >&, const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[1.493s] [01m[K/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_control_system/src/mujoco_ros2_control_system.cpp:351:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstart_interfaces[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.493s]   351 |   [01;35m[Kconst std::vector<std::string> & start_interfaces[m[K,
+[1.493s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.493s] [01m[K/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_control_system/src/mujoco_ros2_control_system.cpp:352:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstop_interfaces[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.493s]   352 |   [01;35m[Kconst std::vector<std::string> & stop_interfaces[m[K){
+[1.493s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[1.493s] [01m[K/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_control_system/src/mujoco_ros2_control_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type mujoco_ros2_control::MujocoRos2System::[01;32m[Kwrite[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[1.493s] [01m[K/home/herring/rzddzy/ros2_ws/src/mujoco_ros_pkgs/mujoco_ros2_control_system/src/mujoco_ros2_control_system.cpp:409:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.493s]   409 |   [01;35m[Kconst rclcpp::Duration & period[m[K){
+[1.493s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[2.588s] [100%] [32m[1mLinking CXX shared library libmujoco_ros2_control_system.so[0m
+[2.788s] [100%] Built target mujoco_ros2_control_system
+[2.798s] Invoked command in '/home/herring/rzddzy/build/mujoco_ros2_control_system' returned '0': AMENT_PREFIX_PATH=/home/herring/rzddzy/install/mujoco_ros2_control:/home/herring/rzddzy/install/mujoco_ros:/home/herring/rzddzy/install/mujoco_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/install/mujoco_ros2_control:/home/herring/rzddzy/install/mujoco_ros:/home/herring/rzddzy/install/mujoco_ros_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/install/mujoco_ros2_control/lib:/home/herring/rzddzy/install/mujoco_ros/lib:/home/herring/rzddzy/install/mujoco_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/herring/rzddzy/build/mujoco_ros2_control_system -- -j28 -l28
+[2.798s] Invoking command in '/home/herring/rzddzy/build/mujoco_ros2_control_system': AMENT_PREFIX_PATH=/home/herring/rzddzy/install/mujoco_ros2_control:/home/herring/rzddzy/install/mujoco_ros:/home/herring/rzddzy/install/mujoco_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/install/mujoco_ros2_control:/home/herring/rzddzy/install/mujoco_ros:/home/herring/rzddzy/install/mujoco_ros_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/install/mujoco_ros2_control/lib:/home/herring/rzddzy/install/mujoco_ros/lib:/home/herring/rzddzy/install/mujoco_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/herring/rzddzy/build/mujoco_ros2_control_system
+[2.804s] -- Install configuration: ""
+[2.804s] -- Execute custom install script
+[2.804s] -- Symlinking: /home/herring/rzddzy/install/mujoco_ros2_control_system/share/mujoco_ros2_control_system//plugins.xml
+[2.811s] -- Symlinking: /home/herring/rzddzy/install/mujoco_ros2_control_system/include/mujoco_ros2_control_system/mujoco_ros2_control_system.hpp
+[2.820s] -- Symlinking: /home/herring/rzddzy/install/mujoco_ros2_control_system/include/mujoco_ros2_control_system/visibility_control.h
+[2.828s] -- Symlinking: /home/herring/rzddzy/install/mujoco_ros2_control_system/share/mujoco_ros2_control_system/environment/library_path.sh
+[2.833s] -- Symlinking: /home/herring/rzddzy/install/mujoco_ros2_control_system/share/mujoco_ros2_control_system/environment/library_path.dsv
+[2.843s] -- Symlinking: /home/herring/rzddzy/install/mujoco_ros2_control_system/share/ament_index/resource_index/package_run_dependencies/mujoco_ros2_control_system
+[2.853s] -- Symlinking: /home/herring/rzddzy/install/mujoco_ros2_control_system/share/ament_index/resource_index/parent_prefix_path/mujoco_ros2_control_system
+[2.862s] -- Symlinking: /home/herring/rzddzy/install/mujoco_ros2_control_system/share/mujoco_ros2_control_system/environment/ament_prefix_path.sh
+[2.867s] -- Symlinking: /home/herring/rzddzy/install/mujoco_ros2_control_system/share/mujoco_ros2_control_system/environment/ament_prefix_path.dsv
+[2.874s] -- Symlinking: /home/herring/rzddzy/install/mujoco_ros2_control_system/share/mujoco_ros2_control_system/environment/path.sh
+[2.883s] -- Symlinking: /home/herring/rzddzy/install/mujoco_ros2_control_system/share/mujoco_ros2_control_system/environment/path.dsv
+[2.891s] -- Symlinking: /home/herring/rzddzy/install/mujoco_ros2_control_system/share/mujoco_ros2_control_system/local_setup.bash
+[2.900s] -- Symlinking: /home/herring/rzddzy/install/mujoco_ros2_control_system/share/mujoco_ros2_control_system/local_setup.sh
+[2.907s] -- Symlinking: /home/herring/rzddzy/install/mujoco_ros2_control_system/share/mujoco_ros2_control_system/local_setup.zsh
+[2.913s] -- Symlinking: /home/herring/rzddzy/install/mujoco_ros2_control_system/share/mujoco_ros2_control_system/local_setup.dsv
+[2.920s] -- Symlinking: /home/herring/rzddzy/install/mujoco_ros2_control_system/share/mujoco_ros2_control_system/package.dsv
+[2.925s] -- Symlinking: /home/herring/rzddzy/install/mujoco_ros2_control_system/share/ament_index/resource_index/packages/mujoco_ros2_control_system
+[2.934s] -- Symlinking: /home/herring/rzddzy/install/mujoco_ros2_control_system/share/ament_index/resource_index/mujoco_ros2_control__pluginlib__plugin/mujoco_ros2_control_system
+[2.944s] -- Symlinking: /home/herring/rzddzy/install/mujoco_ros2_control_system/share/mujoco_ros2_control_system/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.954s] -- Symlinking: /home/herring/rzddzy/install/mujoco_ros2_control_system/share/mujoco_ros2_control_system/cmake/ament_cmake_export_libraries-extras.cmake
+[2.960s] -- Symlinking: /home/herring/rzddzy/install/mujoco_ros2_control_system/share/mujoco_ros2_control_system/cmake/ament_cmake_export_targets-extras.cmake
+[2.969s] -- Symlinking: /home/herring/rzddzy/install/mujoco_ros2_control_system/share/mujoco_ros2_control_system/cmake/mujoco_ros2_control_systemConfig.cmake
+[2.977s] -- Symlinking: /home/herring/rzddzy/install/mujoco_ros2_control_system/share/mujoco_ros2_control_system/cmake/mujoco_ros2_control_systemConfig-version.cmake
+[2.986s] -- Symlinking: /home/herring/rzddzy/install/mujoco_ros2_control_system/share/mujoco_ros2_control_system/package.xml
+[2.996s] -- Installing: /home/herring/rzddzy/install/mujoco_ros2_control_system/lib/libmujoco_ros2_control_system.so
+[2.996s] -- Set non-toolchain portion of runtime path of "/home/herring/rzddzy/install/mujoco_ros2_control_system/lib/libmujoco_ros2_control_system.so" to ""
+[2.996s] -- Installing: /home/herring/rzddzy/install/mujoco_ros2_control_system/share/mujoco_ros2_control_system/cmake/export_mujoco_ros2_control_systemExport.cmake
+[2.996s] -- Installing: /home/herring/rzddzy/install/mujoco_ros2_control_system/share/mujoco_ros2_control_system/cmake/export_mujoco_ros2_control_systemExport-noconfig.cmake
+[2.998s] Invoked command in '/home/herring/rzddzy/build/mujoco_ros2_control_system' returned '0': AMENT_PREFIX_PATH=/home/herring/rzddzy/install/mujoco_ros2_control:/home/herring/rzddzy/install/mujoco_ros:/home/herring/rzddzy/install/mujoco_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/install/mujoco_ros2_control:/home/herring/rzddzy/install/mujoco_ros:/home/herring/rzddzy/install/mujoco_ros_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/install/mujoco_ros2_control/lib:/home/herring/rzddzy/install/mujoco_ros/lib:/home/herring/rzddzy/install/mujoco_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/herring/rzddzy/install/mujoco_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/herring/rzddzy/build/mujoco_ros2_control_system

@@ -1,0 +1,118 @@
+[0.014s] Invoking command in '/home/herring/rzddzy/build/controller': AMENT_PREFIX_PATH=/home/herring/rzddzy/install/cplus_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/install/cplus_dev:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/install/cplus_dev/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/herring/rzddzy/ros2_ws/src/controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/herring/rzddzy/install/controller
+[0.062s] -- The C compiler identification is GNU 13.3.0
+[0.115s] -- The CXX compiler identification is GNU 13.3.0
+[0.130s] -- Detecting C compiler ABI info
+[0.199s] -- Detecting C compiler ABI info - done
+[0.204s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.204s] -- Detecting C compile features
+[0.205s] -- Detecting C compile features - done
+[0.213s] -- Detecting CXX compiler ABI info
+[0.297s] -- Detecting CXX compiler ABI info - done
+[0.307s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.307s] -- Detecting CXX compile features
+[0.308s] -- Detecting CXX compile features - done
+[0.311s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.428s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.477s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.510s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.553s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.567s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.584s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.601s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.665s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.667s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.732s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.759s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.785s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.876s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.895s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.915s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.949s] -- Found trajectory_msgs: 5.3.6 (/opt/ros/jazzy/share/trajectory_msgs/cmake)
+[0.978s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[1.018s] -- Found cplus_dev: 0.0.0 (/home/herring/rzddzy/install/cplus_dev/share/cplus_dev/cmake)
+[1.325s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[1.423s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[1.423s] -- Found OpenMP: TRUE (found version "4.5")  
+[1.556s] -- Configuring done (1.5s)
+[1.593s] -- Generating done (0.0s)
+[1.599s] -- Build files have been written to: /home/herring/rzddzy/build/controller
+[1.607s] Invoked command in '/home/herring/rzddzy/build/controller' returned '0': AMENT_PREFIX_PATH=/home/herring/rzddzy/install/cplus_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/install/cplus_dev:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/install/cplus_dev/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/herring/rzddzy/ros2_ws/src/controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/herring/rzddzy/install/controller
+[1.608s] Invoking command in '/home/herring/rzddzy/build/controller': AMENT_PREFIX_PATH=/home/herring/rzddzy/install/cplus_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/install/cplus_dev:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/install/cplus_dev/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/herring/rzddzy/build/controller -- -j28 -l28
+[1.654s] [ 12%] [32mBuilding CXX object CMakeFiles/ssa_controller.dir/src/ssa_controller.cpp.o[0m
+[1.654s] [ 25%] [32mBuilding CXX object CMakeFiles/ssa_controller.dir/src/buffer_controller.cpp.o[0m
+[1.655s] [ 37%] [32mBuilding CXX object CMakeFiles/buffer_controller.dir/src/buffer_controller.cpp.o[0m
+[1.656s] [ 50%] [32mBuilding CXX object CMakeFiles/buffer_controller.dir/src/controller_node.cpp.o[0m
+[1.662s] [ 62%] [32mBuilding CXX object CMakeFiles/gbp_mpc_controller.dir/src/gbp_mpc_controller.cpp.o[0m
+[3.748s] [01m[K/home/herring/rzddzy/ros2_ws/src/controller/src/buffer_controller.cpp:[m[K In member function ‘[01m[Kvoid BufferController::[01;32m[KsetTrajectory[m[K(const trajectory_msgs::msg::JointTrajectory&)[m[K’:
+[3.748s] [01m[K/home/herring/rzddzy/ros2_ws/src/controller/src/buffer_controller.cpp:41:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt_cut_rel_new[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.748s]    41 |     double [01;35m[Kt_cut_rel_new[m[K = (cutoff_abs - now).seconds(); // 相对于新轨迹
+[3.748s]       |            [01;35m[K^~~~~~~~~~~~~[m[K
+[3.748s] [01m[K/home/herring/rzddzy/ros2_ws/src/controller/src/buffer_controller.cpp:[m[K In member function ‘[01m[Kvoid BufferController::[01;32m[Kupdate[m[K(double)[m[K’:
+[3.748s] [01m[K/home/herring/rzddzy/ros2_ws/src/controller/src/buffer_controller.cpp:170:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.748s]   170 |     for (int i = 0; [01;35m[Ki < traj_buffer_.size()[m[K; ++i)
+[3.748s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.748s] [01m[K/home/herring/rzddzy/ros2_ws/src/controller/src/buffer_controller.cpp:179:13:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.749s]   179 |     if ([01;35m[Kidx >= traj_buffer_.size() - 1[m[K || idx < 0)
+[3.749s]       |         [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.542s] In file included from [01m[K/home/herring/rzddzy/ros2_ws/src/controller/src/gbp_mpc_controller.cpp:31[m[K:
+[4.542s] [01m[K/home/herring/rzddzy/install/cplus_dev/include/GBP_classes/factor_node/FNode.h:[m[K In member function ‘[01m[Kvirtual void FNode::[01;32m[Krelin_factor[m[K(const Eigen::VectorXd&)[m[K’:
+[4.542s] [01m[K/home/herring/rzddzy/install/cplus_dev/include/GBP_classes/factor_node/FNode.h:41:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.542s]    41 |       virtual void relin_factor([01;35m[Kconst Eigen::VectorXd &v[m[K) {}
+[4.542s]       |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[4.665s] [01m[K/home/herring/rzddzy/ros2_ws/src/controller/src/buffer_controller.cpp:[m[K In member function ‘[01m[Kvoid BufferController::[01;32m[KsetTrajectory[m[K(const trajectory_msgs::msg::JointTrajectory&)[m[K’:
+[4.666s] [01m[K/home/herring/rzddzy/ros2_ws/src/controller/src/buffer_controller.cpp:41:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt_cut_rel_new[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.666s]    41 |     double [01;35m[Kt_cut_rel_new[m[K = (cutoff_abs - now).seconds(); // 相对于新轨迹
+[4.666s]       |            [01;35m[K^~~~~~~~~~~~~[m[K
+[4.666s] [01m[K/home/herring/rzddzy/ros2_ws/src/controller/src/buffer_controller.cpp:[m[K In member function ‘[01m[Kvoid BufferController::[01;32m[Kupdate[m[K(double)[m[K’:
+[4.666s] [01m[K/home/herring/rzddzy/ros2_ws/src/controller/src/buffer_controller.cpp:170:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[4.666s]   170 |     for (int i = 0; [01;35m[Ki < traj_buffer_.size()[m[K; ++i)
+[4.666s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.666s] [01m[K/home/herring/rzddzy/ros2_ws/src/controller/src/buffer_controller.cpp:179:13:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[4.666s]   179 |     if ([01;35m[Kidx >= traj_buffer_.size() - 1[m[K || idx < 0)
+[4.666s]       |         [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.987s] [01m[K/home/herring/rzddzy/ros2_ws/src/controller/src/ssa_controller.cpp:[m[K In member function ‘[01m[KEigen::VectorXd ReactiveSSAController::[01;32m[KcalcObstacleGrad[m[K(double&) const[m[K’:
+[5.987s] [01m[K/home/herring/rzddzy/ros2_ws/src/controller/src/ssa_controller.cpp:478:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.987s]   478 |             const auto &[01;35m[Kname[m[K = kv.first;
+[5.987s]       |                         [01;35m[K^~~~[m[K
+[5.989s] [01m[K/home/herring/rzddzy/ros2_ws/src/controller/src/ssa_controller.cpp:529:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KD_soft_adj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.989s]   529 |             double [01;35m[KD_soft_adj[m[K = -(1.0 / smooth_alpha_) * (max_w + std::log(std::max(1e-12, Z)));
+[5.989s]       |                    [01;35m[K^~~~~~~~~~[m[K
+[9.181s] [ 75%] [32m[1mLinking CXX executable buffer_controller[0m
+[9.338s] [ 75%] Built target buffer_controller
+[9.567s] [01m[K/home/herring/rzddzy/ros2_ws/src/controller/src/ssa_controller.cpp:[m[K At global scope:
+[9.567s] [01m[K/home/herring/rzddzy/ros2_ws/src/controller/src/ssa_controller.cpp:38:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbuiltin_interfaces::msg::Duration[01;32m[K make_duration[m[K(double)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[9.567s]    38 | static builtin_interfaces::msg::Duration [01;35m[Kmake_duration[m[K(double seconds) {
+[9.567s]       |                                          [01;35m[K^~~~~~~~~~~~~[m[K
+[14.178s] [ 87%] [32m[1mLinking CXX executable gbp_mpc_controller[0m
+[15.117s] [ 87%] Built target gbp_mpc_controller
+[18.563s] [100%] [32m[1mLinking CXX executable ssa_controller[0m
+[18.812s] [100%] Built target ssa_controller
+[18.819s] Invoked command in '/home/herring/rzddzy/build/controller' returned '0': AMENT_PREFIX_PATH=/home/herring/rzddzy/install/cplus_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/install/cplus_dev:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/install/cplus_dev/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/herring/rzddzy/build/controller -- -j28 -l28
+[18.820s] Invoking command in '/home/herring/rzddzy/build/controller': AMENT_PREFIX_PATH=/home/herring/rzddzy/install/cplus_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/install/cplus_dev:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/install/cplus_dev/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/herring/rzddzy/build/controller
+[18.825s] -- Install configuration: "Release"
+[18.825s] -- Execute custom install script
+[18.825s] -- Symlinking: /home/herring/rzddzy/install/controller/lib/controller/buffer_controller
+[18.835s] -- Symlinking: /home/herring/rzddzy/install/controller/lib/controller/ssa_controller
+[18.844s] -- Symlinking: /home/herring/rzddzy/install/controller/lib/controller/gbp_mpc_controller
+[18.850s] -- Symlinking: /home/herring/rzddzy/install/controller/share/controller/config/MRGBP.yaml
+[18.857s] -- Symlinking: /home/herring/rzddzy/install/controller/share/controller/config/franka_sphere.yaml
+[18.862s] -- Symlinking: /home/herring/rzddzy/install/controller/share/controller/config/gbp_mpc_params.yaml
+[18.869s] -- Symlinking: /home/herring/rzddzy/install/controller/share/ament_index/resource_index/package_run_dependencies/controller
+[18.874s] -- Symlinking: /home/herring/rzddzy/install/controller/share/ament_index/resource_index/parent_prefix_path/controller
+[18.880s] -- Symlinking: /home/herring/rzddzy/install/controller/share/controller/environment/ament_prefix_path.sh
+[18.885s] -- Symlinking: /home/herring/rzddzy/install/controller/share/controller/environment/ament_prefix_path.dsv
+[18.891s] -- Symlinking: /home/herring/rzddzy/install/controller/share/controller/environment/path.sh
+[18.897s] -- Symlinking: /home/herring/rzddzy/install/controller/share/controller/environment/path.dsv
+[18.904s] -- Symlinking: /home/herring/rzddzy/install/controller/share/controller/local_setup.bash
+[18.910s] -- Symlinking: /home/herring/rzddzy/install/controller/share/controller/local_setup.sh
+[18.917s] -- Symlinking: /home/herring/rzddzy/install/controller/share/controller/local_setup.zsh
+[18.922s] -- Symlinking: /home/herring/rzddzy/install/controller/share/controller/local_setup.dsv
+[18.927s] -- Symlinking: /home/herring/rzddzy/install/controller/share/controller/package.dsv
+[18.932s] -- Symlinking: /home/herring/rzddzy/install/controller/share/ament_index/resource_index/packages/controller
+[18.939s] -- Symlinking: /home/herring/rzddzy/install/controller/share/controller/cmake/controllerConfig.cmake
+[18.944s] -- Symlinking: /home/herring/rzddzy/install/controller/share/controller/cmake/controllerConfig-version.cmake
+[18.950s] -- Symlinking: /home/herring/rzddzy/install/controller/share/controller/package.xml
+[18.955s] -- Installing: /home/herring/rzddzy/install/controller/include/controller
+[18.955s] -- Installing: /home/herring/rzddzy/install/controller/include/controller/controller
+[18.955s] -- Installing: /home/herring/rzddzy/install/controller/include/controller/controller/buffer_controller.h
+[18.957s] Invoked command in '/home/herring/rzddzy/build/controller' returned '0': AMENT_PREFIX_PATH=/home/herring/rzddzy/install/cplus_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/herring/rzddzy/install/cplus_dev:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/install/cplus_dev/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/herring/rzddzy/build/controller

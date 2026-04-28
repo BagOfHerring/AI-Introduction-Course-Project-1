@@ -1,0 +1,1 @@
+/home/herring/rzddzy/build/mujoco_ros_msgs/rosidl_generator_cpp/mujoco_ros_msgs/srv/detail/set_geom_properties__traits.hpp

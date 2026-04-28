@@ -1,1 +1,1 @@
-prepend-non-duplicate-if-exists;PATH;bin
+/home/herring/rzddzy/build/franka_description/ament_cmake_environment_hooks/path.dsv

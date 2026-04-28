@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "panda_motion_generator_msgs/action/JointViaMotion_Goal",
+      "fields": [
+        {
+          "name": "via_poses",
+          "type": {
+            "type_id": 145,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "panda_motion_generator_msgs/msg/JointPose"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "v_scale",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "panda_motion_generator_msgs/msg/JointPose",
+        "fields": [
+          {
+            "name": "q",
+            "type": {
+              "type_id": 155,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "panda_motion_generator_msgs/action/JointViaMotion_Goal",
+      "hash_string": "RIHS01_3c12c0776677de7fce73c405984337ed2e174bd00c0cbbb4ad13e002630913b3"
+    },
+    {
+      "type_name": "panda_motion_generator_msgs/msg/JointPose",
+      "hash_string": "RIHS01_ac5e823fa18c7532a53de21314a218e26fb404f27c24a08df020404985f6d744"
+    }
+  ]
+}

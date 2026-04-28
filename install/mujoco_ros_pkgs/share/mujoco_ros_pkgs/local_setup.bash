@@ -1,0 +1,1 @@
+/home/herring/rzddzy/build/mujoco_ros_pkgs/ament_cmake_environment_hooks/local_setup.bash

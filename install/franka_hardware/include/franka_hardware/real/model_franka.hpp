@@ -1,0 +1,1 @@
+/home/herring/rzddzy/ros2_ws/src/franka_hardware/include/franka_hardware/real/model_franka.hpp

@@ -2,19 +2,25 @@
 """
 YOLO Vision Detection Node
 ===========================
-Subscribes to the MuJoCo overhead camera, runs object detection (placeholder API),
-draws bounding boxes on the image, and publishes part type/size/world coordinates
-to the pick-and-place pipeline.
+Subscribes to the MuJoCo overhead camera, runs YOLOv8 object detection,
+draws bounding boxes on the image, and publishes part type/size/world
+coordinates to the pick-and-place pipeline.
 
-YOLO integration is left as a placeholder function `detect_objects()`.
-Replace it with a real model call when ready.
+This node expects a YOLOv8 model trained on four classes:
+    - gear
+    - square_gear
+    - nut
+    - bearing
 """
-import math
+from pathlib import Path
+from typing import Optional
+
 import numpy as np
 import cv2
 
 import rclpy
 from rclpy.node import Node
+from rcl_interfaces.msg import ParameterDescriptor
 from cv_bridge import CvBridge
 
 from sensor_msgs.msg import Image, CameraInfo
@@ -28,17 +34,89 @@ CLASS_COLORS = {
     'square_gear': (0, 200, 0),     # green
     'nut':         (0, 140, 255),   # orange
     'bearing':     (255, 160, 50),  # light blue
-    'bolt':        (0, 255, 255),   # cyan
     'unknown':     (180, 180, 180), # gray
 }
 
 
-# ═══════════════════════════════════════════════════════════════════════════
-#  YOLO Placeholder API  –  replace the body of this function with your model
-# ═══════════════════════════════════════════════════════════════════════════
-def detect_objects(cv_image: np.ndarray) -> list:
+CLASS_ALIASES = {
+    'gear': 'gear',
+    'round_gear': 'gear',
+    'circular_gear': 'gear',
+    'circle_gear': 'gear',
+    '圆齿齿轮': 'gear',
+    '圆齿轮': 'gear',
+    'square_gear': 'square_gear',
+    'squaregear': 'square_gear',
+    '方齿齿轮': 'square_gear',
+    '方齿轮': 'square_gear',
+    'nut': 'nut',
+    '螺母': 'nut',
+    'bearing': 'bearing',
+    '轴承': 'bearing',
+}
+
+SUPPORTED_CLASSES = ('gear', 'square_gear', 'nut', 'bearing')
+
+
+def canonicalize_class_name(class_name: str) -> Optional[str]:
+    normalized = class_name.strip().lower().replace('-', '_').replace(' ', '_')
+    return CLASS_ALIASES.get(normalized)
+
+
+def resolve_model_path(model_path: str) -> str:
+    raw_path = Path(model_path).expanduser()
+    if raw_path.is_file():
+        return str(raw_path)
+
+    script_dir = Path(__file__).resolve().parent
+    candidates = [
+        Path.cwd() / model_path,
+        script_dir / model_path,
+        script_dir / 'weights' / model_path,
+    ]
+    for candidate in candidates:
+        if candidate.is_file():
+            return str(candidate)
+
+    return model_path
+
+
+def normalize_device_parameter(value) -> str:
+    if value is None:
+        return ''
+    if isinstance(value, str):
+        return value.strip()
+    return str(value)
+
+
+def iter_model_class_names(model) -> list[str]:
+    names = getattr(model, 'names', {})
+    if isinstance(names, dict):
+        return [str(name) for name in names.values()]
+    if isinstance(names, (list, tuple)):
+        return [str(name) for name in names]
+    return []
+
+
+def get_supported_model_classes(model) -> set[str]:
+    supported = set()
+    for class_name in iter_model_class_names(model):
+        canonical_class = canonicalize_class_name(class_name)
+        if canonical_class is not None:
+            supported.add(canonical_class)
+    return supported
+
+
+def detect_objects(
+    cv_image: np.ndarray,
+    model,
+    confidence_threshold: float,
+    iou_threshold: float,
+    input_size: int,
+    device: str,
+) -> list:
     """
-    Run object detection on a single BGR image.
+    Run YOLOv8 object detection on a single BGR image.
 
     Returns a list of detections, each being a dict:
         {
@@ -47,31 +125,51 @@ def detect_objects(cv_image: np.ndarray) -> list:
             'bbox':       (x1, y1, x2, y2),  # pixel coordinates, top-left & bottom-right
             'size_m':     float,        # estimated real-world diameter / width in meters
         }
-
-    *** CURRENT IMPLEMENTATION: returns an empty list (no detections). ***
-    *** Plug in your YOLO model here later (e.g. ultralytics).        ***
-
-    Example with ultralytics (uncomment when ready):
-    ──────────────────────────────────────────────────
-    from ultralytics import YOLO
-    model = YOLO('best.pt')
-    results = model(cv_image, conf=0.5)
-    detections = []
-    for r in results:
-        for box in r.boxes:
-            x1, y1, x2, y2 = box.xyxy[0].tolist()
-            cls_id = int(box.cls[0])
-            cls_name = model.names[cls_id]
-            conf = float(box.conf[0])
-            detections.append({
-                'class': cls_name,
-                'confidence': conf,
-                'bbox': (int(x1), int(y1), int(x2), int(y2)),
-                'size_m': 0.04,
-            })
-    return detections
     """
-    return []
+    if model is None:
+        return []
+
+    predict_kwargs = {
+        'source': cv_image,
+        'conf': confidence_threshold,
+        'iou': iou_threshold,
+        'imgsz': input_size,
+        'verbose': False,
+    }
+    if device:
+        predict_kwargs['device'] = device
+
+    results = model.predict(**predict_kwargs)
+    detections = []
+
+    for result in results:
+        boxes = getattr(result, 'boxes', None)
+        if boxes is None:
+            continue
+
+        names = getattr(result, 'names', {})
+        for box in boxes:
+            cls_id = int(box.cls[0].item())
+            raw_class_name = names.get(cls_id, str(cls_id)) if isinstance(names, dict) else str(cls_id)
+            canonical_class = canonicalize_class_name(raw_class_name)
+            if canonical_class is None:
+                continue
+
+            x1, y1, x2, y2 = [int(round(v)) for v in box.xyxy[0].tolist()]
+            x1 = max(0, x1)
+            y1 = max(0, y1)
+            x2 = max(x1 + 1, x2)
+            y2 = max(y1 + 1, y2)
+
+            detections.append({
+                'class': canonical_class,
+                'confidence': float(box.conf[0].item()),
+                'bbox': (x1, y1, x2, y2),
+                'size_m': 0.0,
+            })
+
+    detections.sort(key=lambda det: det['confidence'], reverse=True)
+    return detections
 
 
 class YoloVisionNode(Node):
@@ -87,6 +185,27 @@ class YoloVisionNode(Node):
         self.cy = None
         self.cam_pos = np.array([0.5, 0.0, 3.0])   # default, overridden by CameraInfo
         self.table_z = 0.4   # known table‐surface height in world frame
+
+        # ── YOLO model parameters ───────────────────────────────────
+        self.declare_parameter('model_path', 'yolov8s.pt')
+        self.declare_parameter('confidence_threshold', 0.5)
+        self.declare_parameter('iou_threshold', 0.45)
+        self.declare_parameter('input_size', 640)
+        self.declare_parameter(
+            'device',
+            '',
+            descriptor=ParameterDescriptor(dynamic_typing=True),
+        )
+        self.declare_parameter('show_debug_window', False)
+
+        self.model_path = self.get_parameter('model_path').value
+        self.confidence_threshold = float(self.get_parameter('confidence_threshold').value)
+        self.iou_threshold = float(self.get_parameter('iou_threshold').value)
+        self.input_size = int(self.get_parameter('input_size').value)
+        self.device = normalize_device_parameter(self.get_parameter('device').value)
+        self.show_debug_window = bool(self.get_parameter('show_debug_window').value)
+        self.model = self._load_model()
+        self.model_supported_classes = get_supported_model_classes(self.model)
 
         # ── Subscribers ─────────────────────────────────────────────────
         self.image_sub = self.create_subscription(
@@ -114,7 +233,41 @@ class YoloVisionNode(Node):
         self.last_process_time = self.get_clock().now()
 
         self.get_logger().info('YOLO Vision Node started. Waiting for camera feed...')
-        self.get_logger().info('  (detect_objects() is currently a placeholder – returns no detections)')
+        self.get_logger().info(
+            '  Detecting supported classes: gear, square_gear, nut, bearing'
+        )
+        if self.model is not None and not self.model_supported_classes:
+            raw_classes = iter_model_class_names(self.model)
+            preview = ', '.join(raw_classes[:8]) if raw_classes else 'unknown'
+            self.get_logger().warn(
+                'Loaded model labels do not match the project classes '
+                '(gear, square_gear, nut, bearing). '
+                f'This model will not produce usable detections here. Example labels: {preview}'
+            )
+
+    def _load_model(self):
+        if not self.model_path:
+            self.get_logger().error('Parameter model_path is empty. Set it to your YOLOv8 .pt weights file.')
+            return None
+
+        try:
+            from ultralytics import YOLO
+        except ImportError:
+            self.get_logger().error(
+                'ultralytics is not installed in the Python environment used by this node. '
+                'Install it before launching yolo_vision_node.'
+            )
+            return None
+
+        resolved_model_path = resolve_model_path(self.model_path)
+        try:
+            model = YOLO(resolved_model_path)
+        except Exception as exc:
+            self.get_logger().error(f'Failed to load YOLOv8 model from {resolved_model_path}: {exc}')
+            return None
+
+        self.get_logger().info(f'Loaded YOLOv8 model: {resolved_model_path}')
+        return model
 
     # ── CameraInfo ──────────────────────────────────────────────────────
     def camera_info_callback(self, msg: CameraInfo):
@@ -137,22 +290,40 @@ class YoloVisionNode(Node):
         # Convert to OpenCV BGR
         cv_image = self.bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
 
-        # ── Run detection (placeholder) ─────────────────────────────
-        detections = detect_objects(cv_image)
+        # ── Run detection ───────────────────────────────────────────
+        detections = detect_objects(
+            cv_image,
+            self.model,
+            self.confidence_threshold,
+            self.iou_threshold,
+            self.input_size,
+            self.device,
+        )
 
         # ── Draw bounding boxes & publish ───────────────────────────
         annotated = cv_image.copy()
 
-        if len(detections) == 0:
-            # No detections – just show info bar
+        if self.model is None:
             cv2.putText(
                 annotated,
-                'YOLO: No detections (placeholder mode)',
+                'YOLOv8 model not loaded - check model_path / ultralytics',
+                (10, 30),
+                cv2.FONT_HERSHEY_SIMPLEX, 0.7, (100, 100, 255), 2,
+            )
+        elif len(detections) == 0:
+            if self.model_supported_classes:
+                overlay_text = 'YOLOv8: No supported detections'
+            else:
+                overlay_text = 'Model labels do not match gear/square_gear/nut/bearing'
+            cv2.putText(
+                annotated,
+                overlay_text,
                 (10, 30),
                 cv2.FONT_HERSHEY_SIMPLEX, 0.7, (100, 100, 255), 2,
             )
         else:
             for det in detections:
+                det['size_m'] = self._estimate_size_from_bbox(det['bbox'])
                 self._draw_box(annotated, det)
                 self._publish_detection(det, msg.header)
 
@@ -162,8 +333,9 @@ class YoloVisionNode(Node):
         self.annotated_pub.publish(annotated_msg)
 
         # ── Show in OpenCV window ───────────────────────────────────
-        cv2.imshow('YOLO Vision', annotated)
-        cv2.waitKey(1)
+        if self.show_debug_window:
+            cv2.imshow('YOLO Vision', annotated)
+            cv2.waitKey(1)
 
     # ── Draw one bounding box on the image ──────────────────────────────
     def _draw_box(self, img: np.ndarray, det: dict):
@@ -176,10 +348,24 @@ class YoloVisionNode(Node):
         cv2.rectangle(img, (x1, y1), (x2, y2), color, 2)
 
         # Label background
-        label = f"{cls_name} {conf:.0%}"
+        size_m = det.get('size_m', 0.0)
+        if size_m > 0.0:
+            label = f"{cls_name} {conf:.0%} {size_m * 100:.1f}cm"
+        else:
+            label = f"{cls_name} {conf:.0%}"
         (tw, th), _ = cv2.getTextSize(label, cv2.FONT_HERSHEY_SIMPLEX, 0.6, 1)
         cv2.rectangle(img, (x1, y1 - th - 8), (x1 + tw + 4, y1), color, -1)
         cv2.putText(img, label, (x1 + 2, y1 - 4), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 1)
+
+    def _estimate_size_from_bbox(self, bbox) -> float:
+        if self.fx is None or self.fy is None:
+            return 0.0
+
+        x1, y1, x2, y2 = bbox
+        depth = self.cam_pos[2] - self.table_z
+        width_m = max(0.0, (x2 - x1) * depth / self.fx)
+        height_m = max(0.0, (y2 - y1) * depth / self.fy)
+        return float(max(width_m, height_m))
 
     # ── Convert pixel centre → world XYZ & publish ─────────────────────
     def _publish_detection(self, det: dict, header):
@@ -238,7 +424,8 @@ def main(args=None):
     except KeyboardInterrupt:
         pass
     finally:
-        cv2.destroyAllWindows()
+        if getattr(node, 'show_debug_window', False):
+            cv2.destroyAllWindows()
         node.destroy_node()
         if rclpy.ok():
             rclpy.shutdown()

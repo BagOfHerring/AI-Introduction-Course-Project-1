@@ -1,0 +1,1 @@
+/home/herring/rzddzy/build/franka_msgs/rosidl_generator_cpp/franka_msgs/msg/detail/grasp_epsilon__struct.hpp

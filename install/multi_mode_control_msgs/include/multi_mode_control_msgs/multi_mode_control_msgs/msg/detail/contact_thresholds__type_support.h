@@ -1,0 +1,1 @@
+/home/herring/rzddzy/build/multi_mode_control_msgs/rosidl_generator_c/multi_mode_control_msgs/msg/detail/contact_thresholds__type_support.h

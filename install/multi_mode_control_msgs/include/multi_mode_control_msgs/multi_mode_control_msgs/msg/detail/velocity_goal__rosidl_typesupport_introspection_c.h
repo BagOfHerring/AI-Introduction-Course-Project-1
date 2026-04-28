@@ -1,0 +1,1 @@
+/home/herring/rzddzy/build/multi_mode_control_msgs/rosidl_typesupport_introspection_c/multi_mode_control_msgs/msg/detail/velocity_goal__rosidl_typesupport_introspection_c.h

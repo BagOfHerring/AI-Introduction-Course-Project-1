@@ -3,21 +3,44 @@
 Scene Generator
 ===============
 Generates scene_with_workbench.xml with 8 randomized parts on the table:
-  4 types (gear, square_gear, nut, bearing) × 2 each
-  Random: color, scale, position (within safe table bounds)
+    4 types (gear, square_gear, nut, bearing) × 2 each
+    Random: appearance, scale, position (within safe table bounds)
 
 Usage:
-    python3 generate_scene.py            # generate + overwrite XML
-    python3 generate_scene.py --preview  # just print to stdout
+        python3 generate_scene.py            # generate + overwrite XML
+        python3 generate_scene.py --preview  # just print to stdout
 """
 import random
 import argparse
-import os
+from pathlib import Path
 
 # ── Paths ───────────────────────────────────────────────────────────────
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-SCENE_DIR = os.path.join(SCRIPT_DIR, '..', 'franka_description', 'mujoco', 'franka')
-OUTPUT_FILE = os.path.join(SCENE_DIR, 'scene_with_workbench.xml')
+SCRIPT_PATH = Path(__file__).resolve()
+
+
+def resolve_scene_dir() -> Path:
+    """Locate franka_description/mujoco/franka in either source or install layouts."""
+    source_candidate = SCRIPT_PATH.parents[2] / 'franka_description' / 'mujoco' / 'franka'
+    if source_candidate.is_dir():
+        return source_candidate
+
+    try:
+        from ament_index_python.packages import get_package_share_directory
+
+        share_candidate = Path(get_package_share_directory('franka_description')) / 'mujoco' / 'franka'
+        if share_candidate.is_dir():
+            return share_candidate
+    except (ImportError, LookupError):
+        pass
+
+    raise FileNotFoundError(
+        'Unable to locate franka_description/mujoco/franka from generate_scene.py. '
+        'Expected either a source checkout under ros2_ws/src or an installed franka_description package.'
+    )
+
+
+SCENE_DIR = resolve_scene_dir()
+OUTPUT_FILE = SCENE_DIR / 'scene_with_workbench.xml'
 
 # ── Part definitions ────────────────────────────────────────────────────
 PART_TYPES = [
@@ -31,19 +54,101 @@ PART_TYPES = [
 TABLE_X, TABLE_Y = 0.5, 0.0      # table center in world
 TABLE_HALF_X     = 0.30           # safe spawn zone (table half-size is 0.4)
 TABLE_HALF_Y     = 0.45           # safe spawn zone (table half-size is 0.6)
-SPAWN_Z          = 0.50           # slightly above table top (0.4)
+SPAWN_Z          = 0.6          # slightly above table top (0.4)
 
 # ── Randomization bounds ────────────────────────────────────────────────
-SCALE_MIN, SCALE_MAX = 0.003, 0.007   # mm → m conversion factor range
+SCALE_MIN, SCALE_MAX = 0.003, 0.003   # mm → m conversion factor range
 MASS_MIN, MASS_MAX   = 0.05, 0.20
 
 
-def random_color():
-    """Generate a pleasant random RGBA color (avoid very dark or very light)."""
-    r = random.uniform(0.15, 0.95)
-    g = random.uniform(0.15, 0.95)
-    b = random.uniform(0.15, 0.95)
-    return f"{r:.2f} {g:.2f} {b:.2f} 1"
+APPEARANCE_PRESETS = {
+    'table_wood': {
+        'rgba': '0.62 0.50 0.38 1',
+        'specular': '0.10',
+        'shininess': '0.08',
+        'reflectance': '0.03',
+    },
+    'metal_silver': {
+        'rgba': '0.78 0.80 0.84 1',
+        'specular': '0.92',
+        'shininess': '0.95',
+        'reflectance': '0.35',
+    },
+    'metal_gunmetal': {
+        'rgba': '0.30 0.33 0.37 1',
+        'specular': '0.85',
+        'shininess': '0.88',
+        'reflectance': '0.28',
+    },
+    'metal_brass': {
+        'rgba': '0.74 0.62 0.28 1',
+        'specular': '0.90',
+        'shininess': '0.90',
+        'reflectance': '0.30',
+    },
+    'metal_blue': {
+        'rgba': '0.34 0.47 0.66 1',
+        'specular': '0.82',
+        'shininess': '0.82',
+        'reflectance': '0.22',
+    },
+    'wood_oak': {
+        'rgba': '0.68 0.51 0.32 1',
+        'specular': '0.18',
+        'shininess': '0.14',
+        'reflectance': '0.06',
+    },
+    'wood_walnut': {
+        'rgba': '0.42 0.29 0.18 1',
+        'specular': '0.12',
+        'shininess': '0.10',
+        'reflectance': '0.04',
+    },
+    'plastic_red': {
+        'rgba': '0.80 0.24 0.20 1',
+        'specular': '0.28',
+        'shininess': '0.35',
+        'reflectance': '0.08',
+    },
+    'plastic_white': {
+        'rgba': '0.90 0.90 0.88 1',
+        'specular': '0.22',
+        'shininess': '0.26',
+        'reflectance': '0.07',
+    },
+    'ceramic_ink': {
+        'rgba': '0.16 0.18 0.22 1',
+        'specular': '0.42',
+        'shininess': '0.55',
+        'reflectance': '0.12',
+    },
+}
+
+
+PART_APPEARANCE_POOLS = {
+    'gear': ['metal_silver', 'metal_brass', 'metal_blue', 'wood_oak', 'wood_walnut', 'plastic_red'],
+    'square_gear': ['metal_gunmetal', 'metal_blue', 'wood_oak', 'wood_walnut', 'plastic_white', 'ceramic_ink'],
+    'nut': ['metal_silver', 'metal_gunmetal', 'metal_brass', 'ceramic_ink'],
+    'bearing': ['metal_silver', 'metal_gunmetal', 'metal_blue', 'plastic_white'],
+}
+
+
+def choose_appearance(part_type_name: str) -> str:
+    return random.choice(PART_APPEARANCE_POOLS[part_type_name])
+
+
+def generate_material_assets() -> str:
+    lines = []
+    for material_name, props in APPEARANCE_PRESETS.items():
+        lines.append(
+            '    '
+            f'<material name="{material_name}" '
+            f'rgba="{props["rgba"]}" '
+            f'specular="{props["specular"]}" '
+            f'shininess="{props["shininess"]}" '
+            f'reflectance="{props["reflectance"]}"/>'
+        )
+    return '\n'.join(lines) + '\n'
 
 
 def random_position(existing_positions, min_dist=0.08):
@@ -71,10 +176,11 @@ def generate_xml():
             scale_val = random.uniform(SCALE_MIN, SCALE_MAX)
             parts.append({
                 'body_name': f"part_{ptype['name']}_{idx}",
+                'part_type':  ptype['name'],
                 'mesh_name': f"{ptype['mesh_name']}_{idx}",
                 'stl':       ptype['stl'],
                 'scale':     f"{scale_val:.4f} {scale_val:.4f} {scale_val:.4f}",
-                'color':     random_color(),
+                'material':  choose_appearance(ptype['name']),
                 'mass':      round(random.uniform(MASS_MIN, MASS_MAX), 3),
             })
 
@@ -95,9 +201,11 @@ def generate_xml():
         body_lines += f"""
     <body name="{p['body_name']}" pos="{p['x']:.3f} {p['y']:.3f} {p['z']:.3f}">
       <freejoint/>
-      <geom type="mesh" mesh="{p['mesh_name']}" rgba="{p['color']}" mass="{p['mass']}" friction="1 0.005 0.0001"/>
+      <geom type="mesh" mesh="{p['mesh_name']}" material="{p['material']}" mass="{p['mass']}" friction="1 0.005 0.0001"/>
     </body>
 """
+
+    material_lines = generate_material_assets()
 
     xml = f"""<mujoco model="panda scene with workbench">
 
@@ -118,6 +226,7 @@ def generate_xml():
         rgb2="0.1 0.2 0.3" markrgb="0.8 0.8 0.8" width="300" height="300"/>
     <material name="groundplane" texture="groundplane" texuniform="true" texrepeat="5 5"
         reflectance="0.2"/>
+{material_lines}
 
 {mesh_lines}  </asset>
 
@@ -127,7 +236,7 @@ def generate_xml():
 
     <!-- Workbench -->
     <body name="table" pos="0.5 0 0.2">
-      <geom type="box" size="0.4 0.6 0.2" rgba="0.7 0.6 0.5 1"/>
+            <geom type="box" size="0.4 0.6 0.2" material="table_wood"/>
       <!-- Quadrant Dividers -->
       <geom type="box" name="divider_x" pos="0 0 0.201" size="0.4 0.005 0.001" rgba="0 0 0 1" contype="0" conaffinity="0"/>
       <geom type="box" name="divider_y" pos="0 0 0.201" size="0.005 0.6 0.001" rgba="0 0 0 1" contype="0" conaffinity="0"/>
@@ -159,7 +268,7 @@ def main():
         print(xml)
     else:
         # Resolve the output path relative to the source tree
-        out = os.path.abspath(OUTPUT_FILE)
+        out = OUTPUT_FILE.resolve()
         with open(out, 'w') as f:
             f.write(xml)
         print(f'✅ Generated: {out}')

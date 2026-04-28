@@ -34,7 +34,6 @@ CMakeFiles/test_gtsam_method.dir/src/tests/test_gtsam_method.cpp.o: /home/herrin
   /home/herring/rzddzy/ros2_ws/src/cplus_dev/include/gtsam_factors/FactorInterRobotDistState.h \
   /home/herring/rzddzy/ros2_ws/src/cplus_dev/include/gtsam_factors/FactorObstacleState.h \
   /home/herring/rzddzy/ros2_ws/src/cplus_dev/include/gtsam_factors/FactorPriorSub.h \
-  /home/herring/rzddzy/ros2_ws/src/cplus_dev/include/gtsam_factors/GtsamCompat.h \
   /home/herring/rzddzy/ros2_ws/src/cplus_dev/include/utilities_function/DataLogger.h \
   /home/herring/rzddzy/ros2_ws/src/cplus_dev/include/utilities_function/dist_arm_3D_sphere.h \
   /home/herring/rzddzy/ros2_ws/src/cplus_dev/include/utilities_function/dist_interarm_sphere.h \
@@ -2580,12 +2579,6 @@ CMakeFiles/test_gtsam_method.dir/src/tests/test_gtsam_method.cpp.o: /home/herrin
 
 /usr/include/c++/13/cwctype:
 
-/usr/local/include/gtsam/base/treeTraversal/statistics.h:
-
-/usr/include/eigen3/Eigen/src/Core/Matrix.h:
-
-/usr/include/c++/13/cstring:
-
 /usr/local/include/gtsam/inference/ClusterTree-inst.h:
 
 /usr/include/boost/concept/detail/concept_undef.hpp:
@@ -3182,10 +3175,6 @@ CMakeFiles/test_gtsam_method.dir/src/tests/test_gtsam_method.cpp.o: /home/herrin
 
 /usr/include/c++/13/cmath:
 
-/usr/include/eigen3/Eigen/src/Core/CommaInitializer.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/message_info.hpp:
-
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/timers_manager.hpp:
@@ -3444,6 +3433,10 @@ CMakeFiles/test_gtsam_method.dir/src/tests/test_gtsam_method.cpp.o: /home/herrin
 
 /usr/include/boost/move/detail/meta_utils_core.hpp:
 
+/usr/include/eigen3/Eigen/src/Core/CommaInitializer.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/message_info.hpp:
+
 /opt/ros/jazzy/include/rcl/rcl/allocator.h:
 
 /home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/graph_env_message/Env.h:
@@ -3530,11 +3523,19 @@ CMakeFiles/test_gtsam_method.dir/src/tests/test_gtsam_method.cpp.o: /home/herrin
 
 /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__traits.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/boost/smart_ptr/detail/local_sp_deleter.hpp:
+
 /usr/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp:
-
-/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/gtsam_factors/GtsamCompat.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp:
 
@@ -3589,16 +3590,6 @@ CMakeFiles/test_gtsam_method.dir/src/tests/test_gtsam_method.cpp.o: /home/herrin
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:
 
 /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
-
-/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__traits.hpp:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
-
-/usr/include/boost/smart_ptr/detail/local_sp_deleter.hpp:
 
 /opt/ros/jazzy/include/rcl/rcl/arguments.h:
 
@@ -3898,6 +3889,12 @@ CMakeFiles/test_gtsam_method.dir/src/tests/test_gtsam_method.cpp.o: /home/herrin
 
 /usr/include/c++/13/bits/stl_iterator_base_funcs.h:
 
+/usr/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h:
+
+/usr/include/boost/concept/detail/general.hpp:
+
+/opt/ros/jazzy/include/rmw/rmw/init_options.h:
+
 /usr/include/c++/13/bits/stl_multiset.h:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp:
@@ -4137,12 +4134,6 @@ CMakeFiles/test_gtsam_method.dir/src/tests/test_gtsam_method.cpp.o: /home/herrin
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/macros.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h:
-
-/opt/ros/jazzy/include/rmw/rmw/init_options.h:
-
-/usr/include/boost/concept/detail/general.hpp:
 
 /usr/include/eigen3/Eigen/Householder:
 
@@ -4859,6 +4850,12 @@ CMakeFiles/test_gtsam_method.dir/src/tests/test_gtsam_method.cpp.o: /home/herrin
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_base.hpp:
 
 /usr/include/boost/shared_ptr.hpp:
+
+/usr/local/include/gtsam/base/treeTraversal/statistics.h:
+
+/usr/include/eigen3/Eigen/src/Core/Matrix.h:
+
+/usr/include/c++/13/cstring:
 
 /usr/include/boost/core/checked_delete.hpp:
 

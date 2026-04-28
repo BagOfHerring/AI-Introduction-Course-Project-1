@@ -1,0 +1,1 @@
+/home/herring/rzddzy/build/mujoco_ros2_dummy_plugin/ament_cmake_core/mujoco_ros2_dummy_pluginConfig-version.cmake

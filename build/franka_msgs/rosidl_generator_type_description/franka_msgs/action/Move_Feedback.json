@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "franka_msgs/action/Move_Feedback",
+      "fields": [
+        {
+          "name": "current_width",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "franka_msgs/action/Move_Feedback",
+      "hash_string": "RIHS01_b06c651bb0f95f0f618e8051e5a9dd5face58ef2828e1dd50446df2a5fac3e1a"
+    }
+  ]
+}

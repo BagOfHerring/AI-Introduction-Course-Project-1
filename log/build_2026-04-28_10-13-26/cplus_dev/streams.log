@@ -1,0 +1,76 @@
+[0.017s] Invoking command in '/home/herring/rzddzy/build/cplus_dev': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/herring/rzddzy/build/cplus_dev -- -j28 -l28
+[0.093s] [ 89%] Built target cplus_dev
+[0.120s] [ 94%] Built target test_GMBP2_method
+[0.124s] [100%] Built target test_gtsam_method
+[0.159s] Invoked command in '/home/herring/rzddzy/build/cplus_dev' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/herring/rzddzy/build/cplus_dev -- -j28 -l28
+[0.160s] Invoking command in '/home/herring/rzddzy/build/cplus_dev': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/herring/rzddzy/build/cplus_dev
+[0.171s] -- Install configuration: ""
+[0.172s] -- Execute custom install script
+[0.173s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/lib/libcplus_dev.a
+[0.173s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/lib/cplus_dev/test_GMBP2_method
+[0.173s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/lib/cplus_dev/test_gtsam_method
+[0.174s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/GBP_classes/factor_node/BoxFNode.h
+[0.174s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/GBP_classes/factor_node/DistFNode.h
+[0.174s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/GBP_classes/factor_node/DynaFNode.h
+[0.174s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/GBP_classes/factor_node/FNode.h
+[0.174s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/GBP_classes/factor_node/InterarmIntpFNode.h
+[0.174s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/GBP_classes/factor_node/ObstacleFNode.h
+[0.174s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/GBP_classes/factor_node/ObstacleIntpFNode.h
+[0.175s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/GBP_classes/factor_node/SSADistFNode.h
+[0.175s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/GBP_classes/factor_node/SSAObstacleFNode.h
+[0.175s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/GBP_classes/factor_node/TaskFNode.h
+[0.175s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/GBP_classes/graph_env_message/Agent.h
+[0.175s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/GBP_classes/graph_env_message/Edge.h
+[0.175s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/GBP_classes/graph_env_message/Env.h
+[0.175s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/GBP_classes/graph_env_message/FactorGraphRobot.h
+[0.175s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/GBP_classes/graph_env_message/Gaussian.h
+[0.175s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/GBP_classes/graph_env_message/Graph.h
+[0.175s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/GBP_classes/graph_env_message/Node.h
+[0.176s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/GBP_classes/graph_env_message/ObstacleMap.h
+[0.176s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/GBP_classes/task_classes/PoseTask.h
+[0.176s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/GBP_classes/value_node/RemoteVNode.h
+[0.176s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/GBP_classes/value_node/VNode.h
+[0.176s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/Robot_classes/CollisionGeometry.h
+[0.176s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/Robot_classes/CollisionSphere.h
+[0.176s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/Robot_classes/Elementary_T.h
+[0.176s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/Robot_classes/RobotDescription.h
+[0.176s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/Robot_classes/robotTree_ETs.h
+[0.176s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/gtsam_factors/FactorBoxState.h
+[0.176s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/gtsam_factors/FactorDynamicsState.h
+[0.176s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/gtsam_factors/FactorInterRobotDistState.h
+[0.176s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/gtsam_factors/FactorObstacleState.h
+[0.177s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/gtsam_factors/FactorPriorSub.h
+[0.177s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/other_packages/yaml/ReadYaml.h
+[0.177s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/other_packages/yaml/ReadYamlRaw.h
+[0.177s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/utilities_function/DataLogger.h
+[0.177s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/utilities_function/ObstacleSeq.hpp
+[0.177s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/utilities_function/dist_arm_3D_sphere.h
+[0.177s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/utilities_function/dist_interarm_sphere.h
+[0.177s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/utilities_function/pdist2.h
+[0.177s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/utilities_function/relu_smooth/softplus.h
+[0.177s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/include/utilities_function/relu_smooth/swish.h
+[0.178s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/share/cplus_dev/config/MRGBP.yaml
+[0.178s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/share/cplus_dev/config/MRGBP_Default_Const.yaml
+[0.178s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/share/cplus_dev/config/franka_sphere.yaml
+[0.178s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/share/cplus_dev/config/global.yaml
+[0.178s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/share/cplus_dev/environment/library_path.sh
+[0.178s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/share/cplus_dev/environment/library_path.dsv
+[0.178s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/share/ament_index/resource_index/package_run_dependencies/cplus_dev
+[0.179s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/share/ament_index/resource_index/parent_prefix_path/cplus_dev
+[0.179s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/share/cplus_dev/environment/ament_prefix_path.sh
+[0.179s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/share/cplus_dev/environment/ament_prefix_path.dsv
+[0.180s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/share/cplus_dev/environment/path.sh
+[0.180s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/share/cplus_dev/environment/path.dsv
+[0.180s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/share/cplus_dev/local_setup.bash
+[0.180s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/share/cplus_dev/local_setup.sh
+[0.180s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/share/cplus_dev/local_setup.zsh
+[0.180s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/share/cplus_dev/local_setup.dsv
+[0.180s] -- Symlinking: /home/herring/rzddzy/install/cplus_dev/share/cplus_dev/package.dsv
+[0.189s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/share/ament_index/resource_index/packages/cplus_dev
+[0.189s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/share/cplus_dev/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.189s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/share/cplus_dev/cmake/ament_cmake_export_libraries-extras.cmake
+[0.189s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/share/cplus_dev/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.189s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/share/cplus_dev/cmake/cplus_devConfig.cmake
+[0.189s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/share/cplus_dev/cmake/cplus_devConfig-version.cmake
+[0.189s] -- Up-to-date symlink: /home/herring/rzddzy/install/cplus_dev/share/cplus_dev/package.xml
+[0.191s] Invoked command in '/home/herring/rzddzy/build/cplus_dev' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/herring/rzddzy/build/cplus_dev

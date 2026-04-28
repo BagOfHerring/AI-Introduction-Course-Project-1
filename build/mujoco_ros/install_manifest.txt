@@ -1,0 +1,1 @@
+/home/herring/rzddzy/install/mujoco_ros/lib/libmujoco_ros.so

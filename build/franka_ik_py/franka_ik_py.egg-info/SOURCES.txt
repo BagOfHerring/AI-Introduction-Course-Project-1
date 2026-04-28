@@ -1,0 +1,6 @@
+setup.py
+/home/herring/rzddzy/ros2_ws/src/franka_analytical_ik/pybind_wrapper.cpp
+franka_ik_py.egg-info/PKG-INFO
+franka_ik_py.egg-info/SOURCES.txt
+franka_ik_py.egg-info/dependency_links.txt
+franka_ik_py.egg-info/top_level.txt

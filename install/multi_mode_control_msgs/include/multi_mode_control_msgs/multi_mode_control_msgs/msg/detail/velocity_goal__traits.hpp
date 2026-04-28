@@ -1,0 +1,1 @@
+/home/herring/rzddzy/build/multi_mode_control_msgs/rosidl_generator_cpp/multi_mode_control_msgs/msg/detail/velocity_goal__traits.hpp

@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-c4260f471c2858da667f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cplus_dev",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cplus_dev::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cplus_dev-Release-c7741f93773fc842f0c6.json",
+					"name" : "cplus_dev",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cplus_dev_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cplus_dev_uninstall-Release-2038f43ca4de2f6bf597.json",
+					"name" : "cplus_dev_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_GMBP2_method::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_GMBP2_method-Release-8553c4c64d96cd06224a.json",
+					"name" : "test_GMBP2_method",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_gtsam_method::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_gtsam_method-Release-d6b7514b79f9ad088087.json",
+					"name" : "test_gtsam_method",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-fd98026d158192d271bd.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/herring/rzddzy/ros2_ws/build/cplus_dev",
+		"source" : "/home/herring/rzddzy/ros2_ws/src/cplus_dev"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
