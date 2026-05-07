@@ -189,9 +189,10 @@ def _launch_setup(context):
     )
 
     runtime_scene_xml = scene_xml_template
-    rendered_scene = _render_scene_xml(scene_xml_template, arm_id + '.xml')
+    runtime_robot_xml_name = arm_id + '_runtime.xml'
+    rendered_scene = _render_scene_xml(scene_xml_template, runtime_robot_xml_name)
     if rendered_scene != Path(scene_xml_template).read_text(encoding='utf-8'):
-        runtime_robot_xml = runtime_dir / (arm_id + '.xml')
+        runtime_robot_xml = runtime_dir / runtime_robot_xml_name
         runtime_scene_xml_path = runtime_dir / 'scene.xml'
         runtime_robot_xml.write_text(
             _render_single_robot_xml(mujoco_template_robot, arm_id, arm_x, arm_y, arm_z, arm_yaw),
@@ -231,6 +232,14 @@ def _launch_setup(context):
         parameters=[{'robot_description': robot_description}, {'use_sim_time': use_sim_time}],
     )
 
+    node_world_to_base = Node(
+        package='tf2_ros',
+        executable='static_transform_publisher',
+        output='screen',
+        arguments=['0', '0', '0', '0', '0', '0', 'world', 'base_link'],
+        parameters=[{'use_sim_time': use_sim_time}],
+    )
+
     def spawner_args(controller_name, controller_ros_args=None):
         args = [
             controller_name,
@@ -261,6 +270,7 @@ def _launch_setup(context):
                     'mujoco_plugin_config': str(runtime_controller_config),
                 }.items(),
             ),
+            node_world_to_base,
             node_robot_state_publisher,
             Node(
                 package='controller_manager',
@@ -382,7 +392,7 @@ def generate_launch_description():
         ),
         DeclareLaunchArgument(
             arm_x_param,
-            default_value='0',
+            default_value='-0.05',
             description='Base x of the robot in the MuJoCo world frame.',
         ),
         DeclareLaunchArgument(
@@ -392,12 +402,12 @@ def generate_launch_description():
         ),
         DeclareLaunchArgument(
             arm_z_param,
-            default_value='0',
+            default_value='0.1',
             description='Base z of the robot in the MuJoCo world frame.',
         ),
         DeclareLaunchArgument(
             arm_yaw_param,
-            default_value='0',
+            default_value='1.5708',
             description='Base yaw of the robot in the MuJoCo world frame.',
         ),
         OpaqueFunction(function=_launch_setup),

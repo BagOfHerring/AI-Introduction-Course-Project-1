@@ -18,25 +18,16 @@
     <material name="groundplane" texture="groundplane" texuniform="true" texrepeat="5 5"
         reflectance="0.2"/>
     <material name="table_wood" rgba="0.62 0.50 0.38 1" specular="0.10" shininess="0.08" reflectance="0.03"/>
-    <material name="metal_silver" rgba="0.78 0.80 0.84 1" specular="0.92" shininess="0.95" reflectance="0.35"/>
-    <material name="metal_gunmetal" rgba="0.30 0.33 0.37 1" specular="0.85" shininess="0.88" reflectance="0.28"/>
-    <material name="metal_brass" rgba="0.74 0.62 0.28 1" specular="0.90" shininess="0.90" reflectance="0.30"/>
-    <material name="metal_blue" rgba="0.34 0.47 0.66 1" specular="0.82" shininess="0.82" reflectance="0.22"/>
-    <material name="wood_oak" rgba="0.68 0.51 0.32 1" specular="0.18" shininess="0.14" reflectance="0.06"/>
-    <material name="wood_walnut" rgba="0.42 0.29 0.18 1" specular="0.12" shininess="0.10" reflectance="0.04"/>
-    <material name="plastic_red" rgba="0.80 0.24 0.20 1" specular="0.28" shininess="0.35" reflectance="0.08"/>
-    <material name="plastic_white" rgba="0.90 0.90 0.88 1" specular="0.22" shininess="0.26" reflectance="0.07"/>
-    <material name="ceramic_ink" rgba="0.16 0.18 0.22 1" specular="0.42" shininess="0.55" reflectance="0.12"/>
 
 
-    <mesh name="gear_mesh_1" file="gear.stl" scale="0.0030 0.0030 0.0030"/>
-    <mesh name="gear_mesh_2" file="gear.stl" scale="0.0030 0.0030 0.0030"/>
-    <mesh name="square_gear_mesh_1" file="square_gear.stl" scale="0.0030 0.0030 0.0030"/>
-    <mesh name="square_gear_mesh_2" file="square_gear.stl" scale="0.0030 0.0030 0.0030"/>
-    <mesh name="nut_mesh_1" file="nut.stl" scale="0.0030 0.0030 0.0030"/>
-    <mesh name="nut_mesh_2" file="nut.stl" scale="0.0030 0.0030 0.0030"/>
-    <mesh name="bearing_mesh_1" file="bearing.stl" scale="0.0030 0.0030 0.0030"/>
-    <mesh name="bearing_mesh_2" file="bearing.stl" scale="0.0030 0.0030 0.0030"/>
+    <mesh name="gear_mesh_1" file="gear.stl" scale="0.0018 0.0018 0.0018"/>
+    <mesh name="gear_mesh_2" file="gear.stl" scale="0.0017 0.0017 0.0017"/>
+    <mesh name="square_gear_mesh_1" file="square_gear.stl" scale="0.0015 0.0015 0.0015"/>
+    <mesh name="square_gear_mesh_2" file="square_gear.stl" scale="0.0016 0.0016 0.0016"/>
+    <mesh name="nut_mesh_1" file="nut.stl" scale="0.0019 0.0019 0.0019"/>
+    <mesh name="nut_mesh_2" file="nut.stl" scale="0.0020 0.0020 0.0020"/>
+    <mesh name="bearing_mesh_1" file="bearing.stl" scale="0.0015 0.0015 0.0015"/>
+    <mesh name="bearing_mesh_2" file="bearing.stl" scale="0.0015 0.0015 0.0015"/>
   </asset>
 
   <worldbody>
@@ -52,48 +43,48 @@
     </body>
 
     <!-- Camera -->
-    <camera name="vision_cam" pos="0.5 0 3" fovy="45" xyaxes="0 -1 0 1 0 0"/>
+    <camera name="vision_cam" pos="0.5 0.0 1.4" fovy="45" xyaxes="0 -1 0 1 0 0"/>
 
     <!-- Randomized Parts (8 total: 4 types x 2 each) -->
 
-    <body name="part_gear_1" pos="0.698 0.228 0.600">
+    <body name="part_gear_1" pos="0.705 0.012 0.600" euler="0 0 -2.361846">
       <freejoint/>
-      <geom type="mesh" mesh="gear_mesh_1" material="metal_brass" mass="0.139" friction="1 0.005 0.0001"/>
+      <geom type="mesh" mesh="gear_mesh_1" rgba="0.12 0.74 0.98 1" mass="0.077" friction="1 0.005 0.0001"/>
     </body>
 
-    <body name="part_gear_2" pos="0.536 -0.265 0.600">
+    <body name="part_gear_2" pos="0.359 -0.173 0.600" euler="0 0 0.704284">
       <freejoint/>
-      <geom type="mesh" mesh="gear_mesh_2" material="metal_brass" mass="0.196" friction="1 0.005 0.0001"/>
+      <geom type="mesh" mesh="gear_mesh_2" rgba="0.98 0.84 0.16 1" mass="0.107" friction="1 0.005 0.0001"/>
     </body>
 
-    <body name="part_square_gear_1" pos="0.615 0.211 0.600">
+    <body name="part_square_gear_1" pos="0.590 0.077 0.600" euler="0 0 -2.223258">
       <freejoint/>
-      <geom type="mesh" mesh="square_gear_mesh_1" material="plastic_white" mass="0.065" friction="1 0.005 0.0001"/>
+      <geom type="mesh" mesh="square_gear_mesh_1" rgba="0.95 0.27 0.27 1" mass="0.156" friction="1 0.005 0.0001"/>
     </body>
 
-    <body name="part_square_gear_2" pos="0.672 -0.257 0.600">
+    <body name="part_square_gear_2" pos="0.565 0.222 0.600" euler="0 0 -2.538285">
       <freejoint/>
-      <geom type="mesh" mesh="square_gear_mesh_2" material="metal_gunmetal" mass="0.083" friction="1 0.005 0.0001"/>
+      <geom type="mesh" mesh="square_gear_mesh_2" rgba="0.72 0.26 0.98 1" mass="0.196" friction="1 0.005 0.0001"/>
     </body>
 
-    <body name="part_nut_1" pos="0.568 0.338 0.600">
+    <body name="part_nut_1" pos="0.303 0.036 0.600" euler="0 0 1.071940">
       <freejoint/>
-      <geom type="mesh" mesh="nut_mesh_1" material="ceramic_ink" mass="0.156" friction="1 0.005 0.0001"/>
+      <geom type="mesh" mesh="nut_mesh_1" rgba="0.18 0.82 0.43 1" mass="0.155" friction="1 0.005 0.0001"/>
     </body>
 
-    <body name="part_nut_2" pos="0.356 -0.197 0.600">
+    <body name="part_nut_2" pos="0.259 0.356 0.600" euler="0 0 1.697242">
       <freejoint/>
-      <geom type="mesh" mesh="nut_mesh_2" material="metal_silver" mass="0.148" friction="1 0.005 0.0001"/>
+      <geom type="mesh" mesh="nut_mesh_2" rgba="0.96 0.38 0.14 1" mass="0.191" friction="1 0.005 0.0001"/>
     </body>
 
-    <body name="part_bearing_1" pos="0.753 -0.312 0.600">
+    <body name="part_bearing_1" pos="0.405 -0.351 0.600" euler="0 0 3.135950">
       <freejoint/>
-      <geom type="mesh" mesh="bearing_mesh_1" material="plastic_white" mass="0.143" friction="1 0.005 0.0001"/>
+      <geom type="mesh" mesh="bearing_mesh_1" rgba="0.12 0.74 0.98 1" mass="0.116" friction="1 0.005 0.0001"/>
     </body>
 
-    <body name="part_bearing_2" pos="0.262 -0.089 0.600">
+    <body name="part_bearing_2" pos="0.708 -0.157 0.600" euler="0 0 -1.057709">
       <freejoint/>
-      <geom type="mesh" mesh="bearing_mesh_2" material="metal_silver" mass="0.103" friction="1 0.005 0.0001"/>
+      <geom type="mesh" mesh="bearing_mesh_2" rgba="0.98 0.84 0.16 1" mass="0.117" friction="1 0.005 0.0001"/>
     </body>
 
   </worldbody>

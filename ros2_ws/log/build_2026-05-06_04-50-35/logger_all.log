@@ -1,0 +1,552 @@
+[0.059s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'franka_bringup', 'franka_description']
+[0.059s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=28, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['franka_bringup', 'franka_description'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7792eded5790>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7792ee7788c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7792ee7788c0>>)
+[0.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.082s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/herring/rzddzy/ros2_ws'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['ignore', 'ignore_ament_install']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'ignore'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'ignore_ament_install'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['colcon_pkg']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'colcon_pkg'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['colcon_meta']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'colcon_meta'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['ros']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'ros'
+[0.103s] DEBUG:colcon.colcon_core.package_identification:Package 'src/controller' with type 'ros.ament_cmake' and name 'controller'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/cplus_dev) by extensions ['ignore', 'ignore_ament_install']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/cplus_dev) by extension 'ignore'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/cplus_dev) by extension 'ignore_ament_install'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/cplus_dev) by extensions ['colcon_pkg']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/cplus_dev) by extension 'colcon_pkg'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/cplus_dev) by extensions ['colcon_meta']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/cplus_dev) by extension 'colcon_meta'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/cplus_dev) by extensions ['ros']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/cplus_dev) by extension 'ros'
+[0.104s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cplus_dev' with type 'ros.ament_cmake' and name 'cplus_dev'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_analytical_ik) by extensions ['ignore', 'ignore_ament_install']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_analytical_ik) by extension 'ignore'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_analytical_ik) by extension 'ignore_ament_install'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_analytical_ik) by extensions ['colcon_pkg']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_analytical_ik) by extension 'colcon_pkg'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_analytical_ik) by extensions ['colcon_meta']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_analytical_ik) by extension 'colcon_meta'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_analytical_ik) by extensions ['ros']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_analytical_ik) by extension 'ros'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_analytical_ik) by extensions ['cmake', 'python']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_analytical_ik) by extension 'cmake'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_analytical_ik) by extension 'python'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_analytical_ik) by extensions ['python_setup_py']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_analytical_ik) by extension 'python_setup_py'
+[0.225s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_analytical_ik' with type 'python' and name 'franka_ik_py'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_bringup) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_bringup) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_bringup) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_bringup) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_bringup) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_bringup) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_bringup) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_bringup) by extension 'ros'
+[0.226s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_bringup' with type 'ros.ament_cmake' and name 'franka_bringup'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_description) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_description) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_description) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_description) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_description) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_description) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_description) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_description) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_description) by extension 'ros'
+[0.226s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_description' with type 'ros.ament_cmake' and name 'franka_description'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_example_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_example_controllers) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_example_controllers) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_example_controllers) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_example_controllers) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_example_controllers) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_example_controllers) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_example_controllers) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_example_controllers) by extension 'ros'
+[0.227s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_example_controllers' with type 'ros.ament_cmake' and name 'franka_example_controllers'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_hardware) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_hardware) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_hardware) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_hardware) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_hardware) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_hardware) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_hardware) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_hardware) by extension 'ros'
+[0.227s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_hardware' with type 'ros.ament_cmake' and name 'franka_hardware'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_msgs) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_msgs) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_msgs) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_msgs) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_msgs) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_msgs) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_msgs) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_msgs) by extension 'ros'
+[0.228s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_msgs' with type 'ros.ament_cmake' and name 'franka_msgs'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_robot_state_broadcaster) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_robot_state_broadcaster) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_robot_state_broadcaster) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_robot_state_broadcaster) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_robot_state_broadcaster) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_robot_state_broadcaster) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_robot_state_broadcaster) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_robot_state_broadcaster) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_robot_state_broadcaster) by extension 'ros'
+[0.229s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_robot_state_broadcaster' with type 'ros.ament_cmake' and name 'franka_robot_state_broadcaster'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_semantic_components) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_semantic_components) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_semantic_components) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_semantic_components) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_semantic_components) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_semantic_components) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_semantic_components) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_semantic_components) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_semantic_components) by extension 'ros'
+[0.229s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_semantic_components' with type 'ros.ament_cmake' and name 'franka_semantic_components'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs) by extension 'ros'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs) by extensions ['cmake', 'python']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs) by extensions ['python_setup_py']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs) by extension 'python_setup_py'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros) by extension 'ros'
+[0.233s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mujoco_ros_pkgs/mujoco_ros' with type 'ros.ament_cmake' and name 'mujoco_ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_control) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_control) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_control) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_control) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_control) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_control) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_control) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_control) by extension 'ros'
+[0.234s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mujoco_ros_pkgs/mujoco_ros2_control' with type 'ros.ament_cmake' and name 'mujoco_ros2_control'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_control_system) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_control_system) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_control_system) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_control_system) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_control_system) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_control_system) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_control_system) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_control_system) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_control_system) by extension 'ros'
+[0.234s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mujoco_ros_pkgs/mujoco_ros2_control_system' with type 'ros.ament_cmake' and name 'mujoco_ros2_control_system'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_dummy_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_dummy_plugin) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_dummy_plugin) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_dummy_plugin) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_dummy_plugin) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_dummy_plugin) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_dummy_plugin) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_dummy_plugin) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_dummy_plugin) by extension 'ros'
+[0.235s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mujoco_ros_pkgs/mujoco_ros2_dummy_plugin' with type 'ros.ament_cmake' and name 'mujoco_ros2_dummy_plugin'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_sensors) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_sensors) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_sensors) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_sensors) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_sensors) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_sensors) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_sensors) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_sensors) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros2_sensors) by extension 'ros'
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mujoco_ros_pkgs/mujoco_ros2_sensors' with type 'ros.ament_cmake' and name 'mujoco_ros2_sensors'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros_control) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros_control) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros_control) ignored
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros_laser) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros_laser) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros_laser) ignored
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros_mocap_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros_mocap_plugin) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros_mocap_plugin) ignored
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros_msgs) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros_msgs) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros_msgs) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros_msgs) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros_msgs) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros_msgs) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros_msgs) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros_msgs) by extension 'ros'
+[0.238s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mujoco_ros_pkgs/mujoco_ros_msgs' with type 'ros.ament_cmake' and name 'mujoco_ros_msgs'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros_pkgs) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros_pkgs) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros_pkgs) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros_pkgs) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros_pkgs) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros_pkgs) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros_pkgs) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros_pkgs) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros_pkgs) by extension 'ros'
+[0.239s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mujoco_ros_pkgs/mujoco_ros_pkgs' with type 'ros.ament_cmake' and name 'mujoco_ros_pkgs'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros_sensors) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros_sensors) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/mujoco_ros_pkgs/mujoco_ros_sensors) ignored
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_mode_control_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_mode_control_msgs) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_mode_control_msgs) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_mode_control_msgs) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_mode_control_msgs) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_mode_control_msgs) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_mode_control_msgs) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_mode_control_msgs) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_mode_control_msgs) by extension 'ros'
+[0.240s] DEBUG:colcon.colcon_core.package_identification:Package 'src/multi_mode_control_msgs' with type 'ros.ament_cmake' and name 'multi_mode_control_msgs'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_mode_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_mode_controller) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_mode_controller) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_mode_controller) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_mode_controller) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_mode_controller) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_mode_controller) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_mode_controller) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_mode_controller) by extension 'ros'
+[0.240s] DEBUG:colcon.colcon_core.package_identification:Package 'src/multi_mode_controller' with type 'ros.ament_cmake' and name 'multi_mode_controller'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_mode_controller_impl) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_mode_controller_impl) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_mode_controller_impl) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_mode_controller_impl) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_mode_controller_impl) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_mode_controller_impl) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_mode_controller_impl) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_mode_controller_impl) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_mode_controller_impl) by extension 'ros'
+[0.241s] DEBUG:colcon.colcon_core.package_identification:Package 'src/multi_mode_controller_impl' with type 'ros.ament_cmake' and name 'multi_mode_controller_impl'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_motion_generator_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_motion_generator_msgs) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_motion_generator_msgs) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_motion_generator_msgs) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_motion_generator_msgs) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_motion_generator_msgs) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_motion_generator_msgs) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_motion_generator_msgs) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_motion_generator_msgs) by extension 'ros'
+[0.241s] DEBUG:colcon.colcon_core.package_identification:Package 'src/panda_motion_generator_msgs' with type 'ros.ament_cmake' and name 'panda_motion_generator_msgs'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_motion_generators) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_motion_generators) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_motion_generators) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_motion_generators) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_motion_generators) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_motion_generators) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_motion_generators) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_motion_generators) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_motion_generators) by extension 'ros'
+[0.242s] DEBUG:colcon.colcon_core.package_identification:Package 'src/panda_motion_generators' with type 'ros.ament_cmake' and name 'panda_motion_generators'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train) by extension 'ros'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train) by extensions ['cmake', 'python']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train) by extension 'cmake'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train) by extension 'python'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train) by extensions ['python_setup_py']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train) by extension 'python_setup_py'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images) by extension 'ros'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images) by extensions ['cmake', 'python']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images) by extension 'cmake'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images) by extension 'python'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images) by extensions ['python_setup_py']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images) by extension 'python_setup_py'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images/train) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images/train) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images/train) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images/train) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images/train) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images/train) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images/train) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images/train) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images/train) by extension 'ros'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images/train) by extensions ['cmake', 'python']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images/train) by extension 'cmake'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images/train) by extension 'python'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images/train) by extensions ['python_setup_py']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images/train) by extension 'python_setup_py'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images/val) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images/val) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images/val) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images/val) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images/val) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images/val) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images/val) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images/val) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images/val) by extension 'ros'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images/val) by extensions ['cmake', 'python']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images/val) by extension 'cmake'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images/val) by extension 'python'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images/val) by extensions ['python_setup_py']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/images/val) by extension 'python_setup_py'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels) by extension 'ros'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels) by extensions ['cmake', 'python']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels) by extension 'cmake'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels) by extension 'python'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels) by extensions ['python_setup_py']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels) by extension 'python_setup_py'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels/train) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels/train) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels/train) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels/train) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels/train) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels/train) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels/train) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels/train) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels/train) by extension 'ros'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels/train) by extensions ['cmake', 'python']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels/train) by extension 'cmake'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels/train) by extension 'python'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels/train) by extensions ['python_setup_py']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels/train) by extension 'python_setup_py'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels/val) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels/val) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels/val) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels/val) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels/val) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels/val) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels/val) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels/val) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels/val) by extension 'ros'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels/val) by extensions ['cmake', 'python']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels/val) by extension 'cmake'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels/val) by extension 'python'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels/val) by extensions ['python_setup_py']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_train/labels/val) by extension 'python_setup_py'
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cplus_dev' in 'src/cplus_dev'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'franka_ik_py' in 'src/franka_analytical_ik'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'franka_msgs' in 'src/franka_msgs'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mujoco_ros_msgs' in 'src/mujoco_ros_pkgs/mujoco_ros_msgs'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'panda_motion_generator_msgs' in 'src/panda_motion_generator_msgs'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'controller' in 'src/controller'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mujoco_ros' in 'src/mujoco_ros_pkgs/mujoco_ros'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'multi_mode_control_msgs' in 'src/multi_mode_control_msgs'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mujoco_ros2_control' in 'src/mujoco_ros_pkgs/mujoco_ros2_control'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mujoco_ros2_dummy_plugin' in 'src/mujoco_ros_pkgs/mujoco_ros2_dummy_plugin'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mujoco_ros2_sensors' in 'src/mujoco_ros_pkgs/mujoco_ros2_sensors'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mujoco_ros_pkgs' in 'src/mujoco_ros_pkgs/mujoco_ros_pkgs'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'franka_hardware' in 'src/franka_hardware'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mujoco_ros2_control_system' in 'src/mujoco_ros_pkgs/mujoco_ros2_control_system'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'franka_semantic_components' in 'src/franka_semantic_components'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'franka_example_controllers' in 'src/franka_example_controllers'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'franka_robot_state_broadcaster' in 'src/franka_robot_state_broadcaster'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'multi_mode_controller' in 'src/multi_mode_controller'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'multi_mode_controller_impl' in 'src/multi_mode_controller_impl'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'panda_motion_generators' in 'src/panda_motion_generators'
+[0.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.260s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 22 installed packages in /home/herring/rzddzy/ros2_ws/install
+[0.260s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 347 installed packages in /opt/ros/jazzy
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_target' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.295s] DEBUG:colcon.colcon_core.verb:Building package 'franka_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/herring/rzddzy/ros2_ws/build/franka_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/herring/rzddzy/ros2_ws/install/franka_description', 'merge_install': False, 'path': '/home/herring/rzddzy/ros2_ws/src/franka_description', 'symlink_install': False, 'test_result_base': None}
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'cmake_target' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.296s] DEBUG:colcon.colcon_core.verb:Building package 'franka_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/herring/rzddzy/ros2_ws/build/franka_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/herring/rzddzy/ros2_ws/install/franka_bringup', 'merge_install': False, 'path': '/home/herring/rzddzy/ros2_ws/src/franka_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.296s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.296s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.296s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/herring/rzddzy/ros2_ws/src/franka_description' with build type 'ament_cmake'
+[0.296s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/herring/rzddzy/ros2_ws/src/franka_description'
+[0.298s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.298s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.298s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/herring/rzddzy/ros2_ws/build/franka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/herring/rzddzy/ros2_ws/build/franka_description -- -j28 -l28
+[0.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/herring/rzddzy/ros2_ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/herring/rzddzy/ros2_ws/build/franka_description -- -j28 -l28
+[0.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/herring/rzddzy/ros2_ws/build/franka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/herring/rzddzy/ros2_ws/build/franka_description
+[0.380s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_description)
+[0.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/herring/rzddzy/ros2_ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/herring/rzddzy/ros2_ws/build/franka_description
+[0.383s] Level 1:colcon.colcon_core.environment:checking '/home/herring/rzddzy/ros2_ws/install/franka_description' for CMake module files
+[0.383s] Level 1:colcon.colcon_core.environment:checking '/home/herring/rzddzy/ros2_ws/install/franka_description' for CMake config files
+[0.384s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_description', 'cmake_prefix_path')
+[0.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description/hook/cmake_prefix_path.ps1'
+[0.385s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description/hook/cmake_prefix_path.dsv'
+[0.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description/hook/cmake_prefix_path.sh'
+[0.385s] Level 1:colcon.colcon_core.environment:checking '/home/herring/rzddzy/ros2_ws/install/franka_description/bin'
+[0.385s] Level 1:colcon.colcon_core.environment:checking '/home/herring/rzddzy/ros2_ws/install/franka_description/lib/pkgconfig/franka_description.pc'
+[0.386s] Level 1:colcon.colcon_core.environment:checking '/home/herring/rzddzy/ros2_ws/install/franka_description/lib/python3.12/site-packages'
+[0.386s] Level 1:colcon.colcon_core.environment:checking '/home/herring/rzddzy/ros2_ws/install/franka_description/bin'
+[0.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description/package.ps1'
+[0.386s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description/package.dsv'
+[0.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description/package.sh'
+[0.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description/package.bash'
+[0.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description/package.zsh'
+[0.387s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/herring/rzddzy/ros2_ws/install/franka_description/share/colcon-core/packages/franka_description)
+[0.388s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_description)
+[0.388s] Level 1:colcon.colcon_core.environment:checking '/home/herring/rzddzy/ros2_ws/install/franka_description' for CMake module files
+[0.388s] Level 1:colcon.colcon_core.environment:checking '/home/herring/rzddzy/ros2_ws/install/franka_description' for CMake config files
+[0.388s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_description', 'cmake_prefix_path')
+[0.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description/hook/cmake_prefix_path.ps1'
+[0.388s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description/hook/cmake_prefix_path.dsv'
+[0.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description/hook/cmake_prefix_path.sh'
+[0.389s] Level 1:colcon.colcon_core.environment:checking '/home/herring/rzddzy/ros2_ws/install/franka_description/bin'
+[0.389s] Level 1:colcon.colcon_core.environment:checking '/home/herring/rzddzy/ros2_ws/install/franka_description/lib/pkgconfig/franka_description.pc'
+[0.389s] Level 1:colcon.colcon_core.environment:checking '/home/herring/rzddzy/ros2_ws/install/franka_description/lib/python3.12/site-packages'
+[0.389s] Level 1:colcon.colcon_core.environment:checking '/home/herring/rzddzy/ros2_ws/install/franka_description/bin'
+[0.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description/package.ps1'
+[0.390s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description/package.dsv'
+[0.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description/package.sh'
+[0.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description/package.bash'
+[0.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description/package.zsh'
+[0.390s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/herring/rzddzy/ros2_ws/install/franka_description/share/colcon-core/packages/franka_description)
+[0.391s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/herring/rzddzy/ros2_ws/src/franka_bringup' with build type 'ament_cmake'
+[0.391s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/herring/rzddzy/ros2_ws/src/franka_bringup'
+[0.391s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.391s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/herring/rzddzy/ros2_ws/build/franka_bringup': CMAKE_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/multi_mode_controller_impl:/home/herring/rzddzy/ros2_ws/install/multi_mode_controller:/home/herring/rzddzy/ros2_ws/install/franka_robot_state_broadcaster:/home/herring/rzddzy/ros2_ws/install/franka_semantic_components:/home/herring/rzddzy/ros2_ws/install/franka_hardware:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control:/home/herring/rzddzy/ros2_ws/install/multi_mode_control_msgs:/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:/home/herring/rzddzy/ros2_ws/install/franka_msgs:/home/herring/rzddzy/ros2_ws/install/franka_description:/home/herring/rzddzy/ros2_ws/install/panda_motion_generators:/home/herring/rzddzy/ros2_ws/install/panda_motion_generator_msgs:/home/herring/rzddzy/ros2_ws/install/franka_bringup:/home/herring/rzddzy/ros2_ws/install/franka_example_controllers:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_pkgs:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_sensors:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_dummy_plugin:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control_system:/home/herring/rzddzy/ros2_ws/install/controller:/home/herring/rzddzy/ros2_ws/install/cplus_dev:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/ros2_ws/install/multi_mode_controller_impl/lib:/home/herring/rzddzy/ros2_ws/install/multi_mode_controller/lib:/home/herring/rzddzy/ros2_ws/install/franka_robot_state_broadcaster/lib:/home/herring/rzddzy/ros2_ws/install/franka_semantic_components/lib:/home/herring/rzddzy/ros2_ws/install/franka_hardware/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/lib:/home/herring/rzddzy/ros2_ws/install/multi_mode_control_msgs/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib:/home/herring/rzddzy/ros2_ws/install/franka_msgs/lib:/home/herring/rzddzy/ros2_ws/install/panda_motion_generators/lib:/home/herring/rzddzy/ros2_ws/install/panda_motion_generator_msgs/lib:/home/herring/rzddzy/ros2_ws/install/franka_example_controllers/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_sensors/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_dummy_plugin/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control_system/lib:/home/herring/rzddzy/ros2_ws/install/cplus_dev/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/herring/rzddzy/ros2_ws/install/multi_mode_control_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/ros2_ws/install/franka_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/ros2_ws/install/panda_motion_generator_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/ros2_ws/build/franka_ik_py:/home/herring/rzddzy/ros2_ws/install/franka_ik_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/herring/rzddzy/ros2_ws/build/franka_bringup -- -j28 -l28
+[0.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/herring/rzddzy/ros2_ws/build/franka_bringup' returned '0': CMAKE_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/multi_mode_controller_impl:/home/herring/rzddzy/ros2_ws/install/multi_mode_controller:/home/herring/rzddzy/ros2_ws/install/franka_robot_state_broadcaster:/home/herring/rzddzy/ros2_ws/install/franka_semantic_components:/home/herring/rzddzy/ros2_ws/install/franka_hardware:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control:/home/herring/rzddzy/ros2_ws/install/multi_mode_control_msgs:/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:/home/herring/rzddzy/ros2_ws/install/franka_msgs:/home/herring/rzddzy/ros2_ws/install/franka_description:/home/herring/rzddzy/ros2_ws/install/panda_motion_generators:/home/herring/rzddzy/ros2_ws/install/panda_motion_generator_msgs:/home/herring/rzddzy/ros2_ws/install/franka_bringup:/home/herring/rzddzy/ros2_ws/install/franka_example_controllers:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_pkgs:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_sensors:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_dummy_plugin:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control_system:/home/herring/rzddzy/ros2_ws/install/controller:/home/herring/rzddzy/ros2_ws/install/cplus_dev:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/ros2_ws/install/multi_mode_controller_impl/lib:/home/herring/rzddzy/ros2_ws/install/multi_mode_controller/lib:/home/herring/rzddzy/ros2_ws/install/franka_robot_state_broadcaster/lib:/home/herring/rzddzy/ros2_ws/install/franka_semantic_components/lib:/home/herring/rzddzy/ros2_ws/install/franka_hardware/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/lib:/home/herring/rzddzy/ros2_ws/install/multi_mode_control_msgs/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib:/home/herring/rzddzy/ros2_ws/install/franka_msgs/lib:/home/herring/rzddzy/ros2_ws/install/panda_motion_generators/lib:/home/herring/rzddzy/ros2_ws/install/panda_motion_generator_msgs/lib:/home/herring/rzddzy/ros2_ws/install/franka_example_controllers/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_sensors/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_dummy_plugin/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control_system/lib:/home/herring/rzddzy/ros2_ws/install/cplus_dev/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/herring/rzddzy/ros2_ws/install/multi_mode_control_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/ros2_ws/install/franka_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/ros2_ws/install/panda_motion_generator_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/ros2_ws/build/franka_ik_py:/home/herring/rzddzy/ros2_ws/install/franka_ik_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/herring/rzddzy/ros2_ws/build/franka_bringup -- -j28 -l28
+[0.461s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/herring/rzddzy/ros2_ws/build/franka_bringup': CMAKE_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/multi_mode_controller_impl:/home/herring/rzddzy/ros2_ws/install/multi_mode_controller:/home/herring/rzddzy/ros2_ws/install/franka_robot_state_broadcaster:/home/herring/rzddzy/ros2_ws/install/franka_semantic_components:/home/herring/rzddzy/ros2_ws/install/franka_hardware:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control:/home/herring/rzddzy/ros2_ws/install/multi_mode_control_msgs:/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:/home/herring/rzddzy/ros2_ws/install/franka_msgs:/home/herring/rzddzy/ros2_ws/install/franka_description:/home/herring/rzddzy/ros2_ws/install/panda_motion_generators:/home/herring/rzddzy/ros2_ws/install/panda_motion_generator_msgs:/home/herring/rzddzy/ros2_ws/install/franka_bringup:/home/herring/rzddzy/ros2_ws/install/franka_example_controllers:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_pkgs:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_sensors:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_dummy_plugin:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control_system:/home/herring/rzddzy/ros2_ws/install/controller:/home/herring/rzddzy/ros2_ws/install/cplus_dev:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/ros2_ws/install/multi_mode_controller_impl/lib:/home/herring/rzddzy/ros2_ws/install/multi_mode_controller/lib:/home/herring/rzddzy/ros2_ws/install/franka_robot_state_broadcaster/lib:/home/herring/rzddzy/ros2_ws/install/franka_semantic_components/lib:/home/herring/rzddzy/ros2_ws/install/franka_hardware/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/lib:/home/herring/rzddzy/ros2_ws/install/multi_mode_control_msgs/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib:/home/herring/rzddzy/ros2_ws/install/franka_msgs/lib:/home/herring/rzddzy/ros2_ws/install/panda_motion_generators/lib:/home/herring/rzddzy/ros2_ws/install/panda_motion_generator_msgs/lib:/home/herring/rzddzy/ros2_ws/install/franka_example_controllers/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_sensors/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_dummy_plugin/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control_system/lib:/home/herring/rzddzy/ros2_ws/install/cplus_dev/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/herring/rzddzy/ros2_ws/install/multi_mode_control_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/ros2_ws/install/franka_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/ros2_ws/install/panda_motion_generator_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/ros2_ws/build/franka_ik_py:/home/herring/rzddzy/ros2_ws/install/franka_ik_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/herring/rzddzy/ros2_ws/build/franka_bringup
+[0.490s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_bringup)
+[0.490s] Level 1:colcon.colcon_core.environment:checking '/home/herring/rzddzy/ros2_ws/install/franka_bringup' for CMake module files
+[0.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/herring/rzddzy/ros2_ws/build/franka_bringup' returned '0': CMAKE_PREFIX_PATH=/home/herring/rzddzy/ros2_ws/install/multi_mode_controller_impl:/home/herring/rzddzy/ros2_ws/install/multi_mode_controller:/home/herring/rzddzy/ros2_ws/install/franka_robot_state_broadcaster:/home/herring/rzddzy/ros2_ws/install/franka_semantic_components:/home/herring/rzddzy/ros2_ws/install/franka_hardware:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control:/home/herring/rzddzy/ros2_ws/install/multi_mode_control_msgs:/home/herring/rzddzy/ros2_ws/install/mujoco_ros:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs:/home/herring/rzddzy/ros2_ws/install/franka_msgs:/home/herring/rzddzy/ros2_ws/install/franka_description:/home/herring/rzddzy/ros2_ws/install/panda_motion_generators:/home/herring/rzddzy/ros2_ws/install/panda_motion_generator_msgs:/home/herring/rzddzy/ros2_ws/install/franka_bringup:/home/herring/rzddzy/ros2_ws/install/franka_example_controllers:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_pkgs:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_sensors:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_dummy_plugin:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control_system:/home/herring/rzddzy/ros2_ws/install/controller:/home/herring/rzddzy/ros2_ws/install/cplus_dev:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/herring/rzddzy/ros2_ws/install/multi_mode_controller_impl/lib:/home/herring/rzddzy/ros2_ws/install/multi_mode_controller/lib:/home/herring/rzddzy/ros2_ws/install/franka_robot_state_broadcaster/lib:/home/herring/rzddzy/ros2_ws/install/franka_semantic_components/lib:/home/herring/rzddzy/ros2_ws/install/franka_hardware/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control/lib:/home/herring/rzddzy/ros2_ws/install/multi_mode_control_msgs/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib:/home/herring/rzddzy/ros2_ws/install/franka_msgs/lib:/home/herring/rzddzy/ros2_ws/install/panda_motion_generators/lib:/home/herring/rzddzy/ros2_ws/install/panda_motion_generator_msgs/lib:/home/herring/rzddzy/ros2_ws/install/franka_example_controllers/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_sensors/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_dummy_plugin/lib:/home/herring/rzddzy/ros2_ws/install/mujoco_ros2_control_system/lib:/home/herring/rzddzy/ros2_ws/install/cplus_dev/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/herring/rzddzy/ros2_ws/install/multi_mode_control_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/ros2_ws/install/mujoco_ros_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/ros2_ws/install/franka_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/ros2_ws/install/panda_motion_generator_msgs/lib/python3.12/site-packages:/home/herring/rzddzy/ros2_ws/build/franka_ik_py:/home/herring/rzddzy/ros2_ws/install/franka_ik_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/herring/rzddzy/ros2_ws/build/franka_bringup
+[0.491s] Level 1:colcon.colcon_core.environment:checking '/home/herring/rzddzy/ros2_ws/install/franka_bringup' for CMake config files
+[0.492s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_bringup', 'cmake_prefix_path')
+[0.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/herring/rzddzy/ros2_ws/install/franka_bringup/share/franka_bringup/hook/cmake_prefix_path.ps1'
+[0.492s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/herring/rzddzy/ros2_ws/install/franka_bringup/share/franka_bringup/hook/cmake_prefix_path.dsv'
+[0.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/herring/rzddzy/ros2_ws/install/franka_bringup/share/franka_bringup/hook/cmake_prefix_path.sh'
+[0.493s] Level 1:colcon.colcon_core.environment:checking '/home/herring/rzddzy/ros2_ws/install/franka_bringup/lib'
+[0.493s] Level 1:colcon.colcon_core.environment:checking '/home/herring/rzddzy/ros2_ws/install/franka_bringup/bin'
+[0.493s] Level 1:colcon.colcon_core.environment:checking '/home/herring/rzddzy/ros2_ws/install/franka_bringup/lib/pkgconfig/franka_bringup.pc'
+[0.494s] Level 1:colcon.colcon_core.environment:checking '/home/herring/rzddzy/ros2_ws/install/franka_bringup/lib/python3.12/site-packages'
+[0.494s] Level 1:colcon.colcon_core.environment:checking '/home/herring/rzddzy/ros2_ws/install/franka_bringup/bin'
+[0.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/herring/rzddzy/ros2_ws/install/franka_bringup/share/franka_bringup/package.ps1'
+[0.495s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/herring/rzddzy/ros2_ws/install/franka_bringup/share/franka_bringup/package.dsv'
+[0.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/herring/rzddzy/ros2_ws/install/franka_bringup/share/franka_bringup/package.sh'
+[0.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/herring/rzddzy/ros2_ws/install/franka_bringup/share/franka_bringup/package.bash'
+[0.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/herring/rzddzy/ros2_ws/install/franka_bringup/share/franka_bringup/package.zsh'
+[0.496s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/herring/rzddzy/ros2_ws/install/franka_bringup/share/colcon-core/packages/franka_bringup)
+[0.496s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_bringup)
+[0.496s] Level 1:colcon.colcon_core.environment:checking '/home/herring/rzddzy/ros2_ws/install/franka_bringup' for CMake module files
+[0.497s] Level 1:colcon.colcon_core.environment:checking '/home/herring/rzddzy/ros2_ws/install/franka_bringup' for CMake config files
+[0.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_bringup', 'cmake_prefix_path')
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/herring/rzddzy/ros2_ws/install/franka_bringup/share/franka_bringup/hook/cmake_prefix_path.ps1'
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/herring/rzddzy/ros2_ws/install/franka_bringup/share/franka_bringup/hook/cmake_prefix_path.dsv'
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/herring/rzddzy/ros2_ws/install/franka_bringup/share/franka_bringup/hook/cmake_prefix_path.sh'
+[0.499s] Level 1:colcon.colcon_core.environment:checking '/home/herring/rzddzy/ros2_ws/install/franka_bringup/lib'
+[0.499s] Level 1:colcon.colcon_core.environment:checking '/home/herring/rzddzy/ros2_ws/install/franka_bringup/bin'
+[0.499s] Level 1:colcon.colcon_core.environment:checking '/home/herring/rzddzy/ros2_ws/install/franka_bringup/lib/pkgconfig/franka_bringup.pc'
+[0.499s] Level 1:colcon.colcon_core.environment:checking '/home/herring/rzddzy/ros2_ws/install/franka_bringup/lib/python3.12/site-packages'
+[0.500s] Level 1:colcon.colcon_core.environment:checking '/home/herring/rzddzy/ros2_ws/install/franka_bringup/bin'
+[0.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/herring/rzddzy/ros2_ws/install/franka_bringup/share/franka_bringup/package.ps1'
+[0.500s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/herring/rzddzy/ros2_ws/install/franka_bringup/share/franka_bringup/package.dsv'
+[0.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/herring/rzddzy/ros2_ws/install/franka_bringup/share/franka_bringup/package.sh'
+[0.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/herring/rzddzy/ros2_ws/install/franka_bringup/share/franka_bringup/package.bash'
+[0.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/herring/rzddzy/ros2_ws/install/franka_bringup/share/franka_bringup/package.zsh'
+[0.502s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/herring/rzddzy/ros2_ws/install/franka_bringup/share/colcon-core/packages/franka_bringup)
+[0.502s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.502s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.502s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.502s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.506s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.506s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.506s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.520s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.520s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/herring/rzddzy/ros2_ws/install/local_setup.ps1'
+[0.521s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/herring/rzddzy/ros2_ws/install/_local_setup_util_ps1.py'
+[0.522s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/herring/rzddzy/ros2_ws/install/setup.ps1'
+[0.523s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/herring/rzddzy/ros2_ws/install/local_setup.sh'
+[0.523s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/herring/rzddzy/ros2_ws/install/_local_setup_util_sh.py'
+[0.524s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/herring/rzddzy/ros2_ws/install/setup.sh'
+[0.525s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/herring/rzddzy/ros2_ws/install/local_setup.bash'
+[0.526s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/herring/rzddzy/ros2_ws/install/setup.bash'
+[0.527s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/herring/rzddzy/ros2_ws/install/local_setup.zsh'
+[0.528s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/herring/rzddzy/ros2_ws/install/setup.zsh'

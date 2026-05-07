@@ -109,6 +109,7 @@
 /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/panda_ng.xml
 /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/scene.xml
 /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/scene_ng.xml
+/home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/scene_with_workbench.metadata.json
 /home/herring/rzddzy/ros2_ws/install/franka_description/share/franka_description//mujoco/franka/scene_with_workbench.xml
 /home/herring/rzddzy/ros2_ws/install/franka_description/share/ament_index/resource_index/package_run_dependencies/franka_description
 /home/herring/rzddzy/ros2_ws/install/franka_description/share/ament_index/resource_index/parent_prefix_path/franka_description

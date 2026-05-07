@@ -1,0 +1,9 @@
+path: /home/herring/rzddzy/yolo_train
+train: images/train
+val: images/val
+nc: 4
+names:
+  0: bearing
+  1: square_gear
+  2: nut
+  3: gear

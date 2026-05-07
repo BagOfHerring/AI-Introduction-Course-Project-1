@@ -1,0 +1,183 @@
+{
+  "scene_file": "/home/herring/rzddzy/ros2_ws/src/franka_description/mujoco/franka/scene_with_workbench.xml",
+  "metadata_file": "/home/herring/rzddzy/ros2_ws/src/franka_description/mujoco/franka/scene_with_workbench.metadata.json",
+  "static_parts": false,
+  "table_surface_z": 0.4,
+  "camera": {
+    "name": "vision_cam",
+    "position_xyz": [
+      0.5,
+      0.0,
+      1.4
+    ],
+    "fovy_deg": 45.0
+  },
+  "class_names": [
+    "bearing",
+    "square_gear",
+    "nut",
+    "gear"
+  ],
+  "parts": [
+    {
+      "body_name": "part_gear_1",
+      "part_type": "gear",
+      "mesh_name": "gear_mesh_1",
+      "stl": "gear.stl",
+      "scale_value": 0.0017519651345841167,
+      "rgba": "0.12 0.74 0.98 1",
+      "mass": 0.077,
+      "position_xyz": [
+        0.7053886901440605,
+        0.011679790955018254,
+        0.6
+      ],
+      "yaw_rad": -2.3618457433405773,
+      "dimensions_m": {
+        "x": 0.06501433116620746,
+        "y": 0.06385113068195417,
+        "z": 0.017519651345841165
+      }
+    },
+    {
+      "body_name": "part_gear_2",
+      "part_type": "gear",
+      "mesh_name": "gear_mesh_2",
+      "stl": "gear.stl",
+      "scale_value": 0.0017331098503733208,
+      "rgba": "0.98 0.84 0.16 1",
+      "mass": 0.107,
+      "position_xyz": [
+        0.35909397242667185,
+        -0.17320441740201137,
+        0.6
+      ],
+      "yaw_rad": 0.7042839409044577,
+      "dimensions_m": {
+        "x": 0.06431462335369745,
+        "y": 0.06316394165494495,
+        "z": 0.017331098503733208
+      }
+    },
+    {
+      "body_name": "part_square_gear_1",
+      "part_type": "square_gear",
+      "mesh_name": "square_gear_mesh_1",
+      "stl": "square_gear.stl",
+      "scale_value": 0.0015017679220034688,
+      "rgba": "0.95 0.27 0.27 1",
+      "mass": 0.156,
+      "position_xyz": [
+        0.5902624039477435,
+        0.07698017126000184,
+        0.6
+      ],
+      "yaw_rad": -2.223258023219568,
+      "dimensions_m": {
+        "x": 0.05939618623206603,
+        "y": 0.05939618623206603,
+        "z": 0.015017679220034687
+      }
+    },
+    {
+      "body_name": "part_square_gear_2",
+      "part_type": "square_gear",
+      "mesh_name": "square_gear_mesh_2",
+      "stl": "square_gear.stl",
+      "scale_value": 0.0015876675390239128,
+      "rgba": "0.72 0.26 0.98 1",
+      "mass": 0.196,
+      "position_xyz": [
+        0.5654445548156417,
+        0.22234855047530605,
+        0.6
+      ],
+      "yaw_rad": -2.538285368316811,
+      "dimensions_m": {
+        "x": 0.06279358843719693,
+        "y": 0.06279358843719693,
+        "z": 0.01587667539023913
+      }
+    },
+    {
+      "body_name": "part_nut_1",
+      "part_type": "nut",
+      "mesh_name": "nut_mesh_1",
+      "stl": "nut.stl",
+      "scale_value": 0.0018888869227221643,
+      "rgba": "0.18 0.82 0.43 1",
+      "mass": 0.155,
+      "position_xyz": [
+        0.30318033179245335,
+        0.035711763131040575,
+        0.6
+      ],
+      "yaw_rad": 1.0719400951361777,
+      "dimensions_m": {
+        "x": 0.07555547690888657,
+        "y": 0.0869507083742663,
+        "z": 0.018888869227221643
+      }
+    },
+    {
+      "body_name": "part_nut_2",
+      "part_type": "nut",
+      "mesh_name": "nut_mesh_2",
+      "stl": "nut.stl",
+      "scale_value": 0.001952090036366268,
+      "rgba": "0.96 0.38 0.14 1",
+      "mass": 0.191,
+      "position_xyz": [
+        0.25865662149459523,
+        0.3558383715845486,
+        0.6
+      ],
+      "yaw_rad": 1.6972424445487757,
+      "dimensions_m": {
+        "x": 0.07808360145465072,
+        "y": 0.08986012313949436,
+        "z": 0.01952090036366268
+      }
+    },
+    {
+      "body_name": "part_bearing_1",
+      "part_type": "bearing",
+      "mesh_name": "bearing_mesh_1",
+      "stl": "bearing.stl",
+      "scale_value": 0.001502899856589878,
+      "rgba": "0.12 0.74 0.98 1",
+      "mass": 0.116,
+      "position_xyz": [
+        0.40497736444489485,
+        -0.351363908613909,
+        0.6
+      ],
+      "yaw_rad": 3.1359502430093835,
+      "dimensions_m": {
+        "x": 0.060115994263595124,
+        "y": 0.060115994263595124,
+        "z": 0.015028998565898781
+      }
+    },
+    {
+      "body_name": "part_bearing_2",
+      "part_type": "bearing",
+      "mesh_name": "bearing_mesh_2",
+      "stl": "bearing.stl",
+      "scale_value": 0.0015054750082250609,
+      "rgba": "0.98 0.84 0.16 1",
+      "mass": 0.117,
+      "position_xyz": [
+        0.7080486807320794,
+        -0.15745715674205268,
+        0.6
+      ],
+      "yaw_rad": -1.0577087689382259,
+      "dimensions_m": {
+        "x": 0.06021900032900243,
+        "y": 0.06021900032900243,
+        "z": 0.015054750082250608
+      }
+    }
+  ]
+}

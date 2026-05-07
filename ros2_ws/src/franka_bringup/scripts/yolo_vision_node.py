@@ -69,10 +69,12 @@ def resolve_model_path(model_path: str) -> str:
         return str(raw_path)
 
     script_dir = Path(__file__).resolve().parent
+    workspace_root = Path(__file__).resolve().parents[4]
     candidates = [
         Path.cwd() / model_path,
         script_dir / model_path,
         script_dir / 'weights' / model_path,
+        workspace_root / model_path,
     ]
     for candidate in candidates:
         if candidate.is_file():
@@ -172,6 +174,39 @@ def detect_objects(
     return detections
 
 
+def bbox_iou(box_a, box_b) -> float:
+    ax1, ay1, ax2, ay2 = box_a
+    bx1, by1, bx2, by2 = box_b
+
+    inter_x1 = max(ax1, bx1)
+    inter_y1 = max(ay1, by1)
+    inter_x2 = min(ax2, bx2)
+    inter_y2 = min(ay2, by2)
+
+    inter_w = max(0, inter_x2 - inter_x1)
+    inter_h = max(0, inter_y2 - inter_y1)
+    inter_area = inter_w * inter_h
+    if inter_area <= 0:
+        return 0.0
+
+    area_a = max(1, ax2 - ax1) * max(1, ay2 - ay1)
+    area_b = max(1, bx2 - bx1) * max(1, by2 - by1)
+    union_area = area_a + area_b - inter_area
+    if union_area <= 0:
+        return 0.0
+
+    return float(inter_area / union_area)
+
+
+def suppress_cross_class_duplicates(detections: list[dict], iou_threshold: float) -> list[dict]:
+    filtered = []
+    for candidate in detections:
+        if any(bbox_iou(candidate['bbox'], kept['bbox']) >= iou_threshold for kept in filtered):
+            continue
+        filtered.append(candidate)
+    return filtered
+
+
 class YoloVisionNode(Node):
     def __init__(self):
         super().__init__('yolo_vision_node')
@@ -183,20 +218,26 @@ class YoloVisionNode(Node):
         self.fy = None
         self.cx = None
         self.cy = None
-        self.cam_pos = np.array([0.5, 0.0, 3.0])   # default, overridden by CameraInfo
-        self.table_z = 0.4   # known table‐surface height in world frame
+        self.pixel_to_world_matrix = None
+        self.logged_pixel_to_world_matrix = False
+
+        self.declare_parameter('camera_position', [0.5, 0.0, 1.4])
+        self.declare_parameter('table_z', 0.4)
+        self.cam_pos = self._read_camera_position_parameter()
+        self.table_z = float(self.get_parameter('table_z').value)
 
         # ── YOLO model parameters ───────────────────────────────────
-        self.declare_parameter('model_path', 'yolov8s.pt')
+        self.declare_parameter('model_path', 'best.pt')
         self.declare_parameter('confidence_threshold', 0.5)
         self.declare_parameter('iou_threshold', 0.45)
         self.declare_parameter('input_size', 640)
         self.declare_parameter(
             'device',
-            '',
+            'cuda:0',
             descriptor=ParameterDescriptor(dynamic_typing=True),
         )
         self.declare_parameter('show_debug_window', False)
+        self.declare_parameter('cross_class_nms_iou', 0.35)
 
         self.model_path = self.get_parameter('model_path').value
         self.confidence_threshold = float(self.get_parameter('confidence_threshold').value)
@@ -204,6 +245,7 @@ class YoloVisionNode(Node):
         self.input_size = int(self.get_parameter('input_size').value)
         self.device = normalize_device_parameter(self.get_parameter('device').value)
         self.show_debug_window = bool(self.get_parameter('show_debug_window').value)
+        self.cross_class_nms_iou = float(self.get_parameter('cross_class_nms_iou').value)
         self.model = self._load_model()
         self.model_supported_classes = get_supported_model_classes(self.model)
 
@@ -259,6 +301,33 @@ class YoloVisionNode(Node):
             )
             return None
 
+        if self.device.startswith('cuda'):
+            try:
+                import torch
+            except ImportError:
+                self.get_logger().warn(
+                    'PyTorch is unavailable while device is set to CUDA. Falling back to CPU inference.'
+                )
+                self.device = 'cpu'
+            else:
+                if torch.cuda.is_available():
+                    device_index = 0
+                    if ':' in self.device:
+                        try:
+                            device_index = int(self.device.split(':', 1)[1])
+                        except ValueError:
+                            device_index = 0
+                    gpu_name = torch.cuda.get_device_name(device_index)
+                    self.get_logger().info(
+                        f'Using GPU inference on {self.device} ({gpu_name})'
+                    )
+                else:
+                    self.get_logger().warn(
+                        'CUDA was requested for YOLOv8 inference, but no CUDA device is available. '
+                        'Falling back to CPU.'
+                    )
+                    self.device = 'cpu'
+
         resolved_model_path = resolve_model_path(self.model_path)
         try:
             model = YOLO(resolved_model_path)
@@ -277,6 +346,52 @@ class YoloVisionNode(Node):
         self.fy = msg.p[5]
         self.cx = msg.p[2]
         self.cy = msg.p[6]
+        self._update_pixel_to_world_matrix()
+
+    def _read_camera_position_parameter(self) -> np.ndarray:
+        raw_value = self.get_parameter('camera_position').value
+        try:
+            camera_position = np.asarray(raw_value, dtype=float)
+        except (TypeError, ValueError):
+            camera_position = np.array([0.5, 0.0, 1.4], dtype=float)
+
+        if camera_position.shape != (3,):
+            self.get_logger().warn(
+                'Parameter camera_position must contain exactly three values. '
+                'Falling back to [0.5, 0.0, 1.4].'
+            )
+            return np.array([0.5, 0.0, 1.4], dtype=float)
+
+        return camera_position
+
+    def _update_pixel_to_world_matrix(self):
+        if None in (self.fx, self.fy, self.cx, self.cy):
+            self.pixel_to_world_matrix = None
+            return
+
+        depth = self.cam_pos[2] - self.table_z
+        # scene_with_workbench.xml defines vision_cam with xyaxes="0 -1 0 1 0 0"
+        # so image u points along -world Y and image v points along -world X.
+        self.pixel_to_world_matrix = np.array(
+            [
+                [0.0, -depth / self.fy, self.cam_pos[0] + depth * self.cy / self.fy],
+                [-depth / self.fx, 0.0, self.cam_pos[1] + depth * self.cx / self.fx],
+                [0.0, 0.0, 1.0],
+            ],
+            dtype=float,
+        )
+
+        if not self.logged_pixel_to_world_matrix:
+            matrix = np.array2string(self.pixel_to_world_matrix, precision=6, suppress_small=True)
+            self.get_logger().info(f'Pixel-to-world matrix ready:\n{matrix}')
+            self.logged_pixel_to_world_matrix = True
+
+    def _transform_pixel_to_world_xy(self, u: float, v: float) -> Optional[np.ndarray]:
+        if self.pixel_to_world_matrix is None:
+            return None
+
+        world_xy = self.pixel_to_world_matrix @ np.array([u, v, 1.0], dtype=float)
+        return world_xy[:2]
 
     # ── Main image callback ─────────────────────────────────────────────
     def image_callback(self, msg: Image):
@@ -299,6 +414,7 @@ class YoloVisionNode(Node):
             self.input_size,
             self.device,
         )
+        detections = suppress_cross_class_duplicates(detections, self.cross_class_nms_iou)
 
         # ── Draw bounding boxes & publish ───────────────────────────
         annotated = cv_image.copy()
@@ -358,18 +474,23 @@ class YoloVisionNode(Node):
         cv2.putText(img, label, (x1 + 2, y1 - 4), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 1)
 
     def _estimate_size_from_bbox(self, bbox) -> float:
-        if self.fx is None or self.fy is None:
+        if self.pixel_to_world_matrix is None:
             return 0.0
 
         x1, y1, x2, y2 = bbox
-        depth = self.cam_pos[2] - self.table_z
-        width_m = max(0.0, (x2 - x1) * depth / self.fx)
-        height_m = max(0.0, (y2 - y1) * depth / self.fy)
+        top_left = self._transform_pixel_to_world_xy(x1, y1)
+        top_right = self._transform_pixel_to_world_xy(x2, y1)
+        bottom_left = self._transform_pixel_to_world_xy(x1, y2)
+        if top_left is None or top_right is None or bottom_left is None:
+            return 0.0
+
+        width_m = float(np.linalg.norm(top_right - top_left))
+        height_m = float(np.linalg.norm(bottom_left - top_left))
         return float(max(width_m, height_m))
 
     # ── Convert pixel centre → world XYZ & publish ─────────────────────
     def _publish_detection(self, det: dict, header):
-        if self.fx is None:
+        if self.pixel_to_world_matrix is None:
             self.get_logger().warn('CameraInfo not yet received, skipping world‐coordinate publish')
             return
 
@@ -377,16 +498,13 @@ class YoloVisionNode(Node):
         u = (x1 + x2) / 2.0
         v = (y1 + y2) / 2.0
 
-        # Pinhole back‐projection (camera is looking straight down)
-        # The depth from camera to table surface:
-        depth = self.cam_pos[2] - self.table_z
+        world_xy = self._transform_pixel_to_world_xy(u, v)
+        if world_xy is None:
+            self.get_logger().warn('Pixel-to-world matrix unavailable, skipping publish')
+            return
 
-        # Image‐frame → camera‐frame (optical frame: X-right, Y-down, Z-forward)
-        # Then to world‐frame (camera points -Z world, but the optical frame
-        # convention from MuJoCo ROS already handles this).
-        # For a perfectly vertical overhead camera the mapping simplifies to:
-        x_world = self.cam_pos[0] + (u - self.cx) * depth / self.fx
-        y_world = self.cam_pos[1] - (v - self.cy) * depth / self.fy  # mirrored Y
+        x_world = float(world_xy[0])
+        y_world = float(world_xy[1])
         z_world = self.table_z
 
         # ── PoseStamped ─────────────────────────────────────────────

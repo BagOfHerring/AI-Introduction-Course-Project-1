@@ -18,6 +18,8 @@
   <exec_depend>joint_state_broadcaster</exec_depend>
   <exec_depend>multi_mode_controller_impl</exec_depend>
   <exec_depend>rviz2</exec_depend>
+  <exec_depend>tf2_geometry_msgs</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
   <exec_depend>xacro</exec_depend>
 
   <test_depend>ament_lint_auto</test_depend>

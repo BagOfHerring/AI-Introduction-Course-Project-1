@@ -1,0 +1,4 @@
+bearing
+square_gear
+nut
+gear

@@ -180,6 +180,9 @@ ros2 launch franka_bringup single_franka_sim.launch.py use_rviz:=false headless:
 ```bash
 cd /home/herring/rzddzy/ros2_ws/src/franka_bringup/scripts
 python3 generate_scene.py
+
+
+colcon build --packages-select franka_description --symlink-install
 ```
 
 然后回到 ros2_ws，至少重新编译 franka_description，再启动仿真：
@@ -200,6 +203,8 @@ source install/setup.bash
 cd /home/herring/rzddzy/ros2_ws
 source install/setup.bash
 ros2 run franka_bringup yolo_vision_node.py --ros-args -p model_path:=yolov8s.pt -p device:=0
+
+ros2 run franka_bringup yolo_vision_node.py --ros-args -p model_path:=/home/herring/rzddzy/best.pt -p device:=cuda:0
 ```
 
 这条命令第一次运行时会自动下载 yolov8s.pt，并使用 GPU 0 推理。

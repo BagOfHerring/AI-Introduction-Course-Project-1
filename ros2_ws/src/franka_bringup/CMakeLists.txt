@@ -15,6 +15,7 @@ install(
     scripts/pick_and_place.py
     scripts/yolo_vision_node.py
     scripts/generate_scene.py
+    scripts/generate_yolo_dataset.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
