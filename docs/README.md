@@ -2,6 +2,8 @@
 
 这个项目是一个基于 ROS 2、MuJoCo 和 Franka Panda 机械臂的课程大作业原型。系统目标是搭建一个完整的仿真闭环：在桌面场景中生成零件，使用视觉节点识别零件的位置与类别，再把检测结果发送给机械臂执行抓取。
 
+当前仓库已经清理掉未接入主链路的旧实验包，保留的是围绕 franka_bringup、franka_description 和视觉抓取脚本的可运行闭环。
+
 当前仓库已经具备以下主链路：
 
 - MuJoCo 仿真环境与 Franka 单臂启动
@@ -53,6 +55,8 @@ scene_with_workbench.xml 负责定义：
 
 generate_scene.py 用于生成包含 8 个零件的 MuJoCo 场景描述，并且会随机化零件的外观材质。
 
+它会直接重写场景文件 scene_with_workbench.xml，所以每次重新生成场景后，都需要重新构建 franka_description 并重启仿真。
+
 设计上，零件一共 4 类，每类 2 个，共 8 个：
 
 - gear
@@ -73,7 +77,8 @@ yolo_vision_node.py 的职责是：
 
 - 订阅 MuJoCo 相机图像
 - 读取相机内参
-- 调用目标检测函数 detect_objects
+- 调用 YOLOv8 推理并做类别归一化
+- 对跨类别重叠框做一次去重，避免同一物体重复发布
 - 把检测框中心投影回桌面世界坐标
 - 发布零件位姿、类型、尺寸和标注图像
 
@@ -96,17 +101,19 @@ mock_vision_node.py 是一个调试节点，会周期性发布一个假的目标
 
 这个节点的职责是：
 
-- 订阅视觉节点发出的目标位置
-- 订阅目标类型
+- 订阅视觉节点发出的目标位置、类型和尺寸
+- 先收集一个稳定的检测快照，再选出一个需要搬运的零件
 - 调用解析 IK 求解目标位姿对应的关节角
-- 向机械臂轨迹控制器发送 FollowJointTrajectory 动作
+- 通过 tf2 把世界坐标转换到机械臂基座坐标
+- 向机械臂轨迹控制器发送平滑插值后的 FollowJointTrajectory 动作
 - 向夹爪发送 GripperCommand 动作
-- 执行一个简单的抓取与放置序列
+- 按零件类别把物体放到固定象限
 
-它使用的接口包括：
+它使用的主要接口包括：
 
 - /vision_detector/part_pose
 - /vision_detector/part_type
+- /vision_detector/part_size
 - /panda_joint_trajectory_controller/follow_joint_trajectory
 - /panda_gripper_sim_node/gripper_action
 
@@ -132,34 +139,62 @@ mock_vision_node.py 是一个调试节点，会周期性发布一个假的目标
 
 - 单臂 MuJoCo 仿真可以通过 launch 文件启动。
 - 场景里已经有桌面和俯视相机。
-- pick_and_place.py 已经实现抓取流程框架，并能接收视觉节点输出的话题。
+- yolo_vision_node.py 已经接入真实 YOLOv8 推理，能发布世界坐标、类别、尺寸和标注图像。
+- pick_and_place.py 已经实现从检测快照到抓取、分类放置的完整流程，并使用较平滑的关节插值轨迹。
 
 ### 4.2 还没有完全接通的部分
 
-- yolo_vision_node.py 已经接入真实 YOLOv8 推理，也支持直接加载或自动下载 yolov8s.pt。
 - 但如果要稳定识别当前项目里的 4 类工件，仍然需要你自己的训练权重，比如 best.pt。
-- pick_and_place.py 当前实际使用的是目标位置和类型，没有使用 /vision_detector/part_size。
+- pick_and_place.py 当前虽然会接收 /vision_detector/part_size，但还没有针对不同尺寸做差异化抓取策略。
 - single_franka_sim.launch.py 不会自动拉起视觉和抓取脚本，这部分需要手动另开终端启动。
+- 夹爪摩擦力、零件接触参数和抓取高度仍然主要通过脚本参数或 MuJoCo XML 手动调节。
 
 ### 4.3 关于“8 个随机零件”的说明
 
 当前保留的是离线生成机制：generate_scene.py 负责生成包含 8 个零件的场景描述。
 
-也就是说，如果你要演示“每次启动前刷新一批新的零件布局”，现在的做法是先运行 generate_scene.py 重写场景文件，再重新启动仿真。
+也就是说，如果你要演示“每次启动前刷新一批新的零件布局”，现在的做法是先运行 generate_scene.py 重写场景文件，再重新构建 franka_description，最后重启仿真。
 
-## 5. 推荐运行方式
+## 5. 常用调节点
+
+### 5.1 抓取高度
+
+抓取相关高度参数在 ros2_ws/src/franka_bringup/scripts/pick_and_place.py 里，最常改的是：
+
+- approach_z：接近目标时的上方高度
+- pick_z：真正闭合夹爪时的抓取高度
+- place_z：放置时的下降高度
+
+如果你只是想让抓取更高或更低，优先调这里，而不是直接改机器人底座高度。
+
+### 5.2 夹爪摩擦力
+
+夹爪指尖接触摩擦在下面这个文件里：
+
+- ros2_ws/src/franka_description/mujoco/franka/TEMPLATE_panda.xml
+
+应当一起修改 fingertip_pad_collision_1 到 fingertip_pad_collision_5 这几组碰撞几何的 friction 参数。改完之后需要：
+
+1. 重新构建 franka_description。
+2. 重新 source install/setup.bash。
+3. 重启 MuJoCo 仿真。
+
+注意：generate_scene.py 里的零件 friction 是物体本身的接触参数，不等价于夹爪摩擦；把它调得太激进会让自由落体接触更不稳定。
+
+## 6. 推荐运行方式
 
 以下命令都在 ros2_ws 目录下执行。
 
-### 5.1 编译
+### 6.1 编译
 
 ```bash
 cd /home/herring/rzddzy/ros2_ws
+source /opt/ros/jazzy/setup.bash
 colcon build --symlink-install
 source install/setup.bash
 ```
 
-### 5.2 启动 MuJoCo 仿真
+### 6.2 启动 MuJoCo 仿真
 
 带界面启动：
 
@@ -173,27 +208,25 @@ ros2 launch franka_bringup single_franka_sim.launch.py use_rviz:=false headless:
 ros2 launch franka_bringup single_franka_sim.launch.py use_rviz:=false headless:=true
 ```
 
-### 5.3 可选：启动前重新生成随机场景
+### 6.3 可选：启动前重新生成随机场景
 
 如果你希望在启动仿真前生成一份新的 8 零件场景，并刷新零件的外观材质，可以执行：
 
 ```bash
 cd /home/herring/rzddzy/ros2_ws/src/franka_bringup/scripts
 python3 generate_scene.py
-
-
-colcon build --packages-select franka_description --symlink-install
 ```
 
-然后回到 ros2_ws，至少重新编译 franka_description，再启动仿真：
+然后回到 ros2_ws，只重新编译 franka_description 即可：
 
 ```bash
 cd /home/herring/rzddzy/ros2_ws
+source /opt/ros/jazzy/setup.bash
 colcon build --packages-select franka_description --symlink-install
 source install/setup.bash
 ```
 
-### 5.4 启动视觉与抓取
+### 6.4 启动视觉与抓取
 
 如果你要先验证 YOLO 节点、GPU 和 ROS 图像链路已经打通，可以直接使用：
 
@@ -201,10 +234,18 @@ source install/setup.bash
 
 ```bash
 cd /home/herring/rzddzy/ros2_ws
+source /opt/ros/jazzy/setup.bash
+source install/setup.bash
+ros2 run franka_bringup yolo_vision_node.py --ros-args -p model_path:=/home/herring/rzddzy/best.pt -p device:=cuda:0 -p show_debug_window:=true
+```
+
+如果你还没有自己的四分类权重，也可以先用通用模型联调：
+
+```bash
+cd /home/herring/rzddzy/ros2_ws
+source /opt/ros/jazzy/setup.bash
 source install/setup.bash
 ros2 run franka_bringup yolo_vision_node.py --ros-args -p model_path:=yolov8s.pt -p device:=0
-
-ros2 run franka_bringup yolo_vision_node.py --ros-args -p model_path:=/home/herring/rzddzy/best.pt -p device:=cuda:0
 ```
 
 这条命令第一次运行时会自动下载 yolov8s.pt，并使用 GPU 0 推理。
@@ -215,6 +256,7 @@ ros2 run franka_bringup yolo_vision_node.py --ros-args -p model_path:=/home/herr
 
 ```bash
 cd /home/herring/rzddzy/ros2_ws
+source /opt/ros/jazzy/setup.bash
 source install/setup.bash
 ros2 run franka_bringup yolo_vision_node.py --ros-args -p model_path:=/你的权重路径/best.pt -p device:=0
 ```
@@ -225,6 +267,7 @@ ros2 run franka_bringup yolo_vision_node.py --ros-args -p model_path:=/你的权
 
 ```bash
 cd /home/herring/rzddzy/ros2_ws
+source /opt/ros/jazzy/setup.bash
 source install/setup.bash
 ros2 run franka_bringup pick_and_place.py
 ```
@@ -235,6 +278,7 @@ ros2 run franka_bringup pick_and_place.py
 
 ```bash
 cd /home/herring/rzddzy/ros2_ws
+source /opt/ros/jazzy/setup.bash
 source install/setup.bash
 ros2 run franka_bringup mock_vision_node.py
 ```
@@ -243,21 +287,22 @@ ros2 run franka_bringup mock_vision_node.py
 
 ```bash
 cd /home/herring/rzddzy/ros2_ws
+source /opt/ros/jazzy/setup.bash
 source install/setup.bash
 ros2 run franka_bringup pick_and_place.py
 ```
 
-## 6. 适合答辩时的项目描述
+## 7. 适合答辩时的项目描述
 
 如果你需要一句比较正式、又和代码相符的项目简介，可以直接这样说：
 
 本项目实现了一个基于 ROS 2 与 MuJoCo 的 Franka Panda 单臂抓取仿真系统。系统在桌面场景中构建了机械臂、俯视相机和待抓取零件，并设计了零件随机化、视觉检测和抓取执行三部分模块。当前仓库已经完成仿真环境搭建、抓取执行链路和 YOLOv8 视觉节点接入；如果需要准确识别课程场景中的 4 类工件，还需要补充项目专用训练权重。
 
-## 7. 后续可继续完善的点
+## 8. 后续可继续完善的点
 
 如果你之后还要继续完善这个项目，优先级建议如下：
 
 1. 训练并接入当前 4 类工件的专用 YOLO 权重，例如 best.pt。
-2. 统一 generate_scene.py 和 scene_with_workbench.xml 的零件命名与场景生成流程。
-3. 让 launch 文件直接把视觉节点和抓取节点一起拉起，减少手工启动步骤。
-4. 在 pick_and_place.py 里真正利用 part_size 和 part_type 做不同抓取策略。
+2. 把视觉节点、抓取节点和场景生成整合到更完整的 launch 工作流里，减少手工启动步骤。
+3. 在 pick_and_place.py 里真正利用 part_size 和 part_type 做不同抓取策略。
+4. 继续优化夹爪接触参数、碰撞几何和抓取姿态，提高抓取稳定性。
