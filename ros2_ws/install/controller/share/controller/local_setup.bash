@@ -1,1 +1,0 @@
-/home/herring/rzddzy/ros2_ws/build/controller/ament_cmake_environment_hooks/local_setup.bash

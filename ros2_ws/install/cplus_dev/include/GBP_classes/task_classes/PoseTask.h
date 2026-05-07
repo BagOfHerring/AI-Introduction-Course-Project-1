@@ -1,1 +1,0 @@
-/home/herring/rzddzy/ros2_ws/src/cplus_dev/include/GBP_classes/task_classes/PoseTask.h
