@@ -119,7 +119,6 @@ mock_vision_node.py 是一个调试节点，会周期性发布一个假的目标
 
 ## 3. 功能和文件的对应关系
 
-如果你答辩时需要快速指出“哪个功能在哪个文件里”，可以直接按下面这张表来讲：
 
 | 功能 | 对应文件 |
 | --- | --- |
@@ -131,9 +130,8 @@ mock_vision_node.py 是一个调试节点，会周期性发布一个假的目标
 | 接收检测结果并执行抓取 | ros2_ws/src/franka_bringup/scripts/pick_and_place.py |
 | 单臂仿真控制器参数 | ros2_ws/src/franka_bringup/config/sim/single_sim_controllers.yaml |
 
-## 4. 当前仓库的真实状态
+## 4. 当前仓库的状态
 
-这一节很重要，建议你答辩时按真实情况表述。
 
 ### 4.1 已经接通的部分
 
@@ -144,7 +142,6 @@ mock_vision_node.py 是一个调试节点，会周期性发布一个假的目标
 
 ### 4.2 还没有完全接通的部分
 
-- 但如果要稳定识别当前项目里的 4 类工件，仍然需要你自己的训练权重，比如 best.pt。
 - pick_and_place.py 当前虽然会接收 /vision_detector/part_size，但还没有针对不同尺寸做差异化抓取策略。
 - single_franka_sim.launch.py 不会自动拉起视觉和抓取脚本，这部分需要手动另开终端启动。
 - 夹爪摩擦力、零件接触参数和抓取高度仍然主要通过脚本参数或 MuJoCo XML 手动调节。
@@ -153,7 +150,7 @@ mock_vision_node.py 是一个调试节点，会周期性发布一个假的目标
 
 当前保留的是离线生成机制：generate_scene.py 负责生成包含 8 个零件的场景描述。
 
-也就是说，如果你要演示“每次启动前刷新一批新的零件布局”，现在的做法是先运行 generate_scene.py 重写场景文件，再重新构建 franka_description，最后重启仿真。
+也就是说，如果要演示“每次启动前刷新一批新的零件布局”，现在的做法是先运行 generate_scene.py 重写场景文件，再重新构建 franka_description，最后重启仿真。
 
 ## 5. 常用调节点
 
@@ -165,7 +162,7 @@ mock_vision_node.py 是一个调试节点，会周期性发布一个假的目标
 - pick_z：真正闭合夹爪时的抓取高度
 - place_z：放置时的下降高度
 
-如果你只是想让抓取更高或更低，优先调这里，而不是直接改机器人底座高度。
+如果只是想让抓取更高或更低，优先调这里，而不是直接改机器人底座高度。
 
 ### 5.2 夹爪摩擦力
 
@@ -210,7 +207,7 @@ ros2 launch franka_bringup single_franka_sim.launch.py use_rviz:=false headless:
 
 ### 6.3 可选：启动前重新生成随机场景
 
-如果你希望在启动仿真前生成一份新的 8 零件场景，并刷新零件的外观材质，可以执行：
+如果希望在启动仿真前生成一份新的 8 零件场景，并刷新零件的外观材质，可以执行：
 
 ```bash
 cd /home/herring/rzddzy/ros2_ws/src/franka_bringup/scripts
@@ -228,7 +225,7 @@ source install/setup.bash
 
 ### 6.4 启动视觉与抓取
 
-如果你要先验证 YOLO 节点、GPU 和 ROS 图像链路已经打通，可以直接使用：
+如果要先验证 YOLO 节点、GPU 和 ROS 图像链路已经打通，可以直接使用：
 
 终端 3：
 
@@ -239,7 +236,7 @@ source install/setup.bash
 ros2 run franka_bringup yolo_vision_node.py --ros-args -p model_path:=/home/herring/rzddzy/best.pt -p device:=cuda:0 -p show_debug_window:=true
 ```
 
-如果你还没有自己的四分类权重，也可以先用通用模型联调：
+也可以先用通用模型联调：
 
 ```bash
 cd /home/herring/rzddzy/ros2_ws
@@ -250,18 +247,9 @@ ros2 run franka_bringup yolo_vision_node.py --ros-args -p model_path:=yolov8s.pt
 
 这条命令第一次运行时会自动下载 yolov8s.pt，并使用 GPU 0 推理。
 
-当前默认不会弹出 OpenCV 调试窗口，因此也不会再出现 Qt 字体目录相关警告。如果你本地确实需要看检测预览，可以额外加上参数：-p show_debug_window:=true。
+当前默认不会弹出 OpenCV 调试窗口，因此也不会再出现 Qt 字体目录相关警告。如果本地确实需要看检测预览，可以额外加上参数：-p show_debug_window:=true。
 
-如果你已经训练好了自己的四分类权重，推荐改成：
 
-```bash
-cd /home/herring/rzddzy/ros2_ws
-source /opt/ros/jazzy/setup.bash
-source install/setup.bash
-ros2 run franka_bringup yolo_vision_node.py --ros-args -p model_path:=/你的权重路径/best.pt -p device:=0
-```
-
-注意：通用的 yolov8s.pt 主要用于联调流程，本身并不认识你这 4 类工件。
 
 终端 4：
 
@@ -272,7 +260,7 @@ source install/setup.bash
 ros2 run franka_bringup pick_and_place.py
 ```
 
-如果你现在只是想演示抓取链路是否打通，建议先用假视觉节点替代 YOLO：
+用假视觉节点替代 YOLO：
 
 终端 3：
 
@@ -292,17 +280,3 @@ source install/setup.bash
 ros2 run franka_bringup pick_and_place.py
 ```
 
-## 7. 适合答辩时的项目描述
-
-如果你需要一句比较正式、又和代码相符的项目简介，可以直接这样说：
-
-本项目实现了一个基于 ROS 2 与 MuJoCo 的 Franka Panda 单臂抓取仿真系统。系统在桌面场景中构建了机械臂、俯视相机和待抓取零件，并设计了零件随机化、视觉检测和抓取执行三部分模块。当前仓库已经完成仿真环境搭建、抓取执行链路和 YOLOv8 视觉节点接入；如果需要准确识别课程场景中的 4 类工件，还需要补充项目专用训练权重。
-
-## 8. 后续可继续完善的点
-
-如果你之后还要继续完善这个项目，优先级建议如下：
-
-1. 训练并接入当前 4 类工件的专用 YOLO 权重，例如 best.pt。
-2. 把视觉节点、抓取节点和场景生成整合到更完整的 launch 工作流里，减少手工启动步骤。
-3. 在 pick_and_place.py 里真正利用 part_size 和 part_type 做不同抓取策略。
-4. 继续优化夹爪接触参数、碰撞几何和抓取姿态，提高抓取稳定性。
